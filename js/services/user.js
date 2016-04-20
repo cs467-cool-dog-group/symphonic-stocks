@@ -1,0 +1,1 @@
+var userServices = angular.module('user.services', []);
