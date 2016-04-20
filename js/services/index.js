@@ -1,0 +1,1 @@
+var indexServices = angular.module('index.services', []);

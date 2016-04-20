@@ -1,0 +1,1 @@
+var companyServices = angular.module('company.services', []);
