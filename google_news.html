@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Google News</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+<form id="InfoForm" onsubmit="return submitForm();">
+    Stock Company: <input type="text" name="company" value="" /><br /> 
+    Date: <input type="date" name="stock_date" value = ""><br />
+    <input type="submit" name="submit" value="Submit" /><br /><br />
+    <div class="form_result"> </div>
+</form>
+
+<table id="url_table" border='1'>
+    <tr>
+         <th>Title URL</th>
+    </tr>
+</table>
+
+<script>
+
+function submitForm() {
+    $.ajax(
+    {
+        type:'POST', 
+        url: '/php/google_news.php', 
+        data: $('#InfoForm').serialize(), 
+        success: function(response) {
+            $('#InfoForm').find('.form_result').html(response);
+            
+            jQuery.support.cors = true;
+            date = stock_date.split("-");
+            date =  ''+date[0]+date[1]+date[2] +''
+
+            $.ajax(
+            {
+                type: "GET",
+                url: 'https://www.googleapis.com/customsearch/v1?key=AIzaSyBZ4XDn56vWqsePz6GCKvgNCB6HgTpfcMc&cx=000865311947915661536:bb8ld1ef4ko&sort=date:r:' + date + ':' + date + '&q=' + company + '',
+                data: "{}",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                cache: false,
+                success: function (data) {
+                    
+                var trHTML = '';
+                        
+                $.each(data.items, function (i, item) {
+                    
+                    trHTML += '<tr><td><a href="' + data.items[i].link + '">' + data.items[i].title + '</a></td></tr>';
+                });
+                $('#url_table').empty();
+                
+                $('#url_table').append(trHTML);
+                
+                },
+                
+                error: function (msg) {
+                    
+                    alert(msg.responseText);
+                }
+            });
+        }
+    });
+
+    return false;
+}
+
+
+</script>
+
+</body>
+</html>
