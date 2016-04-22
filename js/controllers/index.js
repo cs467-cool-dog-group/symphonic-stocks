@@ -10,6 +10,9 @@ indexControllers.controller('IndexController', ['$scope', 'Index', '$interval', 
 
     $scope.play = function() {
         $scope.isPlaying = true;
+        if ($scope.currentIndex >= $scope.notes.length) {
+            $scope.currentIndex = 0;
+        }
         play = $interval(function() {
             $scope.instrument.play($scope.notes[$scope.currentIndex]);
             $scope.currentIndex++;
