@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TFSC",
+        "adj close": 9.57,
+        "close": 9.57,
+        "days": [
+            {
+                "Adj Close": 9.57,
+                "Close": 9.57,
+                "Company": "TFSC",
+                "Date": "2014-09-26",
+                "High": 9.57,
+                "Low": 9.5,
+                "Open": 9.5,
+                "Volume": 2000,
+                "day": 5,
+                "week": 39
+            },
+            {
+                "Adj Close": 9.465,
+                "Close": 9.465,
+                "Company": "TFSC",
+                "Date": "2014-09-25",
+                "High": 9.59,
+                "Low": 9.45,
+                "Open": 9.52,
+                "Volume": 44100,
+                "day": 4,
+                "week": 39
+            },
+            {
+                "Adj Close": 9.57,
+                "Close": 9.57,
+                "Company": "TFSC",
+                "Date": "2014-09-24",
+                "High": 9.6,
+                "Low": 9.5,
+                "Open": 9.5,
+                "Volume": 23700,
+                "day": 3,
+                "week": 39
+            },
+            {
+                "Adj Close": 9.51,
+                "Close": 9.51,
+                "Company": "TFSC",
+                "Date": "2014-09-23",
+                "High": 9.66,
+                "Low": 9.51,
+                "Open": 9.51,
+                "Volume": 62500,
+                "day": 2,
+                "week": 39
+            },
+            {
+                "Adj Close": 9.48,
+                "Close": 9.48,
+                "Company": "TFSC",
+                "Date": "2014-09-22",
+                "High": 9.51,
+                "Low": 9.47,
+                "Open": 9.48,
+                "Volume": 19500,
+                "day": 1,
+                "week": 39
+            }
+        ],
+        "first": 1,
+        "high": 9.66,
+        "last": 5,
+        "low": 9.45,
+        "open": 9.48,
+        "volume": 151800,
+        "week": 39,
+        "year": 2014
+    }
+}

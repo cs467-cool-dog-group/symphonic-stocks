@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TFSC",
+        "adj close": 9.75,
+        "close": 9.75,
+        "days": [
+            {
+                "Adj Close": 9.75,
+                "Close": 9.75,
+                "Company": "TFSC",
+                "Date": "2015-06-26",
+                "High": 9.75,
+                "Low": 9.75,
+                "Open": 9.75,
+                "Volume": 200,
+                "day": 5,
+                "week": 26
+            },
+            {
+                "Adj Close": 9.77,
+                "Close": 9.77,
+                "Company": "TFSC",
+                "Date": "2015-06-25",
+                "High": 9.77,
+                "Low": 9.77,
+                "Open": 9.77,
+                "Volume": 600,
+                "day": 4,
+                "week": 26
+            },
+            {
+                "Adj Close": 9.74,
+                "Close": 9.74,
+                "Company": "TFSC",
+                "Date": "2015-06-24",
+                "High": 9.74,
+                "Low": 9.74,
+                "Open": 9.74,
+                "Volume": 0,
+                "day": 3,
+                "week": 26
+            },
+            {
+                "Adj Close": 9.74,
+                "Close": 9.74,
+                "Company": "TFSC",
+                "Date": "2015-06-23",
+                "High": 9.74,
+                "Low": 9.74,
+                "Open": 9.74,
+                "Volume": 0,
+                "day": 2,
+                "week": 26
+            },
+            {
+                "Adj Close": 9.74,
+                "Close": 9.74,
+                "Company": "TFSC",
+                "Date": "2015-06-22",
+                "High": 9.74,
+                "Low": 9.74,
+                "Open": 9.74,
+                "Volume": 0,
+                "day": 1,
+                "week": 26
+            }
+        ],
+        "first": 1,
+        "high": 9.77,
+        "last": 5,
+        "low": 9.74,
+        "open": 9.74,
+        "volume": 800,
+        "week": 26,
+        "year": 2015
+    }
+}
