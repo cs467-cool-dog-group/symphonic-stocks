@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+Start Date: <input type="text" id="startDate">
+End Date: <input type="text" id="endDate">
+<button onclick="update()">Update</button>
+
+<div id="chartContainer">
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="http://dimplejs.org/dist/dimple.v2.2.0.min.js"></script>
+  <script type="text/javascript">
+    var svg = dimple.newSvg("#chartContainer", 590, 400);
+    var allDates, allData;
+
+    d3.csv("GOOGL.csv", function(data) {
+    	allDates = dimple.getUniqueValues(data, "Date");
+    	allData = data;
+    	drawChart(data, null, null);
+	});
+
+	function filter(start, end, dates){
+		console.log("start filtering");
+		var filtered = new Array();
+		for (var i=0; i < dates.length; i++){
+			var curr = new Date(dates[i]);
+			if (curr >= start && curr <= end){
+				filtered.push(dates[i]);
+			}
+		}
+		console.log("finish filtering");
+		return filtered;
+	}
+
+	function update(event){
+    	var start = document.getElementById("startDate").value;
+    	var end = document.getElementById("endDate").value;
+    	
+    	var startDate = new Date(start);
+    	var endDate = new Date(end);
+
+    	var filterDates = filter(startDate, endDate, allDates);
+    	var filteredData = dimple.filterData(allData, "Date", filterDates);
+
+    	myChart.svg.selectAll('*').remove();
+	    drawChart(filteredData, startDate, endDate)
+	}
+
+	function drawChart(data, start, end){
+	    // Create the chart as usual
+	    myChart = new dimple.chart(svg, data);
+	    myChart.setBounds(70, 40, 490, 320)
+	    
+	    // Add the x axis reading dates in the format 01 Jan 2012
+	    // and displaying them 01 Jan
+	    var x = myChart.addTimeAxis("x", "Date", "%Y-%m-%d", "%m/%d/%Y");
+
+	    if (start){
+	    	x.overrideMin = start;
+	    }
+	    if (end){
+		    x.overrideMax = end;
+		}
+
+	    // Add the y axis reading dates and times but only outputting
+	    // times.  
+	    var y = myChart.addMeasureAxis("y", "Close");
+
+	    // Size the bubbles by volume
+	    var z = myChart.addMeasureAxis("z", "Close");
+
+	    // Add the bubble series for shift values first so that it is
+	    // drawn behind the lines
+	    myChart.addSeries(null, dimple.plot.bubble);
+
+	    // Add the line series on top of the bubbles.  The bubbles
+	    // and line points will naturally fall in the same places
+	    var s = myChart.addSeries(null, dimple.plot.line);
+
+	    // Add line markers to the line because it looks nice
+	    s.lineMarkers = true;
+
+	    // Show a legend
+	    myChart.addLegend(180, 10, 360, 20, "right");
+
+	    // Draw everything
+	    myChart.draw();
+	}
+  </script>
+</div>
+</html>
