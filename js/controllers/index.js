@@ -6,17 +6,22 @@ indexControllers.controller('IndexController', ['$scope', 'Index', '$interval', 
     $scope.currentIndex = 0;
     $scope.isPlaying = false;
 
+    var play;
+
     $scope.play = function() {
-        $interval(function() {
+        $scope.isPlaying = true;
+        play = $interval(function() {
             $scope.instrument.play($scope.notes[$scope.currentIndex]);
             $scope.currentIndex++;
-        }, 500, $scope.notes.length);
-        // instrument.play(#) - 0 - 127
+        }, 500, $scope.notes.length - $scope.currentIndex);
     };
 
-    // TODO: Figure out how to pause the sound
     $scope.pause = function() {
         $scope.isPlaying = false;
+        if (angular.isDefined(play)) {
+            $interval.cancel(play);
+            play = undefined;
+        }
     };
 
     $scope.determineSong = function() {
@@ -39,7 +44,6 @@ indexControllers.controller('IndexController', ['$scope', 'Index', '$interval', 
             $scope.notes.push(note);
         }
         $scope.instrument.preload($scope.notes);
-        console.log($scope.notes);
     };
 
     $scope.initialize = function() {

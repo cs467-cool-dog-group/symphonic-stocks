@@ -1,4 +1,5 @@
 <div ng-init="initialize()">
     <h1 class="text-center">Index Statistics</h1>
-    <button class="btn btn-default" ng-click="play()">Play</button>
+    <button class="btn btn-default" ng-click="play()" ng-hide="isPlaying">Play</button>
+    <button class="btn btn-default" ng-click="pause()" ng-hide="!isPlaying">Pause</button>
 </div>
