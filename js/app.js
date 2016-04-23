@@ -35,6 +35,10 @@ app.config(['$routeProvider', function($routeProvider) {
             templateUrl: 'templates/stock-company.html',
             controller: 'CompanyController'
         }).
+        when('/login', {
+            templateUrl: 'templates/login.html',
+            controller: 'UserController'
+        }).
         otherwise({
             redirectTo: '/'
         });
