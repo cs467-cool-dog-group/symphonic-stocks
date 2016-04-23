@@ -4,13 +4,15 @@ import datetime
 import os
 # start with nasdaq
 exchanges = ["nasdaq", "nyse"]
+with open("successes.json") as success_file:
+    finished_data = json.load(success_file)["successes"]
 for exchange in exchanges:
     with open("../data/"+exchange+"_ticker_map.json") as ticker_list_file:
         ticker_list = json.load(ticker_list_file)
     t = 0
     for ticker in ticker_list:
         directory = '../data/jsons/v1/'+exchange+'/'+ticker+'/'
-        if os.path.exists(directory):
+        if ticker in finished_data:
             continue
         t+=1
         print(t, ticker)
@@ -142,5 +144,8 @@ for exchange in exchanges:
                 day_dict.clear()
             years[year].clear()
         years.clear()
+        finished_data.append(ticker)
+        with open("successes.json","w") as success_file:
+            json.dump({"successes":finished_data}, success_file)
         break
     break
