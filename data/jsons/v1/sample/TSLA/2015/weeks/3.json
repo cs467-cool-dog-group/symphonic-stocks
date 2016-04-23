@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TSLA", 
+        "adj close": 193.070007, 
+        "close": 193.070007, 
+        "days": [
+            {
+                "Adj Close": 193.070007, 
+                "Close": 193.070007, 
+                "Company": "TSLA", 
+                "Date": "2015-01-16", 
+                "High": 194.490005, 
+                "Low": 189.649994, 
+                "Open": 190.699997, 
+                "Volume": 3603200, 
+                "day": 5, 
+                "week": 3
+            }, 
+            {
+                "Adj Close": 191.869995, 
+                "Close": 191.869995, 
+                "Company": "TSLA", 
+                "Date": "2015-01-15", 
+                "High": 195.75, 
+                "Low": 190.0, 
+                "Open": 194.490005, 
+                "Volume": 5216500, 
+                "day": 4, 
+                "week": 3
+            }, 
+            {
+                "Adj Close": 192.690002, 
+                "Close": 192.690002, 
+                "Company": "TSLA", 
+                "Date": "2015-01-14", 
+                "High": 195.199997, 
+                "Low": 185.0, 
+                "Open": 185.830002, 
+                "Volume": 11513900, 
+                "day": 3, 
+                "week": 3
+            }, 
+            {
+                "Adj Close": 204.25, 
+                "Close": 204.25, 
+                "Company": "TSLA", 
+                "Date": "2015-01-13", 
+                "High": 207.610001, 
+                "Low": 200.910004, 
+                "Open": 203.320007, 
+                "Volume": 4477300, 
+                "day": 2, 
+                "week": 3
+            }, 
+            {
+                "Adj Close": 202.210007, 
+                "Close": 202.210007, 
+                "Company": "TSLA", 
+                "Date": "2015-01-12", 
+                "High": 204.470001, 
+                "Low": 199.25, 
+                "Open": 203.050003, 
+                "Volume": 5950300, 
+                "day": 1, 
+                "week": 3
+            }
+        ], 
+        "first": 0, 
+        "high": 207.610001, 
+        "last": 5, 
+        "low": 185.0, 
+        "open": 0, 
+        "volume": 30761200, 
+        "week": 3, 
+        "year": 2015
+    }
+}

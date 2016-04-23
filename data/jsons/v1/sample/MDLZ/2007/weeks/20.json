@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "MDLZ", 
+        "adj close": 16.957506, 
+        "close": 33.110001, 
+        "days": [
+            {
+                "Adj Close": 16.957506, 
+                "Close": 33.110001, 
+                "Company": "MDLZ", 
+                "Date": "2007-05-18", 
+                "High": 33.139999, 
+                "Low": 32.880001, 
+                "Open": 33.0, 
+                "Volume": 13618000, 
+                "day": 5, 
+                "week": 20
+            }, 
+            {
+                "Adj Close": 16.849953, 
+                "Close": 32.900002, 
+                "Company": "MDLZ", 
+                "Date": "2007-05-17", 
+                "High": 33.040001, 
+                "Low": 32.669998, 
+                "Open": 32.720001, 
+                "Volume": 14509200, 
+                "day": 4, 
+                "week": 20
+            }, 
+            {
+                "Adj Close": 16.783372, 
+                "Close": 32.77, 
+                "Company": "MDLZ", 
+                "Date": "2007-05-16", 
+                "High": 32.810001, 
+                "Low": 32.490002, 
+                "Open": 32.57, 
+                "Volume": 17622200, 
+                "day": 3, 
+                "week": 20
+            }, 
+            {
+                "Adj Close": 16.696305, 
+                "Close": 32.599998, 
+                "Company": "MDLZ", 
+                "Date": "2007-05-15", 
+                "High": 32.650002, 
+                "Low": 32.25, 
+                "Open": 32.279999, 
+                "Volume": 17060300, 
+                "day": 2, 
+                "week": 20
+            }, 
+            {
+                "Adj Close": 16.64509, 
+                "Close": 32.5, 
+                "Company": "MDLZ", 
+                "Date": "2007-05-14", 
+                "High": 32.599998, 
+                "Low": 32.439999, 
+                "Open": 32.509998, 
+                "Volume": 20068200, 
+                "day": 1, 
+                "week": 20
+            }
+        ], 
+        "first": 1, 
+        "high": 33.139999, 
+        "last": 5, 
+        "low": 32.25, 
+        "open": 32.509998, 
+        "volume": 82877900, 
+        "week": 20, 
+        "year": 2007
+    }
+}

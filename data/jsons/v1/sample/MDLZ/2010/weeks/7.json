@@ -1,0 +1,65 @@
+{
+    "week": {
+        "Company": "MDLZ", 
+        "adj close": 16.479301, 
+        "close": 28.92, 
+        "days": [
+            {
+                "Adj Close": 16.479301, 
+                "Close": 28.92, 
+                "Company": "MDLZ", 
+                "Date": "2010-02-19", 
+                "High": 29.049999, 
+                "Low": 28.65, 
+                "Open": 28.76, 
+                "Volume": 15497300, 
+                "day": 5, 
+                "week": 7
+            }, 
+            {
+                "Adj Close": 16.41662, 
+                "Close": 28.809999, 
+                "Company": "MDLZ", 
+                "Date": "2010-02-18", 
+                "High": 28.809999, 
+                "Low": 28.48, 
+                "Open": 28.65, 
+                "Volume": 20606500, 
+                "day": 4, 
+                "week": 7
+            }, 
+            {
+                "Adj Close": 16.314052, 
+                "Close": 28.629999, 
+                "Company": "MDLZ", 
+                "Date": "2010-02-17", 
+                "High": 28.950001, 
+                "Low": 28.450001, 
+                "Open": 28.860001, 
+                "Volume": 24839500, 
+                "day": 3, 
+                "week": 7
+            }, 
+            {
+                "Adj Close": 16.507792, 
+                "Close": 28.969999, 
+                "Company": "MDLZ", 
+                "Date": "2010-02-16", 
+                "High": 28.969999, 
+                "Low": 28.32, 
+                "Open": 28.68, 
+                "Volume": 54149700, 
+                "day": 2, 
+                "week": 7
+            }
+        ], 
+        "first": 2, 
+        "high": 29.049999, 
+        "last": 5, 
+        "low": 28.32, 
+        "open": 28.68, 
+        "volume": 115093000, 
+        "week": 7, 
+        "year": 2010
+    }
+}

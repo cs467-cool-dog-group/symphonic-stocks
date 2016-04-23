@@ -1,0 +1,65 @@
+{
+    "week": {
+        "Company": "WBA", 
+        "adj close": 23.729387, 
+        "close": 28.799999, 
+        "days": [
+            {
+                "Adj Close": 23.729387, 
+                "Close": 28.799999, 
+                "Company": "WBA", 
+                "Date": "2002-12-27", 
+                "High": 29.0, 
+                "Low": 28.65, 
+                "Open": 28.950001, 
+                "Volume": 2377300, 
+                "day": 5, 
+                "week": 52
+            }, 
+            {
+                "Adj Close": 23.811781, 
+                "Close": 28.9, 
+                "Company": "WBA", 
+                "Date": "2002-12-26", 
+                "High": 29.200001, 
+                "Low": 28.77, 
+                "Open": 28.82, 
+                "Volume": 2339200, 
+                "day": 4, 
+                "week": 52
+            }, 
+            {
+                "Adj Close": 23.935371, 
+                "Close": 29.049999, 
+                "Company": "WBA", 
+                "Date": "2002-12-24", 
+                "High": 29.059999, 
+                "Low": 28.75, 
+                "Open": 28.799999, 
+                "Volume": 1683900, 
+                "day": 2, 
+                "week": 52
+            }, 
+            {
+                "Adj Close": 24.067201, 
+                "Close": 29.209999, 
+                "Company": "WBA", 
+                "Date": "2002-12-23", 
+                "High": 29.6, 
+                "Low": 28.9, 
+                "Open": 29.6, 
+                "Volume": 3420200, 
+                "day": 1, 
+                "week": 52
+            }
+        ], 
+        "first": 1, 
+        "high": 29.6, 
+        "last": 5, 
+        "low": 28.65, 
+        "open": 29.6, 
+        "volume": 9820600, 
+        "week": 52, 
+        "year": 2002
+    }
+}

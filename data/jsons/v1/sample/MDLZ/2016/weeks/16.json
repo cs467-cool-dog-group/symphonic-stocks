@@ -1,0 +1,41 @@
+{
+    "week": {
+        "Company": "MDLZ", 
+        "adj close": 43.259998, 
+        "close": 43.259998, 
+        "days": [
+            {
+                "Adj Close": 43.259998, 
+                "Close": 43.259998, 
+                "Company": "MDLZ", 
+                "Date": "2016-04-19", 
+                "High": 43.650002, 
+                "Low": 43.09, 
+                "Open": 43.490002, 
+                "Volume": 5336900, 
+                "day": 2, 
+                "week": 16
+            }, 
+            {
+                "Adj Close": 43.25, 
+                "Close": 43.25, 
+                "Company": "MDLZ", 
+                "Date": "2016-04-18", 
+                "High": 43.290001, 
+                "Low": 42.66, 
+                "Open": 42.799999, 
+                "Volume": 5621200, 
+                "day": 1, 
+                "week": 16
+            }
+        ], 
+        "first": 1, 
+        "high": 43.650002, 
+        "last": 2, 
+        "low": 42.66, 
+        "open": 42.799999, 
+        "volume": 10958100, 
+        "week": 16, 
+        "year": 2016
+    }
+}

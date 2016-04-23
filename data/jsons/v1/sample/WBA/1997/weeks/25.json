@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "WBA", 
+        "adj close": 10.647672, 
+        "close": 53.125, 
+        "days": [
+            {
+                "Adj Close": 10.647672, 
+                "Close": 53.125, 
+                "Company": "WBA", 
+                "Date": "1997-06-20", 
+                "High": 53.125, 
+                "Low": 51.625, 
+                "Open": 51.625, 
+                "Volume": 2304800, 
+                "day": 5, 
+                "week": 25
+            }, 
+            {
+                "Adj Close": 10.296925, 
+                "Close": 51.375, 
+                "Company": "WBA", 
+                "Date": "1997-06-19", 
+                "High": 52.125, 
+                "Low": 51.25, 
+                "Open": 51.875, 
+                "Volume": 2140400, 
+                "day": 4, 
+                "week": 25
+            }, 
+            {
+                "Adj Close": 10.397139, 
+                "Close": 51.875, 
+                "Company": "WBA", 
+                "Date": "1997-06-18", 
+                "High": 52.0, 
+                "Low": 50.5, 
+                "Open": 50.875, 
+                "Volume": 1404400, 
+                "day": 3, 
+                "week": 25
+            }, 
+            {
+                "Adj Close": 10.246819, 
+                "Close": 51.125, 
+                "Company": "WBA", 
+                "Date": "1997-06-17", 
+                "High": 51.5, 
+                "Low": 50.25, 
+                "Open": 50.375, 
+                "Volume": 1888800, 
+                "day": 2, 
+                "week": 25
+            }, 
+            {
+                "Adj Close": 10.146605, 
+                "Close": 50.625, 
+                "Company": "WBA", 
+                "Date": "1997-06-16", 
+                "High": 50.75, 
+                "Low": 49.75, 
+                "Open": 50.0, 
+                "Volume": 1264800, 
+                "day": 1, 
+                "week": 25
+            }
+        ], 
+        "first": 1, 
+        "high": 53.125, 
+        "last": 5, 
+        "low": 49.75, 
+        "open": 50.0, 
+        "volume": 9003200, 
+        "week": 25, 
+        "year": 1997
+    }
+}

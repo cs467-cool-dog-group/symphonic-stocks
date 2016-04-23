@@ -1,0 +1,29 @@
+{
+    "week": {
+        "Company": "TSLA", 
+        "adj close": 33.869999, 
+        "close": 33.869999, 
+        "days": [
+            {
+                "Adj Close": 33.869999, 
+                "Close": 33.869999, 
+                "Company": "TSLA", 
+                "Date": "2012-12-31", 
+                "High": 33.970001, 
+                "Low": 33.0, 
+                "Open": 33.0, 
+                "Volume": 594900, 
+                "day": 1, 
+                "week": 53
+            }
+        ], 
+        "first": 1, 
+        "high": 33.970001, 
+        "last": 1, 
+        "low": 33.0, 
+        "open": 33.0, 
+        "volume": 594900, 
+        "week": 53, 
+        "year": 2012
+    }
+}

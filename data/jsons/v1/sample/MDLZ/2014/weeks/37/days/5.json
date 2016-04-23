@@ -1,0 +1,14 @@
+{
+    "day": {
+        "Adj Close": 34.33345, 
+        "Close": 35.32, 
+        "Company": "MDLZ", 
+        "Date": "2014-09-12", 
+        "High": 35.68, 
+        "Low": 35.25, 
+        "Open": 35.59, 
+        "Volume": 5546900, 
+        "day": 5, 
+        "week": 37
+    }
+}

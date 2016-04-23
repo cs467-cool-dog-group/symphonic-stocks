@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "MDLZ", 
+        "adj close": 36.266619, 
+        "close": 37.450001, 
+        "days": [
+            {
+                "Adj Close": 36.266619, 
+                "Close": 37.450001, 
+                "Company": "MDLZ", 
+                "Date": "2014-06-13", 
+                "High": 37.560001, 
+                "Low": 37.299999, 
+                "Open": 37.459999, 
+                "Volume": 6699700, 
+                "day": 5, 
+                "week": 24
+            }, 
+            {
+                "Adj Close": 36.131043, 
+                "Close": 37.310001, 
+                "Company": "MDLZ", 
+                "Date": "2014-06-12", 
+                "High": 37.639999, 
+                "Low": 37.139999, 
+                "Open": 37.599998, 
+                "Volume": 5980800, 
+                "day": 4, 
+                "week": 24
+            }, 
+            {
+                "Adj Close": 36.411877, 
+                "Close": 37.599998, 
+                "Company": "MDLZ", 
+                "Date": "2014-06-11", 
+                "High": 37.810001, 
+                "Low": 37.470001, 
+                "Open": 37.709999, 
+                "Volume": 5404600, 
+                "day": 3, 
+                "week": 24
+            }, 
+            {
+                "Adj Close": 36.557138, 
+                "Close": 37.75, 
+                "Company": "MDLZ", 
+                "Date": "2014-06-10", 
+                "High": 38.0, 
+                "Low": 37.630001, 
+                "Open": 37.91, 
+                "Volume": 4562200, 
+                "day": 2, 
+                "week": 24
+            }, 
+            {
+                "Adj Close": 36.867026, 
+                "Close": 38.07, 
+                "Company": "MDLZ", 
+                "Date": "2014-06-09", 
+                "High": 38.259998, 
+                "Low": 37.970001, 
+                "Open": 38.09, 
+                "Volume": 4101100, 
+                "day": 1, 
+                "week": 24
+            }
+        ], 
+        "first": 1, 
+        "high": 38.259998, 
+        "last": 5, 
+        "low": 37.139999, 
+        "open": 38.09, 
+        "volume": 26748400, 
+        "week": 24, 
+        "year": 2014
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TROW", 
+        "adj close": 19.565545, 
+        "close": 50.650002, 
+        "days": [
+            {
+                "Adj Close": 19.565545, 
+                "Close": 50.650002, 
+                "Company": "TROW", 
+                "Date": "2004-10-08", 
+                "High": 51.43, 
+                "Low": 50.48, 
+                "Open": 51.27, 
+                "Volume": 572800, 
+                "day": 5, 
+                "week": 41
+            }, 
+            {
+                "Adj Close": 19.766414, 
+                "Close": 51.169998, 
+                "Company": "TROW", 
+                "Date": "2004-10-07", 
+                "High": 51.75, 
+                "Low": 50.959999, 
+                "Open": 51.75, 
+                "Volume": 862400, 
+                "day": 4, 
+                "week": 41
+            }, 
+            {
+                "Adj Close": 19.990462, 
+                "Close": 51.75, 
+                "Company": "TROW", 
+                "Date": "2004-10-06", 
+                "High": 51.75, 
+                "Low": 50.84, 
+                "Open": 51.470001, 
+                "Volume": 981400, 
+                "day": 3, 
+                "week": 41
+            }, 
+            {
+                "Adj Close": 19.832083, 
+                "Close": 51.34, 
+                "Company": "TROW", 
+                "Date": "2004-10-05", 
+                "High": 51.959999, 
+                "Low": 51.279999, 
+                "Open": 51.91, 
+                "Volume": 734400, 
+                "day": 2, 
+                "week": 41
+            }, 
+            {
+                "Adj Close": 20.048406, 
+                "Close": 51.900002, 
+                "Company": "TROW", 
+                "Date": "2004-10-04", 
+                "High": 52.150002, 
+                "Low": 51.630001, 
+                "Open": 51.880001, 
+                "Volume": 805400, 
+                "day": 1, 
+                "week": 41
+            }
+        ], 
+        "first": 1, 
+        "high": 52.150002, 
+        "last": 5, 
+        "low": 50.48, 
+        "open": 51.880001, 
+        "volume": 3956400, 
+        "week": 41, 
+        "year": 2004
+    }
+}

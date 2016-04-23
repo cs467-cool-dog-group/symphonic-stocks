@@ -1,0 +1,53 @@
+{
+    "week": {
+        "Company": "TROW", 
+        "adj close": 1.003673, 
+        "close": 53.75008, 
+        "days": [
+            {
+                "Adj Close": 1.003673, 
+                "Close": 53.75008, 
+                "Company": "TROW", 
+                "Date": "1989-09-15", 
+                "High": 53.75008, 
+                "Low": 53.0, 
+                "Open": 53.50016, 
+                "Volume": 192000, 
+                "day": 5, 
+                "week": 37
+            }, 
+            {
+                "Adj Close": 0.999006, 
+                "Close": 53.50016, 
+                "Company": "TROW", 
+                "Date": "1989-09-14", 
+                "High": 54.0, 
+                "Low": 53.50016, 
+                "Open": 54.0, 
+                "Volume": 70400, 
+                "day": 4, 
+                "week": 37
+            }, 
+            {
+                "Adj Close": 1.003673, 
+                "Close": 53.75008, 
+                "Company": "TROW", 
+                "Date": "1989-09-13", 
+                "High": 54.49984, 
+                "Low": 53.75008, 
+                "Open": 53.75008, 
+                "Volume": 211200, 
+                "day": 3, 
+                "week": 37
+            }
+        ], 
+        "first": 3, 
+        "high": 54.49984, 
+        "last": 5, 
+        "low": 53.0, 
+        "open": 53.75008, 
+        "volume": 473600, 
+        "week": 37, 
+        "year": 1989
+    }
+}

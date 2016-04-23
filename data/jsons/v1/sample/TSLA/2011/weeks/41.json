@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TSLA", 
+        "adj close": 28.049999, 
+        "close": 28.049999, 
+        "days": [
+            {
+                "Adj Close": 28.049999, 
+                "Close": 28.049999, 
+                "Company": "TSLA", 
+                "Date": "2011-10-14", 
+                "High": 28.549999, 
+                "Low": 27.26, 
+                "Open": 28.0, 
+                "Volume": 1400500, 
+                "day": 5, 
+                "week": 41
+            }, 
+            {
+                "Adj Close": 27.940001, 
+                "Close": 27.940001, 
+                "Company": "TSLA", 
+                "Date": "2011-10-13", 
+                "High": 28.469999, 
+                "Low": 27.440001, 
+                "Open": 27.629999, 
+                "Volume": 1043500, 
+                "day": 4, 
+                "week": 41
+            }, 
+            {
+                "Adj Close": 27.799999, 
+                "Close": 27.799999, 
+                "Company": "TSLA", 
+                "Date": "2011-10-12", 
+                "High": 28.0, 
+                "Low": 27.200001, 
+                "Open": 27.25, 
+                "Volume": 1123400, 
+                "day": 3, 
+                "week": 41
+            }, 
+            {
+                "Adj Close": 27.610001, 
+                "Close": 27.610001, 
+                "Company": "TSLA", 
+                "Date": "2011-10-11", 
+                "High": 27.77, 
+                "Low": 27.09, 
+                "Open": 27.51, 
+                "Volume": 575700, 
+                "day": 2, 
+                "week": 41
+            }, 
+            {
+                "Adj Close": 27.879999, 
+                "Close": 27.879999, 
+                "Company": "TSLA", 
+                "Date": "2011-10-10", 
+                "High": 28.18, 
+                "Low": 27.0, 
+                "Open": 27.309999, 
+                "Volume": 923500, 
+                "day": 1, 
+                "week": 41
+            }
+        ], 
+        "first": 1, 
+        "high": 28.549999, 
+        "last": 5, 
+        "low": 27.0, 
+        "open": 27.309999, 
+        "volume": 5066600, 
+        "week": 41, 
+        "year": 2011
+    }
+}

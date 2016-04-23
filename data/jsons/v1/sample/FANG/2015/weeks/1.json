@@ -1,0 +1,29 @@
+{
+    "week": {
+        "Company": "FANG", 
+        "adj close": 59.93, 
+        "close": 59.93, 
+        "days": [
+            {
+                "Adj Close": 59.93, 
+                "Close": 59.93, 
+                "Company": "FANG", 
+                "Date": "2015-01-02", 
+                "High": 61.509998, 
+                "Low": 58.740002, 
+                "Open": 60.049999, 
+                "Volume": 1023200, 
+                "day": 5, 
+                "week": 1
+            }
+        ], 
+        "first": 0, 
+        "high": 61.509998, 
+        "last": 5, 
+        "low": 58.740002, 
+        "open": 0, 
+        "volume": 1023200, 
+        "week": 1, 
+        "year": 2015
+    }
+}

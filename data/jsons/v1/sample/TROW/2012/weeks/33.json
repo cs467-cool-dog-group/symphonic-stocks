@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TROW", 
+        "adj close": 55.758667, 
+        "close": 62.369999, 
+        "days": [
+            {
+                "Adj Close": 55.758667, 
+                "Close": 62.369999, 
+                "Company": "TROW", 
+                "Date": "2012-08-17", 
+                "High": 63.0, 
+                "Low": 61.93, 
+                "Open": 62.779999, 
+                "Volume": 805300, 
+                "day": 5, 
+                "week": 33
+            }, 
+            {
+                "Adj Close": 56.008989, 
+                "Close": 62.650002, 
+                "Company": "TROW", 
+                "Date": "2012-08-16", 
+                "High": 62.779999, 
+                "Low": 61.259998, 
+                "Open": 61.41, 
+                "Volume": 1098500, 
+                "day": 4, 
+                "week": 33
+            }, 
+            {
+                "Adj Close": 55.070288, 
+                "Close": 61.599998, 
+                "Company": "TROW", 
+                "Date": "2012-08-15", 
+                "High": 61.639999, 
+                "Low": 60.869999, 
+                "Open": 60.919998, 
+                "Volume": 416900, 
+                "day": 3, 
+                "week": 33
+            }, 
+            {
+                "Adj Close": 54.560709, 
+                "Close": 61.029999, 
+                "Company": "TROW", 
+                "Date": "2012-08-14", 
+                "High": 61.439999, 
+                "Low": 60.880001, 
+                "Open": 61.23, 
+                "Volume": 544100, 
+                "day": 2, 
+                "week": 33
+            }, 
+            {
+                "Adj Close": 54.59647, 
+                "Close": 61.07, 
+                "Company": "TROW", 
+                "Date": "2012-08-13", 
+                "High": 61.139999, 
+                "Low": 60.18, 
+                "Open": 60.900002, 
+                "Volume": 612700, 
+                "day": 1, 
+                "week": 33
+            }
+        ], 
+        "first": 1, 
+        "high": 63.0, 
+        "last": 5, 
+        "low": 60.18, 
+        "open": 60.900002, 
+        "volume": 3477500, 
+        "week": 33, 
+        "year": 2012
+    }
+}

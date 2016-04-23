@@ -1,0 +1,41 @@
+{
+    "month": {
+        "Company": "TSLA", 
+        "adj close": 23.83, 
+        "close": 23.83, 
+        "days": [
+            {
+                "Adj Close": 23.83, 
+                "Close": 23.83, 
+                "Company": "TSLA", 
+                "Date": "2010-06-30", 
+                "High": 30.42, 
+                "Low": 23.299999, 
+                "Open": 25.790001, 
+                "Volume": 17187100, 
+                "day": 30, 
+                "month": 6
+            }, 
+            {
+                "Adj Close": 23.889999, 
+                "Close": 23.889999, 
+                "Company": "TSLA", 
+                "Date": "2010-06-29", 
+                "High": 25.0, 
+                "Low": 17.540001, 
+                "Open": 19.0, 
+                "Volume": 18766300, 
+                "day": 29, 
+                "month": 6
+            }
+        ], 
+        "first": 180, 
+        "high": 30.42, 
+        "last": 181, 
+        "low": 17.540001, 
+        "month": 6, 
+        "open": 19.0, 
+        "volume": 35953400, 
+        "year": 2010
+    }
+}

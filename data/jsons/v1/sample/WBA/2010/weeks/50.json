@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "WBA", 
+        "adj close": 33.491717, 
+        "close": 37.580002, 
+        "days": [
+            {
+                "Adj Close": 33.491717, 
+                "Close": 37.580002, 
+                "Company": "WBA", 
+                "Date": "2010-12-17", 
+                "High": 37.77, 
+                "Low": 37.540001, 
+                "Open": 37.639999, 
+                "Volume": 15660300, 
+                "day": 5, 
+                "week": 50
+            }, 
+            {
+                "Adj Close": 33.616486, 
+                "Close": 37.720001, 
+                "Company": "WBA", 
+                "Date": "2010-12-16", 
+                "High": 37.779999, 
+                "Low": 36.830002, 
+                "Open": 37.099998, 
+                "Volume": 7539900, 
+                "day": 4, 
+                "week": 50
+            }, 
+            {
+                "Adj Close": 33.090671, 
+                "Close": 37.130001, 
+                "Company": "WBA", 
+                "Date": "2010-12-15", 
+                "High": 37.189999, 
+                "Low": 36.52, 
+                "Open": 36.52, 
+                "Volume": 7388800, 
+                "day": 3, 
+                "week": 50
+            }, 
+            {
+                "Adj Close": 32.75201, 
+                "Close": 36.75, 
+                "Company": "WBA", 
+                "Date": "2010-12-14", 
+                "High": 36.860001, 
+                "Low": 36.540001, 
+                "Open": 36.540001, 
+                "Volume": 5244100, 
+                "day": 2, 
+                "week": 50
+            }, 
+            {
+                "Adj Close": 32.475733, 
+                "Close": 36.439999, 
+                "Company": "WBA", 
+                "Date": "2010-12-13", 
+                "High": 36.759998, 
+                "Low": 36.18, 
+                "Open": 36.669998, 
+                "Volume": 5404700, 
+                "day": 1, 
+                "week": 50
+            }
+        ], 
+        "first": 1, 
+        "high": 37.779999, 
+        "last": 5, 
+        "low": 36.18, 
+        "open": 36.669998, 
+        "volume": 41237800, 
+        "week": 50, 
+        "year": 2010
+    }
+}

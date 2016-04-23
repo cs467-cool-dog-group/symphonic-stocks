@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "FANG", 
+        "adj close": 80.110001, 
+        "close": 80.110001, 
+        "days": [
+            {
+                "Adj Close": 80.110001, 
+                "Close": 80.110001, 
+                "Company": "FANG", 
+                "Date": "2016-04-15", 
+                "High": 80.949997, 
+                "Low": 79.830002, 
+                "Open": 80.879997, 
+                "Volume": 775500, 
+                "day": 5, 
+                "week": 15
+            }, 
+            {
+                "Adj Close": 81.730003, 
+                "Close": 81.730003, 
+                "Company": "FANG", 
+                "Date": "2016-04-14", 
+                "High": 81.800003, 
+                "Low": 80.5, 
+                "Open": 81.470001, 
+                "Volume": 444600, 
+                "day": 4, 
+                "week": 15
+            }, 
+            {
+                "Adj Close": 81.400002, 
+                "Close": 81.400002, 
+                "Company": "FANG", 
+                "Date": "2016-04-13", 
+                "High": 82.230003, 
+                "Low": 80.220001, 
+                "Open": 81.699997, 
+                "Volume": 774300, 
+                "day": 3, 
+                "week": 15
+            }, 
+            {
+                "Adj Close": 82.050003, 
+                "Close": 82.050003, 
+                "Company": "FANG", 
+                "Date": "2016-04-12", 
+                "High": 83.209999, 
+                "Low": 80.309998, 
+                "Open": 81.010002, 
+                "Volume": 1056800, 
+                "day": 2, 
+                "week": 15
+            }, 
+            {
+                "Adj Close": 80.580002, 
+                "Close": 80.580002, 
+                "Company": "FANG", 
+                "Date": "2016-04-11", 
+                "High": 82.059998, 
+                "Low": 79.970001, 
+                "Open": 81.349998, 
+                "Volume": 788200, 
+                "day": 1, 
+                "week": 15
+            }
+        ], 
+        "first": 1, 
+        "high": 83.209999, 
+        "last": 5, 
+        "low": 79.830002, 
+        "open": 81.349998, 
+        "volume": 3839400, 
+        "week": 15, 
+        "year": 2016
+    }
+}

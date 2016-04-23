@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "MDLZ", 
+        "adj close": 17.028001, 
+        "close": 29.6, 
+        "days": [
+            {
+                "Adj Close": 17.028001, 
+                "Close": 29.6, 
+                "Company": "MDLZ", 
+                "Date": "2010-04-30", 
+                "High": 30.030001, 
+                "Low": 29.540001, 
+                "Open": 29.950001, 
+                "Volume": 12490200, 
+                "day": 5, 
+                "week": 17
+            }, 
+            {
+                "Adj Close": 17.206334, 
+                "Close": 29.91, 
+                "Company": "MDLZ", 
+                "Date": "2010-04-29", 
+                "High": 30.09, 
+                "Low": 29.780001, 
+                "Open": 29.99, 
+                "Volume": 11464700, 
+                "day": 4, 
+                "week": 17
+            }, 
+            {
+                "Adj Close": 17.114291, 
+                "Close": 29.75, 
+                "Company": "MDLZ", 
+                "Date": "2010-04-28", 
+                "High": 29.93, 
+                "Low": 29.35, 
+                "Open": 29.540001, 
+                "Volume": 10251200, 
+                "day": 3, 
+                "week": 17
+            }, 
+            {
+                "Adj Close": 16.970474, 
+                "Close": 29.5, 
+                "Company": "MDLZ", 
+                "Date": "2010-04-27", 
+                "High": 30.049999, 
+                "Low": 29.48, 
+                "Open": 29.99, 
+                "Volume": 10743100, 
+                "day": 2, 
+                "week": 17
+            }, 
+            {
+                "Adj Close": 17.309883, 
+                "Close": 30.09, 
+                "Company": "MDLZ", 
+                "Date": "2010-04-26", 
+                "High": 30.4, 
+                "Low": 29.969999, 
+                "Open": 30.209999, 
+                "Volume": 9148000, 
+                "day": 1, 
+                "week": 17
+            }
+        ], 
+        "first": 1, 
+        "high": 30.4, 
+        "last": 5, 
+        "low": 29.35, 
+        "open": 30.209999, 
+        "volume": 54097200, 
+        "week": 17, 
+        "year": 2010
+    }
+}

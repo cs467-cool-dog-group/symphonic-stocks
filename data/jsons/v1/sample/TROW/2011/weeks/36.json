@@ -1,0 +1,65 @@
+{
+    "week": {
+        "Company": "TROW", 
+        "adj close": 43.186212, 
+        "close": 49.43, 
+        "days": [
+            {
+                "Adj Close": 43.186212, 
+                "Close": 49.43, 
+                "Company": "TROW", 
+                "Date": "2011-09-09", 
+                "High": 50.740002, 
+                "Low": 49.09, 
+                "Open": 49.889999, 
+                "Volume": 3217800, 
+                "day": 5, 
+                "week": 36
+            }, 
+            {
+                "Adj Close": 44.164737, 
+                "Close": 50.549999, 
+                "Company": "TROW", 
+                "Date": "2011-09-08", 
+                "High": 51.66, 
+                "Low": 50.43, 
+                "Open": 50.91, 
+                "Volume": 2253400, 
+                "day": 4, 
+                "week": 36
+            }, 
+            {
+                "Adj Close": 45.125792, 
+                "Close": 51.650002, 
+                "Company": "TROW", 
+                "Date": "2011-09-07", 
+                "High": 51.779999, 
+                "Low": 50.169998, 
+                "Open": 50.400002, 
+                "Volume": 2395900, 
+                "day": 3, 
+                "week": 36
+            }, 
+            {
+                "Adj Close": 43.142528, 
+                "Close": 49.380001, 
+                "Company": "TROW", 
+                "Date": "2011-09-06", 
+                "High": 49.450001, 
+                "Low": 47.959999, 
+                "Open": 48.43, 
+                "Volume": 2571100, 
+                "day": 2, 
+                "week": 36
+            }
+        ], 
+        "first": 2, 
+        "high": 51.779999, 
+        "last": 5, 
+        "low": 47.959999, 
+        "open": 48.43, 
+        "volume": 10438200, 
+        "week": 36, 
+        "year": 2011
+    }
+}

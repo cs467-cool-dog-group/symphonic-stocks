@@ -1,0 +1,65 @@
+{
+    "week": {
+        "Company": "TSLA", 
+        "adj close": 36.110001, 
+        "close": 36.110001, 
+        "days": [
+            {
+                "Adj Close": 36.110001, 
+                "Close": 36.110001, 
+                "Company": "TSLA", 
+                "Date": "2013-02-22", 
+                "High": 36.389999, 
+                "Low": 35.599998, 
+                "Open": 35.720001, 
+                "Volume": 2547300, 
+                "day": 5, 
+                "week": 8
+            }, 
+            {
+                "Adj Close": 35.16, 
+                "Close": 35.16, 
+                "Company": "TSLA", 
+                "Date": "2013-02-21", 
+                "High": 37.389999, 
+                "Low": 34.540001, 
+                "Open": 36.490002, 
+                "Volume": 9037800, 
+                "day": 4, 
+                "week": 8
+            }, 
+            {
+                "Adj Close": 38.540001, 
+                "Close": 38.540001, 
+                "Company": "TSLA", 
+                "Date": "2013-02-20", 
+                "High": 39.650002, 
+                "Low": 38.459999, 
+                "Open": 39.299999, 
+                "Volume": 3122000, 
+                "day": 3, 
+                "week": 8
+            }, 
+            {
+                "Adj Close": 39.279999, 
+                "Close": 39.279999, 
+                "Company": "TSLA", 
+                "Date": "2013-02-19", 
+                "High": 39.290001, 
+                "Low": 37.310001, 
+                "Open": 37.360001, 
+                "Volume": 2701400, 
+                "day": 2, 
+                "week": 8
+            }
+        ], 
+        "first": 2, 
+        "high": 39.650002, 
+        "last": 5, 
+        "low": 34.540001, 
+        "open": 37.360001, 
+        "volume": 17408500, 
+        "week": 8, 
+        "year": 2013
+    }
+}

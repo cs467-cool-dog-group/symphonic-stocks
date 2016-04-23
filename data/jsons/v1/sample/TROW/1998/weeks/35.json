@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TROW", 
+        "adj close": 10.981618, 
+        "close": 31.4375, 
+        "days": [
+            {
+                "Adj Close": 10.981618, 
+                "Close": 31.4375, 
+                "Company": "TROW", 
+                "Date": "1998-08-28", 
+                "High": 34.0, 
+                "Low": 30.375, 
+                "Open": 33.625, 
+                "Volume": 3034000, 
+                "day": 5, 
+                "week": 35
+            }, 
+            {
+                "Adj Close": 11.745747, 
+                "Close": 33.625, 
+                "Company": "TROW", 
+                "Date": "1998-08-27", 
+                "High": 34.4375, 
+                "Low": 33.25, 
+                "Open": 34.0, 
+                "Volume": 2704800, 
+                "day": 4, 
+                "week": 35
+            }, 
+            {
+                "Adj Close": 12.335217, 
+                "Close": 35.3125, 
+                "Company": "TROW", 
+                "Date": "1998-08-26", 
+                "High": 35.625, 
+                "Low": 34.75, 
+                "Open": 35.125, 
+                "Volume": 1455400, 
+                "day": 3, 
+                "week": 35
+            }, 
+            {
+                "Adj Close": 12.575372, 
+                "Close": 36.0, 
+                "Company": "TROW", 
+                "Date": "1998-08-25", 
+                "High": 36.625, 
+                "Low": 35.5, 
+                "Open": 35.5, 
+                "Volume": 573400, 
+                "day": 2, 
+                "week": 35
+            }, 
+            {
+                "Adj Close": 12.422546, 
+                "Close": 35.5625, 
+                "Company": "TROW", 
+                "Date": "1998-08-24", 
+                "High": 35.75, 
+                "Low": 35.375, 
+                "Open": 35.375, 
+                "Volume": 964200, 
+                "day": 1, 
+                "week": 35
+            }
+        ], 
+        "first": 1, 
+        "high": 36.625, 
+        "last": 5, 
+        "low": 30.375, 
+        "open": 35.375, 
+        "volume": 8731800, 
+        "week": 35, 
+        "year": 1998
+    }
+}

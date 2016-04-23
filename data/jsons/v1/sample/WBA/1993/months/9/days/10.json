@@ -1,0 +1,14 @@
+{
+    "day": {
+        "Adj Close": 3.837679, 
+        "Close": 40.5, 
+        "Company": "WBA", 
+        "Date": "1993-09-10", 
+        "High": 40.624962, 
+        "Low": 40.0, 
+        "Open": 40.0, 
+        "Volume": 1545600, 
+        "day": 10, 
+        "month": 9
+    }
+}

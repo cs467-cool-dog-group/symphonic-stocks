@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TROW", 
+        "adj close": 0.991465, 
+        "close": 25.5, 
+        "days": [
+            {
+                "Adj Close": 0.991465, 
+                "Close": 25.5, 
+                "Company": "TROW", 
+                "Date": "1991-03-22", 
+                "High": 25.5, 
+                "Low": 25.0, 
+                "Open": 25.0, 
+                "Volume": 184000, 
+                "day": 5, 
+                "week": 12
+            }, 
+            {
+                "Adj Close": 0.981741, 
+                "Close": 25.24992, 
+                "Company": "TROW", 
+                "Date": "1991-03-21", 
+                "High": 25.5, 
+                "Low": 25.0, 
+                "Open": 25.0, 
+                "Volume": 150400, 
+                "day": 4, 
+                "week": 12
+            }, 
+            {
+                "Adj Close": 0.972024, 
+                "Close": 25.0, 
+                "Company": "TROW", 
+                "Date": "1991-03-20", 
+                "High": 25.5, 
+                "Low": 25.0, 
+                "Open": 25.24992, 
+                "Volume": 347200, 
+                "day": 3, 
+                "week": 12
+            }, 
+            {
+                "Adj Close": 0.981741, 
+                "Close": 25.24992, 
+                "Company": "TROW", 
+                "Date": "1991-03-19", 
+                "High": 25.75008, 
+                "Low": 25.24992, 
+                "Open": 25.24992, 
+                "Volume": 225600, 
+                "day": 2, 
+                "week": 12
+            }, 
+            {
+                "Adj Close": 0.991465, 
+                "Close": 25.5, 
+                "Company": "TROW", 
+                "Date": "1991-03-18", 
+                "High": 25.75008, 
+                "Low": 25.24992, 
+                "Open": 25.75008, 
+                "Volume": 33600, 
+                "day": 1, 
+                "week": 12
+            }
+        ], 
+        "first": 1, 
+        "high": 25.75008, 
+        "last": 5, 
+        "low": 25.0, 
+        "open": 25.75008, 
+        "volume": 940800, 
+        "week": 12, 
+        "year": 1991
+    }
+}

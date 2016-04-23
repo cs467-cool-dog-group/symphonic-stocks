@@ -1,0 +1,29 @@
+{
+    "week": {
+        "Company": "MDLZ", 
+        "adj close": 24.022116, 
+        "close": 25.450001, 
+        "days": [
+            {
+                "Adj Close": 24.022116, 
+                "Close": 25.450001, 
+                "Company": "MDLZ", 
+                "Date": "2012-12-31", 
+                "High": 25.49, 
+                "Low": 25.0, 
+                "Open": 25.040001, 
+                "Volume": 10730100, 
+                "day": 1, 
+                "week": 53
+            }
+        ], 
+        "first": 1, 
+        "high": 25.49, 
+        "last": 1, 
+        "low": 25.0, 
+        "open": 25.040001, 
+        "volume": 10730100, 
+        "week": 53, 
+        "year": 2012
+    }
+}

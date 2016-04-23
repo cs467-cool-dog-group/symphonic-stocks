@@ -1,0 +1,65 @@
+{
+    "week": {
+        "Company": "MDLZ", 
+        "adj close": 17.422938, 
+        "close": 38.549999, 
+        "days": [
+            {
+                "Adj Close": 17.422938, 
+                "Close": 38.549999, 
+                "Company": "MDLZ", 
+                "Date": "2002-02-22", 
+                "High": 38.84, 
+                "Low": 38.060001, 
+                "Open": 38.189999, 
+                "Volume": 1148600, 
+                "day": 5, 
+                "week": 8
+            }, 
+            {
+                "Adj Close": 17.215038, 
+                "Close": 38.09, 
+                "Company": "MDLZ", 
+                "Date": "2002-02-21", 
+                "High": 38.32, 
+                "Low": 37.540001, 
+                "Open": 37.990002, 
+                "Volume": 2215400, 
+                "day": 4, 
+                "week": 8
+            }, 
+            {
+                "Adj Close": 17.174362, 
+                "Close": 38.0, 
+                "Company": "MDLZ", 
+                "Date": "2002-02-20", 
+                "High": 38.599998, 
+                "Low": 37.860001, 
+                "Open": 38.599998, 
+                "Volume": 1487000, 
+                "day": 3, 
+                "week": 8
+            }, 
+            {
+                "Adj Close": 17.337067, 
+                "Close": 38.360001, 
+                "Company": "MDLZ", 
+                "Date": "2002-02-19", 
+                "High": 38.75, 
+                "Low": 37.82, 
+                "Open": 37.849998, 
+                "Volume": 1759300, 
+                "day": 2, 
+                "week": 8
+            }
+        ], 
+        "first": 2, 
+        "high": 38.84, 
+        "last": 5, 
+        "low": 37.540001, 
+        "open": 37.849998, 
+        "volume": 6610300, 
+        "week": 8, 
+        "year": 2002
+    }
+}

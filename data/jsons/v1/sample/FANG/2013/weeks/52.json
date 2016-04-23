@@ -1,0 +1,65 @@
+{
+    "week": {
+        "Company": "FANG", 
+        "adj close": 53.34, 
+        "close": 53.34, 
+        "days": [
+            {
+                "Adj Close": 53.34, 
+                "Close": 53.34, 
+                "Company": "FANG", 
+                "Date": "2013-12-27", 
+                "High": 53.830002, 
+                "Low": 52.040001, 
+                "Open": 52.799999, 
+                "Volume": 377300, 
+                "day": 5, 
+                "week": 52
+            }, 
+            {
+                "Adj Close": 52.73, 
+                "Close": 52.73, 
+                "Company": "FANG", 
+                "Date": "2013-12-26", 
+                "High": 53.169998, 
+                "Low": 51.599998, 
+                "Open": 52.16, 
+                "Volume": 488200, 
+                "day": 4, 
+                "week": 52
+            }, 
+            {
+                "Adj Close": 52.02, 
+                "Close": 52.02, 
+                "Company": "FANG", 
+                "Date": "2013-12-24", 
+                "High": 52.389999, 
+                "Low": 51.669998, 
+                "Open": 52.02, 
+                "Volume": 300200, 
+                "day": 2, 
+                "week": 52
+            }, 
+            {
+                "Adj Close": 52.099998, 
+                "Close": 52.099998, 
+                "Company": "FANG", 
+                "Date": "2013-12-23", 
+                "High": 52.290001, 
+                "Low": 50.110001, 
+                "Open": 50.52, 
+                "Volume": 877300, 
+                "day": 1, 
+                "week": 52
+            }
+        ], 
+        "first": 1, 
+        "high": 53.830002, 
+        "last": 5, 
+        "low": 50.110001, 
+        "open": 50.52, 
+        "volume": 2043000, 
+        "week": 52, 
+        "year": 2013
+    }
+}

@@ -1,0 +1,36 @@
+<div class="row">
+    <div class="col-md-10 col-sm-offset-1">
+        <div ng-show="isLogin == true">
+            <form ng-submit="login()">
+                <div class="form-group">
+                    <label for="loginEmail">Email
+                        <input type="email" class="form-control" id="loginEmail" ng-model="userData.email" placeholder="Email"></input>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password
+                        <input type="password" class="form-control" id="loginPassword" ng-model="userData.password" placeholder="Password"></input>
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-default">Log In</button>
+            </form>
+            <p>Don't have an account? <a ng-click="isLogin = false">Sign up</a></p>
+        </div>
+        <div ng-show="isLogin == false">
+            <form ng-submit="signup()">
+                <div class="form-group">
+                    <label for="signupEmail">Email
+                        <input type="email" class="form-control" id="signupEmail" ng-model="userData.email" placeholder="Email"></input>
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="signupPassword">Password
+                        <input type="password" class="form-control" id="signupPassword" ng-model="userData.password" placeholder="Password"></input>
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-default">Sign up</button>
+            </form>
+            <p>Already have an account? <a ng-click="isLogin = true">Log in</a></p>
+        </div>
+    </div>
+</div>

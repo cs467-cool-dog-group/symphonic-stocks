@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TROW", 
+        "adj close": 75.797208, 
+        "close": 76.93, 
+        "days": [
+            {
+                "Adj Close": 75.797208, 
+                "Close": 76.93, 
+                "Company": "TROW", 
+                "Date": "2015-11-06", 
+                "High": 77.709999, 
+                "Low": 76.419998, 
+                "Open": 77.169998, 
+                "Volume": 929900, 
+                "day": 5, 
+                "week": 45
+            }, 
+            {
+                "Adj Close": 75.541035, 
+                "Close": 76.669998, 
+                "Company": "TROW", 
+                "Date": "2015-11-05", 
+                "High": 77.050003, 
+                "Low": 76.260002, 
+                "Open": 76.379997, 
+                "Volume": 831200, 
+                "day": 4, 
+                "week": 45
+            }, 
+            {
+                "Adj Close": 75.068107, 
+                "Close": 76.190002, 
+                "Company": "TROW", 
+                "Date": "2015-11-04", 
+                "High": 76.940002, 
+                "Low": 76.0, 
+                "Open": 76.599998, 
+                "Volume": 1018000, 
+                "day": 3, 
+                "week": 45
+            }, 
+            {
+                "Adj Close": 75.55089, 
+                "Close": 76.68, 
+                "Company": "TROW", 
+                "Date": "2015-11-03", 
+                "High": 76.889999, 
+                "Low": 75.669998, 
+                "Open": 75.82, 
+                "Volume": 1170400, 
+                "day": 2, 
+                "week": 45
+            }, 
+            {
+                "Adj Close": 75.068107, 
+                "Close": 76.190002, 
+                "Company": "TROW", 
+                "Date": "2015-11-02", 
+                "High": 76.220001, 
+                "Low": 75.580002, 
+                "Open": 75.959999, 
+                "Volume": 1433300, 
+                "day": 1, 
+                "week": 45
+            }
+        ], 
+        "first": 1, 
+        "high": 77.709999, 
+        "last": 5, 
+        "low": 75.580002, 
+        "open": 75.959999, 
+        "volume": 5382800, 
+        "week": 45, 
+        "year": 2015
+    }
+}

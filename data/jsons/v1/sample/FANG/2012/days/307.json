@@ -1,0 +1,14 @@
+{
+    "day": {
+        "Adj Close": 17.0, 
+        "Close": 17.0, 
+        "Company": "FANG", 
+        "Date": "2012-11-02", 
+        "High": 17.23, 
+        "Low": 16.559999, 
+        "Open": 16.99, 
+        "Volume": 72100, 
+        "day": 307, 
+        "year": 2012
+    }
+}

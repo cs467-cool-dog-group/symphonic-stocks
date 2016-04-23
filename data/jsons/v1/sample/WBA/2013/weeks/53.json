@@ -1,0 +1,41 @@
+{
+    "week": {
+        "Company": "WBA", 
+        "adj close": 55.125115, 
+        "close": 57.439999, 
+        "days": [
+            {
+                "Adj Close": 55.125115, 
+                "Close": 57.439999, 
+                "Company": "WBA", 
+                "Date": "2013-12-31", 
+                "High": 57.91, 
+                "Low": 57.16, 
+                "Open": 57.889999, 
+                "Volume": 2949200, 
+                "day": 2, 
+                "week": 53
+            }, 
+            {
+                "Adj Close": 55.508996, 
+                "Close": 57.84, 
+                "Company": "WBA", 
+                "Date": "2013-12-30", 
+                "High": 57.849998, 
+                "Low": 57.130001, 
+                "Open": 57.459999, 
+                "Volume": 2874300, 
+                "day": 1, 
+                "week": 53
+            }
+        ], 
+        "first": 1, 
+        "high": 57.91, 
+        "last": 2, 
+        "low": 57.130001, 
+        "open": 57.459999, 
+        "volume": 5823500, 
+        "week": 53, 
+        "year": 2013
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "week": {
+        "Company": "WBA", 
+        "adj close": 39.018033, 
+        "close": 46.240002, 
+        "days": [
+            {
+                "Adj Close": 39.018033, 
+                "Close": 46.240002, 
+                "Company": "WBA", 
+                "Date": "2007-04-05", 
+                "High": 46.439999, 
+                "Low": 45.950001, 
+                "Open": 46.0, 
+                "Volume": 2889600, 
+                "day": 4, 
+                "week": 14
+            }, 
+            {
+                "Adj Close": 38.815516, 
+                "Close": 46.0, 
+                "Company": "WBA", 
+                "Date": "2007-04-04", 
+                "High": 46.369999, 
+                "Low": 45.830002, 
+                "Open": 46.299999, 
+                "Volume": 3658500, 
+                "day": 3, 
+                "week": 14
+            }, 
+            {
+                "Adj Close": 38.98428, 
+                "Close": 46.200001, 
+                "Company": "WBA", 
+                "Date": "2007-04-03", 
+                "High": 46.470001, 
+                "Low": 45.860001, 
+                "Open": 45.91, 
+                "Volume": 4259100, 
+                "day": 2, 
+                "week": 14
+            }, 
+            {
+                "Adj Close": 38.655192, 
+                "Close": 45.810001, 
+                "Company": "WBA", 
+                "Date": "2007-04-02", 
+                "High": 46.009998, 
+                "Low": 45.560001, 
+                "Open": 45.740002, 
+                "Volume": 3400800, 
+                "day": 1, 
+                "week": 14
+            }
+        ], 
+        "first": 1, 
+        "high": 46.470001, 
+        "last": 4, 
+        "low": 45.560001, 
+        "open": 45.740002, 
+        "volume": 14208000, 
+        "week": 14, 
+        "year": 2007
+    }
+}

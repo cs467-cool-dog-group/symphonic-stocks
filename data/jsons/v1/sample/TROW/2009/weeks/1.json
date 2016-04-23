@@ -1,0 +1,29 @@
+{
+    "week": {
+        "Company": "TROW", 
+        "adj close": 30.035199, 
+        "close": 36.400002, 
+        "days": [
+            {
+                "Adj Close": 30.035199, 
+                "Close": 36.400002, 
+                "Company": "TROW", 
+                "Date": "2009-01-02", 
+                "High": 36.740002, 
+                "Low": 33.77, 
+                "Open": 35.43, 
+                "Volume": 2238900, 
+                "day": 5, 
+                "week": 1
+            }
+        ], 
+        "first": 0, 
+        "high": 36.740002, 
+        "last": 5, 
+        "low": 33.77, 
+        "open": 0, 
+        "volume": 2238900, 
+        "week": 1, 
+        "year": 2009
+    }
+}

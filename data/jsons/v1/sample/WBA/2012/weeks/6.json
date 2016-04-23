@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "WBA", 
+        "adj close": 31.434416, 
+        "close": 34.540001, 
+        "days": [
+            {
+                "Adj Close": 31.434416, 
+                "Close": 34.540001, 
+                "Company": "WBA", 
+                "Date": "2012-02-10", 
+                "High": 34.869999, 
+                "Low": 33.939999, 
+                "Open": 34.040001, 
+                "Volume": 11761400, 
+                "day": 5, 
+                "week": 6
+            }, 
+            {
+                "Adj Close": 31.134085, 
+                "Close": 34.209999, 
+                "Company": "WBA", 
+                "Date": "2012-02-09", 
+                "High": 34.23, 
+                "Low": 33.240002, 
+                "Open": 33.5, 
+                "Volume": 13510300, 
+                "day": 4, 
+                "week": 6
+            }, 
+            {
+                "Adj Close": 30.151193, 
+                "Close": 33.130001, 
+                "Company": "WBA", 
+                "Date": "2012-02-08", 
+                "High": 33.599998, 
+                "Low": 32.959999, 
+                "Open": 33.5, 
+                "Volume": 9285900, 
+                "day": 3, 
+                "week": 6
+            }, 
+            {
+                "Adj Close": 30.45152, 
+                "Close": 33.459999, 
+                "Company": "WBA", 
+                "Date": "2012-02-07", 
+                "High": 34.009998, 
+                "Low": 33.439999, 
+                "Open": 33.5, 
+                "Volume": 13065100, 
+                "day": 2, 
+                "week": 6
+            }, 
+            {
+                "Adj Close": 31.197791, 
+                "Close": 34.279999, 
+                "Company": "WBA", 
+                "Date": "2012-02-06", 
+                "High": 35.349998, 
+                "Low": 33.490002, 
+                "Open": 33.490002, 
+                "Volume": 19906700, 
+                "day": 1, 
+                "week": 6
+            }
+        ], 
+        "first": 1, 
+        "high": 35.349998, 
+        "last": 5, 
+        "low": 32.959999, 
+        "open": 33.490002, 
+        "volume": 67529400, 
+        "week": 6, 
+        "year": 2012
+    }
+}

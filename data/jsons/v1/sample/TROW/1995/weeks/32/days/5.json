@@ -1,0 +1,14 @@
+{
+    "day": {
+        "Adj Close": 3.662206, 
+        "Close": 43.5, 
+        "Company": "TROW", 
+        "Date": "1995-08-11", 
+        "High": 44.75, 
+        "Low": 43.25, 
+        "Open": 44.5, 
+        "Volume": 987200, 
+        "day": 5, 
+        "week": 32
+    }
+}

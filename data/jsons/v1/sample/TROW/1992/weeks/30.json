@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TROW", 
+        "adj close": 1.596259, 
+        "close": 40.0, 
+        "days": [
+            {
+                "Adj Close": 1.596259, 
+                "Close": 40.0, 
+                "Company": "TROW", 
+                "Date": "1992-07-24", 
+                "High": 40.75008, 
+                "Low": 39.5, 
+                "Open": 40.0, 
+                "Volume": 2166400, 
+                "day": 5, 
+                "week": 30
+            }, 
+            {
+                "Adj Close": 1.576306, 
+                "Close": 39.5, 
+                "Company": "TROW", 
+                "Date": "1992-07-23", 
+                "High": 40.0, 
+                "Low": 39.5, 
+                "Open": 40.0, 
+                "Volume": 44800, 
+                "day": 4, 
+                "week": 30
+            }, 
+            {
+                "Adj Close": 1.596259, 
+                "Close": 40.0, 
+                "Company": "TROW", 
+                "Date": "1992-07-22", 
+                "High": 40.0, 
+                "Low": 39.5, 
+                "Open": 39.5, 
+                "Volume": 278400, 
+                "day": 3, 
+                "week": 30
+            }, 
+            {
+                "Adj Close": 1.596259, 
+                "Close": 40.0, 
+                "Company": "TROW", 
+                "Date": "1992-07-21", 
+                "High": 40.24992, 
+                "Low": 39.5, 
+                "Open": 39.5, 
+                "Volume": 147200, 
+                "day": 2, 
+                "week": 30
+            }, 
+            {
+                "Adj Close": 1.596259, 
+                "Close": 40.0, 
+                "Company": "TROW", 
+                "Date": "1992-07-20", 
+                "High": 40.0, 
+                "Low": 39.24992, 
+                "Open": 39.5, 
+                "Volume": 924800, 
+                "day": 1, 
+                "week": 30
+            }
+        ], 
+        "first": 1, 
+        "high": 40.75008, 
+        "last": 5, 
+        "low": 39.24992, 
+        "open": 39.5, 
+        "volume": 3561600, 
+        "week": 30, 
+        "year": 1992
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "day": {
+        "Adj Close": 21.25, 
+        "Close": 21.25, 
+        "Company": "TSLA", 
+        "Date": "2010-11-02", 
+        "High": 21.879999, 
+        "Low": 21.049999, 
+        "Open": 21.68, 
+        "Volume": 322500, 
+        "day": 2, 
+        "month": 11
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TROW", 
+        "adj close": 0.891836, 
+        "close": 23.24992, 
+        "days": [
+            {
+                "Adj Close": 0.891836, 
+                "Close": 23.24992, 
+                "Company": "TROW", 
+                "Date": "1990-12-07", 
+                "High": 23.24992, 
+                "Low": 22.24992, 
+                "Open": 23.0, 
+                "Volume": 129600, 
+                "day": 5, 
+                "week": 49
+            }, 
+            {
+                "Adj Close": 0.872663, 
+                "Close": 22.75008, 
+                "Company": "TROW", 
+                "Date": "1990-12-06", 
+                "High": 25.24992, 
+                "Low": 22.75008, 
+                "Open": 24.24992, 
+                "Volume": 1585600, 
+                "day": 4, 
+                "week": 49
+            }, 
+            {
+                "Adj Close": 0.930195, 
+                "Close": 24.24992, 
+                "Company": "TROW", 
+                "Date": "1990-12-05", 
+                "High": 24.24992, 
+                "Low": 22.75008, 
+                "Open": 23.5, 
+                "Volume": 528000, 
+                "day": 3, 
+                "week": 49
+            }, 
+            {
+                "Adj Close": 0.891836, 
+                "Close": 23.24992, 
+                "Company": "TROW", 
+                "Date": "1990-12-04", 
+                "High": 23.24992, 
+                "Low": 20.5, 
+                "Open": 21.0, 
+                "Volume": 1088000, 
+                "day": 2, 
+                "week": 49
+            }, 
+            {
+                "Adj Close": 0.786353, 
+                "Close": 20.5, 
+                "Company": "TROW", 
+                "Date": "1990-12-03", 
+                "High": 21.0, 
+                "Low": 19.5, 
+                "Open": 19.5, 
+                "Volume": 660800, 
+                "day": 1, 
+                "week": 49
+            }
+        ], 
+        "first": 1, 
+        "high": 25.24992, 
+        "last": 5, 
+        "low": 19.5, 
+        "open": 19.5, 
+        "volume": 3992000, 
+        "week": 49, 
+        "year": 1990
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "week": {
+        "Company": "WBA", 
+        "adj close": 32.337281, 
+        "close": 38.080002, 
+        "days": [
+            {
+                "Adj Close": 32.337281, 
+                "Close": 38.080002, 
+                "Company": "WBA", 
+                "Date": "2007-12-31", 
+                "High": 38.619999, 
+                "Low": 38.0, 
+                "Open": 38.43, 
+                "Volume": 4065000, 
+                "day": 1, 
+                "week": 53
+            }
+        ], 
+        "first": 1, 
+        "high": 38.619999, 
+        "last": 1, 
+        "low": 38.0, 
+        "open": 38.43, 
+        "volume": 4065000, 
+        "week": 53, 
+        "year": 2007
+    }
+}

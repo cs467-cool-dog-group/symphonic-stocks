@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "WBA", 
+        "adj close": 38.47578, 
+        "close": 46.099998, 
+        "days": [
+            {
+                "Adj Close": 38.47578, 
+                "Close": 46.099998, 
+                "Company": "WBA", 
+                "Date": "2005-06-10", 
+                "High": 46.34, 
+                "Low": 45.830002, 
+                "Open": 46.099998, 
+                "Volume": 2787400, 
+                "day": 5, 
+                "week": 23
+            }, 
+            {
+                "Adj Close": 38.39232, 
+                "Close": 46.0, 
+                "Company": "WBA", 
+                "Date": "2005-06-09", 
+                "High": 46.18, 
+                "Low": 45.52, 
+                "Open": 45.549999, 
+                "Volume": 2403600, 
+                "day": 4, 
+                "week": 23
+            }, 
+            {
+                "Adj Close": 38.016742, 
+                "Close": 45.549999, 
+                "Company": "WBA", 
+                "Date": "2005-06-08", 
+                "High": 46.0, 
+                "Low": 45.450001, 
+                "Open": 45.950001, 
+                "Volume": 1893100, 
+                "day": 3, 
+                "week": 23
+            }, 
+            {
+                "Adj Close": 38.200359, 
+                "Close": 45.77, 
+                "Company": "WBA", 
+                "Date": "2005-06-07", 
+                "High": 46.200001, 
+                "Low": 45.77, 
+                "Open": 45.98, 
+                "Volume": 2888600, 
+                "day": 2, 
+                "week": 23
+            }, 
+            {
+                "Adj Close": 38.233744, 
+                "Close": 45.810001, 
+                "Company": "WBA", 
+                "Date": "2005-06-06", 
+                "High": 46.25, 
+                "Low": 45.709999, 
+                "Open": 45.880001, 
+                "Volume": 2318400, 
+                "day": 1, 
+                "week": 23
+            }
+        ], 
+        "first": 1, 
+        "high": 46.34, 
+        "last": 5, 
+        "low": 45.450001, 
+        "open": 45.880001, 
+        "volume": 12291100, 
+        "week": 23, 
+        "year": 2005
+    }
+}
