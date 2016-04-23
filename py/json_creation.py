@@ -10,7 +10,7 @@ for exchange in exchanges:
     t = 0
     for ticker_data in ticker_list:
         t+=1
-        if t == 2:
+        if t == 4:
             break
         print(t, ticker_data)
         ticker = list(ticker_data)[0]

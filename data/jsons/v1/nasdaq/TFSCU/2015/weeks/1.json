@@ -1,0 +1,29 @@
+{
+    "week": {
+        "Company": "TFSCU",
+        "adj close": 10.01,
+        "close": 10.01,
+        "days": [
+            {
+                "Adj Close": 10.01,
+                "Close": 10.01,
+                "Company": "TFSCU",
+                "Date": "2015-01-02",
+                "High": 10.01,
+                "Low": 10.01,
+                "Open": 10.01,
+                "Volume": 0,
+                "day": 5,
+                "week": 1
+            }
+        ],
+        "first": 0,
+        "high": 10.01,
+        "last": 5,
+        "low": 10.01,
+        "open": 0,
+        "volume": 0,
+        "week": 1,
+        "year": 2015
+    }
+}

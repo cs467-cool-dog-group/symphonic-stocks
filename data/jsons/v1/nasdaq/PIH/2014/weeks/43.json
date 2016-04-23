@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "PIH",
+        "adj close": 7.92,
+        "close": 7.92,
+        "days": [
+            {
+                "Adj Close": 7.92,
+                "Close": 7.92,
+                "Company": "PIH",
+                "Date": "2014-10-24",
+                "High": 8.0,
+                "Low": 7.72,
+                "Open": 8.0,
+                "Volume": 23700,
+                "day": 5,
+                "week": 43
+            },
+            {
+                "Adj Close": 8.06,
+                "Close": 8.06,
+                "Company": "PIH",
+                "Date": "2014-10-23",
+                "High": 8.23,
+                "Low": 8.06,
+                "Open": 8.06,
+                "Volume": 4800,
+                "day": 4,
+                "week": 43
+            },
+            {
+                "Adj Close": 8.03,
+                "Close": 8.03,
+                "Company": "PIH",
+                "Date": "2014-10-22",
+                "High": 8.22,
+                "Low": 8.01,
+                "Open": 8.22,
+                "Volume": 4900,
+                "day": 3,
+                "week": 43
+            },
+            {
+                "Adj Close": 8.06,
+                "Close": 8.06,
+                "Company": "PIH",
+                "Date": "2014-10-21",
+                "High": 8.099,
+                "Low": 7.88,
+                "Open": 7.88,
+                "Volume": 16600,
+                "day": 2,
+                "week": 43
+            },
+            {
+                "Adj Close": 7.88,
+                "Close": 7.88,
+                "Company": "PIH",
+                "Date": "2014-10-20",
+                "High": 7.93,
+                "Low": 7.81,
+                "Open": 7.93,
+                "Volume": 9400,
+                "day": 1,
+                "week": 43
+            }
+        ],
+        "first": 1,
+        "high": 8.23,
+        "last": 5,
+        "low": 7.72,
+        "open": 7.93,
+        "volume": 59400,
+        "week": 43,
+        "year": 2014
+    }
+}
