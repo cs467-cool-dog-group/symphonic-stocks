@@ -1,0 +1,29 @@
+{
+    "week": {
+        "Company": "SONA",
+        "adj close": 5.131019,
+        "close": 5.93,
+        "days": [
+            {
+                "Adj Close": 5.131019,
+                "Close": 5.93,
+                "Company": "SONA",
+                "Date": "2009-01-02",
+                "High": 5.93,
+                "Low": 5.92,
+                "Open": 5.92,
+                "Volume": 1200,
+                "day": 5,
+                "week": 1
+            }
+        ],
+        "first": 0,
+        "high": 5.93,
+        "last": 5,
+        "low": 5.92,
+        "open": 0,
+        "volume": 1200,
+        "week": 1,
+        "year": 2009
+    }
+}

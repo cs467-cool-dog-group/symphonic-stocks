@@ -1,0 +1,14 @@
+{
+    "day": {
+        "Adj Close": 12.3,
+        "Close": 12.3,
+        "Company": "SONA",
+        "Date": "2016-04-06",
+        "High": 12.43,
+        "Low": 11.99,
+        "Open": 12.06,
+        "Volume": 25100,
+        "day": 3,
+        "week": 14
+    }
+}

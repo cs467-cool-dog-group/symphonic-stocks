@@ -1,0 +1,41 @@
+{
+    "week": {
+        "Company": "SONA",
+        "adj close": 12.45,
+        "close": 12.45,
+        "days": [
+            {
+                "Adj Close": 12.45,
+                "Close": 12.45,
+                "Company": "SONA",
+                "Date": "2016-04-19",
+                "High": 12.54,
+                "Low": 12.39,
+                "Open": 12.5,
+                "Volume": 15100,
+                "day": 2,
+                "week": 16
+            },
+            {
+                "Adj Close": 12.48,
+                "Close": 12.48,
+                "Company": "SONA",
+                "Date": "2016-04-18",
+                "High": 12.74,
+                "Low": 12.3,
+                "Open": 12.74,
+                "Volume": 18000,
+                "day": 1,
+                "week": 16
+            }
+        ],
+        "first": 1,
+        "high": 12.74,
+        "last": 2,
+        "low": 12.3,
+        "open": 12.74,
+        "volume": 33100,
+        "week": 16,
+        "year": 2016
+    }
+}

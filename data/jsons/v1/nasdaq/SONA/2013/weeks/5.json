@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "SONA",
+        "adj close": 8.195615,
+        "close": 9.35,
+        "days": [
+            {
+                "Adj Close": 8.195615,
+                "Close": 9.35,
+                "Company": "SONA",
+                "Date": "2013-02-01",
+                "High": 9.78,
+                "Low": 9.31,
+                "Open": 9.31,
+                "Volume": 8300,
+                "day": 5,
+                "week": 5
+            },
+            {
+                "Adj Close": 8.169319,
+                "Close": 9.32,
+                "Company": "SONA",
+                "Date": "2013-01-31",
+                "High": 9.32,
+                "Low": 9.32,
+                "Open": 9.32,
+                "Volume": 100,
+                "day": 4,
+                "week": 5
+            },
+            {
+                "Adj Close": 8.151788,
+                "Close": 9.3,
+                "Company": "SONA",
+                "Date": "2013-01-30",
+                "High": 9.3,
+                "Low": 9.1,
+                "Open": 9.2,
+                "Volume": 50700,
+                "day": 3,
+                "week": 5
+            },
+            {
+                "Adj Close": 8.099196,
+                "Close": 9.24,
+                "Company": "SONA",
+                "Date": "2013-01-29",
+                "High": 9.28,
+                "Low": 9.24,
+                "Open": 9.28,
+                "Volume": 1700,
+                "day": 2,
+                "week": 5
+            },
+            {
+                "Adj Close": 8.169319,
+                "Close": 9.32,
+                "Company": "SONA",
+                "Date": "2013-01-28",
+                "High": 9.32,
+                "Low": 9.1,
+                "Open": 9.1,
+                "Volume": 3100,
+                "day": 1,
+                "week": 5
+            }
+        ],
+        "first": 5,
+        "high": 9.78,
+        "last": 5,
+        "low": 9.1,
+        "open": 9.31,
+        "volume": 63900,
+        "week": 5,
+        "year": 2013
+    }
+}

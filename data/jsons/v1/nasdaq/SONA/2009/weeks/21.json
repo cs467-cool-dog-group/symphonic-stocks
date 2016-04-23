@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "SONA",
+        "adj close": 6.982685,
+        "close": 8.07,
+        "days": [
+            {
+                "Adj Close": 6.982685,
+                "Close": 8.07,
+                "Company": "SONA",
+                "Date": "2009-05-22",
+                "High": 8.2,
+                "Low": 8.07,
+                "Open": 8.19,
+                "Volume": 1300,
+                "day": 5,
+                "week": 21
+            },
+            {
+                "Adj Close": 7.09517,
+                "Close": 8.2,
+                "Company": "SONA",
+                "Date": "2009-05-21",
+                "High": 8.21,
+                "Low": 8.2,
+                "Open": 8.21,
+                "Volume": 1400,
+                "day": 4,
+                "week": 21
+            },
+            {
+                "Adj Close": 7.35475,
+                "Close": 8.5,
+                "Company": "SONA",
+                "Date": "2009-05-20",
+                "High": 8.75,
+                "Low": 8.5,
+                "Open": 8.51,
+                "Volume": 4900,
+                "day": 3,
+                "week": 21
+            },
+            {
+                "Adj Close": 7.35475,
+                "Close": 8.5,
+                "Company": "SONA",
+                "Date": "2009-05-19",
+                "High": 8.9,
+                "Low": 8.48,
+                "Open": 8.64,
+                "Volume": 15200,
+                "day": 2,
+                "week": 21
+            },
+            {
+                "Adj Close": 7.475887,
+                "Close": 8.64,
+                "Company": "SONA",
+                "Date": "2009-05-18",
+                "High": 8.64,
+                "Low": 8.3,
+                "Open": 8.3,
+                "Volume": 6100,
+                "day": 1,
+                "week": 21
+            }
+        ],
+        "first": 1,
+        "high": 8.9,
+        "last": 5,
+        "low": 8.07,
+        "open": 8.3,
+        "volume": 28900,
+        "week": 21,
+        "year": 2009
+    }
+}

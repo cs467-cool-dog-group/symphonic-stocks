@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "SONA",
+        "adj close": 12.18,
+        "close": 12.18,
+        "days": [
+            {
+                "Adj Close": 12.18,
+                "Close": 12.18,
+                "Company": "SONA",
+                "Date": "2016-04-01",
+                "High": 12.37,
+                "Low": 12.02,
+                "Open": 12.04,
+                "Volume": 33500,
+                "day": 5,
+                "week": 13
+            },
+            {
+                "Adj Close": 11.92,
+                "Close": 11.92,
+                "Company": "SONA",
+                "Date": "2016-03-31",
+                "High": 12.22,
+                "Low": 11.92,
+                "Open": 12.2,
+                "Volume": 31600,
+                "day": 4,
+                "week": 13
+            },
+            {
+                "Adj Close": 12.18,
+                "Close": 12.18,
+                "Company": "SONA",
+                "Date": "2016-03-30",
+                "High": 12.46,
+                "Low": 12.12,
+                "Open": 12.24,
+                "Volume": 38300,
+                "day": 3,
+                "week": 13
+            },
+            {
+                "Adj Close": 12.18,
+                "Close": 12.18,
+                "Company": "SONA",
+                "Date": "2016-03-29",
+                "High": 12.45,
+                "Low": 12.18,
+                "Open": 12.3,
+                "Volume": 43200,
+                "day": 2,
+                "week": 13
+            },
+            {
+                "Adj Close": 12.22,
+                "Close": 12.22,
+                "Company": "SONA",
+                "Date": "2016-03-28",
+                "High": 12.39,
+                "Low": 12.11,
+                "Open": 12.11,
+                "Volume": 12500,
+                "day": 1,
+                "week": 13
+            }
+        ],
+        "first": 1,
+        "high": 12.46,
+        "last": 5,
+        "low": 11.92,
+        "open": 12.11,
+        "volume": 159100,
+        "week": 13,
+        "year": 2016
+    }
+}

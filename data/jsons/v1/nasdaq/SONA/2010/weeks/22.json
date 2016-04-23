@@ -1,0 +1,65 @@
+{
+    "week": {
+        "Company": "SONA",
+        "adj close": 6.835591,
+        "close": 7.9,
+        "days": [
+            {
+                "Adj Close": 6.835591,
+                "Close": 7.9,
+                "Company": "SONA",
+                "Date": "2010-06-04",
+                "High": 8.0,
+                "Low": 7.9,
+                "Open": 7.9,
+                "Volume": 1400,
+                "day": 5,
+                "week": 22
+            },
+            {
+                "Adj Close": 6.922117,
+                "Close": 8.0,
+                "Company": "SONA",
+                "Date": "2010-06-03",
+                "High": 8.0,
+                "Low": 7.76,
+                "Open": 7.9,
+                "Volume": 3500,
+                "day": 4,
+                "week": 22
+            },
+            {
+                "Adj Close": 6.896159,
+                "Close": 7.97,
+                "Company": "SONA",
+                "Date": "2010-06-02",
+                "High": 8.25,
+                "Low": 7.9,
+                "Open": 8.02,
+                "Volume": 3500,
+                "day": 3,
+                "week": 22
+            },
+            {
+                "Adj Close": 6.991338,
+                "Close": 8.08,
+                "Company": "SONA",
+                "Date": "2010-06-01",
+                "High": 8.25,
+                "Low": 8.08,
+                "Open": 8.25,
+                "Volume": 3100,
+                "day": 2,
+                "week": 22
+            }
+        ],
+        "first": 2,
+        "high": 8.25,
+        "last": 5,
+        "low": 7.76,
+        "open": 8.25,
+        "volume": 11500,
+        "week": 22,
+        "year": 2010
+    }
+}

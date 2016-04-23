@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "SONA",
+        "adj close": 12.41,
+        "close": 12.41,
+        "days": [
+            {
+                "Adj Close": 12.41,
+                "Close": 12.41,
+                "Company": "SONA",
+                "Date": "2016-03-18",
+                "High": 12.5,
+                "Low": 12.37,
+                "Open": 12.47,
+                "Volume": 19100,
+                "day": 5,
+                "week": 11
+            },
+            {
+                "Adj Close": 12.55,
+                "Close": 12.55,
+                "Company": "SONA",
+                "Date": "2016-03-17",
+                "High": 12.68,
+                "Low": 12.42,
+                "Open": 12.63,
+                "Volume": 53800,
+                "day": 4,
+                "week": 11
+            },
+            {
+                "Adj Close": 12.53,
+                "Close": 12.53,
+                "Company": "SONA",
+                "Date": "2016-03-16",
+                "High": 12.6,
+                "Low": 12.45,
+                "Open": 12.57,
+                "Volume": 8800,
+                "day": 3,
+                "week": 11
+            },
+            {
+                "Adj Close": 12.51,
+                "Close": 12.51,
+                "Company": "SONA",
+                "Date": "2016-03-15",
+                "High": 12.65,
+                "Low": 12.51,
+                "Open": 12.65,
+                "Volume": 8200,
+                "day": 2,
+                "week": 11
+            },
+            {
+                "Adj Close": 12.65,
+                "Close": 12.65,
+                "Company": "SONA",
+                "Date": "2016-03-14",
+                "High": 12.65,
+                "Low": 12.53,
+                "Open": 12.58,
+                "Volume": 14600,
+                "day": 1,
+                "week": 11
+            }
+        ],
+        "first": 1,
+        "high": 12.68,
+        "last": 5,
+        "low": 12.37,
+        "open": 12.58,
+        "volume": 104500,
+        "week": 11,
+        "year": 2016
+    }
+}

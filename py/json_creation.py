@@ -3,12 +3,15 @@ import json
 import datetime
 import os
 # start with nasdaq
-exchanges = ["sample", "nasdaq", "nyse"]
+exchanges = ["nasdaq", "nyse"]
 for exchange in exchanges:
     with open("../data/"+exchange+"_ticker_map.json") as ticker_list_file:
         ticker_list = json.load(ticker_list_file)
     t = 0
     for ticker in ticker_list:
+        directory = '../data/jsons/v1/'+exchange+'/'+ticker+'/'
+        if os.path.exists(directory):
+            continue
         t+=1
         print(t, ticker)
         #years = {2016: {"days":[{day-of-year-number: {day-data}}], "weeks":[{week-number: {week-data, "days":[{day-of-week-number:{day-data}}}], "months":[{month-number:{month-data, "days":[day-of-month-number"{day-data}]} ]}}
@@ -139,4 +142,5 @@ for exchange in exchanges:
                 day_dict.clear()
             years[year].clear()
         years.clear()
+        break
     break

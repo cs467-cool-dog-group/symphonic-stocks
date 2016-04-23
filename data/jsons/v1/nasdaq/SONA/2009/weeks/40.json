@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "SONA",
+        "adj close": 6.186642,
+        "close": 7.15,
+        "days": [
+            {
+                "Adj Close": 6.186642,
+                "Close": 7.15,
+                "Company": "SONA",
+                "Date": "2009-10-02",
+                "High": 7.15,
+                "Low": 7.15,
+                "Open": 7.15,
+                "Volume": 300,
+                "day": 5,
+                "week": 40
+            },
+            {
+                "Adj Close": 6.255863,
+                "Close": 7.23,
+                "Company": "SONA",
+                "Date": "2009-10-01",
+                "High": 7.23,
+                "Low": 7.23,
+                "Open": 7.23,
+                "Volume": 0,
+                "day": 4,
+                "week": 40
+            },
+            {
+                "Adj Close": 6.255863,
+                "Close": 7.23,
+                "Company": "SONA",
+                "Date": "2009-09-30",
+                "High": 7.25,
+                "Low": 7.2,
+                "Open": 7.2,
+                "Volume": 2100,
+                "day": 3,
+                "week": 40
+            },
+            {
+                "Adj Close": 6.247211,
+                "Close": 7.22,
+                "Company": "SONA",
+                "Date": "2009-09-29",
+                "High": 7.22,
+                "Low": 7.22,
+                "Open": 7.22,
+                "Volume": 0,
+                "day": 2,
+                "week": 40
+            },
+            {
+                "Adj Close": 6.247211,
+                "Close": 7.22,
+                "Company": "SONA",
+                "Date": "2009-09-28",
+                "High": 7.88,
+                "Low": 7.05,
+                "Open": 7.1,
+                "Volume": 10600,
+                "day": 1,
+                "week": 40
+            }
+        ],
+        "first": 1,
+        "high": 7.88,
+        "last": 5,
+        "low": 7.05,
+        "open": 7.1,
+        "volume": 13000,
+        "week": 40,
+        "year": 2009
+    }
+}

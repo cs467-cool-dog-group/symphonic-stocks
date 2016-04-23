@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "SONA",
+        "adj close": 6.229905,
+        "close": 7.2,
+        "days": [
+            {
+                "Adj Close": 6.229905,
+                "Close": 7.2,
+                "Company": "SONA",
+                "Date": "2011-03-25",
+                "High": 7.2,
+                "Low": 7.2,
+                "Open": 7.2,
+                "Volume": 0,
+                "day": 5,
+                "week": 12
+            },
+            {
+                "Adj Close": 6.229905,
+                "Close": 7.2,
+                "Company": "SONA",
+                "Date": "2011-03-24",
+                "High": 7.2,
+                "Low": 7.2,
+                "Open": 7.2,
+                "Volume": 1000,
+                "day": 4,
+                "week": 12
+            },
+            {
+                "Adj Close": 6.229905,
+                "Close": 7.2,
+                "Company": "SONA",
+                "Date": "2011-03-23",
+                "High": 7.2,
+                "Low": 7.2,
+                "Open": 7.2,
+                "Volume": 16000,
+                "day": 3,
+                "week": 12
+            },
+            {
+                "Adj Close": 6.290474,
+                "Close": 7.27,
+                "Company": "SONA",
+                "Date": "2011-03-22",
+                "High": 7.29,
+                "Low": 7.25,
+                "Open": 7.29,
+                "Volume": 105000,
+                "day": 2,
+                "week": 12
+            },
+            {
+                "Adj Close": 6.238558,
+                "Close": 7.21,
+                "Company": "SONA",
+                "Date": "2011-03-21",
+                "High": 7.21,
+                "Low": 7.21,
+                "Open": 7.21,
+                "Volume": 300,
+                "day": 1,
+                "week": 12
+            }
+        ],
+        "first": 1,
+        "high": 7.29,
+        "last": 5,
+        "low": 7.2,
+        "open": 7.21,
+        "volume": 122300,
+        "week": 12,
+        "year": 2011
+    }
+}

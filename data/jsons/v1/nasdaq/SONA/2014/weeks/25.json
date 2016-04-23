@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "SONA",
+        "adj close": 9.691601,
+        "close": 10.63,
+        "days": [
+            {
+                "Adj Close": 9.691601,
+                "Close": 10.63,
+                "Company": "SONA",
+                "Date": "2014-06-20",
+                "High": 10.63,
+                "Low": 10.39,
+                "Open": 10.46,
+                "Volume": 2300,
+                "day": 5,
+                "week": 25
+            },
+            {
+                "Adj Close": 9.636897,
+                "Close": 10.57,
+                "Company": "SONA",
+                "Date": "2014-06-19",
+                "High": 10.62,
+                "Low": 10.57,
+                "Open": 10.62,
+                "Volume": 1700,
+                "day": 4,
+                "week": 25
+            },
+            {
+                "Adj Close": 9.636897,
+                "Close": 10.57,
+                "Company": "SONA",
+                "Date": "2014-06-18",
+                "High": 10.57,
+                "Low": 10.57,
+                "Open": 10.57,
+                "Volume": 0,
+                "day": 3,
+                "week": 25
+            },
+            {
+                "Adj Close": 9.636897,
+                "Close": 10.57,
+                "Company": "SONA",
+                "Date": "2014-06-17",
+                "High": 10.74,
+                "Low": 10.57,
+                "Open": 10.73,
+                "Volume": 900,
+                "day": 2,
+                "week": 25
+            },
+            {
+                "Adj Close": 9.937765,
+                "Close": 10.9,
+                "Company": "SONA",
+                "Date": "2014-06-16",
+                "High": 10.9,
+                "Low": 10.69,
+                "Open": 10.76,
+                "Volume": 6500,
+                "day": 1,
+                "week": 25
+            }
+        ],
+        "first": 1,
+        "high": 10.9,
+        "last": 5,
+        "low": 10.39,
+        "open": 10.76,
+        "volume": 11400,
+        "week": 25,
+        "year": 2014
+    }
+}

@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "SONA",
+        "adj close": 6.601969,
+        "close": 7.63,
+        "days": [
+            {
+                "Adj Close": 6.601969,
+                "Close": 7.63,
+                "Company": "SONA",
+                "Date": "2011-01-07",
+                "High": 7.63,
+                "Low": 7.6,
+                "Open": 7.6,
+                "Volume": 1300,
+                "day": 5,
+                "week": 1
+            },
+            {
+                "Adj Close": 6.593317,
+                "Close": 7.62,
+                "Company": "SONA",
+                "Date": "2011-01-06",
+                "High": 7.65,
+                "Low": 7.6,
+                "Open": 7.65,
+                "Volume": 1700,
+                "day": 4,
+                "week": 1
+            },
+            {
+                "Adj Close": 6.619275,
+                "Close": 7.65,
+                "Company": "SONA",
+                "Date": "2011-01-05",
+                "High": 7.65,
+                "Low": 7.57,
+                "Open": 7.6,
+                "Volume": 55000,
+                "day": 3,
+                "week": 1
+            },
+            {
+                "Adj Close": 6.567359,
+                "Close": 7.59,
+                "Company": "SONA",
+                "Date": "2011-01-04",
+                "High": 7.64,
+                "Low": 7.58,
+                "Open": 7.62,
+                "Volume": 10400,
+                "day": 2,
+                "week": 1
+            },
+            {
+                "Adj Close": 6.576011,
+                "Close": 7.6,
+                "Company": "SONA",
+                "Date": "2011-01-03",
+                "High": 7.62,
+                "Low": 7.52,
+                "Open": 7.52,
+                "Volume": 4900,
+                "day": 1,
+                "week": 1
+            }
+        ],
+        "first": 0,
+        "high": 7.65,
+        "last": 5,
+        "low": 7.52,
+        "open": 0,
+        "volume": 73300,
+        "week": 1,
+        "year": 2011
+    }
+}

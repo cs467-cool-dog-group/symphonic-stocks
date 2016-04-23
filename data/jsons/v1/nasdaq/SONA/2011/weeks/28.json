@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "SONA",
+        "adj close": 5.75401,
+        "close": 6.65,
+        "days": [
+            {
+                "Adj Close": 5.75401,
+                "Close": 6.65,
+                "Company": "SONA",
+                "Date": "2011-07-15",
+                "High": 6.65,
+                "Low": 6.65,
+                "Open": 6.65,
+                "Volume": 200,
+                "day": 5,
+                "week": 28
+            },
+            {
+                "Adj Close": 5.814578,
+                "Close": 6.72,
+                "Company": "SONA",
+                "Date": "2011-07-14",
+                "High": 6.85,
+                "Low": 6.59,
+                "Open": 6.59,
+                "Volume": 11500,
+                "day": 4,
+                "week": 28
+            },
+            {
+                "Adj Close": 5.831884,
+                "Close": 6.74,
+                "Company": "SONA",
+                "Date": "2011-07-13",
+                "High": 6.85,
+                "Low": 6.6,
+                "Open": 6.65,
+                "Volume": 7000,
+                "day": 3,
+                "week": 28
+            },
+            {
+                "Adj Close": 5.676136,
+                "Close": 6.56,
+                "Company": "SONA",
+                "Date": "2011-07-12",
+                "High": 6.56,
+                "Low": 6.55,
+                "Open": 6.55,
+                "Volume": 3100,
+                "day": 2,
+                "week": 28
+            },
+            {
+                "Adj Close": 5.762662,
+                "Close": 6.66,
+                "Company": "SONA",
+                "Date": "2011-07-11",
+                "High": 6.68,
+                "Low": 6.65,
+                "Open": 6.68,
+                "Volume": 1400,
+                "day": 1,
+                "week": 28
+            }
+        ],
+        "first": 1,
+        "high": 6.85,
+        "last": 5,
+        "low": 6.55,
+        "open": 6.68,
+        "volume": 23200,
+        "week": 28,
+        "year": 2011
+    }
+}

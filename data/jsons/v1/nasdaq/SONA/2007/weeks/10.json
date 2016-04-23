@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "SONA",
+        "adj close": 12.349689,
+        "close": 15.700003,
+        "days": [
+            {
+                "Adj Close": 12.349689,
+                "Close": 15.700003,
+                "Company": "SONA",
+                "Date": "2007-03-09",
+                "High": 15.800004,
+                "Low": 15.700003,
+                "Open": 15.749998,
+                "Volume": 2500,
+                "day": 5,
+                "week": 10
+            },
+            {
+                "Adj Close": 12.389015,
+                "Close": 15.749998,
+                "Company": "SONA",
+                "Date": "2007-03-08",
+                "High": 15.910005,
+                "Low": 15.749998,
+                "Open": 15.749998,
+                "Volume": 45700,
+                "day": 4,
+                "week": 10
+            },
+            {
+                "Adj Close": 12.389015,
+                "Close": 15.749998,
+                "Company": "SONA",
+                "Date": "2007-03-07",
+                "High": 15.940001,
+                "Low": 15.749998,
+                "Open": 15.749998,
+                "Volume": 900,
+                "day": 3,
+                "week": 10
+            },
+            {
+                "Adj Close": 12.546338,
+                "Close": 15.95,
+                "Company": "SONA",
+                "Date": "2007-03-06",
+                "High": 15.95,
+                "Low": 15.749998,
+                "Open": 15.749998,
+                "Volume": 3100,
+                "day": 2,
+                "week": 10
+            },
+            {
+                "Adj Close": 12.389015,
+                "Close": 15.749998,
+                "Company": "SONA",
+                "Date": "2007-03-05",
+                "High": 15.790006,
+                "Low": 15.749998,
+                "Open": 15.749998,
+                "Volume": 4900,
+                "day": 1,
+                "week": 10
+            }
+        ],
+        "first": 1,
+        "high": 15.95,
+        "last": 5,
+        "low": 15.700003,
+        "open": 15.749998,
+        "volume": 57100,
+        "week": 10,
+        "year": 2007
+    }
+}

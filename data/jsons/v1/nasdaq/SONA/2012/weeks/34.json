@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "SONA",
+        "adj close": 6.802969,
+        "close": 7.8,
+        "days": [
+            {
+                "Adj Close": 6.802969,
+                "Close": 7.8,
+                "Company": "SONA",
+                "Date": "2012-08-24",
+                "High": 8.0,
+                "Low": 7.8,
+                "Open": 7.8,
+                "Volume": 5000,
+                "day": 5,
+                "week": 34
+            },
+            {
+                "Adj Close": 6.707029,
+                "Close": 7.69,
+                "Company": "SONA",
+                "Date": "2012-08-23",
+                "High": 7.75,
+                "Low": 7.69,
+                "Open": 7.75,
+                "Volume": 400,
+                "day": 4,
+                "week": 34
+            },
+            {
+                "Adj Close": 6.75936,
+                "Close": 7.75,
+                "Company": "SONA",
+                "Date": "2012-08-22",
+                "High": 7.8,
+                "Low": 7.52,
+                "Open": 7.52,
+                "Volume": 2600,
+                "day": 3,
+                "week": 34
+            },
+            {
+                "Adj Close": 6.61109,
+                "Close": 7.58,
+                "Company": "SONA",
+                "Date": "2012-08-21",
+                "High": 7.8,
+                "Low": 7.4,
+                "Open": 7.74,
+                "Volume": 1900,
+                "day": 2,
+                "week": 34
+            },
+            {
+                "Adj Close": 6.802969,
+                "Close": 7.8,
+                "Company": "SONA",
+                "Date": "2012-08-20",
+                "High": 7.8,
+                "Low": 7.8,
+                "Open": 7.8,
+                "Volume": 0,
+                "day": 1,
+                "week": 34
+            }
+        ],
+        "first": 1,
+        "high": 8.0,
+        "last": 5,
+        "low": 7.4,
+        "open": 7.8,
+        "volume": 9900,
+        "week": 34,
+        "year": 2012
+    }
+}

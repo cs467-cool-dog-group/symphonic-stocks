@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "SONA",
+        "adj close": 7.960435,
+        "close": 9.2,
+        "days": [
+            {
+                "Adj Close": 7.960435,
+                "Close": 9.2,
+                "Company": "SONA",
+                "Date": "2008-01-18",
+                "High": 9.2,
+                "Low": 9.16,
+                "Open": 9.16,
+                "Volume": 300,
+                "day": 5,
+                "week": 3
+            },
+            {
+                "Adj Close": 8.220014,
+                "Close": 9.5,
+                "Company": "SONA",
+                "Date": "2008-01-17",
+                "High": 9.5,
+                "Low": 9.5,
+                "Open": 9.5,
+                "Volume": 0,
+                "day": 4,
+                "week": 3
+            },
+            {
+                "Adj Close": 8.220014,
+                "Close": 9.5,
+                "Company": "SONA",
+                "Date": "2008-01-16",
+                "High": 9.5,
+                "Low": 9.5,
+                "Open": 9.5,
+                "Volume": 800,
+                "day": 3,
+                "week": 3
+            },
+            {
+                "Adj Close": 8.522857,
+                "Close": 9.85,
+                "Company": "SONA",
+                "Date": "2008-01-15",
+                "High": 9.85,
+                "Low": 9.0,
+                "Open": 9.05,
+                "Volume": 2400,
+                "day": 2,
+                "week": 3
+            },
+            {
+                "Adj Close": 8.643994,
+                "Close": 9.99,
+                "Company": "SONA",
+                "Date": "2008-01-14",
+                "High": 9.99,
+                "Low": 9.99,
+                "Open": 9.99,
+                "Volume": 0,
+                "day": 1,
+                "week": 3
+            }
+        ],
+        "first": 0,
+        "high": 9.99,
+        "last": 5,
+        "low": 9.0,
+        "open": 0,
+        "volume": 3500,
+        "week": 3,
+        "year": 2008
+    }
+}

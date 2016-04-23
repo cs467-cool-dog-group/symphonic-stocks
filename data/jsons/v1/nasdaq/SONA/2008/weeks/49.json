@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "SONA",
+        "adj close": 5.200241,
+        "close": 6.01,
+        "days": [
+            {
+                "Adj Close": 5.200241,
+                "Close": 6.01,
+                "Company": "SONA",
+                "Date": "2008-12-05",
+                "High": 6.01,
+                "Low": 6.01,
+                "Open": 6.01,
+                "Volume": 0,
+                "day": 5,
+                "week": 49
+            },
+            {
+                "Adj Close": 5.200241,
+                "Close": 6.01,
+                "Company": "SONA",
+                "Date": "2008-12-04",
+                "High": 6.01,
+                "Low": 6.01,
+                "Open": 6.01,
+                "Volume": 0,
+                "day": 4,
+                "week": 49
+            },
+            {
+                "Adj Close": 5.200241,
+                "Close": 6.01,
+                "Company": "SONA",
+                "Date": "2008-12-03",
+                "High": 6.25,
+                "Low": 6.0,
+                "Open": 6.0,
+                "Volume": 1600,
+                "day": 3,
+                "week": 49
+            },
+            {
+                "Adj Close": 5.312725,
+                "Close": 6.14,
+                "Company": "SONA",
+                "Date": "2008-12-02",
+                "High": 6.14,
+                "Low": 6.14,
+                "Open": 6.14,
+                "Volume": 0,
+                "day": 2,
+                "week": 49
+            },
+            {
+                "Adj Close": 5.312725,
+                "Close": 6.14,
+                "Company": "SONA",
+                "Date": "2008-12-01",
+                "High": 6.25,
+                "Low": 6.14,
+                "Open": 6.25,
+                "Volume": 1200,
+                "day": 1,
+                "week": 49
+            }
+        ],
+        "first": 1,
+        "high": 6.25,
+        "last": 5,
+        "low": 6.0,
+        "open": 6.25,
+        "volume": 2800,
+        "week": 49,
+        "year": 2008
+    }
+}
