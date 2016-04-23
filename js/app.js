@@ -11,7 +11,10 @@ var app = angular.module('SymphonicStocks', [
     'portfolio.controllers',
 
     'index.services',
-    'index.controllers'
+    'index.controllers',
+
+    'audio',
+    'graph'
 ]);
 
 app.config(['$routeProvider', function($routeProvider) {
@@ -31,6 +34,10 @@ app.config(['$routeProvider', function($routeProvider) {
         when('/companies', {
             templateUrl: 'templates/stock-company.html',
             controller: 'CompanyController'
+        }).
+        when('/login', {
+            templateUrl: 'templates/login.html',
+            controller: 'UserController'
         }).
         otherwise({
             redirectTo: '/'
