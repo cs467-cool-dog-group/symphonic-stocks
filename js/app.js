@@ -13,6 +13,9 @@ var app = angular.module('SymphonicStocks', [
     'index.services',
     'index.controllers',
 
+    'news.services',
+    'news.controllers',
+
     'audio',
     'graph'
 ]);
@@ -38,6 +41,10 @@ app.config(['$routeProvider', function($routeProvider) {
         when('/login', {
             templateUrl: 'templates/login.html',
             controller: 'UserController'
+        }).
+        when('/news', {
+            templateUrl: 'templates/news.html',
+            controller: 'NewsController'
         }).
         otherwise({
             redirectTo: '/'
