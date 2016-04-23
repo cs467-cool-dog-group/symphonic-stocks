@@ -6,6 +6,7 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
     $scope.allData = {};
     $scope.startDate = "";
     $scope.endDate = "";
+    $scope.filteredData = [];
 
     $scope.filter = function(start, end, dates) {
 		var filtered = new Array();
@@ -23,10 +24,10 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
         var endDate = new Date($scope.endDate);
 
     	var filterDates = $scope.filter(startDate, endDate, $scope.allDates);
-    	var filteredData = dimple.filterData($scope.allData, "Date", filterDates);
+    	$scope.filteredData = dimple.filterData($scope.allData, "Date", filterDates);
 
     	$scope.chart.svg.selectAll('*').remove();
-	    $scope.drawChart(filteredData, startDate, endDate);
+	    $scope.drawChart($scope.filteredData, startDate, endDate);
 	};
 
     $scope.drawChart = function(data, start, end){
@@ -72,18 +73,18 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
 
     $scope.initialize = function() {
         // TODO: Get data
-        /*d3_queue.queue()
+        d3_queue.queue()
             .defer(d3.json, './data/jsons/v1/nasdaq/TFSC/2014/2014.json')
             .defer(d3.json, './data/jsons/v1/nasdaq/TFSC/2015/2015.json')
             .defer(d3.json, './data/jsons/v1/nasdaq/TFSC/2016/2016.json')
             .awaitAll(function(error, results) {
-                console.log(results);
                 $scope.allData = [];
                 for (var i = 0; i < results.length; i++) {
                     $scope.allData = $scope.allData.concat(results[i].year.days);
                 }
                 $scope.allDates = dimple.getUniqueValues($scope.allData, "Date");
+                $scope.filteredData = $scope.allData;
                 $scope.drawChart($scope.allData, null, null);
-            });*/
+        });
     };
 }]);
