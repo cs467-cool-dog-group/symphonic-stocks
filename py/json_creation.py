@@ -10,9 +10,10 @@ for exchange in exchanges:
     t = 0
     for ticker_data in ticker_list:
         t+=1
-        print(ticker_data)
+        if t == 2:
+            break
+        print(t, ticker_data)
         ticker = list(ticker_data)[0]
-        json_v1_out = []
         #years = {2016: {"days":[{day-of-year-number: {day-data}}], "weeks":[{week-number: {week-data, "days":[{day-of-week-number:{day-data}}}], "months":[{month-number:{month-data, "days":[day-of-month-number"{day-data}]} ]}}
         years = {}
         with open("../data/prices/"+exchange+"/" + ticker + ".csv") as csvfile:
@@ -91,17 +92,10 @@ for exchange in exchanges:
                     weeks[week]["open"] = open_price
                 years[year]["weeks"] = weeks
 
-
-                json_v1_out.append(
-                    {"Company": ticker, "Date": full_date, "Open": open_price, "High": high, "Low": low, "Close": close,
-                     "Volume": volume, "Adj Close": adjclose})
-
         # print(json.dumps(json_v1_out))
         directory = '../data/jsons/v1/'+exchange+'/'+ticker+'/'
         if not os.path.exists(directory):
             os.makedirs(directory)
-        with open(directory+ticker+'.json', 'w') as v1_outfile:
-            json.dump(json_v1_out, v1_outfile)
         for year in years:
             directory_year = directory + str(year)+'/'
             if not os.path.exists(directory_year):
@@ -121,6 +115,8 @@ for exchange in exchanges:
                     day = day_dict["day"]
                     with open(directory_days+str(day)+'.json','w') as day_outfile:
                         json.dump({"day":day_dict}, day_outfile, indent=4, sort_keys=True)
+                    day_dict.clear()
+                years[year]["months"][month].clear()
             for week in years[year]["weeks"]:
                 directory_weeks = directory_year + 'weeks' + '/'
                 if not os.path.exists(directory_weeks):
@@ -134,6 +130,8 @@ for exchange in exchanges:
                     day = day_dict["day"]
                     with open(directory_days+str(day)+'.json','w') as day_outfile:
                         json.dump({"day":day_dict}, day_outfile, indent=4, sort_keys=True)
+                    day_dict.clear()
+                years[year]["weeks"][week].clear()
             for day_dict in years[year]["days"]:
                 directory_days = directory_year + 'days' + '/'
                 if not os.path.exists(directory_days):
@@ -141,3 +139,7 @@ for exchange in exchanges:
                 day = day_dict["day"]
                 with open(directory_days+str(day)+'.json','w') as day_outfile:
                     json.dump({"day":day_dict}, day_outfile, indent=4, sort_keys=True)
+                day_dict.clear()
+            years[year].clear()
+        years.clear()
+    break

@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TFSC",
+        "adj close": 9.65,
+        "close": 9.65,
+        "days": [
+            {
+                "Adj Close": 9.65,
+                "Close": 9.65,
+                "Company": "TFSC",
+                "Date": "2015-04-10",
+                "High": 9.65,
+                "Low": 9.65,
+                "Open": 9.65,
+                "Volume": 0,
+                "day": 5,
+                "week": 15
+            },
+            {
+                "Adj Close": 9.65,
+                "Close": 9.65,
+                "Company": "TFSC",
+                "Date": "2015-04-09",
+                "High": 9.65,
+                "Low": 9.65,
+                "Open": 9.65,
+                "Volume": 100,
+                "day": 4,
+                "week": 15
+            },
+            {
+                "Adj Close": 9.62,
+                "Close": 9.62,
+                "Company": "TFSC",
+                "Date": "2015-04-08",
+                "High": 9.62,
+                "Low": 9.62,
+                "Open": 9.62,
+                "Volume": 100,
+                "day": 3,
+                "week": 15
+            },
+            {
+                "Adj Close": 9.63,
+                "Close": 9.63,
+                "Company": "TFSC",
+                "Date": "2015-04-07",
+                "High": 9.63,
+                "Low": 9.63,
+                "Open": 9.63,
+                "Volume": 6200,
+                "day": 2,
+                "week": 15
+            },
+            {
+                "Adj Close": 9.6,
+                "Close": 9.6,
+                "Company": "TFSC",
+                "Date": "2015-04-06",
+                "High": 9.6,
+                "Low": 9.6,
+                "Open": 9.6,
+                "Volume": 0,
+                "day": 1,
+                "week": 15
+            }
+        ],
+        "first": 1,
+        "high": 9.65,
+        "last": 5,
+        "low": 9.6,
+        "open": 9.6,
+        "volume": 6400,
+        "week": 15,
+        "year": 2015
+    }
+}
