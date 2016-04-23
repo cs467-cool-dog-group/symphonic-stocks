@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "PIH",
+        "adj close": 7.57,
+        "close": 7.57,
+        "days": [
+            {
+                "Adj Close": 7.57,
+                "Close": 7.57,
+                "Company": "PIH",
+                "Date": "2015-01-09",
+                "High": 7.58,
+                "Low": 7.44,
+                "Open": 7.48,
+                "Volume": 48900,
+                "day": 5,
+                "week": 2
+            },
+            {
+                "Adj Close": 7.39,
+                "Close": 7.39,
+                "Company": "PIH",
+                "Date": "2015-01-08",
+                "High": 7.6,
+                "Low": 7.37,
+                "Open": 7.47,
+                "Volume": 31600,
+                "day": 4,
+                "week": 2
+            },
+            {
+                "Adj Close": 7.45,
+                "Close": 7.45,
+                "Company": "PIH",
+                "Date": "2015-01-07",
+                "High": 7.9,
+                "Low": 7.43,
+                "Open": 7.9,
+                "Volume": 52700,
+                "day": 3,
+                "week": 2
+            },
+            {
+                "Adj Close": 7.65,
+                "Close": 7.65,
+                "Company": "PIH",
+                "Date": "2015-01-06",
+                "High": 7.8,
+                "Low": 7.5,
+                "Open": 7.79,
+                "Volume": 17600,
+                "day": 2,
+                "week": 2
+            },
+            {
+                "Adj Close": 7.79,
+                "Close": 7.79,
+                "Company": "PIH",
+                "Date": "2015-01-05",
+                "High": 7.85,
+                "Low": 7.75,
+                "Open": 7.85,
+                "Volume": 1900,
+                "day": 1,
+                "week": 2
+            }
+        ],
+        "first": 0,
+        "high": 7.9,
+        "last": 5,
+        "low": 7.37,
+        "open": 0,
+        "volume": 152700,
+        "week": 2,
+        "year": 2015
+    }
+}

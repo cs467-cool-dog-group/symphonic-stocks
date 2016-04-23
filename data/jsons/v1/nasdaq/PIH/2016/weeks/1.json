@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "PIH",
+        "adj close": 6.906,
+        "close": 6.906,
+        "days": [
+            {
+                "Adj Close": 6.906,
+                "Close": 6.906,
+                "Company": "PIH",
+                "Date": "2016-01-08",
+                "High": 7.1,
+                "Low": 6.89,
+                "Open": 7.1,
+                "Volume": 9600,
+                "day": 5,
+                "week": 1
+            },
+            {
+                "Adj Close": 7.1,
+                "Close": 7.1,
+                "Company": "PIH",
+                "Date": "2016-01-07",
+                "High": 7.5,
+                "Low": 7.099,
+                "Open": 7.371,
+                "Volume": 35900,
+                "day": 4,
+                "week": 1
+            },
+            {
+                "Adj Close": 7.42,
+                "Close": 7.42,
+                "Company": "PIH",
+                "Date": "2016-01-06",
+                "High": 7.42,
+                "Low": 7.36,
+                "Open": 7.36,
+                "Volume": 300,
+                "day": 3,
+                "week": 1
+            },
+            {
+                "Adj Close": 7.61,
+                "Close": 7.61,
+                "Company": "PIH",
+                "Date": "2016-01-05",
+                "High": 7.61,
+                "Low": 7.61,
+                "Open": 7.61,
+                "Volume": 200,
+                "day": 2,
+                "week": 1
+            },
+            {
+                "Adj Close": 7.5,
+                "Close": 7.5,
+                "Company": "PIH",
+                "Date": "2016-01-04",
+                "High": 7.64,
+                "Low": 7.5,
+                "Open": 7.55,
+                "Volume": 11100,
+                "day": 1,
+                "week": 1
+            }
+        ],
+        "first": 0,
+        "high": 7.64,
+        "last": 5,
+        "low": 6.89,
+        "open": 0,
+        "volume": 57100,
+        "week": 1,
+        "year": 2016
+    }
+}

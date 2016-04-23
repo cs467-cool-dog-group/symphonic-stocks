@@ -1,0 +1,65 @@
+{
+    "week": {
+        "Company": "PIH",
+        "adj close": 7.56,
+        "close": 7.56,
+        "days": [
+            {
+                "Adj Close": 7.56,
+                "Close": 7.56,
+                "Company": "PIH",
+                "Date": "2014-12-26",
+                "High": 7.6,
+                "Low": 7.51,
+                "Open": 7.58,
+                "Volume": 1800,
+                "day": 5,
+                "week": 52
+            },
+            {
+                "Adj Close": 7.577,
+                "Close": 7.577,
+                "Company": "PIH",
+                "Date": "2014-12-24",
+                "High": 7.626,
+                "Low": 7.57,
+                "Open": 7.626,
+                "Volume": 3200,
+                "day": 3,
+                "week": 52
+            },
+            {
+                "Adj Close": 7.59,
+                "Close": 7.59,
+                "Company": "PIH",
+                "Date": "2014-12-23",
+                "High": 7.63,
+                "Low": 7.54,
+                "Open": 7.63,
+                "Volume": 3300,
+                "day": 2,
+                "week": 52
+            },
+            {
+                "Adj Close": 7.65,
+                "Close": 7.65,
+                "Company": "PIH",
+                "Date": "2014-12-22",
+                "High": 7.65,
+                "Low": 7.51,
+                "Open": 7.54,
+                "Volume": 12100,
+                "day": 1,
+                "week": 52
+            }
+        ],
+        "first": 1,
+        "high": 7.65,
+        "last": 5,
+        "low": 7.51,
+        "open": 7.54,
+        "volume": 20400,
+        "week": 52,
+        "year": 2014
+    }
+}

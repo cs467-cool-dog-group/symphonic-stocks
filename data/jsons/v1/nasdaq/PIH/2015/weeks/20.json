@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "PIH",
+        "adj close": 7.6,
+        "close": 7.6,
+        "days": [
+            {
+                "Adj Close": 7.6,
+                "Close": 7.6,
+                "Company": "PIH",
+                "Date": "2015-05-15",
+                "High": 7.66,
+                "Low": 7.51,
+                "Open": 7.51,
+                "Volume": 18800,
+                "day": 5,
+                "week": 20
+            },
+            {
+                "Adj Close": 7.44,
+                "Close": 7.44,
+                "Company": "PIH",
+                "Date": "2015-05-14",
+                "High": 7.675,
+                "Low": 7.44,
+                "Open": 7.5,
+                "Volume": 31900,
+                "day": 4,
+                "week": 20
+            },
+            {
+                "Adj Close": 7.5,
+                "Close": 7.5,
+                "Company": "PIH",
+                "Date": "2015-05-13",
+                "High": 7.53,
+                "Low": 7.388,
+                "Open": 7.48,
+                "Volume": 14700,
+                "day": 3,
+                "week": 20
+            },
+            {
+                "Adj Close": 7.48,
+                "Close": 7.48,
+                "Company": "PIH",
+                "Date": "2015-05-12",
+                "High": 7.56,
+                "Low": 7.32,
+                "Open": 7.52,
+                "Volume": 10000,
+                "day": 2,
+                "week": 20
+            },
+            {
+                "Adj Close": 7.52,
+                "Close": 7.52,
+                "Company": "PIH",
+                "Date": "2015-05-11",
+                "High": 7.562,
+                "Low": 7.35,
+                "Open": 7.46,
+                "Volume": 18700,
+                "day": 1,
+                "week": 20
+            }
+        ],
+        "first": 1,
+        "high": 7.675,
+        "last": 5,
+        "low": 7.32,
+        "open": 7.46,
+        "volume": 94100,
+        "week": 20,
+        "year": 2015
+    }
+}

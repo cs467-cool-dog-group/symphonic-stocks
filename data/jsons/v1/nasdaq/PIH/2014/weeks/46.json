@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "PIH",
+        "adj close": 7.8,
+        "close": 7.8,
+        "days": [
+            {
+                "Adj Close": 7.8,
+                "Close": 7.8,
+                "Company": "PIH",
+                "Date": "2014-11-14",
+                "High": 7.85,
+                "Low": 7.75,
+                "Open": 7.8,
+                "Volume": 30700,
+                "day": 5,
+                "week": 46
+            },
+            {
+                "Adj Close": 7.8,
+                "Close": 7.8,
+                "Company": "PIH",
+                "Date": "2014-11-13",
+                "High": 7.8,
+                "Low": 7.7,
+                "Open": 7.76,
+                "Volume": 17900,
+                "day": 4,
+                "week": 46
+            },
+            {
+                "Adj Close": 7.69,
+                "Close": 7.69,
+                "Company": "PIH",
+                "Date": "2014-11-12",
+                "High": 7.85,
+                "Low": 7.68,
+                "Open": 7.81,
+                "Volume": 27400,
+                "day": 3,
+                "week": 46
+            },
+            {
+                "Adj Close": 7.8,
+                "Close": 7.8,
+                "Company": "PIH",
+                "Date": "2014-11-11",
+                "High": 7.8,
+                "Low": 7.78,
+                "Open": 7.78,
+                "Volume": 8600,
+                "day": 2,
+                "week": 46
+            },
+            {
+                "Adj Close": 7.8,
+                "Close": 7.8,
+                "Company": "PIH",
+                "Date": "2014-11-10",
+                "High": 7.92,
+                "Low": 7.72,
+                "Open": 7.78,
+                "Volume": 39400,
+                "day": 1,
+                "week": 46
+            }
+        ],
+        "first": 1,
+        "high": 7.92,
+        "last": 5,
+        "low": 7.68,
+        "open": 7.78,
+        "volume": 124000,
+        "week": 46,
+        "year": 2014
+    }
+}

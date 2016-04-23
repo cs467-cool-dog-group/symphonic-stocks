@@ -1,0 +1,14 @@
+{
+    "day": {
+        "Adj Close": 6.25,
+        "Close": 6.25,
+        "Company": "PIH",
+        "Date": "2016-02-22",
+        "High": 6.3,
+        "Low": 6.14,
+        "Open": 6.14,
+        "Volume": 13500,
+        "day": 1,
+        "week": 8
+    }
+}

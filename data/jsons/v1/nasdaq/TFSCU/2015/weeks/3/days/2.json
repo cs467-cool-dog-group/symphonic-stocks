@@ -1,0 +1,14 @@
+{
+    "day": {
+        "Adj Close": 10.02,
+        "Close": 10.02,
+        "Company": "TFSCU",
+        "Date": "2015-01-13",
+        "High": 10.03,
+        "Low": 10.0,
+        "Open": 10.01,
+        "Volume": 500,
+        "day": 2,
+        "week": 3
+    }
+}

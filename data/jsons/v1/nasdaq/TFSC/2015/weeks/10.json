@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TFSC",
+        "adj close": 9.59,
+        "close": 9.59,
+        "days": [
+            {
+                "Adj Close": 9.59,
+                "Close": 9.59,
+                "Company": "TFSC",
+                "Date": "2015-03-06",
+                "High": 9.59,
+                "Low": 9.59,
+                "Open": 9.59,
+                "Volume": 100,
+                "day": 5,
+                "week": 10
+            },
+            {
+                "Adj Close": 9.63,
+                "Close": 9.63,
+                "Company": "TFSC",
+                "Date": "2015-03-05",
+                "High": 9.63,
+                "Low": 9.63,
+                "Open": 9.63,
+                "Volume": 0,
+                "day": 4,
+                "week": 10
+            },
+            {
+                "Adj Close": 9.63,
+                "Close": 9.63,
+                "Company": "TFSC",
+                "Date": "2015-03-04",
+                "High": 9.63,
+                "Low": 9.63,
+                "Open": 9.63,
+                "Volume": 0,
+                "day": 3,
+                "week": 10
+            },
+            {
+                "Adj Close": 9.63,
+                "Close": 9.63,
+                "Company": "TFSC",
+                "Date": "2015-03-03",
+                "High": 9.63,
+                "Low": 9.63,
+                "Open": 9.63,
+                "Volume": 0,
+                "day": 2,
+                "week": 10
+            },
+            {
+                "Adj Close": 9.63,
+                "Close": 9.63,
+                "Company": "TFSC",
+                "Date": "2015-03-02",
+                "High": 9.63,
+                "Low": 9.55,
+                "Open": 9.55,
+                "Volume": 2200,
+                "day": 1,
+                "week": 10
+            }
+        ],
+        "first": 1,
+        "high": 9.63,
+        "last": 5,
+        "low": 9.55,
+        "open": 9.55,
+        "volume": 2300,
+        "week": 10,
+        "year": 2015
+    }
+}
