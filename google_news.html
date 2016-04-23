@@ -25,56 +25,49 @@
 <script>
 
 function submitForm() {
-    $.ajax(
-    {
-        type:'POST', 
-        url: '/php/google_news.php', 
-        data: $('#InfoForm').serialize(), 
-        success: function(response) {
-            $('#InfoForm').find('.form_result').html(response);
 
+    var company = document.getElementsByName("company")[0].value;
+    var stock_date = document.getElementsByName("stock_date")[0].value;
+
+    $.ajax({
+        url: '/data/nasdaq_ticker_map.json',
+        success: function (data) {
+            var nasdaq_data = data;
+            var found = false;
             $.ajax({
-                url: '/data/nasdaq_ticker_map.json',
+                url: '/data/nyse_ticker_map.json',
                 success: function (data) {
-                    var nasdaq_data = data;
-                    var found = false;
-                    $.ajax({
-                        url: '/data/nyse_ticker_map.json',
-                        success: function (data) {
-                            var nyse_data = data;
+                    var nyse_data = data;
 
-                            for (var key in nyse_data) {
-                                if (nyse_data.hasOwnProperty(key)) {
-                                    if(company.toLowerCase() == nyse_data[key].toLowerCase()){
-                                        console.log(key);
-                                        found = true;
-                                    }
-                                }
-                            }
-
-                            if(found == false){
-                                for (var key in nasdaq_data) {
-                                    if (nasdaq_data.hasOwnProperty(key)) {
-                                        console.log(company);
-                                        if(company.toLowerCase() == nasdaq_data[key].toLowerCase()){
-                                            console.log(key);
-                                            found = true;
-                                        }
-                                    }
-                                }
-                            }
-
-                            if(found == false){
-                                alert("Please enter a valid company.")
-                                return false;
-                            }
-                            else {
-                                getData(company, stock_date);
-                                return true;
+                    for (var key in nyse_data) {
+                        if (nyse_data.hasOwnProperty(key)) {
+                            if(company.toLowerCase() == nyse_data[key].toLowerCase()){
+                                console.log(key);
+                                found = true;
                             }
                         }
-                    });
-                    return false;
+                    }
+
+                    if(found == false){
+                        for (var key in nasdaq_data) {
+                            if (nasdaq_data.hasOwnProperty(key)) {
+                                console.log(company);
+                                if(company.toLowerCase() == nasdaq_data[key].toLowerCase()){
+                                    console.log(key);
+                                    found = true;
+                                }
+                            }
+                        }
+                    }
+
+                    if(found == false){
+                        alert("Please enter a valid company.")
+                        return false;
+                    }
+                    else {
+                        getData(company, stock_date);
+                        return true;
+                    }
                 }
             });
             return false;
