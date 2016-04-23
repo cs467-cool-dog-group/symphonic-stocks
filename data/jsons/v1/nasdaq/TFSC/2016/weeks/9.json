@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TFSC",
+        "adj close": 9.92,
+        "close": 9.92,
+        "days": [
+            {
+                "Adj Close": 9.92,
+                "Close": 9.92,
+                "Company": "TFSC",
+                "Date": "2016-03-04",
+                "High": 9.99,
+                "Low": 9.92,
+                "Open": 9.99,
+                "Volume": 300,
+                "day": 5,
+                "week": 9
+            },
+            {
+                "Adj Close": 10.0,
+                "Close": 10.0,
+                "Company": "TFSC",
+                "Date": "2016-03-03",
+                "High": 10.0,
+                "Low": 10.0,
+                "Open": 10.0,
+                "Volume": 0,
+                "day": 4,
+                "week": 9
+            },
+            {
+                "Adj Close": 10.0,
+                "Close": 10.0,
+                "Company": "TFSC",
+                "Date": "2016-03-02",
+                "High": 10.0,
+                "Low": 10.0,
+                "Open": 10.0,
+                "Volume": 0,
+                "day": 3,
+                "week": 9
+            },
+            {
+                "Adj Close": 10.0,
+                "Close": 10.0,
+                "Company": "TFSC",
+                "Date": "2016-03-01",
+                "High": 10.0,
+                "Low": 10.0,
+                "Open": 10.0,
+                "Volume": 0,
+                "day": 2,
+                "week": 9
+            },
+            {
+                "Adj Close": 10.0,
+                "Close": 10.0,
+                "Company": "TFSC",
+                "Date": "2016-02-29",
+                "High": 10.0,
+                "Low": 10.0,
+                "Open": 10.0,
+                "Volume": 0,
+                "day": 1,
+                "week": 9
+            }
+        ],
+        "first": 1,
+        "high": 10.0,
+        "last": 5,
+        "low": 9.92,
+        "open": 10.0,
+        "volume": 300,
+        "week": 9,
+        "year": 2016
+    }
+}

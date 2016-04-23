@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TFSC",
+        "adj close": 9.48,
+        "close": 9.48,
+        "days": [
+            {
+                "Adj Close": 9.48,
+                "Close": 9.48,
+                "Company": "TFSC",
+                "Date": "2014-08-29",
+                "High": 9.55,
+                "Low": 9.47,
+                "Open": 9.47,
+                "Volume": 27800,
+                "day": 5,
+                "week": 35
+            },
+            {
+                "Adj Close": 9.47,
+                "Close": 9.47,
+                "Company": "TFSC",
+                "Date": "2014-08-28",
+                "High": 9.51,
+                "Low": 9.44,
+                "Open": 9.45,
+                "Volume": 45200,
+                "day": 4,
+                "week": 35
+            },
+            {
+                "Adj Close": 9.46,
+                "Close": 9.46,
+                "Company": "TFSC",
+                "Date": "2014-08-27",
+                "High": 9.52,
+                "Low": 9.45,
+                "Open": 9.45,
+                "Volume": 98400,
+                "day": 3,
+                "week": 35
+            },
+            {
+                "Adj Close": 9.51,
+                "Close": 9.51,
+                "Company": "TFSC",
+                "Date": "2014-08-26",
+                "High": 9.51,
+                "Low": 9.45,
+                "Open": 9.45,
+                "Volume": 42100,
+                "day": 2,
+                "week": 35
+            },
+            {
+                "Adj Close": 9.5,
+                "Close": 9.5,
+                "Company": "TFSC",
+                "Date": "2014-08-25",
+                "High": 9.52,
+                "Low": 9.46,
+                "Open": 9.52,
+                "Volume": 23800,
+                "day": 1,
+                "week": 35
+            }
+        ],
+        "first": 1,
+        "high": 9.55,
+        "last": 5,
+        "low": 9.44,
+        "open": 9.52,
+        "volume": 237300,
+        "week": 35,
+        "year": 2014
+    }
+}

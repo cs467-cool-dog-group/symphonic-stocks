@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TFSCU",
+        "adj close": 10.25,
+        "close": 10.25,
+        "days": [
+            {
+                "Adj Close": 10.25,
+                "Close": 10.25,
+                "Company": "TFSCU",
+                "Date": "2016-04-01",
+                "High": 10.25,
+                "Low": 10.25,
+                "Open": 10.25,
+                "Volume": 0,
+                "day": 5,
+                "week": 13
+            },
+            {
+                "Adj Close": 10.25,
+                "Close": 10.25,
+                "Company": "TFSCU",
+                "Date": "2016-03-31",
+                "High": 10.25,
+                "Low": 10.25,
+                "Open": 10.25,
+                "Volume": 0,
+                "day": 4,
+                "week": 13
+            },
+            {
+                "Adj Close": 10.25,
+                "Close": 10.25,
+                "Company": "TFSCU",
+                "Date": "2016-03-30",
+                "High": 10.25,
+                "Low": 10.25,
+                "Open": 10.25,
+                "Volume": 0,
+                "day": 3,
+                "week": 13
+            },
+            {
+                "Adj Close": 10.25,
+                "Close": 10.25,
+                "Company": "TFSCU",
+                "Date": "2016-03-29",
+                "High": 10.25,
+                "Low": 9.81,
+                "Open": 9.81,
+                "Volume": 3700,
+                "day": 2,
+                "week": 13
+            },
+            {
+                "Adj Close": 10.25,
+                "Close": 10.25,
+                "Company": "TFSCU",
+                "Date": "2016-03-28",
+                "High": 10.25,
+                "Low": 10.25,
+                "Open": 10.25,
+                "Volume": 0,
+                "day": 1,
+                "week": 13
+            }
+        ],
+        "first": 1,
+        "high": 10.25,
+        "last": 5,
+        "low": 9.81,
+        "open": 10.25,
+        "volume": 3700,
+        "week": 13,
+        "year": 2016
+    }
+}
