@@ -28,6 +28,13 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
     };
 
     $scope.determineSong = function() {
+        $scope.instrument.emptyCache();
+        $scope.prices = [];
+        $scope.notes = [];
+        for (var j = 0; j < $scope.filteredData.length; j++) {
+            $scope.prices.push($scope.filteredData[j].High);
+        }
+        console.log($scope.prices.length);
         var maxHigh = Math.max.apply(null, $scope.prices);
         var minHigh = Math.min.apply(null, $scope.prices);
         var average = (maxHigh + minHigh) / 2;
@@ -49,17 +56,9 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
         $scope.instrument.preload($scope.notes);
     };
 
+    $scope.$watch('filteredData', $scope.determineSong);
+
     $scope.initialize = function() {
         $scope.instrument.setInstrument(1); // piano for now
-        $scope.instrument.emptyCache();
-        // TODO: GET DATA HERE FROM PARENT
-        /*Index.getSample().then(function(result) {
-            $scope.prices = result.data.map(function(x) {
-                return +x;
-            });
-            $scope.determineSong();
-        }, function(err) {
-            console.log(err);
-        });*/
     };
 }]);
