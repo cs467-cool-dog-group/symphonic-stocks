@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "LPLA",
+        "adj close": 20.146798,
+        "close": 20.389999,
+        "days": [
+            {
+                "Adj Close": 20.146798,
+                "Close": 20.389999,
+                "Company": "LPLA",
+                "Date": "2016-02-26",
+                "High": 20.620001,
+                "Low": 19.83,
+                "Open": 19.83,
+                "Volume": 1283700,
+                "day": 5,
+                "week": 8
+            },
+            {
+                "Adj Close": 19.61324,
+                "Close": 19.85,
+                "Company": "LPLA",
+                "Date": "2016-02-25",
+                "High": 20.450001,
+                "Low": 18.709999,
+                "Open": 19.360001,
+                "Volume": 1739000,
+                "day": 4,
+                "week": 8
+            },
+            {
+                "Adj Close": 19.119204,
+                "Close": 19.35,
+                "Company": "LPLA",
+                "Date": "2016-02-24",
+                "High": 19.440001,
+                "Low": 17.9,
+                "Open": 19.0,
+                "Volume": 1590200,
+                "day": 3,
+                "week": 8
+            },
+            {
+                "Adj Close": 19.089561,
+                "Close": 19.32,
+                "Company": "LPLA",
+                "Date": "2016-02-23",
+                "High": 20.16,
+                "Low": 19.1,
+                "Open": 19.92,
+                "Volume": 948100,
+                "day": 2,
+                "week": 8
+            },
+            {
+                "Adj Close": 19.682405,
+                "Close": 19.92,
+                "Company": "LPLA",
+                "Date": "2016-02-22",
+                "High": 20.870001,
+                "Low": 19.610001,
+                "Open": 20.299999,
+                "Volume": 1348500,
+                "day": 1,
+                "week": 8
+            }
+        ],
+        "first": 1,
+        "high": 20.870001,
+        "last": 5,
+        "low": 17.9,
+        "open": 20.299999,
+        "volume": 6909500,
+        "week": 8,
+        "year": 2016
+    }
+}

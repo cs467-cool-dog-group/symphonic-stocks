@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "LPLA",
+        "adj close": 45.123115,
+        "close": 46.48,
+        "days": [
+            {
+                "Adj Close": 45.123115,
+                "Close": 46.48,
+                "Company": "LPLA",
+                "Date": "2015-03-20",
+                "High": 46.490002,
+                "Low": 45.209999,
+                "Open": 45.400002,
+                "Volume": 993700,
+                "day": 5,
+                "week": 12
+            },
+            {
+                "Adj Close": 43.958146,
+                "Close": 45.279999,
+                "Company": "LPLA",
+                "Date": "2015-03-19",
+                "High": 45.34,
+                "Low": 44.459999,
+                "Open": 45.0,
+                "Volume": 639300,
+                "day": 4,
+                "week": 12
+            },
+            {
+                "Adj Close": 43.967856,
+                "Close": 45.290001,
+                "Company": "LPLA",
+                "Date": "2015-03-18",
+                "High": 46.060001,
+                "Low": 45.16,
+                "Open": 45.73,
+                "Volume": 581900,
+                "day": 3,
+                "week": 12
+            },
+            {
+                "Adj Close": 44.618295,
+                "Close": 45.959999,
+                "Company": "LPLA",
+                "Date": "2015-03-17",
+                "High": 46.18,
+                "Low": 45.759998,
+                "Open": 45.759998,
+                "Volume": 676200,
+                "day": 2,
+                "week": 12
+            },
+            {
+                "Adj Close": 44.666835,
+                "Close": 46.009998,
+                "Company": "LPLA",
+                "Date": "2015-03-16",
+                "High": 46.139999,
+                "Low": 45.68,
+                "Open": 45.799999,
+                "Volume": 480600,
+                "day": 1,
+                "week": 12
+            }
+        ],
+        "first": 1,
+        "high": 46.490002,
+        "last": 5,
+        "low": 44.459999,
+        "open": 45.799999,
+        "volume": 3371700,
+        "week": 12,
+        "year": 2015
+    }
+}

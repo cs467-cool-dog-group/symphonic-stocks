@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "LPLA",
+        "adj close": 28.831445,
+        "close": 33.209999,
+        "days": [
+            {
+                "Adj Close": 28.831445,
+                "Close": 33.209999,
+                "Company": "LPLA",
+                "Date": "2011-07-22",
+                "High": 33.700001,
+                "Low": 32.709999,
+                "Open": 33.220001,
+                "Volume": 505900,
+                "day": 5,
+                "week": 29
+            },
+            {
+                "Adj Close": 28.74463,
+                "Close": 33.110001,
+                "Company": "LPLA",
+                "Date": "2011-07-21",
+                "High": 33.459999,
+                "Low": 32.66,
+                "Open": 33.09,
+                "Volume": 350400,
+                "day": 4,
+                "week": 29
+            },
+            {
+                "Adj Close": 28.69254,
+                "Close": 33.049999,
+                "Company": "LPLA",
+                "Date": "2011-07-20",
+                "High": 33.459999,
+                "Low": 32.889999,
+                "Open": 33.459999,
+                "Volume": 215600,
+                "day": 3,
+                "week": 29
+            },
+            {
+                "Adj Close": 29.039803,
+                "Close": 33.450001,
+                "Company": "LPLA",
+                "Date": "2011-07-19",
+                "High": 33.689999,
+                "Low": 32.59,
+                "Open": 33.16,
+                "Volume": 133200,
+                "day": 2,
+                "week": 29
+            },
+            {
+                "Adj Close": 28.69254,
+                "Close": 33.049999,
+                "Company": "LPLA",
+                "Date": "2011-07-18",
+                "High": 33.150002,
+                "Low": 32.790001,
+                "Open": 33.0,
+                "Volume": 108200,
+                "day": 1,
+                "week": 29
+            }
+        ],
+        "first": 1,
+        "high": 33.700001,
+        "last": 5,
+        "low": 32.59,
+        "open": 33.0,
+        "volume": 1313300,
+        "week": 29,
+        "year": 2011
+    }
+}

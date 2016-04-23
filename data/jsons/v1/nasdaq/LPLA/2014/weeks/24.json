@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "LPLA",
+        "adj close": 46.693577,
+        "close": 48.889999,
+        "days": [
+            {
+                "Adj Close": 46.693577,
+                "Close": 48.889999,
+                "Company": "LPLA",
+                "Date": "2014-06-13",
+                "High": 49.009998,
+                "Low": 48.509998,
+                "Open": 48.720001,
+                "Volume": 368800,
+                "day": 5,
+                "week": 24
+            },
+            {
+                "Adj Close": 46.273345,
+                "Close": 48.450001,
+                "Company": "LPLA",
+                "Date": "2014-06-12",
+                "High": 48.77,
+                "Low": 48.169998,
+                "Open": 48.299999,
+                "Volume": 479200,
+                "day": 4,
+                "week": 24
+            },
+            {
+                "Adj Close": 46.235141,
+                "Close": 48.41,
+                "Company": "LPLA",
+                "Date": "2014-06-11",
+                "High": 48.759998,
+                "Low": 47.939999,
+                "Open": 48.439999,
+                "Volume": 424200,
+                "day": 3,
+                "week": 24
+            },
+            {
+                "Adj Close": 46.493012,
+                "Close": 48.68,
+                "Company": "LPLA",
+                "Date": "2014-06-10",
+                "High": 50.029999,
+                "Low": 48.34,
+                "Open": 50.029999,
+                "Volume": 1437700,
+                "day": 2,
+                "week": 24
+            },
+            {
+                "Adj Close": 47.992478,
+                "Close": 50.25,
+                "Company": "LPLA",
+                "Date": "2014-06-09",
+                "High": 50.259998,
+                "Low": 49.419998,
+                "Open": 49.52,
+                "Volume": 567900,
+                "day": 1,
+                "week": 24
+            }
+        ],
+        "first": 1,
+        "high": 50.259998,
+        "last": 5,
+        "low": 47.939999,
+        "open": 49.52,
+        "volume": 3277800,
+        "week": 24,
+        "year": 2014
+    }
+}

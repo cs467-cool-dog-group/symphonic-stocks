@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "LPLA",
+        "adj close": 28.089272,
+        "close": 30.48,
+        "days": [
+            {
+                "Adj Close": 28.089272,
+                "Close": 30.48,
+                "Company": "LPLA",
+                "Date": "2012-05-18",
+                "High": 30.790001,
+                "Low": 30.43,
+                "Open": 30.58,
+                "Volume": 618000,
+                "day": 5,
+                "week": 20
+            },
+            {
+                "Adj Close": 28.098487,
+                "Close": 30.49,
+                "Company": "LPLA",
+                "Date": "2012-05-17",
+                "High": 31.620001,
+                "Low": 30.450001,
+                "Open": 31.190001,
+                "Volume": 637600,
+                "day": 4,
+                "week": 20
+            },
+            {
+                "Adj Close": 28.817308,
+                "Close": 31.27,
+                "Company": "LPLA",
+                "Date": "2012-05-16",
+                "High": 31.99,
+                "Low": 31.219999,
+                "Open": 31.690001,
+                "Volume": 399500,
+                "day": 3,
+                "week": 20
+            },
+            {
+                "Adj Close": 29.185933,
+                "Close": 31.67,
+                "Company": "LPLA",
+                "Date": "2012-05-15",
+                "High": 32.25,
+                "Low": 31.02,
+                "Open": 31.870001,
+                "Volume": 297600,
+                "day": 2,
+                "week": 20
+            },
+            {
+                "Adj Close": 29.305736,
+                "Close": 31.799999,
+                "Company": "LPLA",
+                "Date": "2012-05-14",
+                "High": 32.119999,
+                "Low": 31.58,
+                "Open": 32.119999,
+                "Volume": 408200,
+                "day": 1,
+                "week": 20
+            }
+        ],
+        "first": 1,
+        "high": 32.25,
+        "last": 5,
+        "low": 30.43,
+        "open": 32.119999,
+        "volume": 2360900,
+        "week": 20,
+        "year": 2012
+    }
+}

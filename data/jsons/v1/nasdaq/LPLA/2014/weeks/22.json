@@ -1,0 +1,65 @@
+{
+    "week": {
+        "Company": "LPLA",
+        "adj close": 44.792981,
+        "close": 46.900002,
+        "days": [
+            {
+                "Adj Close": 44.792981,
+                "Close": 46.900002,
+                "Company": "LPLA",
+                "Date": "2014-05-30",
+                "High": 47.5,
+                "Low": 46.779999,
+                "Open": 47.099998,
+                "Volume": 585500,
+                "day": 5,
+                "week": 22
+            },
+            {
+                "Adj Close": 45.232314,
+                "Close": 47.360001,
+                "Company": "LPLA",
+                "Date": "2014-05-29",
+                "High": 47.880001,
+                "Low": 46.970001,
+                "Open": 47.880001,
+                "Volume": 515100,
+                "day": 4,
+                "week": 22
+            },
+            {
+                "Adj Close": 45.46153,
+                "Close": 47.599998,
+                "Company": "LPLA",
+                "Date": "2014-05-28",
+                "High": 48.5,
+                "Low": 47.580002,
+                "Open": 48.130001,
+                "Volume": 807400,
+                "day": 3,
+                "week": 22
+            },
+            {
+                "Adj Close": 46.130083,
+                "Close": 48.299999,
+                "Company": "LPLA",
+                "Date": "2014-05-27",
+                "High": 48.48,
+                "Low": 47.84,
+                "Open": 47.900002,
+                "Volume": 439100,
+                "day": 2,
+                "week": 22
+            }
+        ],
+        "first": 2,
+        "high": 48.5,
+        "last": 5,
+        "low": 46.779999,
+        "open": 47.900002,
+        "volume": 2347100,
+        "week": 22,
+        "year": 2014
+    }
+}

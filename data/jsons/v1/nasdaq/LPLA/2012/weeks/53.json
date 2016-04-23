@@ -1,0 +1,29 @@
+{
+    "week": {
+        "Company": "LPLA",
+        "adj close": 26.171552,
+        "close": 28.16,
+        "days": [
+            {
+                "Adj Close": 26.171552,
+                "Close": 28.16,
+                "Company": "LPLA",
+                "Date": "2012-12-31",
+                "High": 28.469999,
+                "Low": 27.98,
+                "Open": 28.1,
+                "Volume": 370600,
+                "day": 1,
+                "week": 53
+            }
+        ],
+        "first": 1,
+        "high": 28.469999,
+        "last": 1,
+        "low": 27.98,
+        "open": 28.1,
+        "volume": 370600,
+        "week": 53,
+        "year": 2012
+    }
+}
