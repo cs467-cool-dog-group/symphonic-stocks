@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TFSC",
+        "adj close": 9.6,
+        "close": 9.6,
+        "days": [
+            {
+                "Adj Close": 9.6,
+                "Close": 9.6,
+                "Company": "TFSC",
+                "Date": "2015-07-10",
+                "High": 9.6,
+                "Low": 9.6,
+                "Open": 9.6,
+                "Volume": 0,
+                "day": 5,
+                "week": 28
+            },
+            {
+                "Adj Close": 9.6,
+                "Close": 9.6,
+                "Company": "TFSC",
+                "Date": "2015-07-09",
+                "High": 9.6,
+                "Low": 9.6,
+                "Open": 9.6,
+                "Volume": 0,
+                "day": 4,
+                "week": 28
+            },
+            {
+                "Adj Close": 9.6,
+                "Close": 9.6,
+                "Company": "TFSC",
+                "Date": "2015-07-08",
+                "High": 9.6,
+                "Low": 9.6,
+                "Open": 9.6,
+                "Volume": 0,
+                "day": 3,
+                "week": 28
+            },
+            {
+                "Adj Close": 9.6,
+                "Close": 9.6,
+                "Company": "TFSC",
+                "Date": "2015-07-07",
+                "High": 9.6,
+                "Low": 9.6,
+                "Open": 9.6,
+                "Volume": 500,
+                "day": 2,
+                "week": 28
+            },
+            {
+                "Adj Close": 9.75,
+                "Close": 9.75,
+                "Company": "TFSC",
+                "Date": "2015-07-06",
+                "High": 9.75,
+                "Low": 9.75,
+                "Open": 9.75,
+                "Volume": 0,
+                "day": 1,
+                "week": 28
+            }
+        ],
+        "first": 1,
+        "high": 9.75,
+        "last": 5,
+        "low": 9.6,
+        "open": 9.75,
+        "volume": 500,
+        "week": 28,
+        "year": 2015
+    }
+}

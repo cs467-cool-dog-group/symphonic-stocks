@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TFSC",
+        "adj close": 9.5,
+        "close": 9.5,
+        "days": [
+            {
+                "Adj Close": 9.5,
+                "Close": 9.5,
+                "Company": "TFSC",
+                "Date": "2015-01-16",
+                "High": 9.5,
+                "Low": 9.5,
+                "Open": 9.5,
+                "Volume": 0,
+                "day": 5,
+                "week": 3
+            },
+            {
+                "Adj Close": 9.5,
+                "Close": 9.5,
+                "Company": "TFSC",
+                "Date": "2015-01-15",
+                "High": 9.5,
+                "Low": 9.5,
+                "Open": 9.5,
+                "Volume": 0,
+                "day": 4,
+                "week": 3
+            },
+            {
+                "Adj Close": 9.5,
+                "Close": 9.5,
+                "Company": "TFSC",
+                "Date": "2015-01-14",
+                "High": 9.5,
+                "Low": 9.5,
+                "Open": 9.5,
+                "Volume": 0,
+                "day": 3,
+                "week": 3
+            },
+            {
+                "Adj Close": 9.5,
+                "Close": 9.5,
+                "Company": "TFSC",
+                "Date": "2015-01-13",
+                "High": 9.5,
+                "Low": 9.5,
+                "Open": 9.5,
+                "Volume": 5000,
+                "day": 2,
+                "week": 3
+            },
+            {
+                "Adj Close": 9.4,
+                "Close": 9.4,
+                "Company": "TFSC",
+                "Date": "2015-01-12",
+                "High": 9.4,
+                "Low": 9.4,
+                "Open": 9.4,
+                "Volume": 0,
+                "day": 1,
+                "week": 3
+            }
+        ],
+        "first": 0,
+        "high": 9.5,
+        "last": 5,
+        "low": 9.4,
+        "open": 0,
+        "volume": 5000,
+        "week": 3,
+        "year": 2015
+    }
+}

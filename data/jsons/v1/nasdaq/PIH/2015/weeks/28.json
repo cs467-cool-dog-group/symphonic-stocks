@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "PIH",
+        "adj close": 7.92,
+        "close": 7.92,
+        "days": [
+            {
+                "Adj Close": 7.92,
+                "Close": 7.92,
+                "Company": "PIH",
+                "Date": "2015-07-10",
+                "High": 7.97,
+                "Low": 7.75,
+                "Open": 7.78,
+                "Volume": 6600,
+                "day": 5,
+                "week": 28
+            },
+            {
+                "Adj Close": 7.79,
+                "Close": 7.79,
+                "Company": "PIH",
+                "Date": "2015-07-09",
+                "High": 7.833,
+                "Low": 7.65,
+                "Open": 7.816,
+                "Volume": 46900,
+                "day": 4,
+                "week": 28
+            },
+            {
+                "Adj Close": 7.805,
+                "Close": 7.805,
+                "Company": "PIH",
+                "Date": "2015-07-08",
+                "High": 7.97,
+                "Low": 7.62,
+                "Open": 7.78,
+                "Volume": 15600,
+                "day": 3,
+                "week": 28
+            },
+            {
+                "Adj Close": 7.84,
+                "Close": 7.84,
+                "Company": "PIH",
+                "Date": "2015-07-07",
+                "High": 8.014,
+                "Low": 7.72,
+                "Open": 7.97,
+                "Volume": 30100,
+                "day": 2,
+                "week": 28
+            },
+            {
+                "Adj Close": 8.02,
+                "Close": 8.02,
+                "Company": "PIH",
+                "Date": "2015-07-06",
+                "High": 8.13,
+                "Low": 8.02,
+                "Open": 8.13,
+                "Volume": 5400,
+                "day": 1,
+                "week": 28
+            }
+        ],
+        "first": 1,
+        "high": 8.13,
+        "last": 5,
+        "low": 7.62,
+        "open": 8.13,
+        "volume": 104600,
+        "week": 28,
+        "year": 2015
+    }
+}

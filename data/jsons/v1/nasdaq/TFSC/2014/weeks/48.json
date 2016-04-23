@@ -1,0 +1,65 @@
+{
+    "week": {
+        "Company": "TFSC",
+        "adj close": 9.56,
+        "close": 9.56,
+        "days": [
+            {
+                "Adj Close": 9.56,
+                "Close": 9.56,
+                "Company": "TFSC",
+                "Date": "2014-11-28",
+                "High": 9.56,
+                "Low": 9.56,
+                "Open": 9.56,
+                "Volume": 0,
+                "day": 5,
+                "week": 48
+            },
+            {
+                "Adj Close": 9.56,
+                "Close": 9.56,
+                "Company": "TFSC",
+                "Date": "2014-11-26",
+                "High": 9.56,
+                "Low": 9.56,
+                "Open": 9.56,
+                "Volume": 0,
+                "day": 3,
+                "week": 48
+            },
+            {
+                "Adj Close": 9.56,
+                "Close": 9.56,
+                "Company": "TFSC",
+                "Date": "2014-11-25",
+                "High": 9.56,
+                "Low": 9.56,
+                "Open": 9.56,
+                "Volume": 0,
+                "day": 2,
+                "week": 48
+            },
+            {
+                "Adj Close": 9.56,
+                "Close": 9.56,
+                "Company": "TFSC",
+                "Date": "2014-11-24",
+                "High": 9.56,
+                "Low": 9.56,
+                "Open": 9.56,
+                "Volume": 0,
+                "day": 1,
+                "week": 48
+            }
+        ],
+        "first": 1,
+        "high": 9.56,
+        "last": 5,
+        "low": 9.56,
+        "open": 9.56,
+        "volume": 0,
+        "week": 48,
+        "year": 2014
+    }
+}

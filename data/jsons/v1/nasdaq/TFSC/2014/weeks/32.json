@@ -1,0 +1,29 @@
+{
+    "week": {
+        "Company": "TFSC",
+        "adj close": 9.45,
+        "close": 9.45,
+        "days": [
+            {
+                "Adj Close": 9.45,
+                "Close": 9.45,
+                "Company": "TFSC",
+                "Date": "2014-08-08",
+                "High": 9.45,
+                "Low": 9.45,
+                "Open": 9.45,
+                "Volume": 3000,
+                "day": 5,
+                "week": 32
+            }
+        ],
+        "first": 5,
+        "high": 9.45,
+        "last": 5,
+        "low": 9.45,
+        "open": 9.45,
+        "volume": 3000,
+        "week": 32,
+        "year": 2014
+    }
+}
