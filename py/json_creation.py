@@ -3,7 +3,7 @@ import json
 import datetime
 import os
 # start with nasdaq
-exchanges = ["nasdaq", "nyse"]
+exchanges = ["sample", "nasdaq", "nyse"]
 with open("successes.json") as success_file:
     finished_data = json.load(success_file)["successes"]
 for exchange in exchanges:
