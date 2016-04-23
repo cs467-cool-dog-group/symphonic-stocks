@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TCBI",
+        "adj close": 47.77,
+        "close": 47.77,
+        "days": [
+            {
+                "Adj Close": 47.77,
+                "Close": 47.77,
+                "Company": "TCBI",
+                "Date": "2015-12-18",
+                "High": 48.25,
+                "Low": 46.25,
+                "Open": 47.560001,
+                "Volume": 2654700,
+                "day": 5,
+                "week": 51
+            },
+            {
+                "Adj Close": 48.080002,
+                "Close": 48.080002,
+                "Company": "TCBI",
+                "Date": "2015-12-17",
+                "High": 50.299999,
+                "Low": 48.0,
+                "Open": 50.299999,
+                "Volume": 549600,
+                "day": 4,
+                "week": 51
+            },
+            {
+                "Adj Close": 50.259998,
+                "Close": 50.259998,
+                "Company": "TCBI",
+                "Date": "2015-12-16",
+                "High": 50.91,
+                "Low": 49.07,
+                "Open": 50.91,
+                "Volume": 585400,
+                "day": 3,
+                "week": 51
+            },
+            {
+                "Adj Close": 50.25,
+                "Close": 50.25,
+                "Company": "TCBI",
+                "Date": "2015-12-15",
+                "High": 51.009998,
+                "Low": 49.57,
+                "Open": 49.610001,
+                "Volume": 669700,
+                "day": 2,
+                "week": 51
+            },
+            {
+                "Adj Close": 48.880001,
+                "Close": 48.880001,
+                "Company": "TCBI",
+                "Date": "2015-12-14",
+                "High": 49.91,
+                "Low": 48.259998,
+                "Open": 49.290001,
+                "Volume": 934200,
+                "day": 1,
+                "week": 51
+            }
+        ],
+        "first": 1,
+        "high": 51.009998,
+        "last": 5,
+        "low": 46.25,
+        "open": 49.290001,
+        "volume": 5393600,
+        "week": 51,
+        "year": 2015
+    }
+}

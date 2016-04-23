@@ -1,0 +1,65 @@
+{
+    "week": {
+        "Company": "TCBI",
+        "adj close": 33.459999,
+        "close": 33.459999,
+        "days": [
+            {
+                "Adj Close": 33.459999,
+                "Close": 33.459999,
+                "Company": "TCBI",
+                "Date": "2016-01-22",
+                "High": 34.790001,
+                "Low": 33.419998,
+                "Open": 34.380001,
+                "Volume": 1297500,
+                "day": 5,
+                "week": 3
+            },
+            {
+                "Adj Close": 33.700001,
+                "Close": 33.700001,
+                "Company": "TCBI",
+                "Date": "2016-01-21",
+                "High": 36.439999,
+                "Low": 32.5,
+                "Open": 32.740002,
+                "Volume": 3439200,
+                "day": 4,
+                "week": 3
+            },
+            {
+                "Adj Close": 37.580002,
+                "Close": 37.580002,
+                "Company": "TCBI",
+                "Date": "2016-01-20",
+                "High": 38.18,
+                "Low": 36.07,
+                "Open": 37.939999,
+                "Volume": 1235200,
+                "day": 3,
+                "week": 3
+            },
+            {
+                "Adj Close": 38.669998,
+                "Close": 38.669998,
+                "Company": "TCBI",
+                "Date": "2016-01-19",
+                "High": 40.709999,
+                "Low": 38.220001,
+                "Open": 40.240002,
+                "Volume": 998100,
+                "day": 2,
+                "week": 3
+            }
+        ],
+        "first": 0,
+        "high": 40.709999,
+        "last": 5,
+        "low": 32.5,
+        "open": 0,
+        "volume": 6970000,
+        "week": 3,
+        "year": 2016
+    }
+}

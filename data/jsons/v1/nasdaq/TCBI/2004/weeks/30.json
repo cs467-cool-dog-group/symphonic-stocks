@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TCBI",
+        "adj close": 16.790001,
+        "close": 16.790001,
+        "days": [
+            {
+                "Adj Close": 16.790001,
+                "Close": 16.790001,
+                "Company": "TCBI",
+                "Date": "2004-07-23",
+                "High": 16.959999,
+                "Low": 16.57,
+                "Open": 16.719999,
+                "Volume": 34700,
+                "day": 5,
+                "week": 30
+            },
+            {
+                "Adj Close": 16.870001,
+                "Close": 16.870001,
+                "Company": "TCBI",
+                "Date": "2004-07-22",
+                "High": 17.08,
+                "Low": 16.18,
+                "Open": 16.309999,
+                "Volume": 47200,
+                "day": 4,
+                "week": 30
+            },
+            {
+                "Adj Close": 16.07,
+                "Close": 16.07,
+                "Company": "TCBI",
+                "Date": "2004-07-21",
+                "High": 17.389999,
+                "Low": 16.059999,
+                "Open": 16.809999,
+                "Volume": 46800,
+                "day": 3,
+                "week": 30
+            },
+            {
+                "Adj Close": 17.059999,
+                "Close": 17.059999,
+                "Company": "TCBI",
+                "Date": "2004-07-20",
+                "High": 17.059999,
+                "Low": 16.370001,
+                "Open": 16.790001,
+                "Volume": 33600,
+                "day": 2,
+                "week": 30
+            },
+            {
+                "Adj Close": 16.49,
+                "Close": 16.49,
+                "Company": "TCBI",
+                "Date": "2004-07-19",
+                "High": 16.83,
+                "Low": 16.33,
+                "Open": 16.83,
+                "Volume": 42700,
+                "day": 1,
+                "week": 30
+            }
+        ],
+        "first": 1,
+        "high": 17.389999,
+        "last": 5,
+        "low": 16.059999,
+        "open": 16.83,
+        "volume": 205000,
+        "week": 30,
+        "year": 2004
+    }
+}

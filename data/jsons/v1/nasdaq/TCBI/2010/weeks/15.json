@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TCBI",
+        "adj close": 19.959999,
+        "close": 19.959999,
+        "days": [
+            {
+                "Adj Close": 19.959999,
+                "Close": 19.959999,
+                "Company": "TCBI",
+                "Date": "2010-04-16",
+                "High": 20.299999,
+                "Low": 19.5,
+                "Open": 20.07,
+                "Volume": 192000,
+                "day": 5,
+                "week": 15
+            },
+            {
+                "Adj Close": 20.07,
+                "Close": 20.07,
+                "Company": "TCBI",
+                "Date": "2010-04-15",
+                "High": 20.52,
+                "Low": 19.9,
+                "Open": 20.389999,
+                "Volume": 488600,
+                "day": 4,
+                "week": 15
+            },
+            {
+                "Adj Close": 20.469999,
+                "Close": 20.469999,
+                "Company": "TCBI",
+                "Date": "2010-04-14",
+                "High": 20.530001,
+                "Low": 19.85,
+                "Open": 19.93,
+                "Volume": 165100,
+                "day": 3,
+                "week": 15
+            },
+            {
+                "Adj Close": 19.809999,
+                "Close": 19.809999,
+                "Company": "TCBI",
+                "Date": "2010-04-13",
+                "High": 20.049999,
+                "Low": 19.77,
+                "Open": 20.01,
+                "Volume": 224300,
+                "day": 2,
+                "week": 15
+            },
+            {
+                "Adj Close": 20.110001,
+                "Close": 20.110001,
+                "Company": "TCBI",
+                "Date": "2010-04-12",
+                "High": 20.23,
+                "Low": 19.5,
+                "Open": 19.59,
+                "Volume": 221800,
+                "day": 1,
+                "week": 15
+            }
+        ],
+        "first": 1,
+        "high": 20.530001,
+        "last": 5,
+        "low": 19.5,
+        "open": 19.59,
+        "volume": 1291800,
+        "week": 15,
+        "year": 2010
+    }
+}

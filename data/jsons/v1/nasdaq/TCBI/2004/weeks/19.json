@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TCBI",
+        "adj close": 14.92,
+        "close": 14.92,
+        "days": [
+            {
+                "Adj Close": 14.92,
+                "Close": 14.92,
+                "Company": "TCBI",
+                "Date": "2004-05-07",
+                "High": 15.29,
+                "Low": 14.85,
+                "Open": 14.85,
+                "Volume": 28000,
+                "day": 5,
+                "week": 19
+            },
+            {
+                "Adj Close": 15.05,
+                "Close": 15.05,
+                "Company": "TCBI",
+                "Date": "2004-05-06",
+                "High": 15.05,
+                "Low": 14.9,
+                "Open": 14.9,
+                "Volume": 28100,
+                "day": 4,
+                "week": 19
+            },
+            {
+                "Adj Close": 14.97,
+                "Close": 14.97,
+                "Company": "TCBI",
+                "Date": "2004-05-05",
+                "High": 15.0,
+                "Low": 14.81,
+                "Open": 14.86,
+                "Volume": 32600,
+                "day": 3,
+                "week": 19
+            },
+            {
+                "Adj Close": 14.85,
+                "Close": 14.85,
+                "Company": "TCBI",
+                "Date": "2004-05-04",
+                "High": 15.15,
+                "Low": 14.85,
+                "Open": 15.15,
+                "Volume": 57500,
+                "day": 2,
+                "week": 19
+            },
+            {
+                "Adj Close": 15.0,
+                "Close": 15.0,
+                "Company": "TCBI",
+                "Date": "2004-05-03",
+                "High": 15.24,
+                "Low": 14.9,
+                "Open": 15.0,
+                "Volume": 272500,
+                "day": 1,
+                "week": 19
+            }
+        ],
+        "first": 1,
+        "high": 15.29,
+        "last": 5,
+        "low": 14.81,
+        "open": 15.0,
+        "volume": 418700,
+        "week": 19,
+        "year": 2004
+    }
+}

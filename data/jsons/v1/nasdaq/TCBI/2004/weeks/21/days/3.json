@@ -1,0 +1,14 @@
+{
+    "day": {
+        "Adj Close": 14.99,
+        "Close": 14.99,
+        "Company": "TCBI",
+        "Date": "2004-05-19",
+        "High": 15.05,
+        "Low": 14.91,
+        "Open": 15.05,
+        "Volume": 25500,
+        "day": 3,
+        "week": 21
+    }
+}

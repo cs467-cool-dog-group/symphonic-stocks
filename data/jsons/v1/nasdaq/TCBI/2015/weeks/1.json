@@ -1,0 +1,29 @@
+{
+    "week": {
+        "Company": "TCBI",
+        "adj close": 53.34,
+        "close": 53.34,
+        "days": [
+            {
+                "Adj Close": 53.34,
+                "Close": 53.34,
+                "Company": "TCBI",
+                "Date": "2015-01-02",
+                "High": 54.810001,
+                "Low": 52.720001,
+                "Open": 54.799999,
+                "Volume": 451600,
+                "day": 5,
+                "week": 1
+            }
+        ],
+        "first": 0,
+        "high": 54.810001,
+        "last": 5,
+        "low": 52.720001,
+        "open": 0,
+        "volume": 451600,
+        "week": 1,
+        "year": 2015
+    }
+}

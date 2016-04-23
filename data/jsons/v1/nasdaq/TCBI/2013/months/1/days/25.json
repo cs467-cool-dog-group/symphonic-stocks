@@ -1,0 +1,14 @@
+{
+    "day": {
+        "Adj Close": 42.32,
+        "Close": 42.32,
+        "Company": "TCBI",
+        "Date": "2013-01-25",
+        "High": 42.5,
+        "Low": 41.25,
+        "Open": 41.849998,
+        "Volume": 960800,
+        "day": 25,
+        "month": 1
+    }
+}

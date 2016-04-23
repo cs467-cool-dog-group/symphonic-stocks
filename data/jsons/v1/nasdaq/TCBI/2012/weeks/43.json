@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TCBI",
+        "adj close": 46.849998,
+        "close": 46.849998,
+        "days": [
+            {
+                "Adj Close": 46.849998,
+                "Close": 46.849998,
+                "Company": "TCBI",
+                "Date": "2012-10-26",
+                "High": 47.299999,
+                "Low": 46.349998,
+                "Open": 46.349998,
+                "Volume": 416300,
+                "day": 5,
+                "week": 43
+            },
+            {
+                "Adj Close": 46.779999,
+                "Close": 46.779999,
+                "Company": "TCBI",
+                "Date": "2012-10-25",
+                "High": 48.25,
+                "Low": 43.080002,
+                "Open": 48.099998,
+                "Volume": 2179100,
+                "day": 4,
+                "week": 43
+            },
+            {
+                "Adj Close": 47.400002,
+                "Close": 47.400002,
+                "Company": "TCBI",
+                "Date": "2012-10-24",
+                "High": 47.490002,
+                "Low": 46.75,
+                "Open": 47.240002,
+                "Volume": 354100,
+                "day": 3,
+                "week": 43
+            },
+            {
+                "Adj Close": 46.880001,
+                "Close": 46.880001,
+                "Company": "TCBI",
+                "Date": "2012-10-23",
+                "High": 47.610001,
+                "Low": 45.029999,
+                "Open": 47.34,
+                "Volume": 817200,
+                "day": 2,
+                "week": 43
+            },
+            {
+                "Adj Close": 47.959999,
+                "Close": 47.959999,
+                "Company": "TCBI",
+                "Date": "2012-10-22",
+                "High": 48.349998,
+                "Low": 47.169998,
+                "Open": 47.169998,
+                "Volume": 410400,
+                "day": 1,
+                "week": 43
+            }
+        ],
+        "first": 1,
+        "high": 48.349998,
+        "last": 5,
+        "low": 43.080002,
+        "open": 47.169998,
+        "volume": 4177100,
+        "week": 43,
+        "year": 2012
+    }
+}

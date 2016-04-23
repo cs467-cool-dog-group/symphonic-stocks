@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TCBI",
+        "adj close": 61.150002,
+        "close": 61.150002,
+        "days": [
+            {
+                "Adj Close": 61.150002,
+                "Close": 61.150002,
+                "Company": "TCBI",
+                "Date": "2014-10-31",
+                "High": 61.700001,
+                "Low": 61.009998,
+                "Open": 61.689999,
+                "Volume": 398700,
+                "day": 5,
+                "week": 44
+            },
+            {
+                "Adj Close": 60.75,
+                "Close": 60.75,
+                "Company": "TCBI",
+                "Date": "2014-10-30",
+                "High": 60.869999,
+                "Low": 59.32,
+                "Open": 59.889999,
+                "Volume": 341100,
+                "day": 4,
+                "week": 44
+            },
+            {
+                "Adj Close": 59.959999,
+                "Close": 59.959999,
+                "Company": "TCBI",
+                "Date": "2014-10-29",
+                "High": 60.02,
+                "Low": 58.880001,
+                "Open": 59.830002,
+                "Volume": 258500,
+                "day": 3,
+                "week": 44
+            },
+            {
+                "Adj Close": 59.709999,
+                "Close": 59.709999,
+                "Company": "TCBI",
+                "Date": "2014-10-28",
+                "High": 59.82,
+                "Low": 57.459999,
+                "Open": 57.950001,
+                "Volume": 431100,
+                "day": 2,
+                "week": 44
+            },
+            {
+                "Adj Close": 57.52,
+                "Close": 57.52,
+                "Company": "TCBI",
+                "Date": "2014-10-27",
+                "High": 57.560001,
+                "Low": 56.220001,
+                "Open": 56.639999,
+                "Volume": 239700,
+                "day": 1,
+                "week": 44
+            }
+        ],
+        "first": 1,
+        "high": 61.700001,
+        "last": 5,
+        "low": 56.220001,
+        "open": 56.639999,
+        "volume": 1669100,
+        "week": 44,
+        "year": 2014
+    }
+}

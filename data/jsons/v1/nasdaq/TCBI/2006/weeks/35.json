@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TCBI",
+        "adj close": 19.540001,
+        "close": 19.540001,
+        "days": [
+            {
+                "Adj Close": 19.540001,
+                "Close": 19.540001,
+                "Company": "TCBI",
+                "Date": "2006-09-01",
+                "High": 20.059999,
+                "Low": 19.540001,
+                "Open": 20.01,
+                "Volume": 53700,
+                "day": 5,
+                "week": 35
+            },
+            {
+                "Adj Close": 19.85,
+                "Close": 19.85,
+                "Company": "TCBI",
+                "Date": "2006-08-31",
+                "High": 20.02,
+                "Low": 19.75,
+                "Open": 19.92,
+                "Volume": 71500,
+                "day": 4,
+                "week": 35
+            },
+            {
+                "Adj Close": 19.809999,
+                "Close": 19.809999,
+                "Company": "TCBI",
+                "Date": "2006-08-30",
+                "High": 20.0,
+                "Low": 19.59,
+                "Open": 19.75,
+                "Volume": 64100,
+                "day": 3,
+                "week": 35
+            },
+            {
+                "Adj Close": 19.65,
+                "Close": 19.65,
+                "Company": "TCBI",
+                "Date": "2006-08-29",
+                "High": 19.719999,
+                "Low": 19.389999,
+                "Open": 19.549999,
+                "Volume": 132800,
+                "day": 2,
+                "week": 35
+            },
+            {
+                "Adj Close": 19.49,
+                "Close": 19.49,
+                "Company": "TCBI",
+                "Date": "2006-08-28",
+                "High": 19.51,
+                "Low": 19.1,
+                "Open": 19.15,
+                "Volume": 206300,
+                "day": 1,
+                "week": 35
+            }
+        ],
+        "first": 1,
+        "high": 20.059999,
+        "last": 5,
+        "low": 19.1,
+        "open": 19.15,
+        "volume": 528400,
+        "week": 35,
+        "year": 2006
+    }
+}

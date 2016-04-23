@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TCBI",
+        "adj close": 14.11,
+        "close": 14.11,
+        "days": [
+            {
+                "Adj Close": 14.11,
+                "Close": 14.11,
+                "Company": "TCBI",
+                "Date": "2008-11-21",
+                "High": 14.37,
+                "Low": 12.64,
+                "Open": 13.85,
+                "Volume": 382900,
+                "day": 5,
+                "week": 47
+            },
+            {
+                "Adj Close": 13.75,
+                "Close": 13.75,
+                "Company": "TCBI",
+                "Date": "2008-11-20",
+                "High": 14.9,
+                "Low": 13.68,
+                "Open": 14.4,
+                "Volume": 377700,
+                "day": 4,
+                "week": 47
+            },
+            {
+                "Adj Close": 14.43,
+                "Close": 14.43,
+                "Company": "TCBI",
+                "Date": "2008-11-19",
+                "High": 15.54,
+                "Low": 14.39,
+                "Open": 15.04,
+                "Volume": 167600,
+                "day": 3,
+                "week": 47
+            },
+            {
+                "Adj Close": 15.24,
+                "Close": 15.24,
+                "Company": "TCBI",
+                "Date": "2008-11-18",
+                "High": 15.78,
+                "Low": 14.55,
+                "Open": 15.24,
+                "Volume": 127800,
+                "day": 2,
+                "week": 47
+            },
+            {
+                "Adj Close": 15.11,
+                "Close": 15.11,
+                "Company": "TCBI",
+                "Date": "2008-11-17",
+                "High": 15.64,
+                "Low": 15.0,
+                "Open": 15.13,
+                "Volume": 149800,
+                "day": 1,
+                "week": 47
+            }
+        ],
+        "first": 1,
+        "high": 15.78,
+        "last": 5,
+        "low": 12.64,
+        "open": 15.13,
+        "volume": 1205800,
+        "week": 47,
+        "year": 2008
+    }
+}

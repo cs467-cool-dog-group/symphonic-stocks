@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TCBI",
+        "adj close": 15.55,
+        "close": 15.55,
+        "days": [
+            {
+                "Adj Close": 15.55,
+                "Close": 15.55,
+                "Company": "TCBI",
+                "Date": "2009-06-26",
+                "High": 15.56,
+                "Low": 14.72,
+                "Open": 15.0,
+                "Volume": 1365900,
+                "day": 5,
+                "week": 26
+            },
+            {
+                "Adj Close": 14.9,
+                "Close": 14.9,
+                "Company": "TCBI",
+                "Date": "2009-06-25",
+                "High": 14.93,
+                "Low": 14.07,
+                "Open": 14.45,
+                "Volume": 124700,
+                "day": 4,
+                "week": 26
+            },
+            {
+                "Adj Close": 14.52,
+                "Close": 14.52,
+                "Company": "TCBI",
+                "Date": "2009-06-24",
+                "High": 14.85,
+                "Low": 14.44,
+                "Open": 14.81,
+                "Volume": 146100,
+                "day": 3,
+                "week": 26
+            },
+            {
+                "Adj Close": 14.72,
+                "Close": 14.72,
+                "Company": "TCBI",
+                "Date": "2009-06-23",
+                "High": 15.49,
+                "Low": 14.65,
+                "Open": 15.46,
+                "Volume": 139400,
+                "day": 2,
+                "week": 26
+            },
+            {
+                "Adj Close": 15.15,
+                "Close": 15.15,
+                "Company": "TCBI",
+                "Date": "2009-06-22",
+                "High": 15.62,
+                "Low": 15.0,
+                "Open": 15.42,
+                "Volume": 372400,
+                "day": 1,
+                "week": 26
+            }
+        ],
+        "first": 1,
+        "high": 15.62,
+        "last": 5,
+        "low": 14.07,
+        "open": 15.42,
+        "volume": 2148500,
+        "week": 26,
+        "year": 2009
+    }
+}

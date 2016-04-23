@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TCBI",
+        "adj close": 6.94,
+        "close": 6.94,
+        "days": [
+            {
+                "Adj Close": 6.94,
+                "Close": 6.94,
+                "Company": "TCBI",
+                "Date": "2009-03-06",
+                "High": 7.61,
+                "Low": 6.55,
+                "Open": 7.24,
+                "Volume": 413400,
+                "day": 5,
+                "week": 10
+            },
+            {
+                "Adj Close": 7.2,
+                "Close": 7.2,
+                "Company": "TCBI",
+                "Date": "2009-03-05",
+                "High": 8.26,
+                "Low": 7.2,
+                "Open": 8.13,
+                "Volume": 250100,
+                "day": 4,
+                "week": 10
+            },
+            {
+                "Adj Close": 8.32,
+                "Close": 8.32,
+                "Company": "TCBI",
+                "Date": "2009-03-04",
+                "High": 8.96,
+                "Low": 8.13,
+                "Open": 8.9,
+                "Volume": 220300,
+                "day": 3,
+                "week": 10
+            },
+            {
+                "Adj Close": 8.75,
+                "Close": 8.75,
+                "Company": "TCBI",
+                "Date": "2009-03-03",
+                "High": 9.43,
+                "Low": 8.72,
+                "Open": 9.28,
+                "Volume": 110600,
+                "day": 2,
+                "week": 10
+            },
+            {
+                "Adj Close": 9.18,
+                "Close": 9.18,
+                "Company": "TCBI",
+                "Date": "2009-03-02",
+                "High": 9.79,
+                "Low": 9.01,
+                "Open": 9.6,
+                "Volume": 156900,
+                "day": 1,
+                "week": 10
+            }
+        ],
+        "first": 1,
+        "high": 9.79,
+        "last": 5,
+        "low": 6.55,
+        "open": 9.6,
+        "volume": 1151300,
+        "week": 10,
+        "year": 2009
+    }
+}

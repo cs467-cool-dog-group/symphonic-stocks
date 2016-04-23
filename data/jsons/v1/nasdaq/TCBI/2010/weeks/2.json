@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TCBI",
+        "adj close": 13.75,
+        "close": 13.75,
+        "days": [
+            {
+                "Adj Close": 13.75,
+                "Close": 13.75,
+                "Company": "TCBI",
+                "Date": "2010-01-15",
+                "High": 13.93,
+                "Low": 13.3,
+                "Open": 13.93,
+                "Volume": 324400,
+                "day": 5,
+                "week": 2
+            },
+            {
+                "Adj Close": 13.89,
+                "Close": 13.89,
+                "Company": "TCBI",
+                "Date": "2010-01-14",
+                "High": 13.99,
+                "Low": 13.54,
+                "Open": 13.54,
+                "Volume": 420700,
+                "day": 4,
+                "week": 2
+            },
+            {
+                "Adj Close": 13.56,
+                "Close": 13.56,
+                "Company": "TCBI",
+                "Date": "2010-01-13",
+                "High": 13.95,
+                "Low": 13.45,
+                "Open": 13.95,
+                "Volume": 360500,
+                "day": 3,
+                "week": 2
+            },
+            {
+                "Adj Close": 13.88,
+                "Close": 13.88,
+                "Company": "TCBI",
+                "Date": "2010-01-12",
+                "High": 14.0,
+                "Low": 13.7,
+                "Open": 13.81,
+                "Volume": 111500,
+                "day": 2,
+                "week": 2
+            },
+            {
+                "Adj Close": 13.93,
+                "Close": 13.93,
+                "Company": "TCBI",
+                "Date": "2010-01-11",
+                "High": 14.29,
+                "Low": 13.78,
+                "Open": 14.09,
+                "Volume": 150200,
+                "day": 1,
+                "week": 2
+            }
+        ],
+        "first": 0,
+        "high": 14.29,
+        "last": 5,
+        "low": 13.3,
+        "open": 0,
+        "volume": 1367300,
+        "week": 2,
+        "year": 2010
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "week": {
+        "Company": "TCBI",
+        "adj close": 24.190001,
+        "close": 24.190001,
+        "days": [
+            {
+                "Adj Close": 24.190001,
+                "Close": 24.190001,
+                "Company": "TCBI",
+                "Date": "2005-11-25",
+                "High": 24.309999,
+                "Low": 23.690001,
+                "Open": 24.0,
+                "Volume": 88600,
+                "day": 5,
+                "week": 47
+            },
+            {
+                "Adj Close": 23.950001,
+                "Close": 23.950001,
+                "Company": "TCBI",
+                "Date": "2005-11-23",
+                "High": 24.0,
+                "Low": 23.120001,
+                "Open": 23.209999,
+                "Volume": 95500,
+                "day": 3,
+                "week": 47
+            },
+            {
+                "Adj Close": 23.4,
+                "Close": 23.4,
+                "Company": "TCBI",
+                "Date": "2005-11-22",
+                "High": 23.49,
+                "Low": 22.799999,
+                "Open": 23.120001,
+                "Volume": 96100,
+                "day": 2,
+                "week": 47
+            },
+            {
+                "Adj Close": 23.27,
+                "Close": 23.27,
+                "Company": "TCBI",
+                "Date": "2005-11-21",
+                "High": 23.280001,
+                "Low": 22.77,
+                "Open": 22.879999,
+                "Volume": 56000,
+                "day": 1,
+                "week": 47
+            }
+        ],
+        "first": 1,
+        "high": 24.309999,
+        "last": 5,
+        "low": 22.77,
+        "open": 22.879999,
+        "volume": 336200,
+        "week": 47,
+        "year": 2005
+    }
+}
