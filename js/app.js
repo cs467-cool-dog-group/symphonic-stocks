@@ -11,7 +11,10 @@ var app = angular.module('SymphonicStocks', [
     'portfolio.controllers',
 
     'index.services',
-    'index.controllers'
+    'index.controllers',
+
+    'audio',
+    'graph'
 ]);
 
 app.config(['$routeProvider', function($routeProvider) {
