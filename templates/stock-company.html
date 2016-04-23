@@ -5,9 +5,12 @@
         <label>End Date: <input type="text" ng-model="endDate"></input></label>
         <button ng-click="update()" class="btn btn-default">Update</button>
         <div id="chartContainer"></div>
-        <div ng-controller="Audio Controller">
+        <div ng-controller="AudioController">
             <button ng-click="play()" ng-hide="isPlaying">Play</button>
             <button ng-click="pause()" ng-hide="!isPlaying">Pause</button>
+        </div>
+        <div ng-controller="NewsController">
+            <form></form>
         </div>
     </div>
 </div>

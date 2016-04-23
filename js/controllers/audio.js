@@ -52,7 +52,7 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
     $scope.initialize = function() {
         $scope.instrument.setInstrument(1); // piano for now
         $scope.instrument.emptyCache();
-        // GET DATA HERE FROM PARENT
+        // TODO: GET DATA HERE FROM PARENT
         /*Index.getSample().then(function(result) {
             $scope.prices = result.data.map(function(x) {
                 return +x;
