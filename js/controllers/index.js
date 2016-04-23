@@ -61,9 +61,5 @@ indexControllers.controller('IndexController', ['$scope', 'Index', '$interval', 
             console.log(err);
         });
 
-        // TODO: Port over Jenny's code
-        //d3.csv('./data/nasdaq_list.csv', function(data) {
-        //    console.log(data);
-        //});
     };
 }]);
