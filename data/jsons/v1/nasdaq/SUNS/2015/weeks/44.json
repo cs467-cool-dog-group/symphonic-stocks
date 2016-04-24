@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "SUNS",
+        "adj close": 14.093254,
+        "close": 14.81,
+        "days": [
+            {
+                "Adj Close": 14.093254,
+                "Close": 14.81,
+                "Company": "SUNS",
+                "Date": "2015-10-30",
+                "High": 15.03,
+                "Low": 14.53,
+                "Open": 14.86,
+                "Volume": 43100,
+                "day": 5,
+                "week": 44
+            },
+            {
+                "Adj Close": 14.140833,
+                "Close": 14.86,
+                "Company": "SUNS",
+                "Date": "2015-10-29",
+                "High": 14.97,
+                "Low": 14.75,
+                "Open": 14.86,
+                "Volume": 26300,
+                "day": 4,
+                "week": 44
+            },
+            {
+                "Adj Close": 14.226478,
+                "Close": 14.95,
+                "Company": "SUNS",
+                "Date": "2015-10-28",
+                "High": 15.2,
+                "Low": 14.85,
+                "Open": 15.16,
+                "Volume": 24100,
+                "day": 3,
+                "week": 44
+            },
+            {
+                "Adj Close": 14.359703,
+                "Close": 15.09,
+                "Company": "SUNS",
+                "Date": "2015-10-27",
+                "High": 15.36,
+                "Low": 14.99,
+                "Open": 15.18,
+                "Volume": 34400,
+                "day": 2,
+                "week": 44
+            },
+            {
+                "Adj Close": 14.530992,
+                "Close": 15.27,
+                "Company": "SUNS",
+                "Date": "2015-10-26",
+                "High": 15.35,
+                "Low": 15.16,
+                "Open": 15.25,
+                "Volume": 5400,
+                "day": 1,
+                "week": 44
+            }
+        ],
+        "first": 1,
+        "high": 15.36,
+        "last": 5,
+        "low": 14.53,
+        "open": 15.25,
+        "volume": 133300,
+        "week": 44,
+        "year": 2015
+    }
+}

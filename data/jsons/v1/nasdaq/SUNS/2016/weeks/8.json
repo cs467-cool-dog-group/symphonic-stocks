@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "SUNS",
+        "adj close": 13.468559,
+        "close": 13.69,
+        "days": [
+            {
+                "Adj Close": 13.468559,
+                "Close": 13.69,
+                "Company": "SUNS",
+                "Date": "2016-02-26",
+                "High": 13.77,
+                "Low": 13.59,
+                "Open": 13.65,
+                "Volume": 15300,
+                "day": 5,
+                "week": 8
+            },
+            {
+                "Adj Close": 13.478398,
+                "Close": 13.7,
+                "Company": "SUNS",
+                "Date": "2016-02-25",
+                "High": 13.81,
+                "Low": 13.4,
+                "Open": 13.49,
+                "Volume": 11700,
+                "day": 4,
+                "week": 8
+            },
+            {
+                "Adj Close": 13.153736,
+                "Close": 13.37,
+                "Company": "SUNS",
+                "Date": "2016-02-24",
+                "High": 13.5,
+                "Low": 13.25,
+                "Open": 13.25,
+                "Volume": 6600,
+                "day": 3,
+                "week": 8
+            },
+            {
+                "Adj Close": 13.18325,
+                "Close": 13.4,
+                "Company": "SUNS",
+                "Date": "2016-02-23",
+                "High": 13.53,
+                "Low": 13.31,
+                "Open": 13.48,
+                "Volume": 12100,
+                "day": 2,
+                "week": 8
+            },
+            {
+                "Adj Close": 13.24228,
+                "Close": 13.46,
+                "Company": "SUNS",
+                "Date": "2016-02-22",
+                "High": 13.49,
+                "Low": 13.04,
+                "Open": 13.28,
+                "Volume": 21600,
+                "day": 1,
+                "week": 8
+            }
+        ],
+        "first": 1,
+        "high": 13.81,
+        "last": 5,
+        "low": 13.04,
+        "open": 13.28,
+        "volume": 67300,
+        "week": 8,
+        "year": 2016
+    }
+}

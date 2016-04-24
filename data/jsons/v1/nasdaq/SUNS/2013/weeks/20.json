@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "SUNS",
+        "adj close": 14.901173,
+        "close": 19.35,
+        "days": [
+            {
+                "Adj Close": 14.901173,
+                "Close": 19.35,
+                "Company": "SUNS",
+                "Date": "2013-05-17",
+                "High": 19.4,
+                "Low": 19.15,
+                "Open": 19.34,
+                "Volume": 30900,
+                "day": 5,
+                "week": 20
+            },
+            {
+                "Adj Close": 14.824164,
+                "Close": 19.25,
+                "Company": "SUNS",
+                "Date": "2013-05-16",
+                "High": 19.299999,
+                "Low": 19.129999,
+                "Open": 19.129999,
+                "Volume": 19700,
+                "day": 4,
+                "week": 20
+            },
+            {
+                "Adj Close": 14.716353,
+                "Close": 19.110001,
+                "Company": "SUNS",
+                "Date": "2013-05-15",
+                "High": 19.200001,
+                "Low": 19.030001,
+                "Open": 19.030001,
+                "Volume": 9400,
+                "day": 3,
+                "week": 20
+            },
+            {
+                "Adj Close": 14.739455,
+                "Close": 19.139999,
+                "Company": "SUNS",
+                "Date": "2013-05-14",
+                "High": 19.24,
+                "Low": 19.07,
+                "Open": 19.18,
+                "Volume": 28000,
+                "day": 2,
+                "week": 20
+            },
+            {
+                "Adj Close": 14.708652,
+                "Close": 19.1,
+                "Company": "SUNS",
+                "Date": "2013-05-13",
+                "High": 19.25,
+                "Low": 19.030001,
+                "Open": 19.200001,
+                "Volume": 44000,
+                "day": 1,
+                "week": 20
+            }
+        ],
+        "first": 1,
+        "high": 19.4,
+        "last": 5,
+        "low": 19.030001,
+        "open": 19.200001,
+        "volume": 132000,
+        "week": 20,
+        "year": 2013
+    }
+}

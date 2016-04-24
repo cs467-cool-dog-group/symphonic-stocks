@@ -1,0 +1,65 @@
+{
+    "week": {
+        "Company": "SUNS",
+        "adj close": 14.882417,
+        "close": 19.09,
+        "days": [
+            {
+                "Adj Close": 14.882417,
+                "Close": 19.09,
+                "Company": "SUNS",
+                "Date": "2013-07-05",
+                "High": 19.190001,
+                "Low": 18.809999,
+                "Open": 19.190001,
+                "Volume": 17600,
+                "day": 5,
+                "week": 27
+            },
+            {
+                "Adj Close": 14.788865,
+                "Close": 18.969999,
+                "Company": "SUNS",
+                "Date": "2013-07-03",
+                "High": 19.1,
+                "Low": 18.9,
+                "Open": 19.01,
+                "Volume": 96200,
+                "day": 3,
+                "week": 27
+            },
+            {
+                "Adj Close": 14.820049,
+                "Close": 19.01,
+                "Company": "SUNS",
+                "Date": "2013-07-02",
+                "High": 19.15,
+                "Low": 18.620001,
+                "Open": 18.940001,
+                "Volume": 85900,
+                "day": 2,
+                "week": 27
+            },
+            {
+                "Adj Close": 14.695315,
+                "Close": 18.85,
+                "Company": "SUNS",
+                "Date": "2013-07-01",
+                "High": 19.190001,
+                "Low": 18.48,
+                "Open": 18.51,
+                "Volume": 65400,
+                "day": 1,
+                "week": 27
+            }
+        ],
+        "first": 1,
+        "high": 19.190001,
+        "last": 5,
+        "low": 18.48,
+        "open": 18.51,
+        "volume": 265100,
+        "week": 27,
+        "year": 2013
+    }
+}

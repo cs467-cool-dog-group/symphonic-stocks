@@ -1,0 +1,29 @@
+{
+    "week": {
+        "Company": "SUNS",
+        "adj close": 14.019001,
+        "close": 18.66,
+        "days": [
+            {
+                "Adj Close": 14.019001,
+                "Close": 18.66,
+                "Company": "SUNS",
+                "Date": "2012-12-31",
+                "High": 18.799999,
+                "Low": 18.209999,
+                "Open": 18.27,
+                "Volume": 47100,
+                "day": 1,
+                "week": 53
+            }
+        ],
+        "first": 1,
+        "high": 18.799999,
+        "last": 1,
+        "low": 18.209999,
+        "open": 18.27,
+        "volume": 47100,
+        "week": 53,
+        "year": 2012
+    }
+}
