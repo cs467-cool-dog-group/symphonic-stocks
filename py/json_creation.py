@@ -117,5 +117,4 @@ for exchange in exchanges:
         finished_data.append(ticker)
         with open("successes.json", "w") as success_file:
             json.dump({"successes": finished_data}, success_file)
-        break
     break
