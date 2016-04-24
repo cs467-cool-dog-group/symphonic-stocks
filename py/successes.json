@@ -1,1 +1,1 @@
-{"successes": ["AAL", "BEAV", "CTAS", "FB", "GOOG", "HAS", "JBLU", "MEOH", "PCAR", "REGN", "STLD", "VOD", "AAPL", "BIIB", "CME", "CTRP", "FOX", "GOOGL", "IBKR", "JD", "MNST", "PCLN", "RGLD", "TMUS", "WBA", "AMGN", "BRKR", "COST", "ESRX", "FTR", "GPOR", "IEP", "KHC", "MRD", "PDCE", "RYAAY", "TRMB", "WLTW", "AMZN", "CASY", "CPRT", "EXPD", "GILD", "GRMN", "ILMN", "KLAC", "NFLX", "POOL", "SLGN", "TROW", "WWD", "BBRY", "CELG", "CSX", "FANG", "GOLD", "GT", "INTC", "MDLZ", "PAAS", "PYPL", "SRCL", "TSLA", "LPLA", "TCBI", "SUNS"]}
+{"successes": ["^GSPC", "^DJI", "^IXIC"]}
