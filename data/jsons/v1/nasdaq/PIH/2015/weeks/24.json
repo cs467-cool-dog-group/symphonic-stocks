@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "PIH",
+        "adj close": 7.84,
+        "close": 7.84,
+        "days": [
+            {
+                "Adj Close": 7.84,
+                "Close": 7.84,
+                "Company": "PIH",
+                "Date": "2015-06-12",
+                "High": 7.875,
+                "Low": 7.7,
+                "Open": 7.83,
+                "Volume": 5500,
+                "day": 5,
+                "week": 24
+            },
+            {
+                "Adj Close": 7.85,
+                "Close": 7.85,
+                "Company": "PIH",
+                "Date": "2015-06-11",
+                "High": 7.9,
+                "Low": 7.85,
+                "Open": 7.9,
+                "Volume": 2100,
+                "day": 4,
+                "week": 24
+            },
+            {
+                "Adj Close": 7.88,
+                "Close": 7.88,
+                "Company": "PIH",
+                "Date": "2015-06-10",
+                "High": 7.95,
+                "Low": 7.84,
+                "Open": 7.91,
+                "Volume": 2700,
+                "day": 3,
+                "week": 24
+            },
+            {
+                "Adj Close": 7.91,
+                "Close": 7.91,
+                "Company": "PIH",
+                "Date": "2015-06-09",
+                "High": 8.0,
+                "Low": 7.9,
+                "Open": 8.0,
+                "Volume": 6000,
+                "day": 2,
+                "week": 24
+            },
+            {
+                "Adj Close": 7.94,
+                "Close": 7.94,
+                "Company": "PIH",
+                "Date": "2015-06-08",
+                "High": 7.97,
+                "Low": 7.91,
+                "Open": 7.97,
+                "Volume": 2700,
+                "day": 1,
+                "week": 24
+            }
+        ],
+        "first": 1,
+        "high": 8.0,
+        "last": 5,
+        "low": 7.7,
+        "open": 7.97,
+        "volume": 19000,
+        "week": 24,
+        "year": 2015
+    }
+}

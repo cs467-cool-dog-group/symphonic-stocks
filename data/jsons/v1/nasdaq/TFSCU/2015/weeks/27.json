@@ -1,0 +1,65 @@
+{
+    "week": {
+        "Company": "TFSCU",
+        "adj close": 10.27,
+        "close": 10.27,
+        "days": [
+            {
+                "Adj Close": 10.27,
+                "Close": 10.27,
+                "Company": "TFSCU",
+                "Date": "2015-07-02",
+                "High": 10.27,
+                "Low": 10.27,
+                "Open": 10.27,
+                "Volume": 0,
+                "day": 4,
+                "week": 27
+            },
+            {
+                "Adj Close": 10.27,
+                "Close": 10.27,
+                "Company": "TFSCU",
+                "Date": "2015-07-01",
+                "High": 10.27,
+                "Low": 10.27,
+                "Open": 10.27,
+                "Volume": 0,
+                "day": 3,
+                "week": 27
+            },
+            {
+                "Adj Close": 10.27,
+                "Close": 10.27,
+                "Company": "TFSCU",
+                "Date": "2015-06-30",
+                "High": 10.27,
+                "Low": 10.27,
+                "Open": 10.27,
+                "Volume": 0,
+                "day": 2,
+                "week": 27
+            },
+            {
+                "Adj Close": 10.27,
+                "Close": 10.27,
+                "Company": "TFSCU",
+                "Date": "2015-06-29",
+                "High": 10.36,
+                "Low": 10.27,
+                "Open": 10.36,
+                "Volume": 300,
+                "day": 1,
+                "week": 27
+            }
+        ],
+        "first": 1,
+        "high": 10.36,
+        "last": 4,
+        "low": 10.27,
+        "open": 10.36,
+        "volume": 300,
+        "week": 27,
+        "year": 2015
+    }
+}

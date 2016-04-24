@@ -1,0 +1,77 @@
+{
+    "week": {
+        "Company": "TFSCU",
+        "adj close": 10.15,
+        "close": 10.15,
+        "days": [
+            {
+                "Adj Close": 10.15,
+                "Close": 10.15,
+                "Company": "TFSCU",
+                "Date": "2015-12-04",
+                "High": 10.15,
+                "Low": 10.15,
+                "Open": 10.15,
+                "Volume": 0,
+                "day": 5,
+                "week": 49
+            },
+            {
+                "Adj Close": 10.15,
+                "Close": 10.15,
+                "Company": "TFSCU",
+                "Date": "2015-12-03",
+                "High": 10.15,
+                "Low": 10.15,
+                "Open": 10.15,
+                "Volume": 0,
+                "day": 4,
+                "week": 49
+            },
+            {
+                "Adj Close": 10.15,
+                "Close": 10.15,
+                "Company": "TFSCU",
+                "Date": "2015-12-02",
+                "High": 10.15,
+                "Low": 10.15,
+                "Open": 10.15,
+                "Volume": 0,
+                "day": 3,
+                "week": 49
+            },
+            {
+                "Adj Close": 10.15,
+                "Close": 10.15,
+                "Company": "TFSCU",
+                "Date": "2015-12-01",
+                "High": 10.15,
+                "Low": 10.15,
+                "Open": 10.15,
+                "Volume": 0,
+                "day": 2,
+                "week": 49
+            },
+            {
+                "Adj Close": 10.15,
+                "Close": 10.15,
+                "Company": "TFSCU",
+                "Date": "2015-11-30",
+                "High": 10.15,
+                "Low": 10.15,
+                "Open": 10.15,
+                "Volume": 0,
+                "day": 1,
+                "week": 49
+            }
+        ],
+        "first": 1,
+        "high": 10.15,
+        "last": 5,
+        "low": 10.15,
+        "open": 10.15,
+        "volume": 0,
+        "week": 49,
+        "year": 2015
+    }
+}
