@@ -1,5 +1,7 @@
+<div ng-init = "initialize()">
 {{company}}
 {{date}}
 <table>
-    <tr ng-repeat="result in newsResults"><td>{{result}}</tr>
+    <tr ng-repeat="object in newsData"><td><a href="{{object.link}}">{{object.title}}</a></td></tr>
 </table>
+</div>	
