@@ -1,6 +1,6 @@
 var graphControllers = angular.module('graph', []);
 
-graphControllers.controller('GraphController', ['$scope', '$compile', function($scope, $compile) {
+graphControllers.controller('GraphController', ['$scope', '$location', '$compile',function($scope, $location, $compile) {
     var svg = dimple.newSvg("#chartContainer", 590, 400);
     $scope.allDates = {};
     $scope.allData = {};
@@ -9,6 +9,7 @@ graphControllers.controller('GraphController', ['$scope', '$compile', function($
     $scope.newStock = "";
     $scope.filteredData = [];
     $scope.stockList = [];
+	$scope.loc = $location.path();
 
     $scope.filter = function(start, end, dates) {
     	if (!(start instanceof Date)){
@@ -81,7 +82,7 @@ graphControllers.controller('GraphController', ['$scope', '$compile', function($
 				}
 
 	    		$scope.drawChart($scope.filteredData, $scope.startDate, $scope.endDate);
-
+                $scope.$digest();
 	    		/*
 	    		if the other stuff doesn't work >:T
 	    		$scope.filteredData = $scope.filteredData.concat(newData);
@@ -95,7 +96,7 @@ graphControllers.controller('GraphController', ['$scope', '$compile', function($
 				$('#addedStocks').append(compiled);
 
 				$scope.stockList.push(newStock);
-			})
+			});
 	};
 
 	$scope.removeStock = function(stockName){
@@ -123,6 +124,7 @@ graphControllers.controller('GraphController', ['$scope', '$compile', function($
 
     $scope.drawChart = function(data, start, end){
     	console.log('drawing...');
+		console.log(data.length);
 
     	if ($scope.chart) {
 	    	$scope.chart.svg.selectAll('*').remove();
@@ -177,21 +179,49 @@ graphControllers.controller('GraphController', ['$scope', '$compile', function($
 	};
 
     $scope.initialize = function() {
-        // TODO: adjust to grab all available data
-        d3_queue.queue()
-            .defer(d3.json, './data/jsons/sample/TMUS/2014.json')
-            .defer(d3.json, './data/jsons/sample/TMUS/2015.json')
-            .defer(d3.json, './data/jsons/sample/TMUS/2016.json')
-            .awaitAll(function(error, results) {
-                $scope.allData = [];
-                for (var i = 0; i < results.length; i++) {
-                    $scope.allData = $scope.allData.concat(results[i].year.days);
-                }
-                $scope.allDates = dimple.getUniqueValues($scope.allData, "Date");
-                $scope.filteredData = $scope.allData;
+		console.log($scope.loc);
+		if($scope.loc == "/index"){
+			d3_queue.queue()
+				.defer(d3.json, './data/jsons/indexes/^DJI/2014.json')
+				.defer(d3.json, './data/jsons/indexes/^DJI/2015.json')
+				.defer(d3.json, './data/jsons/indexes/^DJI/2016.json')
+				.defer(d3.json, './data/jsons/indexes/^GSPC/2014.json')
+				.defer(d3.json, './data/jsons/indexes/^GSPC/2015.json')
+				.defer(d3.json, './data/jsons/indexes/^GSPC/2016.json')
+				.defer(d3.json, './data/jsons/indexes/^IXIC/2014.json')
+				.defer(d3.json, './data/jsons/indexes/^IXIC/2015.json')
+				.defer(d3.json, './data/jsons/indexes/^IXIC/2016.json')
+				.awaitAll(function(error, results) {
+					$scope.allData = [];
+					for (var i = 0; i < results.length; i++) {
+						$scope.allData = $scope.allData.concat(results[i].year.days);
+					}
+					$scope.allDates = dimple.getUniqueValues($scope.allData, "Date");
+					$scope.filteredData = $scope.allData;
 
-                $scope.stockList.push("TMUS");
-                $scope.drawChart($scope.allData, "", "");
-        });
+					$scope.stockList.push("^DJI");
+					$scope.stockList.push("^GSPC");
+					$scope.stockList.push("^IXIC");
+
+					$scope.drawChart($scope.allData, "", "");
+				});
+		}
+		if($scope.loc == "/companies"){
+			d3_queue.queue()
+				.defer(d3.json, './data/jsons/sample/TMUS/2014.json')
+				.defer(d3.json, './data/jsons/sample/TMUS/2015.json')
+				.defer(d3.json, './data/jsons/sample/TMUS/2016.json')
+				.awaitAll(function(error, results) {
+					$scope.allData = [];
+					for (var i = 0; i < results.length; i++) {
+						$scope.allData = $scope.allData.concat(results[i].year.days);
+					}
+					$scope.allDates = dimple.getUniqueValues($scope.allData, "Date");
+					$scope.filteredData = $scope.allData;
+
+					$scope.stockList.push("TMUS");
+					$scope.drawChart($scope.allData, "", "");
+				});
+		}
     };
 }]);
