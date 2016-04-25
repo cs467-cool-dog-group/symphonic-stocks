@@ -120,6 +120,8 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
 	    // Add the line series on top of the bubbles.  The bubbles
 	    // and line points will naturally fall in the same places
 	    var s = $scope.chart.addSeries("Company", dimple.plot.line);
+	    // Handle the hover event - overriding the default behaviour
+      	s.addEventHandler("click", onClick);
 
 	    // Add line markers to the line because it looks nice
 	    s.lineMarkers = true;
@@ -129,6 +131,16 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
 
 	    // Draw everything
 	    $scope.chart.draw();
+
+	    // Event to handle mouse enter
+    	function onClick(e) {
+      		var d = new Date(e.xValue);
+      		$scope.currDate = (d.getMonth()+1) + "-" + d.getDate() + "-" + d.getFullYear();
+      		$scope.companyTicker = e.seriesValue[0];
+      		console.log($scope.currDate);
+      		console.log($scope.companyTicker);
+        
+      	};
 	};
 
     $scope.initialize = function() {

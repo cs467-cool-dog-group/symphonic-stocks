@@ -1,14 +1,17 @@
 var newsControllers = angular.module('news.controllers', []);
 
 newsControllers.controller('NewsController', ['$scope', 'News', function($scope, News) {
-    $scope.company = 'TWTR';
-    $scope.date = '01-08-2016';
     $scope.newsData = {};
     $scope.nysedata;
     $scope.nasdaqdata;
     $scope.news;
 
+    $scope.$watch(['companyTicker', 'currDate'], $scope.initialize);
+
     $scope.initialize = function() {
+        if($scope.currDate == undefined && $scope.companyTicker == undefined){
+            return;
+        }
         News.getIndexData('nyse').then(
             function(results) {
                 $scope.nysedata = results.data;
@@ -17,9 +20,9 @@ newsControllers.controller('NewsController', ['$scope', 'News', function($scope,
         ).then(
             function(results2) {
                 $scope.nasdaqdata = results2.data;
-                $scope.company = News.getCompany($scope.company, $scope.nysedata, $scope.nasdaqdata);
-                $scope.date = News.getDate($scope.date);
-                return News.getNews($scope.company, $scope.date);
+                $scope.company = News.getCompany($scope.companyTicker, $scope.nysedata, $scope.nasdaqdata);
+                $scope.date = News.getDate($scope.currDate);
+                return News.getNews($scope.companyTicker, $scope.currDate);
             }
         ).then(
             function(results4) {

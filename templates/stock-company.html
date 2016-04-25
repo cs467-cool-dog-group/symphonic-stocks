@@ -1,6 +1,9 @@
-<div ng-init="initialize()">
+<head>
+<link rel="stylesheet" type="text/css" href="./css/styles.css">
+</head>
+<div ng-init="initialize()" id="top_div ">
     <h1 class="text-center">Company Statistics</h1>
-    <div ng-controller="GraphController" ng-init="initialize()">
+    <div ng-controller="GraphController" ng-init="initialize()" id="controller1">
         <label>Start Date: <input type="text" ng-model="startDate"></input></label>
         <label>End Date: <input type="text" ng-model="endDate"></input></label>
         <button ng-click="update()" class="btn btn-default">Update</button>
@@ -15,8 +18,10 @@
                 <li class="list-group-item" ng-repeat="company in currCompanies">{{company}} <span ng-if="$index >= 7">{{midiInstrumentNames[6]}}</span><span ng-if="$index < 7">{{midiInstrumentNames[$index]}}</span></li>
             </ul>
         </div>
-        <!--<div ng-controller="NewsController">
-            <form></form>
-        </div>-->
+    </div>
+    <div ng-controller="NewsController" ng-init = "initialize()" id="controller2" >
+        <table>
+            <tr ng-repeat="object in newsData"><td><a href="{{object.link}}">{{object.title}}</a></td></tr>
+        </table>
     </div>
 </div>
