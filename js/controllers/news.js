@@ -1,15 +1,33 @@
 var newsControllers = angular.module('news.controllers', []);
 
 newsControllers.controller('NewsController', ['$scope', 'News', function($scope, News) {
-    $scope.company = 'PIH';
-    $scope.date = 'some date';
-    $scope.newsResults = ['t', 'b', 'h'];
+    $scope.company = 'TWTR';
+    $scope.date = '01-08-2016';
+    $scope.newsData = {};
+    $scope.nysedata;
+    $scope.nasdaqdata;
+    $scope.news;
+
     $scope.initialize = function() {
-        News.getTicker().then(function(results) {
-            News.validate();
-            return News.getNews();
-        }).then(function(newsResults) {
-            // display the data or set a variable
-        });
+        News.getIndexData('nyse').then(
+            function(results) {
+                $scope.nysedata = results.data;
+                return News.getIndexData('nasdaq');
+            }
+        ).then(
+            function(results2) {
+                $scope.nasdaqdata = results2.data;
+                $scope.company = News.getCompany($scope.company, $scope.nysedata, $scope.nasdaqdata);
+                $scope.date = News.getDate($scope.date);
+                return News.getNews($scope.company, $scope.date);
+            }
+        ).then(
+            function(results4) {
+                $scope.news = results4.data;
+                console.log($scope.news);
+                $scope.newsData = News.parseNewsData($scope.news);
+                console.log($scope.newsData);
+            }
+        );
     };
 }]);
