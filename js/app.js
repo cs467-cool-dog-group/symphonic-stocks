@@ -1,5 +1,6 @@
 var app = angular.module('SymphonicStocks', [
     'ngRoute',
+    'firebase',
 
     'user.services',
     'user.controllers',

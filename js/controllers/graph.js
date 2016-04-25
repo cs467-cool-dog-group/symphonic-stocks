@@ -6,10 +6,17 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
     $scope.allData = {};
     $scope.startDate = "";
     $scope.endDate = "";
+    $scope.newStock = "";
     $scope.filteredData = [];
 
     $scope.filter = function(start, end, dates) {
-		var filtered = new Array();
+    	if (!(start instanceof Date)){
+	    	start = new Date(start);
+	    }
+    	if (!(end instanceof Date)){
+    		end = new Date(end);
+    	}
+		var filtered = [];
 		for (var i=0; i < dates.length; i++){
 			var curr = new Date(dates[i]);
 			if (curr >= start && curr <= end){
@@ -20,17 +27,64 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
     };
 
     $scope.update = function(){
-        var startDate = new Date($scope.startDate);
-        var endDate = new Date($scope.endDate);
+    	startDate = new Date($scope.startDate);
+    	endDate = new Date($scope.endDate);
 
     	var filterDates = $scope.filter(startDate, endDate, $scope.allDates);
     	$scope.filteredData = dimple.filterData($scope.allData, "Date", filterDates);
 
-    	$scope.chart.svg.selectAll('*').remove();
 	    $scope.drawChart($scope.filteredData, startDate, endDate);
 	};
 
+	$scope.addStock = function(){
+		var newStock = ($scope.newStock).toUpperCase();
+		d3_queue.queue()
+			.defer(d3.json, './data/jsons/sample/' + newStock + '/2014.json')
+			.defer(d3.json, './data/jsons/sample/' + newStock + '/2015.json')
+			.defer(d3.json, './data/jsons/sample/' + newStock + '/2016.json')
+			.awaitAll(function(error, results) {
+				//get new stock's data
+				var newData = [];
+			 	for (var i = 0; i < results.length; i++) {
+	                newData = newData.concat(results[i].year.days);
+	            }
+
+	            $scope.allData = $scope.allData.concat(newData);
+
+	            //get all new stock's dates
+            	var newDates = dimple.getUniqueValues(newData, "Date");
+            	$scope.allDates = $scope.allDates.concat(newDates);
+
+	            //if there are dates to filter by
+	            if ($scope.startDate && $scope.endDate){
+	            	//filter out all dates we don't need
+					var filterNewDates = $scope.filter($scope.startDate, $scope.endDate, newDates);
+
+					//get filtered data
+					var filteredNewData = dimple.filterData(newData, "Date", filterNewDates);
+
+					//add new stock's filtered data to all of the filtered data
+					$scope.filteredData = $scope.filteredData.concat(filteredNewData);
+				}
+				else{
+					$scope.filteredData = $scope.filteredData.concat(newData);
+				}
+
+	    		$scope.drawChart($scope.filteredData, $scope.startDate, $scope.endDate);
+
+	    		/*
+	    		if the other stuff doesn't work >:T
+	    		$scope.filteredData = $scope.filteredData.concat(newData);
+				$scope.update();
+				*/
+			})
+	};
+
     $scope.drawChart = function(data, start, end){
+    	if ($scope.chart) {
+	    	$scope.chart.svg.selectAll('*').remove();
+	    }
+
 	    // Create the chart as usual
 	    $scope.chart = new dimple.chart(svg, data);
 	    $scope.chart.setBounds(70, 40, 490, 320);
@@ -40,9 +94,15 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
 	    var x = $scope.chart.addTimeAxis("x", "Date", "%Y-%m-%d", "%m/%d/%Y");
 
 	    if (start){
+	    	if (!(start instanceof Date)){
+		    	start = new Date(start);
+		    }
 	    	x.overrideMin = start;
 	    }
 	    if (end){
+	    	if (!(end instanceof Date)){
+	    		end = new Date(end);
+	    	}
 		    x.overrideMax = end;
 		}
 
@@ -51,15 +111,15 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
 	    var y = $scope.chart.addMeasureAxis("y", "Close");
 
 	    // Size the bubbles by volume
-	    var z = $scope.chart.addMeasureAxis("z", "Close");
+	    var z = $scope.chart.addMeasureAxis("z", "Volume");
 
 	    // Add the bubble series for shift values first so that it is
 	    // drawn behind the lines
-	    $scope.chart.addSeries(null, dimple.plot.bubble);
+	    $scope.chart.addSeries("Company", dimple.plot.bubble);
 
 	    // Add the line series on top of the bubbles.  The bubbles
 	    // and line points will naturally fall in the same places
-	    var s = $scope.chart.addSeries(null, dimple.plot.line);
+	    var s = $scope.chart.addSeries("Company", dimple.plot.line);
 
 	    // Add line markers to the line because it looks nice
 	    s.lineMarkers = true;
@@ -74,9 +134,9 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
     $scope.initialize = function() {
         // TODO: Get data
         d3_queue.queue()
-            .defer(d3.json, './data/jsons/v1/nasdaq/TFSC/2014/2014.json')
-            .defer(d3.json, './data/jsons/v1/nasdaq/TFSC/2015/2015.json')
-            .defer(d3.json, './data/jsons/v1/nasdaq/TFSC/2016/2016.json')
+            .defer(d3.json, './data/jsons/sample/TMUS/2014.json')
+            .defer(d3.json, './data/jsons/sample/TMUS/2015.json')
+            .defer(d3.json, './data/jsons/sample/TMUS/2016.json')
             .awaitAll(function(error, results) {
                 $scope.allData = [];
                 for (var i = 0; i < results.length; i++) {
@@ -84,7 +144,7 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
                 }
                 $scope.allDates = dimple.getUniqueValues($scope.allData, "Date");
                 $scope.filteredData = $scope.allData;
-                $scope.drawChart($scope.allData, null, null);
+                $scope.drawChart($scope.allData, "", "");
         });
     };
 }]);
