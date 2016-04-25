@@ -29,7 +29,7 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
             if ($scope.currentIndex == $scope.notes[0].length) {
                 $scope.isPlaying = false;
             }
-        }, 1000, $scope.notes[0].length - $scope.currentIndex);
+        }, 700, $scope.notes[0].length - $scope.currentIndex);
     };
 
     $scope.pause = function() {

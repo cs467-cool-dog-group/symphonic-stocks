@@ -12,7 +12,7 @@
             <button ng-click="play()" ng-hide="isPlaying">Play</button>
             <button ng-click="pause()" ng-hide="!isPlaying">Pause</button>
             <ul class="list-group">
-                <li class="list-group-item" ng-repeat="company in currCompanies">{{company}} {{midiInstrumentNames[$index]}}</li>
+                <li class="list-group-item" ng-repeat="company in currCompanies">{{company}} <span ng-if="$index >= 7">{{midiInstrumentNames[6]}}</span><span ng-if="$index < 7">{{midiInstrumentNames[$index]}}</span></li>
             </ul>
         </div>
         <!--<div ng-controller="NewsController">
