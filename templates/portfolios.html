@@ -3,34 +3,34 @@
 <div ng-init="initialize()">
     <div class="col-md-10 col-sm-offset-1">
         <div class="row">
-            <div class="col-md-2" ng-repeat="name in portfolioNames">
-                <div class="thumbnail">
+            <div class="col-md-2">
+                <div class="thumbnail" ng-repeat="name in portfolioNames">
                     <h3>{{name}}</h3>
                     <button type="button" class="btn btn-primary" ng-click="displayPortfolio(name)">Display</button>
                 </div>
             </div>
-        </div>
-    </div>
-    <div class="col-md-10 col-sm-offset-1" ng-show="isDisplaying">
-        <h4>{{selectedPortfolio}}</h4>
-        <ul>
-            <li ng-repeat="company in selectedCompanies"><b>{{company}}</b> - {{fetchCompanyName(company)}}</li>
-        </ul>
-        <div ng-controller="GraphController" ng-init="initialize()">
-            <label>Start Date: <input type="text" ng-model="startDate"></input></label>
-            <label>End Date: <input type="text" ng-model="endDate"></input></label>
-            <button ng-click="update()" class="btn btn-default">Update</button>
-            <div id="chartContainer"></div>
-            <div ng-controller="AudioController" ng-init="initialize()">
-                <button ng-click="play()" ng-hide="isPlaying">Play</button>
-                <button ng-click="pause()" ng-hide="!isPlaying">Pause</button>
-                <ul class="list-group">
-                    <li class="list-group-item" ng-repeat="company in currCompanies">{{company}} <span ng-if="$index >= 7">{{midiInstrumentNames[6]}}</span><span ng-if="$index < 7">{{midiInstrumentNames[$index]}}</span></li>
+            <div class="col-md-10" ng-show="isDisplaying">
+                <h4>{{selectedPortfolio}}</h4>
+                <ul>
+                    <li ng-repeat="company in selectedCompanies"><b>{{company}}</b> - {{fetchCompanyName(company)}}</li>
                 </ul>
+                <div ng-controller="GraphController" ng-init="initialize()">
+                    <label>Start Date: <input type="text" ng-model="startDate"></input></label>
+                    <label>End Date: <input type="text" ng-model="endDate"></input></label>
+                    <button ng-click="update()" class="btn btn-default">Update</button>
+                    <div id="chartContainer"></div>
+                    <div ng-controller="AudioController" ng-init="initialize()">
+                        <button ng-click="play()" ng-hide="isPlaying">Play</button>
+                        <button ng-click="pause()" ng-hide="!isPlaying">Pause</button>
+                        <ul class="list-group">
+                            <li class="list-group-item" ng-repeat="company in currCompanies">{{company}} <span ng-if="$index >= 7">{{midiInstrumentNames[6]}}</span><span ng-if="$index < 7">{{midiInstrumentNames[$index]}}</span></li>
+                        </ul>
+                    </div>
+                    <!--<div ng-controller="NewsController">
+                        <form></form>
+                    </div>-->
+                </div>
             </div>
-            <!--<div ng-controller="NewsController">
-                <form></form>
-            </div>-->
         </div>
     </div>
 </div>

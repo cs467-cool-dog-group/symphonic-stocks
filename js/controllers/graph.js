@@ -132,6 +132,29 @@ graphControllers.controller('GraphController', ['$scope', '$location',function($
 	    $scope.chart.draw();
 	};
 
+    $scope.drawPortfolio = function() {
+        if ($scope.selectedPortfolio.length == 0) {
+            return;
+        }
+        var q = d3_queue.queue();
+        for (var i = 0; i < $scope.selectedCompanies.length; i++) {
+            //q.defer(d3.json, './data/jsons/sample/' + $scope.selectedCompanies[i] + '/2014.json');
+            //q.defer(d3.json, './data/jsons/sample/' + $scope.selectedCompanies[i] + '/2015.json');
+            q.defer(d3.json, './data/jsons/sample/' + $scope.selectedCompanies[i] + '/2016.json');
+        }
+        q.awaitAll(function(error, results) {
+            $scope.allData = [];
+            for (var i = 0; i < results.length; i++) {
+                $scope.allData = $scope.allData.concat(results[i].year.days);
+            }
+            $scope.allDates = dimple.getUniqueValues($scope.allData, "Date");
+            $scope.filteredData = $scope.allData;
+            $scope.drawChart($scope.allData, "", "");
+        });
+    };
+
+    $scope.$watch('selectedPortfolio', $scope.drawPortfolio, true);
+
     $scope.initialize = function() {
 		console.log($scope.loc);
 		if($scope.loc == "/index"){
