@@ -26,6 +26,9 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
                 $scope.instrument.play($scope.notes[i][$scope.currentIndex]);
             }
             $scope.currentIndex++;
+            if ($scope.currentIndex == $scope.notes[0].length) {
+                $scope.isPlaying = false;
+            }
         }, 1000, $scope.notes[0].length - $scope.currentIndex);
     };
 
@@ -39,7 +42,6 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
 
     $scope.determineSong = function() {
         $scope.currCompanies = dimple.getUniqueValues($scope.filteredData, "Company");
-        // TODO: Sort the companies by beginning price
         $scope.currCompanies.sort(function(a, b) {
             var aFirstDayPrice = $scope.filteredData.filter(function(o) {
                 return o.day == 1 && o.Company == a;
@@ -61,24 +63,24 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
             var priceData = companyData.map(function(a) {
                 return a.High;
             });
-            var maxHigh = Math.max.apply(null, priceData);
-            var minHigh = Math.min.apply(null, priceData);
-            var average = (maxHigh + minHigh) / 2;
-            var intervalAboveAverage = (maxHigh - average) / 24;
-            var intervalBelowAverage = (average - minHigh) / 24;
+            var firstDayPrice = priceData[0];
+            var interval = 2*firstDayPrice / 48;
             $scope.notes[j] = priceData.map(function(price) {
                 var note = 0;
-                if (price == maxHigh) {
+                if (price === 2 * firstDayPrice) {
                     note = 83;
-                } else if (price == minHigh) {
+                } else if (price === 0) {
                     note = 36;
-                } else if (price < average) {
-                    note = 36 + 24 - Math.floor((average - price) / intervalBelowAverage);
+                } else if (price === firstDayPrice) {
+                    note = 60;
+                } else if (price < firstDayPrice) {
+                    note = 36 + 24 - Math.floor((firstDayPrice - price) / interval);
                 } else {
-                    note = 60 + Math.floor((price - average) / intervalAboveAverage);
+                    note = 60 + Math.floor((price - firstDayPrice) / interval);
                 }
                 return note;
             });
+            console.log($scope.notes);
         }
     };
 
