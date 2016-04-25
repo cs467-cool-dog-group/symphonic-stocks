@@ -1,13 +1,13 @@
 {
     "year": {
-        "Company": "^DJI",
+        "Company": "Dow Jones Industrial Average",
         "adj close": 18096.269531,
         "close": 18096.269531,
         "days": [
             {
                 "Adj Close": 18096.269531,
                 "Close": 18096.269531,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-04-20",
                 "High": 18167.630859,
                 "Low": 18031.210938,
@@ -19,7 +19,7 @@
             {
                 "Adj Close": 18053.599609,
                 "Close": 18053.599609,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-04-19",
                 "High": 18103.460938,
                 "Low": 17984.429688,
@@ -31,7 +31,7 @@
             {
                 "Adj Close": 18004.160156,
                 "Close": 18004.160156,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-04-18",
                 "High": 18009.529297,
                 "Low": 17848.220703,
@@ -43,7 +43,7 @@
             {
                 "Adj Close": 17897.460938,
                 "Close": 17897.460938,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-04-15",
                 "High": 17937.650391,
                 "Low": 17867.410156,
@@ -55,7 +55,7 @@
             {
                 "Adj Close": 17926.429688,
                 "Close": 17926.429688,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-04-14",
                 "High": 17962.140625,
                 "Low": 17885.439453,
@@ -67,7 +67,7 @@
             {
                 "Adj Close": 17908.279297,
                 "Close": 17908.279297,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-04-13",
                 "High": 17918.349609,
                 "Low": 17741.660156,
@@ -79,7 +79,7 @@
             {
                 "Adj Close": 17721.25,
                 "Close": 17721.25,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-04-12",
                 "High": 17744.429688,
                 "Low": 17553.570312,
@@ -91,7 +91,7 @@
             {
                 "Adj Close": 17556.410156,
                 "Close": 17556.410156,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-04-11",
                 "High": 17731.630859,
                 "Low": 17555.900391,
@@ -103,7 +103,7 @@
             {
                 "Adj Close": 17576.960938,
                 "Close": 17576.960938,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-04-08",
                 "High": 17694.509766,
                 "Low": 17528.160156,
@@ -115,7 +115,7 @@
             {
                 "Adj Close": 17541.960938,
                 "Close": 17541.960938,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-04-07",
                 "High": 17687.279297,
                 "Low": 17484.230469,
@@ -127,7 +127,7 @@
             {
                 "Adj Close": 17716.050781,
                 "Close": 17716.050781,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-04-06",
                 "High": 17723.550781,
                 "Low": 17542.539062,
@@ -139,7 +139,7 @@
             {
                 "Adj Close": 17603.320312,
                 "Close": 17603.320312,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-04-05",
                 "High": 17718.029297,
                 "Low": 17579.560547,
@@ -151,7 +151,7 @@
             {
                 "Adj Close": 17737.0,
                 "Close": 17737.0,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-04-04",
                 "High": 17806.380859,
                 "Low": 17710.669922,
@@ -163,7 +163,7 @@
             {
                 "Adj Close": 17792.75,
                 "Close": 17792.75,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-04-01",
                 "High": 17811.480469,
                 "Low": 17568.019531,
@@ -175,7 +175,7 @@
             {
                 "Adj Close": 17685.089844,
                 "Close": 17685.089844,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-31",
                 "High": 17755.699219,
                 "Low": 17669.720703,
@@ -187,7 +187,7 @@
             {
                 "Adj Close": 17716.660156,
                 "Close": 17716.660156,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-30",
                 "High": 17790.109375,
                 "Low": 17652.359375,
@@ -199,7 +199,7 @@
             {
                 "Adj Close": 17633.109375,
                 "Close": 17633.109375,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-29",
                 "High": 17642.810547,
                 "Low": 17434.269531,
@@ -211,7 +211,7 @@
             {
                 "Adj Close": 17535.390625,
                 "Close": 17535.390625,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-28",
                 "High": 17583.810547,
                 "Low": 17493.029297,
@@ -223,7 +223,7 @@
             {
                 "Adj Close": 17515.730469,
                 "Close": 17515.730469,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-24",
                 "High": 17517.140625,
                 "Low": 17399.009766,
@@ -235,7 +235,7 @@
             {
                 "Adj Close": 17502.589844,
                 "Close": 17502.589844,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-23",
                 "High": 17588.810547,
                 "Low": 17486.269531,
@@ -247,7 +247,7 @@
             {
                 "Adj Close": 17582.570312,
                 "Close": 17582.570312,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-22",
                 "High": 17648.939453,
                 "Low": 17540.419922,
@@ -259,7 +259,7 @@
             {
                 "Adj Close": 17623.869141,
                 "Close": 17623.869141,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-21",
                 "High": 17644.970703,
                 "Low": 17551.279297,
@@ -271,7 +271,7 @@
             {
                 "Adj Close": 17602.300781,
                 "Close": 17602.300781,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-18",
                 "High": 17620.580078,
                 "Low": 17481.490234,
@@ -283,7 +283,7 @@
             {
                 "Adj Close": 17481.490234,
                 "Close": 17481.490234,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-17",
                 "High": 17529.009766,
                 "Low": 17297.650391,
@@ -295,7 +295,7 @@
             {
                 "Adj Close": 17325.759766,
                 "Close": 17325.759766,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-16",
                 "High": 17379.179688,
                 "Low": 17204.070312,
@@ -307,7 +307,7 @@
             {
                 "Adj Close": 17251.529297,
                 "Close": 17251.529297,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-15",
                 "High": 17251.699219,
                 "Low": 17120.349609,
@@ -319,7 +319,7 @@
             {
                 "Adj Close": 17229.130859,
                 "Close": 17229.130859,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-14",
                 "High": 17275.070312,
                 "Low": 17161.160156,
@@ -331,7 +331,7 @@
             {
                 "Adj Close": 17213.310547,
                 "Close": 17213.310547,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-11",
                 "High": 17220.089844,
                 "Low": 17014.990234,
@@ -343,7 +343,7 @@
             {
                 "Adj Close": 16995.130859,
                 "Close": 16995.130859,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-10",
                 "High": 17130.109375,
                 "Low": 16821.859375,
@@ -355,7 +355,7 @@
             {
                 "Adj Close": 17000.359375,
                 "Close": 17000.359375,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-09",
                 "High": 17048.5,
                 "Low": 16947.939453,
@@ -367,7 +367,7 @@
             {
                 "Adj Close": 16964.099609,
                 "Close": 16964.099609,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-08",
                 "High": 17072.789062,
                 "Low": 16921.509766,
@@ -379,7 +379,7 @@
             {
                 "Adj Close": 17073.949219,
                 "Close": 17073.949219,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-07",
                 "High": 17099.25,
                 "Low": 16940.480469,
@@ -391,7 +391,7 @@
             {
                 "Adj Close": 17006.769531,
                 "Close": 17006.769531,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-04",
                 "High": 17062.380859,
                 "Low": 16898.839844,
@@ -403,7 +403,7 @@
             {
                 "Adj Close": 16943.900391,
                 "Close": 16943.900391,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-03",
                 "High": 16944.310547,
                 "Low": 16820.730469,
@@ -415,7 +415,7 @@
             {
                 "Adj Close": 16899.320312,
                 "Close": 16899.320312,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-02",
                 "High": 16900.169922,
                 "Low": 16766.320312,
@@ -427,7 +427,7 @@
             {
                 "Adj Close": 16865.080078,
                 "Close": 16865.080078,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-03-01",
                 "High": 16865.560547,
                 "Low": 16545.669922,
@@ -439,7 +439,7 @@
             {
                 "Adj Close": 16516.5,
                 "Close": 16516.5,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-29",
                 "High": 16726.119141,
                 "Low": 16510.400391,
@@ -451,7 +451,7 @@
             {
                 "Adj Close": 16639.970703,
                 "Close": 16639.970703,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-26",
                 "High": 16795.980469,
                 "Low": 16623.910156,
@@ -463,7 +463,7 @@
             {
                 "Adj Close": 16697.289062,
                 "Close": 16697.289062,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-25",
                 "High": 16697.980469,
                 "Low": 16458.419922,
@@ -475,7 +475,7 @@
             {
                 "Adj Close": 16484.990234,
                 "Close": 16484.990234,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-24",
                 "High": 16507.390625,
                 "Low": 16165.860352,
@@ -487,7 +487,7 @@
             {
                 "Adj Close": 16431.779297,
                 "Close": 16431.779297,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-23",
                 "High": 16610.390625,
                 "Low": 16403.529297,
@@ -499,7 +499,7 @@
             {
                 "Adj Close": 16620.660156,
                 "Close": 16620.660156,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-22",
                 "High": 16664.240234,
                 "Low": 16417.130859,
@@ -511,7 +511,7 @@
             {
                 "Adj Close": 16391.990234,
                 "Close": 16391.990234,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-19",
                 "High": 16410.960938,
                 "Low": 16278.0,
@@ -523,7 +523,7 @@
             {
                 "Adj Close": 16413.429688,
                 "Close": 16413.429688,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-18",
                 "High": 16511.839844,
                 "Low": 16390.429688,
@@ -535,7 +535,7 @@
             {
                 "Adj Close": 16453.830078,
                 "Close": 16453.830078,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-17",
                 "High": 16486.119141,
                 "Low": 16217.980469,
@@ -547,7 +547,7 @@
             {
                 "Adj Close": 16196.410156,
                 "Close": 16196.410156,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-16",
                 "High": 16196.410156,
                 "Low": 16012.389648,
@@ -559,7 +559,7 @@
             {
                 "Adj Close": 15973.839844,
                 "Close": 15973.839844,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-12",
                 "High": 15974.040039,
                 "Low": 15691.620117,
@@ -571,7 +571,7 @@
             {
                 "Adj Close": 15660.179688,
                 "Close": 15660.179688,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-11",
                 "High": 15897.820312,
                 "Low": 15503.009766,
@@ -583,7 +583,7 @@
             {
                 "Adj Close": 15914.740234,
                 "Close": 15914.740234,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-10",
                 "High": 16201.889648,
                 "Low": 15899.910156,
@@ -595,7 +595,7 @@
             {
                 "Adj Close": 16014.379883,
                 "Close": 16014.379883,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-09",
                 "High": 16136.620117,
                 "Low": 15881.110352,
@@ -607,7 +607,7 @@
             {
                 "Adj Close": 16027.049805,
                 "Close": 16027.049805,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-08",
                 "High": 16147.509766,
                 "Low": 15803.549805,
@@ -619,7 +619,7 @@
             {
                 "Adj Close": 16204.969727,
                 "Close": 16204.969727,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-05",
                 "High": 16423.630859,
                 "Low": 16129.80957,
@@ -631,7 +631,7 @@
             {
                 "Adj Close": 16416.580078,
                 "Close": 16416.580078,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-04",
                 "High": 16485.839844,
                 "Low": 16266.160156,
@@ -643,7 +643,7 @@
             {
                 "Adj Close": 16336.660156,
                 "Close": 16336.660156,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-03",
                 "High": 16381.69043,
                 "Low": 15960.450195,
@@ -655,7 +655,7 @@
             {
                 "Adj Close": 16153.540039,
                 "Close": 16153.540039,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-02",
                 "High": 16420.210938,
                 "Low": 16108.44043,
@@ -667,7 +667,7 @@
             {
                 "Adj Close": 16449.179688,
                 "Close": 16449.179688,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-02-01",
                 "High": 16510.980469,
                 "Low": 16299.469727,
@@ -679,7 +679,7 @@
             {
                 "Adj Close": 16466.300781,
                 "Close": 16466.300781,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-01-29",
                 "High": 16466.300781,
                 "Low": 16090.259766,
@@ -691,7 +691,7 @@
             {
                 "Adj Close": 16069.639648,
                 "Close": 16069.639648,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-01-28",
                 "High": 16102.139648,
                 "Low": 15863.719727,
@@ -703,7 +703,7 @@
             {
                 "Adj Close": 15944.459961,
                 "Close": 15944.459961,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-01-27",
                 "High": 16235.030273,
                 "Low": 15878.299805,
@@ -715,7 +715,7 @@
             {
                 "Adj Close": 16167.230469,
                 "Close": 16167.230469,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-01-26",
                 "High": 16185.790039,
                 "Low": 15893.160156,
@@ -727,7 +727,7 @@
             {
                 "Adj Close": 15885.219727,
                 "Close": 15885.219727,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-01-25",
                 "High": 16086.459961,
                 "Low": 15880.150391,
@@ -739,7 +739,7 @@
             {
                 "Adj Close": 16093.509766,
                 "Close": 16093.509766,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-01-22",
                 "High": 16136.790039,
                 "Low": 15921.099609,
@@ -751,7 +751,7 @@
             {
                 "Adj Close": 15882.679688,
                 "Close": 15882.679688,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-01-21",
                 "High": 16038.589844,
                 "Low": 15704.660156,
@@ -763,7 +763,7 @@
             {
                 "Adj Close": 15766.740234,
                 "Close": 15766.740234,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-01-20",
                 "High": 15989.450195,
                 "Low": 15450.55957,
@@ -775,7 +775,7 @@
             {
                 "Adj Close": 16016.019531,
                 "Close": 16016.019531,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-01-19",
                 "High": 16171.959961,
                 "Low": 15900.25,
@@ -787,7 +787,7 @@
             {
                 "Adj Close": 15988.080078,
                 "Close": 15988.080078,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-01-15",
                 "High": 16354.330078,
                 "Low": 15842.110352,
@@ -799,7 +799,7 @@
             {
                 "Adj Close": 16379.049805,
                 "Close": 16379.049805,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-01-14",
                 "High": 16482.050781,
                 "Low": 16075.120117,
@@ -811,7 +811,7 @@
             {
                 "Adj Close": 16151.410156,
                 "Close": 16151.410156,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-01-13",
                 "High": 16593.509766,
                 "Low": 16123.200195,
@@ -823,7 +823,7 @@
             {
                 "Adj Close": 16516.220703,
                 "Close": 16516.220703,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-01-12",
                 "High": 16591.349609,
                 "Low": 16322.070312,
@@ -835,7 +835,7 @@
             {
                 "Adj Close": 16398.570312,
                 "Close": 16398.570312,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-01-11",
                 "High": 16461.849609,
                 "Low": 16232.030273,
@@ -847,7 +847,7 @@
             {
                 "Adj Close": 16346.450195,
                 "Close": 16346.450195,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-01-08",
                 "High": 16651.890625,
                 "Low": 16314.570312,
@@ -859,7 +859,7 @@
             {
                 "Adj Close": 16514.099609,
                 "Close": 16514.099609,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-01-07",
                 "High": 16888.359375,
                 "Low": 16463.630859,
@@ -871,7 +871,7 @@
             {
                 "Adj Close": 16906.509766,
                 "Close": 16906.509766,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-01-06",
                 "High": 17154.830078,
                 "Low": 16817.619141,
@@ -883,7 +883,7 @@
             {
                 "Adj Close": 17158.660156,
                 "Close": 17158.660156,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-01-05",
                 "High": 17195.839844,
                 "Low": 17038.609375,
@@ -895,7 +895,7 @@
             {
                 "Adj Close": 17148.939453,
                 "Close": 17148.939453,
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "Date": "2016-01-04",
                 "High": 17405.480469,
                 "Low": 16957.630859,
@@ -911,14 +911,14 @@
         "low": 15450.55957,
         "months": {
             "1": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 16466.300781,
                 "close": 16466.300781,
                 "days": [
                     {
                         "Adj Close": 16466.300781,
                         "Close": 16466.300781,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-29",
                         "High": 16466.300781,
                         "Low": 16090.259766,
@@ -930,7 +930,7 @@
                     {
                         "Adj Close": 16069.639648,
                         "Close": 16069.639648,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-28",
                         "High": 16102.139648,
                         "Low": 15863.719727,
@@ -942,7 +942,7 @@
                     {
                         "Adj Close": 15944.459961,
                         "Close": 15944.459961,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-27",
                         "High": 16235.030273,
                         "Low": 15878.299805,
@@ -954,7 +954,7 @@
                     {
                         "Adj Close": 16167.230469,
                         "Close": 16167.230469,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-26",
                         "High": 16185.790039,
                         "Low": 15893.160156,
@@ -966,7 +966,7 @@
                     {
                         "Adj Close": 15885.219727,
                         "Close": 15885.219727,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-25",
                         "High": 16086.459961,
                         "Low": 15880.150391,
@@ -978,7 +978,7 @@
                     {
                         "Adj Close": 16093.509766,
                         "Close": 16093.509766,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-22",
                         "High": 16136.790039,
                         "Low": 15921.099609,
@@ -990,7 +990,7 @@
                     {
                         "Adj Close": 15882.679688,
                         "Close": 15882.679688,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-21",
                         "High": 16038.589844,
                         "Low": 15704.660156,
@@ -1002,7 +1002,7 @@
                     {
                         "Adj Close": 15766.740234,
                         "Close": 15766.740234,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-20",
                         "High": 15989.450195,
                         "Low": 15450.55957,
@@ -1014,7 +1014,7 @@
                     {
                         "Adj Close": 16016.019531,
                         "Close": 16016.019531,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-19",
                         "High": 16171.959961,
                         "Low": 15900.25,
@@ -1026,7 +1026,7 @@
                     {
                         "Adj Close": 15988.080078,
                         "Close": 15988.080078,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-15",
                         "High": 16354.330078,
                         "Low": 15842.110352,
@@ -1038,7 +1038,7 @@
                     {
                         "Adj Close": 16379.049805,
                         "Close": 16379.049805,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-14",
                         "High": 16482.050781,
                         "Low": 16075.120117,
@@ -1050,7 +1050,7 @@
                     {
                         "Adj Close": 16151.410156,
                         "Close": 16151.410156,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-13",
                         "High": 16593.509766,
                         "Low": 16123.200195,
@@ -1062,7 +1062,7 @@
                     {
                         "Adj Close": 16516.220703,
                         "Close": 16516.220703,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-12",
                         "High": 16591.349609,
                         "Low": 16322.070312,
@@ -1074,7 +1074,7 @@
                     {
                         "Adj Close": 16398.570312,
                         "Close": 16398.570312,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-11",
                         "High": 16461.849609,
                         "Low": 16232.030273,
@@ -1086,7 +1086,7 @@
                     {
                         "Adj Close": 16346.450195,
                         "Close": 16346.450195,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-08",
                         "High": 16651.890625,
                         "Low": 16314.570312,
@@ -1098,7 +1098,7 @@
                     {
                         "Adj Close": 16514.099609,
                         "Close": 16514.099609,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-07",
                         "High": 16888.359375,
                         "Low": 16463.630859,
@@ -1110,7 +1110,7 @@
                     {
                         "Adj Close": 16906.509766,
                         "Close": 16906.509766,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-06",
                         "High": 17154.830078,
                         "Low": 16817.619141,
@@ -1122,7 +1122,7 @@
                     {
                         "Adj Close": 17158.660156,
                         "Close": 17158.660156,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-05",
                         "High": 17195.839844,
                         "Low": 17038.609375,
@@ -1134,7 +1134,7 @@
                     {
                         "Adj Close": 17148.939453,
                         "Close": 17148.939453,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-04",
                         "High": 17405.480469,
                         "Low": 16957.630859,
@@ -1154,14 +1154,14 @@
                 "year": 2016
             },
             "2": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 16516.5,
                 "close": 16516.5,
                 "days": [
                     {
                         "Adj Close": 16516.5,
                         "Close": 16516.5,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-29",
                         "High": 16726.119141,
                         "Low": 16510.400391,
@@ -1173,7 +1173,7 @@
                     {
                         "Adj Close": 16639.970703,
                         "Close": 16639.970703,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-26",
                         "High": 16795.980469,
                         "Low": 16623.910156,
@@ -1185,7 +1185,7 @@
                     {
                         "Adj Close": 16697.289062,
                         "Close": 16697.289062,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-25",
                         "High": 16697.980469,
                         "Low": 16458.419922,
@@ -1197,7 +1197,7 @@
                     {
                         "Adj Close": 16484.990234,
                         "Close": 16484.990234,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-24",
                         "High": 16507.390625,
                         "Low": 16165.860352,
@@ -1209,7 +1209,7 @@
                     {
                         "Adj Close": 16431.779297,
                         "Close": 16431.779297,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-23",
                         "High": 16610.390625,
                         "Low": 16403.529297,
@@ -1221,7 +1221,7 @@
                     {
                         "Adj Close": 16620.660156,
                         "Close": 16620.660156,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-22",
                         "High": 16664.240234,
                         "Low": 16417.130859,
@@ -1233,7 +1233,7 @@
                     {
                         "Adj Close": 16391.990234,
                         "Close": 16391.990234,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-19",
                         "High": 16410.960938,
                         "Low": 16278.0,
@@ -1245,7 +1245,7 @@
                     {
                         "Adj Close": 16413.429688,
                         "Close": 16413.429688,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-18",
                         "High": 16511.839844,
                         "Low": 16390.429688,
@@ -1257,7 +1257,7 @@
                     {
                         "Adj Close": 16453.830078,
                         "Close": 16453.830078,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-17",
                         "High": 16486.119141,
                         "Low": 16217.980469,
@@ -1269,7 +1269,7 @@
                     {
                         "Adj Close": 16196.410156,
                         "Close": 16196.410156,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-16",
                         "High": 16196.410156,
                         "Low": 16012.389648,
@@ -1281,7 +1281,7 @@
                     {
                         "Adj Close": 15973.839844,
                         "Close": 15973.839844,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-12",
                         "High": 15974.040039,
                         "Low": 15691.620117,
@@ -1293,7 +1293,7 @@
                     {
                         "Adj Close": 15660.179688,
                         "Close": 15660.179688,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-11",
                         "High": 15897.820312,
                         "Low": 15503.009766,
@@ -1305,7 +1305,7 @@
                     {
                         "Adj Close": 15914.740234,
                         "Close": 15914.740234,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-10",
                         "High": 16201.889648,
                         "Low": 15899.910156,
@@ -1317,7 +1317,7 @@
                     {
                         "Adj Close": 16014.379883,
                         "Close": 16014.379883,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-09",
                         "High": 16136.620117,
                         "Low": 15881.110352,
@@ -1329,7 +1329,7 @@
                     {
                         "Adj Close": 16027.049805,
                         "Close": 16027.049805,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-08",
                         "High": 16147.509766,
                         "Low": 15803.549805,
@@ -1341,7 +1341,7 @@
                     {
                         "Adj Close": 16204.969727,
                         "Close": 16204.969727,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-05",
                         "High": 16423.630859,
                         "Low": 16129.80957,
@@ -1353,7 +1353,7 @@
                     {
                         "Adj Close": 16416.580078,
                         "Close": 16416.580078,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-04",
                         "High": 16485.839844,
                         "Low": 16266.160156,
@@ -1365,7 +1365,7 @@
                     {
                         "Adj Close": 16336.660156,
                         "Close": 16336.660156,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-03",
                         "High": 16381.69043,
                         "Low": 15960.450195,
@@ -1377,7 +1377,7 @@
                     {
                         "Adj Close": 16153.540039,
                         "Close": 16153.540039,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-02",
                         "High": 16420.210938,
                         "Low": 16108.44043,
@@ -1389,7 +1389,7 @@
                     {
                         "Adj Close": 16449.179688,
                         "Close": 16449.179688,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-01",
                         "High": 16510.980469,
                         "Low": 16299.469727,
@@ -1409,14 +1409,14 @@
                 "year": 2016
             },
             "3": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 17685.089844,
                 "close": 17685.089844,
                 "days": [
                     {
                         "Adj Close": 17685.089844,
                         "Close": 17685.089844,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-31",
                         "High": 17755.699219,
                         "Low": 17669.720703,
@@ -1428,7 +1428,7 @@
                     {
                         "Adj Close": 17716.660156,
                         "Close": 17716.660156,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-30",
                         "High": 17790.109375,
                         "Low": 17652.359375,
@@ -1440,7 +1440,7 @@
                     {
                         "Adj Close": 17633.109375,
                         "Close": 17633.109375,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-29",
                         "High": 17642.810547,
                         "Low": 17434.269531,
@@ -1452,7 +1452,7 @@
                     {
                         "Adj Close": 17535.390625,
                         "Close": 17535.390625,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-28",
                         "High": 17583.810547,
                         "Low": 17493.029297,
@@ -1464,7 +1464,7 @@
                     {
                         "Adj Close": 17515.730469,
                         "Close": 17515.730469,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-24",
                         "High": 17517.140625,
                         "Low": 17399.009766,
@@ -1476,7 +1476,7 @@
                     {
                         "Adj Close": 17502.589844,
                         "Close": 17502.589844,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-23",
                         "High": 17588.810547,
                         "Low": 17486.269531,
@@ -1488,7 +1488,7 @@
                     {
                         "Adj Close": 17582.570312,
                         "Close": 17582.570312,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-22",
                         "High": 17648.939453,
                         "Low": 17540.419922,
@@ -1500,7 +1500,7 @@
                     {
                         "Adj Close": 17623.869141,
                         "Close": 17623.869141,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-21",
                         "High": 17644.970703,
                         "Low": 17551.279297,
@@ -1512,7 +1512,7 @@
                     {
                         "Adj Close": 17602.300781,
                         "Close": 17602.300781,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-18",
                         "High": 17620.580078,
                         "Low": 17481.490234,
@@ -1524,7 +1524,7 @@
                     {
                         "Adj Close": 17481.490234,
                         "Close": 17481.490234,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-17",
                         "High": 17529.009766,
                         "Low": 17297.650391,
@@ -1536,7 +1536,7 @@
                     {
                         "Adj Close": 17325.759766,
                         "Close": 17325.759766,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-16",
                         "High": 17379.179688,
                         "Low": 17204.070312,
@@ -1548,7 +1548,7 @@
                     {
                         "Adj Close": 17251.529297,
                         "Close": 17251.529297,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-15",
                         "High": 17251.699219,
                         "Low": 17120.349609,
@@ -1560,7 +1560,7 @@
                     {
                         "Adj Close": 17229.130859,
                         "Close": 17229.130859,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-14",
                         "High": 17275.070312,
                         "Low": 17161.160156,
@@ -1572,7 +1572,7 @@
                     {
                         "Adj Close": 17213.310547,
                         "Close": 17213.310547,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-11",
                         "High": 17220.089844,
                         "Low": 17014.990234,
@@ -1584,7 +1584,7 @@
                     {
                         "Adj Close": 16995.130859,
                         "Close": 16995.130859,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-10",
                         "High": 17130.109375,
                         "Low": 16821.859375,
@@ -1596,7 +1596,7 @@
                     {
                         "Adj Close": 17000.359375,
                         "Close": 17000.359375,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-09",
                         "High": 17048.5,
                         "Low": 16947.939453,
@@ -1608,7 +1608,7 @@
                     {
                         "Adj Close": 16964.099609,
                         "Close": 16964.099609,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-08",
                         "High": 17072.789062,
                         "Low": 16921.509766,
@@ -1620,7 +1620,7 @@
                     {
                         "Adj Close": 17073.949219,
                         "Close": 17073.949219,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-07",
                         "High": 17099.25,
                         "Low": 16940.480469,
@@ -1632,7 +1632,7 @@
                     {
                         "Adj Close": 17006.769531,
                         "Close": 17006.769531,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-04",
                         "High": 17062.380859,
                         "Low": 16898.839844,
@@ -1644,7 +1644,7 @@
                     {
                         "Adj Close": 16943.900391,
                         "Close": 16943.900391,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-03",
                         "High": 16944.310547,
                         "Low": 16820.730469,
@@ -1656,7 +1656,7 @@
                     {
                         "Adj Close": 16899.320312,
                         "Close": 16899.320312,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-02",
                         "High": 16900.169922,
                         "Low": 16766.320312,
@@ -1668,7 +1668,7 @@
                     {
                         "Adj Close": 16865.080078,
                         "Close": 16865.080078,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-01",
                         "High": 16865.560547,
                         "Low": 16545.669922,
@@ -1688,14 +1688,14 @@
                 "year": 2016
             },
             "4": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 18096.269531,
                 "close": 18096.269531,
                 "days": [
                     {
                         "Adj Close": 18096.269531,
                         "Close": 18096.269531,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-20",
                         "High": 18167.630859,
                         "Low": 18031.210938,
@@ -1707,7 +1707,7 @@
                     {
                         "Adj Close": 18053.599609,
                         "Close": 18053.599609,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-19",
                         "High": 18103.460938,
                         "Low": 17984.429688,
@@ -1719,7 +1719,7 @@
                     {
                         "Adj Close": 18004.160156,
                         "Close": 18004.160156,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-18",
                         "High": 18009.529297,
                         "Low": 17848.220703,
@@ -1731,7 +1731,7 @@
                     {
                         "Adj Close": 17897.460938,
                         "Close": 17897.460938,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-15",
                         "High": 17937.650391,
                         "Low": 17867.410156,
@@ -1743,7 +1743,7 @@
                     {
                         "Adj Close": 17926.429688,
                         "Close": 17926.429688,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-14",
                         "High": 17962.140625,
                         "Low": 17885.439453,
@@ -1755,7 +1755,7 @@
                     {
                         "Adj Close": 17908.279297,
                         "Close": 17908.279297,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-13",
                         "High": 17918.349609,
                         "Low": 17741.660156,
@@ -1767,7 +1767,7 @@
                     {
                         "Adj Close": 17721.25,
                         "Close": 17721.25,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-12",
                         "High": 17744.429688,
                         "Low": 17553.570312,
@@ -1779,7 +1779,7 @@
                     {
                         "Adj Close": 17556.410156,
                         "Close": 17556.410156,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-11",
                         "High": 17731.630859,
                         "Low": 17555.900391,
@@ -1791,7 +1791,7 @@
                     {
                         "Adj Close": 17576.960938,
                         "Close": 17576.960938,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-08",
                         "High": 17694.509766,
                         "Low": 17528.160156,
@@ -1803,7 +1803,7 @@
                     {
                         "Adj Close": 17541.960938,
                         "Close": 17541.960938,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-07",
                         "High": 17687.279297,
                         "Low": 17484.230469,
@@ -1815,7 +1815,7 @@
                     {
                         "Adj Close": 17716.050781,
                         "Close": 17716.050781,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-06",
                         "High": 17723.550781,
                         "Low": 17542.539062,
@@ -1827,7 +1827,7 @@
                     {
                         "Adj Close": 17603.320312,
                         "Close": 17603.320312,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-05",
                         "High": 17718.029297,
                         "Low": 17579.560547,
@@ -1839,7 +1839,7 @@
                     {
                         "Adj Close": 17737.0,
                         "Close": 17737.0,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-04",
                         "High": 17806.380859,
                         "Low": 17710.669922,
@@ -1851,7 +1851,7 @@
                     {
                         "Adj Close": 17792.75,
                         "Close": 17792.75,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-01",
                         "High": 17811.480469,
                         "Low": 17568.019531,
@@ -1875,14 +1875,14 @@
         "volume": 9080430000,
         "weeks": {
             "1": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 16346.450195,
                 "close": 16346.450195,
                 "days": [
                     {
                         "Adj Close": 16346.450195,
                         "Close": 16346.450195,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-08",
                         "High": 16651.890625,
                         "Low": 16314.570312,
@@ -1894,7 +1894,7 @@
                     {
                         "Adj Close": 16514.099609,
                         "Close": 16514.099609,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-07",
                         "High": 16888.359375,
                         "Low": 16463.630859,
@@ -1906,7 +1906,7 @@
                     {
                         "Adj Close": 16906.509766,
                         "Close": 16906.509766,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-06",
                         "High": 17154.830078,
                         "Low": 16817.619141,
@@ -1918,7 +1918,7 @@
                     {
                         "Adj Close": 17158.660156,
                         "Close": 17158.660156,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-05",
                         "High": 17195.839844,
                         "Low": 17038.609375,
@@ -1930,7 +1930,7 @@
                     {
                         "Adj Close": 17148.939453,
                         "Close": 17148.939453,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-04",
                         "High": 17405.480469,
                         "Low": 16957.630859,
@@ -1950,14 +1950,14 @@
                 "year": 2016
             },
             "2": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 15988.080078,
                 "close": 15988.080078,
                 "days": [
                     {
                         "Adj Close": 15988.080078,
                         "Close": 15988.080078,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-15",
                         "High": 16354.330078,
                         "Low": 15842.110352,
@@ -1969,7 +1969,7 @@
                     {
                         "Adj Close": 16379.049805,
                         "Close": 16379.049805,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-14",
                         "High": 16482.050781,
                         "Low": 16075.120117,
@@ -1981,7 +1981,7 @@
                     {
                         "Adj Close": 16151.410156,
                         "Close": 16151.410156,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-13",
                         "High": 16593.509766,
                         "Low": 16123.200195,
@@ -1993,7 +1993,7 @@
                     {
                         "Adj Close": 16516.220703,
                         "Close": 16516.220703,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-12",
                         "High": 16591.349609,
                         "Low": 16322.070312,
@@ -2005,7 +2005,7 @@
                     {
                         "Adj Close": 16398.570312,
                         "Close": 16398.570312,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-11",
                         "High": 16461.849609,
                         "Low": 16232.030273,
@@ -2025,14 +2025,14 @@
                 "year": 2016
             },
             "3": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 16093.509766,
                 "close": 16093.509766,
                 "days": [
                     {
                         "Adj Close": 16093.509766,
                         "Close": 16093.509766,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-22",
                         "High": 16136.790039,
                         "Low": 15921.099609,
@@ -2044,7 +2044,7 @@
                     {
                         "Adj Close": 15882.679688,
                         "Close": 15882.679688,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-21",
                         "High": 16038.589844,
                         "Low": 15704.660156,
@@ -2056,7 +2056,7 @@
                     {
                         "Adj Close": 15766.740234,
                         "Close": 15766.740234,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-20",
                         "High": 15989.450195,
                         "Low": 15450.55957,
@@ -2068,7 +2068,7 @@
                     {
                         "Adj Close": 16016.019531,
                         "Close": 16016.019531,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-19",
                         "High": 16171.959961,
                         "Low": 15900.25,
@@ -2088,14 +2088,14 @@
                 "year": 2016
             },
             "4": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 16466.300781,
                 "close": 16466.300781,
                 "days": [
                     {
                         "Adj Close": 16466.300781,
                         "Close": 16466.300781,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-29",
                         "High": 16466.300781,
                         "Low": 16090.259766,
@@ -2107,7 +2107,7 @@
                     {
                         "Adj Close": 16069.639648,
                         "Close": 16069.639648,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-28",
                         "High": 16102.139648,
                         "Low": 15863.719727,
@@ -2119,7 +2119,7 @@
                     {
                         "Adj Close": 15944.459961,
                         "Close": 15944.459961,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-27",
                         "High": 16235.030273,
                         "Low": 15878.299805,
@@ -2131,7 +2131,7 @@
                     {
                         "Adj Close": 16167.230469,
                         "Close": 16167.230469,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-26",
                         "High": 16185.790039,
                         "Low": 15893.160156,
@@ -2143,7 +2143,7 @@
                     {
                         "Adj Close": 15885.219727,
                         "Close": 15885.219727,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-01-25",
                         "High": 16086.459961,
                         "Low": 15880.150391,
@@ -2163,14 +2163,14 @@
                 "year": 2016
             },
             "5": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 16204.969727,
                 "close": 16204.969727,
                 "days": [
                     {
                         "Adj Close": 16204.969727,
                         "Close": 16204.969727,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-05",
                         "High": 16423.630859,
                         "Low": 16129.80957,
@@ -2182,7 +2182,7 @@
                     {
                         "Adj Close": 16416.580078,
                         "Close": 16416.580078,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-04",
                         "High": 16485.839844,
                         "Low": 16266.160156,
@@ -2194,7 +2194,7 @@
                     {
                         "Adj Close": 16336.660156,
                         "Close": 16336.660156,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-03",
                         "High": 16381.69043,
                         "Low": 15960.450195,
@@ -2206,7 +2206,7 @@
                     {
                         "Adj Close": 16153.540039,
                         "Close": 16153.540039,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-02",
                         "High": 16420.210938,
                         "Low": 16108.44043,
@@ -2218,7 +2218,7 @@
                     {
                         "Adj Close": 16449.179688,
                         "Close": 16449.179688,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-01",
                         "High": 16510.980469,
                         "Low": 16299.469727,
@@ -2238,14 +2238,14 @@
                 "year": 2016
             },
             "6": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 15973.839844,
                 "close": 15973.839844,
                 "days": [
                     {
                         "Adj Close": 15973.839844,
                         "Close": 15973.839844,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-12",
                         "High": 15974.040039,
                         "Low": 15691.620117,
@@ -2257,7 +2257,7 @@
                     {
                         "Adj Close": 15660.179688,
                         "Close": 15660.179688,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-11",
                         "High": 15897.820312,
                         "Low": 15503.009766,
@@ -2269,7 +2269,7 @@
                     {
                         "Adj Close": 15914.740234,
                         "Close": 15914.740234,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-10",
                         "High": 16201.889648,
                         "Low": 15899.910156,
@@ -2281,7 +2281,7 @@
                     {
                         "Adj Close": 16014.379883,
                         "Close": 16014.379883,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-09",
                         "High": 16136.620117,
                         "Low": 15881.110352,
@@ -2293,7 +2293,7 @@
                     {
                         "Adj Close": 16027.049805,
                         "Close": 16027.049805,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-08",
                         "High": 16147.509766,
                         "Low": 15803.549805,
@@ -2313,14 +2313,14 @@
                 "year": 2016
             },
             "7": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 16391.990234,
                 "close": 16391.990234,
                 "days": [
                     {
                         "Adj Close": 16391.990234,
                         "Close": 16391.990234,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-19",
                         "High": 16410.960938,
                         "Low": 16278.0,
@@ -2332,7 +2332,7 @@
                     {
                         "Adj Close": 16413.429688,
                         "Close": 16413.429688,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-18",
                         "High": 16511.839844,
                         "Low": 16390.429688,
@@ -2344,7 +2344,7 @@
                     {
                         "Adj Close": 16453.830078,
                         "Close": 16453.830078,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-17",
                         "High": 16486.119141,
                         "Low": 16217.980469,
@@ -2356,7 +2356,7 @@
                     {
                         "Adj Close": 16196.410156,
                         "Close": 16196.410156,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-16",
                         "High": 16196.410156,
                         "Low": 16012.389648,
@@ -2376,14 +2376,14 @@
                 "year": 2016
             },
             "8": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 16639.970703,
                 "close": 16639.970703,
                 "days": [
                     {
                         "Adj Close": 16639.970703,
                         "Close": 16639.970703,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-26",
                         "High": 16795.980469,
                         "Low": 16623.910156,
@@ -2395,7 +2395,7 @@
                     {
                         "Adj Close": 16697.289062,
                         "Close": 16697.289062,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-25",
                         "High": 16697.980469,
                         "Low": 16458.419922,
@@ -2407,7 +2407,7 @@
                     {
                         "Adj Close": 16484.990234,
                         "Close": 16484.990234,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-24",
                         "High": 16507.390625,
                         "Low": 16165.860352,
@@ -2419,7 +2419,7 @@
                     {
                         "Adj Close": 16431.779297,
                         "Close": 16431.779297,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-23",
                         "High": 16610.390625,
                         "Low": 16403.529297,
@@ -2431,7 +2431,7 @@
                     {
                         "Adj Close": 16620.660156,
                         "Close": 16620.660156,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-22",
                         "High": 16664.240234,
                         "Low": 16417.130859,
@@ -2451,14 +2451,14 @@
                 "year": 2016
             },
             "9": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 17006.769531,
                 "close": 17006.769531,
                 "days": [
                     {
                         "Adj Close": 17006.769531,
                         "Close": 17006.769531,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-04",
                         "High": 17062.380859,
                         "Low": 16898.839844,
@@ -2470,7 +2470,7 @@
                     {
                         "Adj Close": 16943.900391,
                         "Close": 16943.900391,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-03",
                         "High": 16944.310547,
                         "Low": 16820.730469,
@@ -2482,7 +2482,7 @@
                     {
                         "Adj Close": 16899.320312,
                         "Close": 16899.320312,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-02",
                         "High": 16900.169922,
                         "Low": 16766.320312,
@@ -2494,7 +2494,7 @@
                     {
                         "Adj Close": 16865.080078,
                         "Close": 16865.080078,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-01",
                         "High": 16865.560547,
                         "Low": 16545.669922,
@@ -2506,7 +2506,7 @@
                     {
                         "Adj Close": 16516.5,
                         "Close": 16516.5,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-02-29",
                         "High": 16726.119141,
                         "Low": 16510.400391,
@@ -2526,14 +2526,14 @@
                 "year": 2016
             },
             "10": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 17213.310547,
                 "close": 17213.310547,
                 "days": [
                     {
                         "Adj Close": 17213.310547,
                         "Close": 17213.310547,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-11",
                         "High": 17220.089844,
                         "Low": 17014.990234,
@@ -2545,7 +2545,7 @@
                     {
                         "Adj Close": 16995.130859,
                         "Close": 16995.130859,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-10",
                         "High": 17130.109375,
                         "Low": 16821.859375,
@@ -2557,7 +2557,7 @@
                     {
                         "Adj Close": 17000.359375,
                         "Close": 17000.359375,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-09",
                         "High": 17048.5,
                         "Low": 16947.939453,
@@ -2569,7 +2569,7 @@
                     {
                         "Adj Close": 16964.099609,
                         "Close": 16964.099609,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-08",
                         "High": 17072.789062,
                         "Low": 16921.509766,
@@ -2581,7 +2581,7 @@
                     {
                         "Adj Close": 17073.949219,
                         "Close": 17073.949219,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-07",
                         "High": 17099.25,
                         "Low": 16940.480469,
@@ -2601,14 +2601,14 @@
                 "year": 2016
             },
             "11": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 17602.300781,
                 "close": 17602.300781,
                 "days": [
                     {
                         "Adj Close": 17602.300781,
                         "Close": 17602.300781,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-18",
                         "High": 17620.580078,
                         "Low": 17481.490234,
@@ -2620,7 +2620,7 @@
                     {
                         "Adj Close": 17481.490234,
                         "Close": 17481.490234,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-17",
                         "High": 17529.009766,
                         "Low": 17297.650391,
@@ -2632,7 +2632,7 @@
                     {
                         "Adj Close": 17325.759766,
                         "Close": 17325.759766,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-16",
                         "High": 17379.179688,
                         "Low": 17204.070312,
@@ -2644,7 +2644,7 @@
                     {
                         "Adj Close": 17251.529297,
                         "Close": 17251.529297,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-15",
                         "High": 17251.699219,
                         "Low": 17120.349609,
@@ -2656,7 +2656,7 @@
                     {
                         "Adj Close": 17229.130859,
                         "Close": 17229.130859,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-14",
                         "High": 17275.070312,
                         "Low": 17161.160156,
@@ -2676,14 +2676,14 @@
                 "year": 2016
             },
             "12": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 17515.730469,
                 "close": 17515.730469,
                 "days": [
                     {
                         "Adj Close": 17515.730469,
                         "Close": 17515.730469,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-24",
                         "High": 17517.140625,
                         "Low": 17399.009766,
@@ -2695,7 +2695,7 @@
                     {
                         "Adj Close": 17502.589844,
                         "Close": 17502.589844,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-23",
                         "High": 17588.810547,
                         "Low": 17486.269531,
@@ -2707,7 +2707,7 @@
                     {
                         "Adj Close": 17582.570312,
                         "Close": 17582.570312,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-22",
                         "High": 17648.939453,
                         "Low": 17540.419922,
@@ -2719,7 +2719,7 @@
                     {
                         "Adj Close": 17623.869141,
                         "Close": 17623.869141,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-21",
                         "High": 17644.970703,
                         "Low": 17551.279297,
@@ -2739,14 +2739,14 @@
                 "year": 2016
             },
             "13": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 17792.75,
                 "close": 17792.75,
                 "days": [
                     {
                         "Adj Close": 17792.75,
                         "Close": 17792.75,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-01",
                         "High": 17811.480469,
                         "Low": 17568.019531,
@@ -2758,7 +2758,7 @@
                     {
                         "Adj Close": 17685.089844,
                         "Close": 17685.089844,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-31",
                         "High": 17755.699219,
                         "Low": 17669.720703,
@@ -2770,7 +2770,7 @@
                     {
                         "Adj Close": 17716.660156,
                         "Close": 17716.660156,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-30",
                         "High": 17790.109375,
                         "Low": 17652.359375,
@@ -2782,7 +2782,7 @@
                     {
                         "Adj Close": 17633.109375,
                         "Close": 17633.109375,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-29",
                         "High": 17642.810547,
                         "Low": 17434.269531,
@@ -2794,7 +2794,7 @@
                     {
                         "Adj Close": 17535.390625,
                         "Close": 17535.390625,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-03-28",
                         "High": 17583.810547,
                         "Low": 17493.029297,
@@ -2814,14 +2814,14 @@
                 "year": 2016
             },
             "14": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 17576.960938,
                 "close": 17576.960938,
                 "days": [
                     {
                         "Adj Close": 17576.960938,
                         "Close": 17576.960938,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-08",
                         "High": 17694.509766,
                         "Low": 17528.160156,
@@ -2833,7 +2833,7 @@
                     {
                         "Adj Close": 17541.960938,
                         "Close": 17541.960938,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-07",
                         "High": 17687.279297,
                         "Low": 17484.230469,
@@ -2845,7 +2845,7 @@
                     {
                         "Adj Close": 17716.050781,
                         "Close": 17716.050781,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-06",
                         "High": 17723.550781,
                         "Low": 17542.539062,
@@ -2857,7 +2857,7 @@
                     {
                         "Adj Close": 17603.320312,
                         "Close": 17603.320312,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-05",
                         "High": 17718.029297,
                         "Low": 17579.560547,
@@ -2869,7 +2869,7 @@
                     {
                         "Adj Close": 17737.0,
                         "Close": 17737.0,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-04",
                         "High": 17806.380859,
                         "Low": 17710.669922,
@@ -2889,14 +2889,14 @@
                 "year": 2016
             },
             "15": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 17897.460938,
                 "close": 17897.460938,
                 "days": [
                     {
                         "Adj Close": 17897.460938,
                         "Close": 17897.460938,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-15",
                         "High": 17937.650391,
                         "Low": 17867.410156,
@@ -2908,7 +2908,7 @@
                     {
                         "Adj Close": 17926.429688,
                         "Close": 17926.429688,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-14",
                         "High": 17962.140625,
                         "Low": 17885.439453,
@@ -2920,7 +2920,7 @@
                     {
                         "Adj Close": 17908.279297,
                         "Close": 17908.279297,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-13",
                         "High": 17918.349609,
                         "Low": 17741.660156,
@@ -2932,7 +2932,7 @@
                     {
                         "Adj Close": 17721.25,
                         "Close": 17721.25,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-12",
                         "High": 17744.429688,
                         "Low": 17553.570312,
@@ -2944,7 +2944,7 @@
                     {
                         "Adj Close": 17556.410156,
                         "Close": 17556.410156,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-11",
                         "High": 17731.630859,
                         "Low": 17555.900391,
@@ -2964,14 +2964,14 @@
                 "year": 2016
             },
             "16": {
-                "Company": "^DJI",
+                "Company": "Dow Jones Industrial Average",
                 "adj close": 18096.269531,
                 "close": 18096.269531,
                 "days": [
                     {
                         "Adj Close": 18096.269531,
                         "Close": 18096.269531,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-20",
                         "High": 18167.630859,
                         "Low": 18031.210938,
@@ -2983,7 +2983,7 @@
                     {
                         "Adj Close": 18053.599609,
                         "Close": 18053.599609,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-19",
                         "High": 18103.460938,
                         "Low": 17984.429688,
@@ -2995,7 +2995,7 @@
                     {
                         "Adj Close": 18004.160156,
                         "Close": 18004.160156,
-                        "Company": "^DJI",
+                        "Company": "Dow Jones Industrial Average",
                         "Date": "2016-04-18",
                         "High": 18009.529297,
                         "Low": 17848.220703,
