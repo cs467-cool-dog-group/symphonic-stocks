@@ -10,6 +10,7 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
     $scope.filteredData = [];
     $scope.stockList = [];
 	$scope.loc = $location.path();
+	$scope.buttons = {};
 
     $scope.filter = function(start, end, dates) {
     	if (!(start instanceof Date)){
@@ -90,11 +91,13 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 				*/
 
 				var button = '<button ng-click="removeStock(\''
-								+ newStock + '\')" class="btn btn-default">'
+								+ newStock + '\')" class="btn btn-default" id=\''
+								+ newStock + '\'>'
 								+ newStock + ' | x</button>';
 				var compiled = $compile(button)($scope);
 				$('#addedStocks').append(compiled);
 
+				$scope.buttons[newStock] = button;
 				$scope.stockList.push(newStock);
 			});
 	};
@@ -105,11 +108,14 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 		var idx = $scope.stockList.indexOf(stockName);
 		$scope.stockList.splice(idx, 1);
 
+
+		$($scope.buttons[stockName]).remove();
+
 		$scope.allData = dimple.filterData($scope.allData, "Company", $scope.stockList);
 		$scope.allDates = dimple.getUniqueValues($scope.allData, "Date");
 
 		//TODO: remove the button when stock is removed
-		//$('#addedStocks').remove(s.button);
+		$('#' + stockName).remove();
 
 		if ($scope.startDate || $scope.endDate){
 			$scope.update();
@@ -170,7 +176,7 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 	    s.lineMarkers = true;
 
 	    // Show a legend
-	    $scope.chart.addLegend(180, 10, 360, 20, "right");
+	    var myLegend = $scope.chart.addLegend(180, 10, 360, 20, "right");
 
 	    // Draw everything
 	    $scope.chart.draw();
