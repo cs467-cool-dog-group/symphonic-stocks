@@ -139,7 +139,7 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
       		$scope.companyTicker = e.seriesValue[0];
       		console.log($scope.currDate);
       		console.log($scope.companyTicker);
-        
+            $scope.$digest();
       	};
 	};
 
