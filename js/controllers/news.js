@@ -6,8 +6,6 @@ newsControllers.controller('NewsController', ['$scope', 'News', function($scope,
     $scope.nasdaqdata;
     $scope.news;
 
-    $scope.$watchGroup(['companyTicker', 'currDate'], $scope.initialize);
-
     $scope.initialize = function() {
         if($scope.currDate == undefined && $scope.companyTicker == undefined){
             return;
@@ -33,4 +31,6 @@ newsControllers.controller('NewsController', ['$scope', 'News', function($scope,
             }
         );
     };
+
+    $scope.$watchGroup(['companyTicker', 'currDate'], $scope.initialize);
 }]);
