@@ -39,16 +39,16 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
 	$scope.addStock = function(){
 		var newStock = ($scope.newStock).toUpperCase();
 		d3_queue.queue()
-			.defer(d3.json, './data/jsons/v1/nasdaq/' + newStock + '/2014/2014.json')
-			.defer(d3.json, './data/jsons/v1/nasdaq/' + newStock + '/2015/2015.json')
-			.defer(d3.json, './data/jsons/v1/nasdaq/' + newStock + '/2016/2016.json')
+			.defer(d3.json, './data/jsons/sample/' + newStock + '/2014.json')
+			.defer(d3.json, './data/jsons/sample/' + newStock + '/2015.json')
+			.defer(d3.json, './data/jsons/sample/' + newStock + '/2016.json')
 			.awaitAll(function(error, results) {
 				//get new stock's data
 				var newData = [];
 			 	for (var i = 0; i < results.length; i++) {
 	                newData = newData.concat(results[i].year.days);
 	            }
-	            
+
 	            $scope.allData = $scope.allData.concat(newData);
 
 	            //get all new stock's dates
@@ -69,15 +69,15 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
 				else{
 					$scope.filteredData = $scope.filteredData.concat(newData);
 				}
-				
-	    		$scope.drawChart($scope.filteredData, $scope.startDate, $scope.endDate);
 
+	    		$scope.drawChart($scope.filteredData, $scope.startDate, $scope.endDate);
+                $scope.$digest();
 	    		/*
 	    		if the other stuff doesn't work >:T
 	    		$scope.filteredData = $scope.filteredData.concat(newData);
 				$scope.update();
 				*/
-			})
+			});
 	};
 
     $scope.drawChart = function(data, start, end){
@@ -134,9 +134,9 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
     $scope.initialize = function() {
         // TODO: Get data
         d3_queue.queue()
-            .defer(d3.json, './data/jsons/v1/nasdaq/TFSC/2014/2014.json')
-            .defer(d3.json, './data/jsons/v1/nasdaq/TFSC/2015/2015.json')
-            .defer(d3.json, './data/jsons/v1/nasdaq/TFSC/2016/2016.json')
+            .defer(d3.json, './data/jsons/sample/TMUS/2014.json')
+            .defer(d3.json, './data/jsons/sample/TMUS/2015.json')
+            .defer(d3.json, './data/jsons/sample/TMUS/2016.json')
             .awaitAll(function(error, results) {
                 $scope.allData = [];
                 for (var i = 0; i < results.length; i++) {

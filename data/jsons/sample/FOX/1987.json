@@ -1,0 +1,122 @@
+{
+    "year": {
+        "Company": "FOX", 
+        "adj close": 2.111718, 
+        "close": 16.874995, 
+        "days": [
+            {
+                "Adj Close": 2.111718, 
+                "Close": 16.874995, 
+                "Company": "FOX", 
+                "Date": "1987-12-31", 
+                "High": 17.125008, 
+                "Low": 16.750023, 
+                "Open": 17.125008, 
+                "Volume": 402000, 
+                "day": 365, 
+                "year": 1987
+            }, 
+            {
+                "Adj Close": 2.111718, 
+                "Close": 16.874995, 
+                "Company": "FOX", 
+                "Date": "1987-12-30", 
+                "High": 17.499995, 
+                "Low": 16.750023, 
+                "Open": 16.874995, 
+                "Volume": 1086700, 
+                "day": 364, 
+                "year": 1987
+            }
+        ], 
+        "first": 364, 
+        "high": 17.499995, 
+        "last": 365, 
+        "low": 16.750023, 
+        "months": {
+            "12": {
+                "Company": "FOX", 
+                "adj close": 2.111718, 
+                "close": 16.874995, 
+                "days": [
+                    {
+                        "Adj Close": 2.111718, 
+                        "Close": 16.874995, 
+                        "Company": "FOX", 
+                        "Date": "1987-12-31", 
+                        "High": 17.125008, 
+                        "Low": 16.750023, 
+                        "Open": 17.125008, 
+                        "Volume": 402000, 
+                        "day": 31, 
+                        "month": 12
+                    }, 
+                    {
+                        "Adj Close": 2.111718, 
+                        "Close": 16.874995, 
+                        "Company": "FOX", 
+                        "Date": "1987-12-30", 
+                        "High": 17.499995, 
+                        "Low": 16.750023, 
+                        "Open": 16.874995, 
+                        "Volume": 1086700, 
+                        "day": 30, 
+                        "month": 12
+                    }
+                ], 
+                "first": 364, 
+                "high": 17.499995, 
+                "last": 365, 
+                "low": 16.750023, 
+                "month": 12, 
+                "open": 16.874995, 
+                "volume": 1488700, 
+                "year": 1987
+            }
+        }, 
+        "open": 16.874995, 
+        "volume": 1488700, 
+        "weeks": {
+            "53": {
+                "Company": "FOX", 
+                "adj close": 2.111718, 
+                "close": 16.874995, 
+                "days": [
+                    {
+                        "Adj Close": 2.111718, 
+                        "Close": 16.874995, 
+                        "Company": "FOX", 
+                        "Date": "1987-12-31", 
+                        "High": 17.125008, 
+                        "Low": 16.750023, 
+                        "Open": 17.125008, 
+                        "Volume": 402000, 
+                        "day": 4, 
+                        "week": 53
+                    }, 
+                    {
+                        "Adj Close": 2.111718, 
+                        "Close": 16.874995, 
+                        "Company": "FOX", 
+                        "Date": "1987-12-30", 
+                        "High": 17.499995, 
+                        "Low": 16.750023, 
+                        "Open": 16.874995, 
+                        "Volume": 1086700, 
+                        "day": 3, 
+                        "week": 53
+                    }
+                ], 
+                "first": 3, 
+                "high": 17.499995, 
+                "last": 4, 
+                "low": 16.750023, 
+                "open": 16.874995, 
+                "volume": 1488700, 
+                "week": 53, 
+                "year": 1987
+            }
+        }, 
+        "year": 1987
+    }
+}
