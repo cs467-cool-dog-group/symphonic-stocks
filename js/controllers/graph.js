@@ -114,7 +114,6 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 		$scope.allData = dimple.filterData($scope.allData, "Company", $scope.stockList);
 		$scope.allDates = dimple.getUniqueValues($scope.allData, "Date");
 
-		//TODO: remove the button when stock is removed
 		$('#' + stockName).remove();
 
 		if ($scope.startDate || $scope.endDate){
