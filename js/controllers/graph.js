@@ -1,6 +1,6 @@
 var graphControllers = angular.module('graph', []);
 
-graphControllers.controller('GraphController', ['$scope', function($scope) {
+graphControllers.controller('GraphController', ['$scope', '$location',function($scope, $location) {
     var svg = dimple.newSvg("#chartContainer", 590, 400);
     $scope.allDates = {};
     $scope.allData = {};
@@ -8,7 +8,7 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
     $scope.endDate = "";
     $scope.newStock = "";
     $scope.filteredData = [];
-
+	$scope.loc = $location.path();
     $scope.filter = function(start, end, dates) {
     	if (!(start instanceof Date)){
 	    	start = new Date(start);
@@ -81,6 +81,7 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
 	};
 
     $scope.drawChart = function(data, start, end){
+		console.log(data.length);
     	if ($scope.chart) {
 	    	$scope.chart.svg.selectAll('*').remove();
 	    }
@@ -132,19 +133,44 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
 	};
 
     $scope.initialize = function() {
+		console.log($scope.loc);
+		if($scope.loc == "/index"){
+			d3_queue.queue()
+				.defer(d3.json, './data/jsons/indexes/^DJI/2014.json')
+				.defer(d3.json, './data/jsons/indexes/^DJI/2015.json')
+				.defer(d3.json, './data/jsons/indexes/^DJI/2016.json')
+				.defer(d3.json, './data/jsons/indexes/^GSPC/2014.json')
+				.defer(d3.json, './data/jsons/indexes/^GSPC/2015.json')
+				.defer(d3.json, './data/jsons/indexes/^GSPC/2016.json')
+				.defer(d3.json, './data/jsons/indexes/^IXIC/2014.json')
+				.defer(d3.json, './data/jsons/indexes/^IXIC/2015.json')
+				.defer(d3.json, './data/jsons/indexes/^IXIC/2016.json')
+				.awaitAll(function(error, results) {
+					$scope.allData = [];
+					for (var i = 0; i < results.length; i++) {
+						$scope.allData = $scope.allData.concat(results[i].year.days);
+					}
+					$scope.allDates = dimple.getUniqueValues($scope.allData, "Date");
+					$scope.filteredData = $scope.allData;
+					$scope.drawChart($scope.allData, "", "");
+				});
+		}
+		if($scope.loc == "/companies"){
+			d3_queue.queue()
+				.defer(d3.json, './data/jsons/sample/TMUS/2014.json')
+				.defer(d3.json, './data/jsons/sample/TMUS/2015.json')
+				.defer(d3.json, './data/jsons/sample/TMUS/2016.json')
+				.awaitAll(function(error, results) {
+					$scope.allData = [];
+					for (var i = 0; i < results.length; i++) {
+						$scope.allData = $scope.allData.concat(results[i].year.days);
+					}
+					$scope.allDates = dimple.getUniqueValues($scope.allData, "Date");
+					$scope.filteredData = $scope.allData;
+					$scope.drawChart($scope.allData, "", "");
+				});
+		}
         // TODO: Get data
-        d3_queue.queue()
-            .defer(d3.json, './data/jsons/sample/TMUS/2014.json')
-            .defer(d3.json, './data/jsons/sample/TMUS/2015.json')
-            .defer(d3.json, './data/jsons/sample/TMUS/2016.json')
-            .awaitAll(function(error, results) {
-                $scope.allData = [];
-                for (var i = 0; i < results.length; i++) {
-                    $scope.allData = $scope.allData.concat(results[i].year.days);
-                }
-                $scope.allDates = dimple.getUniqueValues($scope.allData, "Date");
-                $scope.filteredData = $scope.allData;
-                $scope.drawChart($scope.allData, "", "");
-        });
+
     };
 }]);
