@@ -71,13 +71,13 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
 				}
 
 	    		$scope.drawChart($scope.filteredData, $scope.startDate, $scope.endDate);
-
+                $scope.$digest();
 	    		/*
 	    		if the other stuff doesn't work >:T
 	    		$scope.filteredData = $scope.filteredData.concat(newData);
 				$scope.update();
 				*/
-			})
+			});
 	};
 
     $scope.drawChart = function(data, start, end){
