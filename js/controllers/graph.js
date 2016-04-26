@@ -184,7 +184,7 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 	};
 
     $scope.drawPortfolio = function() {
-        if ($scope.selectedPortfolio.length == 0) {
+        if (!$scope.selectedPortfolio) {
             return;
         }
         var q = d3_queue.queue();

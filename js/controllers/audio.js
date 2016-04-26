@@ -42,9 +42,23 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
 
     $scope.determineSong = function() {
         $scope.currCompanies = dimple.getUniqueValues($scope.filteredData, "Company");
-        $scope.firstDay = dimple.getUniqueValues($scope.filteredData, "day").map(function(a) {
-            return +a;
-        }).sort(function(a, b) { return a - b; })[0];
+        $scope.daysPlaying = dimple.getUniqueValues($scope.filteredData, "Date").map(function(a) {
+            return new Date(a);
+        }).sort(function(a, b) { return a.getTime() - b.getTime(); });
+        $scope.uniqueDays = dimple.getUniqueValues($scope.filteredData, "day").sort(function(a, b) { return a - b; });
+        var isAllPresent = false;
+        var d = 0;
+        while (!isAllPresent) {
+            var listingsOnDay = $scope.filteredData.filter(function(o) {
+                return o.day == $scope.uniqueDays[d];
+            });
+            if (listingsOnDay.length == $scope.currCompanies.length) {
+                isAllPresent = true;
+            } else {
+                d++;
+            }
+        }
+        $scope.firstDay = $scope.uniqueDays[d];
         $scope.currCompanies.sort(function(a, b) {
             var aFirstDayPrice = $scope.filteredData.filter(function(o) {
                 return o.day == $scope.firstDay && o.Company == a;
@@ -78,6 +92,7 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
                 return note;
             });
         }
+        $scope.currentIndex = 0;
     };
 
     $scope.$watch('filteredData', $scope.determineSong, true);
