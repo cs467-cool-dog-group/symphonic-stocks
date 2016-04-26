@@ -5,6 +5,8 @@ newsControllers.controller('NewsController', ['$scope', 'News', function($scope,
     $scope.nysedata;
     $scope.nasdaqdata;
     $scope.news;
+    $scope.company;
+    $scope.date;
 
     $scope.initialize = function() {
         if($scope.currDate == undefined && $scope.companyTicker == undefined){
@@ -20,14 +22,12 @@ newsControllers.controller('NewsController', ['$scope', 'News', function($scope,
                 $scope.nasdaqdata = results2.data;
                 $scope.company = News.getCompany($scope.companyTicker, $scope.nysedata, $scope.nasdaqdata);
                 $scope.date = News.getDate($scope.currDate);
-                return News.getNews($scope.companyTicker, $scope.currDate);
+                return News.getNews($scope.company, $scope.date);
             }
         ).then(
             function(results4) {
                 $scope.news = results4.data;
-                console.log($scope.news);
                 $scope.newsData = News.parseNewsData($scope.news);
-                console.log($scope.newsData);
             }
         );
     };

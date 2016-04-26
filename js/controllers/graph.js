@@ -181,10 +181,16 @@ graphControllers.controller('GraphController', ['$scope', function($scope) {
 	    // Event to handle mouse click
     	function onClick(e) {
       		var d = new Date(e.xValue);
-      		$scope.currDate = (d.getMonth()+1) + "-" + d.getDate() + "-" + d.getFullYear();
+      		var month = d.getMonth() + 1;
+      		var day = d.getDate();
+      		if(month < 10){
+      			month = '0' + month;
+      		}
+      		if(day < 10){
+      			day = '0' + day;
+      		}
+      		$scope.currDate = month + "-" + day + "-" + d.getFullYear();
       		$scope.companyTicker = e.seriesValue[0];
-      		console.log($scope.currDate);
-      		console.log($scope.companyTicker);
             $scope.$digest();
       	};
 	};
