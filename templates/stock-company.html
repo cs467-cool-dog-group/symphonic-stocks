@@ -15,7 +15,7 @@
             <button class="btn btn-default" ng-click="pause()" ng-hide="!isPlaying">Pause</button>
             <span>Current Date Playing: {{daysPlaying[currentIndex] | date: 'MM/dd/yyyy'}}</span>
             <ul class="list-group">
-                <li class="list-group-item" ng-repeat="company in currCompanies">{{company}} <span ng-if="$index >= 7">{{midiInstrumentNames[6]}}</span><span ng-if="$index < 7">{{midiInstrumentNames[$index]}}</span></li>
+                <li class="list-group-item" ng-repeat="company in currCompanies">{{company}} <span ng-if="$index >= 7">{{midiInstrumentNames[6]}}</span><span ng-if="$index < 7">{{midiInstrumentNames[$index]}}</span> <span>{{fetchNoteName(notes[$index][currentIndex])}}</li>
             </ul>
         </div>
         <div ng-controller="NewsController" ng-init = "initialize()" id="controller2" >
