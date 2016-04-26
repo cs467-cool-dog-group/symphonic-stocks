@@ -1,6 +1,6 @@
 var graphControllers = angular.module('graph', []);
 
-graphControllers.controller('GraphController', ['$scope', '$location', '$compile',function($scope, $location, $compile) {
+graphControllers.controller('GraphController', ['$scope', '$location', '$compile', 'Company', function($scope, $location, $compile, Company) {
     var svg = dimple.newSvg("#chartContainer", 1000, 600);
     $scope.allDates = {};
     $scope.allData = {};
@@ -49,7 +49,8 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
     		var q = d3_queue.queue();
     		for (var i=0; i<$scope.stockList.length; i++){
 				for (var year=newMinYear; year<minYear; year++){
-					q.defer(d3.json, './data/jsons/' + path + '/' + $scope.stockList[i] + '/' + year.toString() + '.json');
+                    if (year >= $scope.firstYears[$scope.stockList[i]])
+					    q.defer(d3.json, './data/jsons/' + path + '/' + $scope.stockList[i] + '/' + year.toString() + '.json');
 					$scope.yearsPulled.push(year);
 				}
 			}
@@ -338,6 +339,10 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 
     $scope.initialize = function() {
 		console.log($scope.loc);
+
+        Company.getFirstYears().then(function(results) {
+            $scope.firstYears = results.data;
+        });
 
 		if($scope.loc == "/index"){
 			var indexQ = d3_queue.queue();
