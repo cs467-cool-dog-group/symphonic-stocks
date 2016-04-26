@@ -6,18 +6,14 @@ newsServices.factory('News', function($http) {
             return $http.get('./data/' + index + '_ticker_map.json')
         },
         getCompany: function(company_ticker, nyse_data, nasdaq_data) {
-            for(i = 0; i < nyse_data.length; i++){
-                for(var j in nyse_data[i]){
-                    if(j == company_ticker){
-                        return nyse_data[i][j]
-                    }
-                }     
+            for (var j in nyse_data) {
+                if (j == company_ticker) {
+                    return nyse_data[j];
+                }
             }
-            for(i = 0; i < nasdaq_data.length; i++){
-                for(var j in nasdaq_data[i]){
-                    if(j == company_ticker){
-                        return nasdaq_data[i][j]
-                    }
+            for (var k in nasdaq_data) {
+                if (k == company_ticker) {
+                    return nasdaq_data[k];
                 }
             }
             return "INVALID";
