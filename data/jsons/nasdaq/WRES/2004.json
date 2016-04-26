@@ -1,0 +1,440 @@
+{
+    "year": {
+        "Company": "WRES",
+        "adj close": 9.1,
+        "close": 9.1,
+        "days": [
+            {
+                "Adj Close": 9.1,
+                "Close": 9.1,
+                "Company": "WRES",
+                "Date": "2004-12-31",
+                "High": 9.2,
+                "Low": 8.95,
+                "Open": 9.2,
+                "Volume": 76800,
+                "day": 366,
+                "year": 2004
+            },
+            {
+                "Adj Close": 9.0,
+                "Close": 9.0,
+                "Company": "WRES",
+                "Date": "2004-12-30",
+                "High": 9.2,
+                "Low": 8.83,
+                "Open": 9.06,
+                "Volume": 36600,
+                "day": 365,
+                "year": 2004
+            },
+            {
+                "Adj Close": 9.15,
+                "Close": 9.15,
+                "Company": "WRES",
+                "Date": "2004-12-29",
+                "High": 9.2,
+                "Low": 8.76,
+                "Open": 8.99,
+                "Volume": 78700,
+                "day": 364,
+                "year": 2004
+            },
+            {
+                "Adj Close": 8.95,
+                "Close": 8.95,
+                "Company": "WRES",
+                "Date": "2004-12-28",
+                "High": 9.01,
+                "Low": 8.79,
+                "Open": 8.95,
+                "Volume": 127400,
+                "day": 363,
+                "year": 2004
+            },
+            {
+                "Adj Close": 8.95,
+                "Close": 8.95,
+                "Company": "WRES",
+                "Date": "2004-12-27",
+                "High": 9.2,
+                "Low": 8.81,
+                "Open": 9.19,
+                "Volume": 80500,
+                "day": 362,
+                "year": 2004
+            },
+            {
+                "Adj Close": 8.95,
+                "Close": 8.95,
+                "Company": "WRES",
+                "Date": "2004-12-23",
+                "High": 9.1,
+                "Low": 8.95,
+                "Open": 9.1,
+                "Volume": 42400,
+                "day": 358,
+                "year": 2004
+            },
+            {
+                "Adj Close": 9.07,
+                "Close": 9.07,
+                "Company": "WRES",
+                "Date": "2004-12-22",
+                "High": 9.2,
+                "Low": 8.92,
+                "Open": 8.95,
+                "Volume": 286000,
+                "day": 357,
+                "year": 2004
+            },
+            {
+                "Adj Close": 9.0,
+                "Close": 9.0,
+                "Company": "WRES",
+                "Date": "2004-12-21",
+                "High": 9.17,
+                "Low": 8.9,
+                "Open": 9.08,
+                "Volume": 369800,
+                "day": 356,
+                "year": 2004
+            },
+            {
+                "Adj Close": 9.0,
+                "Close": 9.0,
+                "Company": "WRES",
+                "Date": "2004-12-20",
+                "High": 9.7,
+                "Low": 8.9,
+                "Open": 9.4,
+                "Volume": 270700,
+                "day": 355,
+                "year": 2004
+            },
+            {
+                "Adj Close": 9.2,
+                "Close": 9.2,
+                "Company": "WRES",
+                "Date": "2004-12-17",
+                "High": 10.0,
+                "Low": 8.0,
+                "Open": 10.0,
+                "Volume": 3917100,
+                "day": 352,
+                "year": 2004
+            }
+        ],
+        "first": 352,
+        "high": 10.0,
+        "last": 366,
+        "low": 8.0,
+        "months": {
+            "12": {
+                "Company": "WRES",
+                "adj close": 9.1,
+                "close": 9.1,
+                "days": [
+                    {
+                        "Adj Close": 9.1,
+                        "Close": 9.1,
+                        "Company": "WRES",
+                        "Date": "2004-12-31",
+                        "High": 9.2,
+                        "Low": 8.95,
+                        "Open": 9.2,
+                        "Volume": 76800,
+                        "day": 31,
+                        "month": 12
+                    },
+                    {
+                        "Adj Close": 9.0,
+                        "Close": 9.0,
+                        "Company": "WRES",
+                        "Date": "2004-12-30",
+                        "High": 9.2,
+                        "Low": 8.83,
+                        "Open": 9.06,
+                        "Volume": 36600,
+                        "day": 30,
+                        "month": 12
+                    },
+                    {
+                        "Adj Close": 9.15,
+                        "Close": 9.15,
+                        "Company": "WRES",
+                        "Date": "2004-12-29",
+                        "High": 9.2,
+                        "Low": 8.76,
+                        "Open": 8.99,
+                        "Volume": 78700,
+                        "day": 29,
+                        "month": 12
+                    },
+                    {
+                        "Adj Close": 8.95,
+                        "Close": 8.95,
+                        "Company": "WRES",
+                        "Date": "2004-12-28",
+                        "High": 9.01,
+                        "Low": 8.79,
+                        "Open": 8.95,
+                        "Volume": 127400,
+                        "day": 28,
+                        "month": 12
+                    },
+                    {
+                        "Adj Close": 8.95,
+                        "Close": 8.95,
+                        "Company": "WRES",
+                        "Date": "2004-12-27",
+                        "High": 9.2,
+                        "Low": 8.81,
+                        "Open": 9.19,
+                        "Volume": 80500,
+                        "day": 27,
+                        "month": 12
+                    },
+                    {
+                        "Adj Close": 8.95,
+                        "Close": 8.95,
+                        "Company": "WRES",
+                        "Date": "2004-12-23",
+                        "High": 9.1,
+                        "Low": 8.95,
+                        "Open": 9.1,
+                        "Volume": 42400,
+                        "day": 23,
+                        "month": 12
+                    },
+                    {
+                        "Adj Close": 9.07,
+                        "Close": 9.07,
+                        "Company": "WRES",
+                        "Date": "2004-12-22",
+                        "High": 9.2,
+                        "Low": 8.92,
+                        "Open": 8.95,
+                        "Volume": 286000,
+                        "day": 22,
+                        "month": 12
+                    },
+                    {
+                        "Adj Close": 9.0,
+                        "Close": 9.0,
+                        "Company": "WRES",
+                        "Date": "2004-12-21",
+                        "High": 9.17,
+                        "Low": 8.9,
+                        "Open": 9.08,
+                        "Volume": 369800,
+                        "day": 21,
+                        "month": 12
+                    },
+                    {
+                        "Adj Close": 9.0,
+                        "Close": 9.0,
+                        "Company": "WRES",
+                        "Date": "2004-12-20",
+                        "High": 9.7,
+                        "Low": 8.9,
+                        "Open": 9.4,
+                        "Volume": 270700,
+                        "day": 20,
+                        "month": 12
+                    },
+                    {
+                        "Adj Close": 9.2,
+                        "Close": 9.2,
+                        "Company": "WRES",
+                        "Date": "2004-12-17",
+                        "High": 10.0,
+                        "Low": 8.0,
+                        "Open": 10.0,
+                        "Volume": 3917100,
+                        "day": 17,
+                        "month": 12
+                    }
+                ],
+                "first": 352,
+                "high": 10.0,
+                "last": 366,
+                "low": 8.0,
+                "month": 12,
+                "open": 10.0,
+                "volume": 5286000,
+                "year": 2004
+            }
+        },
+        "open": 10.0,
+        "volume": 5286000,
+        "weeks": {
+            "51": {
+                "Company": "WRES",
+                "adj close": 9.2,
+                "close": 9.2,
+                "days": [
+                    {
+                        "Adj Close": 9.2,
+                        "Close": 9.2,
+                        "Company": "WRES",
+                        "Date": "2004-12-17",
+                        "High": 10.0,
+                        "Low": 8.0,
+                        "Open": 10.0,
+                        "Volume": 3917100,
+                        "day": 5,
+                        "week": 51
+                    }
+                ],
+                "first": 5,
+                "high": 10.0,
+                "last": 5,
+                "low": 8.0,
+                "open": 10.0,
+                "volume": 3917100,
+                "week": 51,
+                "year": 2004
+            },
+            "52": {
+                "Company": "WRES",
+                "adj close": 8.95,
+                "close": 8.95,
+                "days": [
+                    {
+                        "Adj Close": 8.95,
+                        "Close": 8.95,
+                        "Company": "WRES",
+                        "Date": "2004-12-23",
+                        "High": 9.1,
+                        "Low": 8.95,
+                        "Open": 9.1,
+                        "Volume": 42400,
+                        "day": 4,
+                        "week": 52
+                    },
+                    {
+                        "Adj Close": 9.07,
+                        "Close": 9.07,
+                        "Company": "WRES",
+                        "Date": "2004-12-22",
+                        "High": 9.2,
+                        "Low": 8.92,
+                        "Open": 8.95,
+                        "Volume": 286000,
+                        "day": 3,
+                        "week": 52
+                    },
+                    {
+                        "Adj Close": 9.0,
+                        "Close": 9.0,
+                        "Company": "WRES",
+                        "Date": "2004-12-21",
+                        "High": 9.17,
+                        "Low": 8.9,
+                        "Open": 9.08,
+                        "Volume": 369800,
+                        "day": 2,
+                        "week": 52
+                    },
+                    {
+                        "Adj Close": 9.0,
+                        "Close": 9.0,
+                        "Company": "WRES",
+                        "Date": "2004-12-20",
+                        "High": 9.7,
+                        "Low": 8.9,
+                        "Open": 9.4,
+                        "Volume": 270700,
+                        "day": 1,
+                        "week": 52
+                    }
+                ],
+                "first": 1,
+                "high": 9.7,
+                "last": 4,
+                "low": 8.9,
+                "open": 9.4,
+                "volume": 968900,
+                "week": 52,
+                "year": 2004
+            },
+            "53": {
+                "Company": "WRES",
+                "adj close": 9.1,
+                "close": 9.1,
+                "days": [
+                    {
+                        "Adj Close": 9.1,
+                        "Close": 9.1,
+                        "Company": "WRES",
+                        "Date": "2004-12-31",
+                        "High": 9.2,
+                        "Low": 8.95,
+                        "Open": 9.2,
+                        "Volume": 76800,
+                        "day": 5,
+                        "week": 53
+                    },
+                    {
+                        "Adj Close": 9.0,
+                        "Close": 9.0,
+                        "Company": "WRES",
+                        "Date": "2004-12-30",
+                        "High": 9.2,
+                        "Low": 8.83,
+                        "Open": 9.06,
+                        "Volume": 36600,
+                        "day": 4,
+                        "week": 53
+                    },
+                    {
+                        "Adj Close": 9.15,
+                        "Close": 9.15,
+                        "Company": "WRES",
+                        "Date": "2004-12-29",
+                        "High": 9.2,
+                        "Low": 8.76,
+                        "Open": 8.99,
+                        "Volume": 78700,
+                        "day": 3,
+                        "week": 53
+                    },
+                    {
+                        "Adj Close": 8.95,
+                        "Close": 8.95,
+                        "Company": "WRES",
+                        "Date": "2004-12-28",
+                        "High": 9.01,
+                        "Low": 8.79,
+                        "Open": 8.95,
+                        "Volume": 127400,
+                        "day": 2,
+                        "week": 53
+                    },
+                    {
+                        "Adj Close": 8.95,
+                        "Close": 8.95,
+                        "Company": "WRES",
+                        "Date": "2004-12-27",
+                        "High": 9.2,
+                        "Low": 8.81,
+                        "Open": 9.19,
+                        "Volume": 80500,
+                        "day": 1,
+                        "week": 53
+                    }
+                ],
+                "first": 1,
+                "high": 9.2,
+                "last": 5,
+                "low": 8.76,
+                "open": 9.19,
+                "volume": 400000,
+                "week": 53,
+                "year": 2004
+            }
+        },
+        "year": 2004
+    }
+}
