@@ -28,6 +28,11 @@
                         <!--<div ng-controller="NewsController">
                             <form></form>
                         </div>-->
+                        <div ng-controller="NewsController" ng-init = "initialize()" id="controller2" >
+                            <table>
+                                <tr ng-repeat="object in newsData"><td><a href="{{object.link}}">{{object.title}}</a></td></tr>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>
