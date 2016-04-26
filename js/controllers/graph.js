@@ -137,7 +137,7 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 
 	    // Create the chart as usual
 	    $scope.chart = new dimple.chart(svg, data);
-	    $scope.chart.setBounds(70, 40, 490, 320);
+	    $scope.chart.setBounds(70, 50, 490, 320);
 
 	    // Add the x axis reading dates in the format 01 Jan 2012
 	    // and displaying them 01 Jan
@@ -170,6 +170,8 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 	    // Add the line series on top of the bubbles.  The bubbles
 	    // and line points will naturally fall in the same places
 	    var s = $scope.chart.addSeries("Company", dimple.plot.line);
+	    // Handle the hover event - overriding the default behaviour
+      	s.addEventHandler("click", onClick);
 
 	    // Add line markers to the line because it looks nice
 	    s.lineMarkers = true;
@@ -180,7 +182,70 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 	    // Draw everything
 	    $scope.chart.draw();
 
+	    // orphan the legend
+        $scope.chart.legends = [];
+        // add the legend title and note
+        $scope.chart.svg.selectAll("title_text")
+        .data(["Click legend boxes to show/hide Companies:", "Bubble size represents volume on a given day."])
+        .enter()
+        .append("text")
+        .attr("x", 100)
+        .attr("y", function (d, i) { return 15 + i * 14; })
+        .style("font-family", "sans-serif")
+        .style("font-size", "10px")
+        .style("color", "Black")
+        .text(function (d) { return d; });	
+
+        // get unique list of sentiment values
+        var filterValues = dimple.getUniqueValues(data, "Company");
+        // get all colored rectangles from legend
+        myLegend.shapes.selectAll("rect")
+        	// add a click event to each rectangle
+            .on("click", function (e) {
+              	// indicates if the item is already visible or not
+              	var hide = false;
+              	var newFilters = [];
+              	// if the filters contain the clicked shape, hide it
+              	filterValues.forEach(function (f) {
+              		if (f === e.aggField.slice(-1)[0]) {
+                		hide = true;
+              		} else {
+                		newFilters.push(f);
+              		}
+              	});
+              	// hide the shape or show it
+              	if (hide) {
+                	d3.select(this).style("opacity", 0.2);
+              	} else {
+                	newFilters.push(e.aggField.slice(-1)[0]);
+                	d3.select(this).style("opacity", 0.8);
+              	}
+              	// update filters
+              	filterValues = newFilters;
+              	// filter data
+              	$scope.chart.data = dimple.filterData(data, "Company", filterValues);
+              	// redraw and animate the chart
+              	$scope.chart.draw();
+            });
+
+	    // Event to handle mouse click
+    	function onClick(e) {
+      		var d = new Date(e.xValue);
+      		var month = d.getMonth() + 1;
+      		var day = d.getDate();
+      		if(month < 10){
+      			month = '0' + month;
+      		}
+      		if(day < 10){
+      			day = '0' + day;
+      		}
+      		$scope.currDate = month + "-" + day + "-" + d.getFullYear();
+      		$scope.companyTicker = e.seriesValue[0];
+            $scope.$digest();
+      	};
+
 	    console.log('finished drawing');
+
 	};
 
     $scope.drawPortfolio = function() {
