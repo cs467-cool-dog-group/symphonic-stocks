@@ -4,7 +4,7 @@ import datetime
 import os
 
 # start with nasdaq
-exchanges = ["sample", "nasdaq", "nyse"]
+exchanges = ["indexes", "nasdaq", "nyse"]
 with open("successes.json") as success_file:
     finished_data = json.load(success_file)["successes"]
 for exchange in exchanges:
@@ -12,9 +12,10 @@ for exchange in exchanges:
         ticker_list = json.load(ticker_list_file)
     t = 0
     for ticker in ticker_list:
-        if ticker in finished_data:
-            continue
+        # if ticker in finished_data:
+        #     continue
         t += 1
+        company = ticker_list[ticker]
         print(t, ticker)
         years = {}
         with open("../data/prices/" + exchange + "/" + ticker + ".csv") as csvfile:
@@ -41,11 +42,11 @@ for exchange in exchanges:
                 day_of_week = second_date.isoweekday()
                 day_of_year = second_date.timetuple().tm_yday
                 if year not in years:
-                    years[year] = {"days": [], "months": {}, "weeks": {}, "Company": ticker, "open": 0, "high": 0,
+                    years[year] = {"days": [], "months": {}, "weeks": {}, "Company": company, "open": 0, "high": 0,
                                    "low": float('inf'), "close": 0, "volume": 0, "adj close": 0, "first": float('inf'),
                                    "last": 0, "year": year}
                 years[year]["days"].append(
-                    {"day": day_of_year, "Company": ticker, "Date": full_date, "Open": open_price, "High": high,
+                    {"day": day_of_year, "Company": company, "Date": full_date, "Open": open_price, "High": high,
                      "Low": low, "Close": close,
                      "Volume": volume, "Adj Close": adjclose, "year": year})
                 years[year]["volume"] += volume
@@ -62,11 +63,11 @@ for exchange in exchanges:
                     years[year]["open"] = open_price
                 months = years[year]["months"]
                 if month not in months:
-                    months[month] = {"days": [], "Company": ticker, "open": 0, "high": 0, "low": float('inf'),
+                    months[month] = {"days": [], "Company": company, "open": 0, "high": 0, "low": float('inf'),
                                      "close": 0, "volume": 0, "adj close": 0, "first": float('inf'), "last": 0,
                                      "month": month, "year": year}
                 months[month]["days"].append(
-                    {"day": day, "Company": ticker, "Date": full_date, "Open": open_price, "High": high, "Low": low,
+                    {"day": day, "Company": company, "Date": full_date, "Open": open_price, "High": high, "Low": low,
                      "Close": close,
                      "Volume": volume, "Adj Close": adjclose, "month": month})
                 months[month]["volume"] += volume
@@ -84,11 +85,11 @@ for exchange in exchanges:
                 years[year]["months"] = months
                 weeks = years[year]["weeks"]
                 if week not in weeks:
-                    weeks[week] = {"days": [], "Company": ticker, "open": 0, "high": 0, "low": float('inf'), "close": 0,
+                    weeks[week] = {"days": [], "Company": company, "open": 0, "high": 0, "low": float('inf'), "close": 0,
                                    "volume": 0, "adj close": float('inf'), "first": 0, "last": 0, "week": week,
                                    "year": year}
                 weeks[week]["days"].append(
-                    {"day": day_of_week, "Company": ticker, "Date": full_date, "Open": open_price, "High": high,
+                    {"day": day_of_week, "Company": company, "Date": full_date, "Open": open_price, "High": high,
                      "Low": low, "Close": close,
                      "Volume": volume, "Adj Close": adjclose, "week": week})
                 weeks[week]["volume"] += volume

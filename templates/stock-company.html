@@ -8,9 +8,11 @@
         <label>Start Date: <input type="text" ng-model="startDate"></input></label>
         <label>End Date: <input type="text" ng-model="endDate"></input></label>
         <button ng-click="update()" class="btn btn-default">Update</button>
+        <button ng-click="showAllTime()" class="btn btn-default">Show All</button>
         <br>
         <label>Add Stock: <input type="text" ng-model="newStock"></input></label>
         <button ng-click="addStock()" class="btn btn-default">Add</button>
+        <div id="addedStocks"></div>
         <div id="chartContainer"></div>
         <div ng-controller="AudioController" ng-init="initialize()">
             <button ng-click="play()" ng-hide="isPlaying">Play</button>
