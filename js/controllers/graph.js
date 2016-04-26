@@ -112,58 +112,58 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 
 	$scope.addStock = function(){
 		var newStock = ($scope.newStock).toUpperCase();
-		d3_queue.queue()
-			.defer(d3.json, './data/jsons/sample/' + newStock + '/2014.json')
-			.defer(d3.json, './data/jsons/sample/' + newStock + '/2015.json')
-			.defer(d3.json, './data/jsons/sample/' + newStock + '/2016.json')
-			.awaitAll(function(error, results) {
-				//get new stock's data
-				var newData = [];
-			 	for (var i = 0; i < results.length; i++) {
-	                newData = newData.concat(results[i].year.days);
-	            }
+		q = d3_queue.queue();
+		for (var i=0; i<$scope.yearsPulled.length; i++){
+			q.defer(d3.json, './data/jsons/sample/' + newStock + '/' + $scope.yearsPulled[i].toString() + '.json');
+		}
+		q.awaitAll(function(error, results) {
+			//get new stock's data
+			var newData = [];
+		 	for (var i = 0; i < results.length; i++) {
+                newData = newData.concat(results[i].year.days);
+            }
 
-	            $scope.allData = $scope.allData.concat(newData);
+            $scope.allData = $scope.allData.concat(newData);
 
-	            //get all new stock's dates
-            	var newDates = dimple.getUniqueValues(newData, "Date");
-            	$scope.allDates = $scope.allDates.concat(newDates);
+            //get all new stock's dates
+        	var newDates = dimple.getUniqueValues(newData, "Date");
+        	$scope.allDates = $scope.allDates.concat(newDates);
 
-            	var filterNewDates, filteredNewData;
-	            //if there are dates to filter by
-	            if ($scope.startDate && $scope.endDate){
-	            	//filter out all dates we don't need
-					filterNewDates = $scope.filter($scope.startDate, $scope.endDate, newDates);
+        	var filterNewDates, filteredNewData;
+            //if there are dates to filter by
+            if ($scope.startDate && $scope.endDate){
+            	//filter out all dates we don't need
+				filterNewDates = $scope.filter($scope.startDate, $scope.endDate, newDates);
 
-					//get filtered data
-					filteredNewData = dimple.filterData(newData, "Date", filterNewDates);
+				//get filtered data
+				filteredNewData = dimple.filterData(newData, "Date", filterNewDates);
 
-					//add new stock's filtered data to all of the filtered data
-					$scope.filteredData = $scope.filteredData.concat(filteredNewData);
-				}
-				else{
-					$scope.filteredData = $scope.filteredData.concat(newData);
-				}
+				//add new stock's filtered data to all of the filtered data
+				$scope.filteredData = $scope.filteredData.concat(filteredNewData);
+			}
+			else{
+				$scope.filteredData = $scope.filteredData.concat(newData);
+			}
 
-	    		$scope.drawChart($scope.filteredData, $scope.startDate, $scope.endDate);
-                $scope.$digest();
+    		$scope.drawChart($scope.filteredData, $scope.startDate, $scope.endDate);
+            $scope.$digest();
 
-	    		/*
-	    		if the other stuff doesn't work >:T
-	    		$scope.filteredData = $scope.filteredData.concat(newData);
-				$scope.update();
-				*/
+    		/*
+    		if the other stuff doesn't work >:T
+    		$scope.filteredData = $scope.filteredData.concat(newData);
+			$scope.update();
+			*/
 
-				var button = '<button ng-click="removeStock(\''
-								+ newStock + '\')" class="btn btn-default" id=\''
-								+ newStock + '\'>'
-								+ newStock + ' | X</button>';
-				var compiled = $compile(button)($scope);
-				$('#addedStocks').append(compiled);
+			var button = '<button ng-click="removeStock(\''
+							+ newStock + '\')" class="btn btn-default" id=\''
+							+ newStock + '\'>'
+							+ newStock + ' | X</button>';
+			var compiled = $compile(button)($scope);
+			$('#addedStocks').append(compiled);
 
-				$scope.buttons[newStock] = button;
-				$scope.stockList.push(newStock);
-			});
+			$scope.buttons[newStock] = button;
+			$scope.stockList.push(newStock);
+		});
 	};
 
 	$scope.removeStock = function(stockName){
@@ -319,7 +319,7 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
         }
         var q = d3_queue.queue();
         for (var i = 0; i < $scope.selectedCompanies.length; i++) {
-        	for (var year=2014; i<=2016; i++){
+        	for (var year=2014; year<=2016; year++){
 	            q.defer(d3.json, './data/jsons/sample/' + $scope.selectedCompanies[i] + '/' + year.toString() + '.json');
 	        }
         }
