@@ -42,26 +42,37 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
 
     $scope.determineSong = function() {
         $scope.currCompanies = dimple.getUniqueValues($scope.filteredData, "Company");
+        $scope.daysPlaying = dimple.getUniqueValues($scope.filteredData, "Date").map(function(a) {
+            return new Date(a);
+        }).sort(function(a, b) { return a.getTime() - b.getTime(); });
+        $scope.uniqueDays = dimple.getUniqueValues($scope.filteredData, "day").sort(function(a, b) { return a - b; });
+        var isAllPresent = false;
+        var d = 0;
+        while (!isAllPresent) {
+            var listingsOnDay = $scope.filteredData.filter(function(o) {
+                return o.day == $scope.uniqueDays[d];
+            });
+            if (listingsOnDay.length == $scope.currCompanies.length) {
+                isAllPresent = true;
+            } else {
+                d++;
+            }
+        }
+        $scope.firstDay = $scope.uniqueDays[d];
         $scope.currCompanies.sort(function(a, b) {
             var aFirstDayPrice = $scope.filteredData.filter(function(o) {
-                return o.day == 1 && o.Company == a;
-            });
+                return o.day == $scope.firstDay && o.Company == a;
+            })[0].Close;
             var bFirstDayPrice = $scope.filteredData.filter(function(o) {
-                return o.day == 1 && o.Company == b;
-            });
-            if (bFirstDayPrice > aFirstDayPrice) {
-                return -1;
-            } else if (bFirstDayPrice < aFirstDayPrice) {
-                return 1;
-            } else {
-                return 0;
-            }
+                return o.day == $scope.firstDay && o.Company == b;
+            })[0].Close;
+            return bFirstDayPrice - aFirstDayPrice;
         });
         for (var j = 0; j < $scope.currCompanies.length; j++) {
             var companyData = dimple.filterData($scope.filteredData, "Company", $scope.currCompanies[j]);
             companyData.sort(function(a, b) { return a.day - b.day; });
             var priceData = companyData.map(function(a) {
-                return a.High;
+                return a.Close;
             });
             var firstDayPrice = priceData[0];
             var interval = 2*firstDayPrice / 48;
@@ -80,8 +91,8 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
                 }
                 return note;
             });
-            console.log($scope.notes);
         }
+        $scope.currentIndex = 0;
     };
 
     $scope.$watch('filteredData', $scope.determineSong, true);
