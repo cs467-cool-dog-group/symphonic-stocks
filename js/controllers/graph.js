@@ -9,8 +9,8 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
     $scope.newStock = "";
     $scope.filteredData = [];
     $scope.stockList = [];
-	$scope.loc = $location.path();
-	$scope.buttons = {};
+	  $scope.loc = $location.path();
+	  $scope.buttons = {};
 
     $scope.filter = function(start, end, dates) {
     	if (!(start instanceof Date)){
