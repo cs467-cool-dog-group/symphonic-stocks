@@ -6,18 +6,14 @@ newsServices.factory('News', function($http) {
             return $http.get('./data/' + index + '_ticker_map.json')
         },
         getCompany: function(company_ticker, nyse_data, nasdaq_data) {
-            for(i = 0; i < nyse_data.length; i++){
-                for(var j in nyse_data[i]){
-                    if(j == company_ticker){
-                        return nyse_data[i][j]
-                    }
-                }     
+            for (var j in nyse_data) {
+                if (j == company_ticker) {
+                    return nyse_data[j];
+                }
             }
-            for(i = 0; i < nasdaq_data.length; i++){
-                for(var j in nasdaq_data[i]){
-                    if(j == company_ticker){
-                        return nasdaq_data[i][j]
-                    }
+            for (var k in nasdaq_data) {
+                if (k == company_ticker) {
+                    return nasdaq_data[k];
                 }
             }
             return "INVALID";
@@ -29,7 +25,7 @@ newsServices.factory('News', function($http) {
             return date;
         },
         getNews: function(company, date) {
-            return $http.get('https://www.googleapis.com/customsearch/v1?key=AIzaSyBZ4XDn56vWqsePz6GCKvgNCB6HgTpfcMc&cx=000865311947915661536:bb8ld1ef4ko&sort=date:r:' + date + ':' + date + '&q=' + company + '');
+            return $http.get('https://www.googleapis.com/customsearch/v1?key=AIzaSyBzqfFeUDBg0pefzrCBOprmrDaf2IIvpC8&cx=000865311947915661536:bb8ld1ef4ko&sort=date:r:' + date + ':' + date + '&q=' + company + '');
         },
         parseNewsData: function(news_data) {
             var newsData = [];

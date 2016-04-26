@@ -1,3 +1,23 @@
 <div ng-init="initialize()">
     <h1 class="text-center">Index Statistics</h1>
+    <div class="col-md-10 col-sm-offset-1" ng-controller="GraphController" ng-init="initialize()">
+        <label>Start Date: <input type="text" ng-model="startDate"></input></label>
+        <label>End Date: <input type="text" ng-model="endDate"></input></label>
+        <button ng-click="update()" class="btn btn-default">Update</button>
+        <br>
+        <!--<label>Add Stock: <input type="text" ng-model="newStock"></input></label>-->
+        <!--<button ng-click="addStock()" class="btn btn-default">Add</button>-->
+        <div id="chartContainer"></div>
+        <div ng-controller="AudioController" ng-init="initialize()">
+            <button class="btn btn-default" ng-click="play()" ng-hide="isPlaying">Play</button>
+            <button class="btn btn-default" ng-click="pause()" ng-hide="!isPlaying">Pause</button>
+            <span>Current Date Playing: {{daysPlaying[currentIndex] | date: 'MM/dd/yyyy'}}</span>
+            <ul class="list-group">
+                <li class="list-group-item" ng-repeat="company in currCompanies">{{company}} <span ng-if="$index >= 7">{{midiInstrumentNames[6]}}</span><span ng-if="$index < 7">{{midiInstrumentNames[$index]}}</span></li>
+            </ul>
+        </div>
+        <!--<div ng-controller="NewsController">
+            <form></form>
+        </div>-->
+    </div>
 </div>

@@ -1,13 +1,13 @@
 {
     "year": {
-        "Company": "^IXIC",
+        "Company": "Nasdaq Composite",
         "adj close": 4948.129883,
         "close": 4948.129883,
         "days": [
             {
                 "Adj Close": 4948.129883,
                 "Close": 4948.129883,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-04-20",
                 "High": 4969.319824,
                 "Low": 4928.290039,
@@ -19,7 +19,7 @@
             {
                 "Adj Close": 4940.330078,
                 "Close": 4940.330078,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-04-19",
                 "High": 4968.669922,
                 "Low": 4915.52002,
@@ -31,7 +31,7 @@
             {
                 "Adj Close": 4960.02002,
                 "Close": 4960.02002,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-04-18",
                 "High": 4960.790039,
                 "Low": 4915.629883,
@@ -43,7 +43,7 @@
             {
                 "Adj Close": 4938.220215,
                 "Close": 4938.220215,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-04-15",
                 "High": 4950.430176,
                 "Low": 4925.459961,
@@ -55,7 +55,7 @@
             {
                 "Adj Close": 4945.890137,
                 "Close": 4945.890137,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-04-14",
                 "High": 4961.299805,
                 "Low": 4931.810059,
@@ -67,7 +67,7 @@
             {
                 "Adj Close": 4947.419922,
                 "Close": 4947.419922,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-04-13",
                 "High": 4951.910156,
                 "Low": 4903.600098,
@@ -79,7 +79,7 @@
             {
                 "Adj Close": 4872.089844,
                 "Close": 4872.089844,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-04-12",
                 "High": 4879.600098,
                 "Low": 4808.910156,
@@ -91,7 +91,7 @@
             {
                 "Adj Close": 4833.399902,
                 "Close": 4833.399902,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-04-11",
                 "High": 4897.549805,
                 "Low": 4833.399902,
@@ -103,7 +103,7 @@
             {
                 "Adj Close": 4850.689941,
                 "Close": 4850.689941,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-04-08",
                 "High": 4892.600098,
                 "Low": 4835.359863,
@@ -115,7 +115,7 @@
             {
                 "Adj Close": 4848.370117,
                 "Close": 4848.370117,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-04-07",
                 "High": 4901.490234,
                 "Low": 4831.490234,
@@ -127,7 +127,7 @@
             {
                 "Adj Close": 4920.720215,
                 "Close": 4920.720215,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-04-06",
                 "High": 4921.509766,
                 "Low": 4849.279785,
@@ -139,7 +139,7 @@
             {
                 "Adj Close": 4843.930176,
                 "Close": 4843.930176,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-04-05",
                 "High": 4872.700195,
                 "Low": 4838.620117,
@@ -151,7 +151,7 @@
             {
                 "Adj Close": 4891.799805,
                 "Close": 4891.799805,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-04-04",
                 "High": 4917.75,
                 "Low": 4885.169922,
@@ -163,7 +163,7 @@
             {
                 "Adj Close": 4914.540039,
                 "Close": 4914.540039,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-04-01",
                 "High": 4917.089844,
                 "Low": 4832.060059,
@@ -175,7 +175,7 @@
             {
                 "Adj Close": 4869.850098,
                 "Close": 4869.850098,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-31",
                 "High": 4891.299805,
                 "Low": 4864.410156,
@@ -187,7 +187,7 @@
             {
                 "Adj Close": 4869.290039,
                 "Close": 4869.290039,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-30",
                 "High": 4899.140137,
                 "Low": 4859.350098,
@@ -199,7 +199,7 @@
             {
                 "Adj Close": 4846.620117,
                 "Close": 4846.620117,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-29",
                 "High": 4849.310059,
                 "Low": 4749.779785,
@@ -211,7 +211,7 @@
             {
                 "Adj Close": 4766.790039,
                 "Close": 4766.790039,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-28",
                 "High": 4787.390137,
                 "Low": 4760.009766,
@@ -223,7 +223,7 @@
             {
                 "Adj Close": 4773.5,
                 "Close": 4773.5,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-24",
                 "High": 4773.5,
                 "Low": 4734.77002,
@@ -235,7 +235,7 @@
             {
                 "Adj Close": 4768.859863,
                 "Close": 4768.859863,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-23",
                 "High": 4816.669922,
                 "Low": 4765.370117,
@@ -247,7 +247,7 @@
             {
                 "Adj Close": 4821.660156,
                 "Close": 4821.660156,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-22",
                 "High": 4835.600098,
                 "Low": 4781.709961,
@@ -259,7 +259,7 @@
             {
                 "Adj Close": 4808.870117,
                 "Close": 4808.870117,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-21",
                 "High": 4814.850098,
                 "Low": 4785.379883,
@@ -271,7 +271,7 @@
             {
                 "Adj Close": 4795.649902,
                 "Close": 4795.649902,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-18",
                 "High": 4804.580078,
                 "Low": 4772.410156,
@@ -283,7 +283,7 @@
             {
                 "Adj Close": 4774.990234,
                 "Close": 4774.990234,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-17",
                 "High": 4788.089844,
                 "Low": 4737.970215,
@@ -295,7 +295,7 @@
             {
                 "Adj Close": 4763.970215,
                 "Close": 4763.970215,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-16",
                 "High": 4774.779785,
                 "Low": 4716.450195,
@@ -307,7 +307,7 @@
             {
                 "Adj Close": 4728.669922,
                 "Close": 4728.669922,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-15",
                 "High": 4735.27002,
                 "Low": 4712.069824,
@@ -319,7 +319,7 @@
             {
                 "Adj Close": 4750.279785,
                 "Close": 4750.279785,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-14",
                 "High": 4762.27002,
                 "Low": 4731.509766,
@@ -331,7 +331,7 @@
             {
                 "Adj Close": 4748.470215,
                 "Close": 4748.470215,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-11",
                 "High": 4748.790039,
                 "Low": 4700.910156,
@@ -343,7 +343,7 @@
             {
                 "Adj Close": 4662.160156,
                 "Close": 4662.160156,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-10",
                 "High": 4716.140137,
                 "Low": 4607.990234,
@@ -355,7 +355,7 @@
             {
                 "Adj Close": 4674.379883,
                 "Close": 4674.379883,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-09",
                 "High": 4676.470215,
                 "Low": 4642.419922,
@@ -367,7 +367,7 @@
             {
                 "Adj Close": 4648.819824,
                 "Close": 4648.819824,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-08",
                 "High": 4695.040039,
                 "Low": 4642.859863,
@@ -379,7 +379,7 @@
             {
                 "Adj Close": 4708.25,
                 "Close": 4708.25,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-07",
                 "High": 4731.189941,
                 "Low": 4674.819824,
@@ -391,7 +391,7 @@
             {
                 "Adj Close": 4717.02002,
                 "Close": 4717.02002,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-04",
                 "High": 4746.649902,
                 "Low": 4687.939941,
@@ -403,7 +403,7 @@
             {
                 "Adj Close": 4707.419922,
                 "Close": 4707.419922,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-03",
                 "High": 4707.720215,
                 "Low": 4674.459961,
@@ -415,7 +415,7 @@
             {
                 "Adj Close": 4703.419922,
                 "Close": 4703.419922,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-02",
                 "High": 4703.580078,
                 "Low": 4665.930176,
@@ -427,7 +427,7 @@
             {
                 "Adj Close": 4689.600098,
                 "Close": 4689.600098,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-03-01",
                 "High": 4689.600098,
                 "Low": 4581.75,
@@ -439,7 +439,7 @@
             {
                 "Adj Close": 4557.950195,
                 "Close": 4557.950195,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-29",
                 "High": 4619.899902,
                 "Low": 4557.459961,
@@ -451,7 +451,7 @@
             {
                 "Adj Close": 4590.470215,
                 "Close": 4590.470215,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-26",
                 "High": 4618.850098,
                 "Low": 4580.779785,
@@ -463,7 +463,7 @@
             {
                 "Adj Close": 4582.200195,
                 "Close": 4582.200195,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-25",
                 "High": 4582.200195,
                 "Low": 4516.890137,
@@ -475,7 +475,7 @@
             {
                 "Adj Close": 4542.609863,
                 "Close": 4542.609863,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-24",
                 "High": 4547.640137,
                 "Low": 4425.720215,
@@ -487,7 +487,7 @@
             {
                 "Adj Close": 4503.580078,
                 "Close": 4503.580078,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-23",
                 "High": 4558.060059,
                 "Low": 4500.939941,
@@ -499,7 +499,7 @@
             {
                 "Adj Close": 4570.609863,
                 "Close": 4570.609863,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-22",
                 "High": 4576.470215,
                 "Low": 4546.549805,
@@ -511,7 +511,7 @@
             {
                 "Adj Close": 4504.430176,
                 "Close": 4504.430176,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-19",
                 "High": 4513.149902,
                 "Low": 4455.100098,
@@ -523,7 +523,7 @@
             {
                 "Adj Close": 4487.540039,
                 "Close": 4487.540039,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-18",
                 "High": 4548.470215,
                 "Low": 4482.77002,
@@ -535,7 +535,7 @@
             {
                 "Adj Close": 4534.060059,
                 "Close": 4534.060059,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-17",
                 "High": 4540.779785,
                 "Low": 4463.509766,
@@ -547,7 +547,7 @@
             {
                 "Adj Close": 4435.959961,
                 "Close": 4435.959961,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-16",
                 "High": 4435.959961,
                 "Low": 4376.52002,
@@ -559,7 +559,7 @@
             {
                 "Adj Close": 4337.509766,
                 "Close": 4337.509766,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-12",
                 "High": 4340.129883,
                 "Low": 4274.149902,
@@ -571,7 +571,7 @@
             {
                 "Adj Close": 4266.839844,
                 "Close": 4266.839844,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-11",
                 "High": 4293.220215,
                 "Low": 4209.759766,
@@ -583,7 +583,7 @@
             {
                 "Adj Close": 4283.589844,
                 "Close": 4283.589844,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-10",
                 "High": 4369.620117,
                 "Low": 4280.72998,
@@ -595,7 +595,7 @@
             {
                 "Adj Close": 4268.759766,
                 "Close": 4268.759766,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-09",
                 "High": 4329.609863,
                 "Low": 4222.47998,
@@ -607,7 +607,7 @@
             {
                 "Adj Close": 4283.75,
                 "Close": 4283.75,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-08",
                 "High": 4301.529785,
                 "Low": 4212.810059,
@@ -619,7 +619,7 @@
             {
                 "Adj Close": 4363.140137,
                 "Close": 4363.140137,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-05",
                 "High": 4493.189941,
                 "Low": 4350.370117,
@@ -631,7 +631,7 @@
             {
                 "Adj Close": 4509.560059,
                 "Close": 4509.560059,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-04",
                 "High": 4545.52002,
                 "Low": 4463.990234,
@@ -643,7 +643,7 @@
             {
                 "Adj Close": 4504.240234,
                 "Close": 4504.240234,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-03",
                 "High": 4547.319824,
                 "Low": 4424.470215,
@@ -655,7 +655,7 @@
             {
                 "Adj Close": 4516.950195,
                 "Close": 4516.950195,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-02",
                 "High": 4589.899902,
                 "Low": 4503.120117,
@@ -667,7 +667,7 @@
             {
                 "Adj Close": 4620.370117,
                 "Close": 4620.370117,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-02-01",
                 "High": 4636.930176,
                 "Low": 4565.370117,
@@ -679,7 +679,7 @@
             {
                 "Adj Close": 4613.950195,
                 "Close": 4613.950195,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-01-29",
                 "High": 4613.950195,
                 "Low": 4511.299805,
@@ -691,7 +691,7 @@
             {
                 "Adj Close": 4506.680176,
                 "Close": 4506.680176,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-01-28",
                 "High": 4533.810059,
                 "Low": 4447.5,
@@ -703,7 +703,7 @@
             {
                 "Adj Close": 4468.169922,
                 "Close": 4468.169922,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-01-27",
                 "High": 4568.850098,
                 "Low": 4450.830078,
@@ -715,7 +715,7 @@
             {
                 "Adj Close": 4567.669922,
                 "Close": 4567.669922,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-01-26",
                 "High": 4583.209961,
                 "Low": 4503.529785,
@@ -727,7 +727,7 @@
             {
                 "Adj Close": 4518.490234,
                 "Close": 4518.490234,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-01-25",
                 "High": 4590.439941,
                 "Low": 4514.779785,
@@ -739,7 +739,7 @@
             {
                 "Adj Close": 4591.180176,
                 "Close": 4591.180176,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-01-22",
                 "High": 4591.180176,
                 "Low": 4540.27002,
@@ -751,7 +751,7 @@
             {
                 "Adj Close": 4472.060059,
                 "Close": 4472.060059,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-01-21",
                 "High": 4537.149902,
                 "Low": 4432.02002,
@@ -763,7 +763,7 @@
             {
                 "Adj Close": 4471.689941,
                 "Close": 4471.689941,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-01-20",
                 "High": 4514.919922,
                 "Low": 4313.390137,
@@ -775,7 +775,7 @@
             {
                 "Adj Close": 4476.950195,
                 "Close": 4476.950195,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-01-19",
                 "High": 4550.569824,
                 "Low": 4430.77002,
@@ -787,7 +787,7 @@
             {
                 "Adj Close": 4488.419922,
                 "Close": 4488.419922,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-01-15",
                 "High": 4520.450195,
                 "Low": 4419.410156,
@@ -799,7 +799,7 @@
             {
                 "Adj Close": 4615.0,
                 "Close": 4615.0,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-01-14",
                 "High": 4650.549805,
                 "Low": 4470.589844,
@@ -811,7 +811,7 @@
             {
                 "Adj Close": 4526.060059,
                 "Close": 4526.060059,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-01-13",
                 "High": 4713.97998,
                 "Low": 4517.560059,
@@ -823,7 +823,7 @@
             {
                 "Adj Close": 4685.919922,
                 "Close": 4685.919922,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-01-12",
                 "High": 4714.799805,
                 "Low": 4618.029785,
@@ -835,7 +835,7 @@
             {
                 "Adj Close": 4637.990234,
                 "Close": 4637.990234,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-01-11",
                 "High": 4683.02002,
                 "Low": 4573.779785,
@@ -847,7 +847,7 @@
             {
                 "Adj Close": 4643.629883,
                 "Close": 4643.629883,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-01-08",
                 "High": 4742.569824,
                 "Low": 4637.850098,
@@ -859,7 +859,7 @@
             {
                 "Adj Close": 4689.430176,
                 "Close": 4689.430176,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-01-07",
                 "High": 4788.02002,
                 "Low": 4688.169922,
@@ -871,7 +871,7 @@
             {
                 "Adj Close": 4835.759766,
                 "Close": 4835.759766,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-01-06",
                 "High": 4866.040039,
                 "Low": 4804.689941,
@@ -883,7 +883,7 @@
             {
                 "Adj Close": 4891.430176,
                 "Close": 4891.430176,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-01-05",
                 "High": 4926.72998,
                 "Low": 4872.740234,
@@ -895,7 +895,7 @@
             {
                 "Adj Close": 4903.089844,
                 "Close": 4903.089844,
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "Date": "2016-01-04",
                 "High": 4903.089844,
                 "Low": 4846.97998,
@@ -911,14 +911,14 @@
         "low": 4209.759766,
         "months": {
             "1": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4613.950195,
                 "close": 4613.950195,
                 "days": [
                     {
                         "Adj Close": 4613.950195,
                         "Close": 4613.950195,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-29",
                         "High": 4613.950195,
                         "Low": 4511.299805,
@@ -930,7 +930,7 @@
                     {
                         "Adj Close": 4506.680176,
                         "Close": 4506.680176,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-28",
                         "High": 4533.810059,
                         "Low": 4447.5,
@@ -942,7 +942,7 @@
                     {
                         "Adj Close": 4468.169922,
                         "Close": 4468.169922,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-27",
                         "High": 4568.850098,
                         "Low": 4450.830078,
@@ -954,7 +954,7 @@
                     {
                         "Adj Close": 4567.669922,
                         "Close": 4567.669922,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-26",
                         "High": 4583.209961,
                         "Low": 4503.529785,
@@ -966,7 +966,7 @@
                     {
                         "Adj Close": 4518.490234,
                         "Close": 4518.490234,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-25",
                         "High": 4590.439941,
                         "Low": 4514.779785,
@@ -978,7 +978,7 @@
                     {
                         "Adj Close": 4591.180176,
                         "Close": 4591.180176,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-22",
                         "High": 4591.180176,
                         "Low": 4540.27002,
@@ -990,7 +990,7 @@
                     {
                         "Adj Close": 4472.060059,
                         "Close": 4472.060059,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-21",
                         "High": 4537.149902,
                         "Low": 4432.02002,
@@ -1002,7 +1002,7 @@
                     {
                         "Adj Close": 4471.689941,
                         "Close": 4471.689941,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-20",
                         "High": 4514.919922,
                         "Low": 4313.390137,
@@ -1014,7 +1014,7 @@
                     {
                         "Adj Close": 4476.950195,
                         "Close": 4476.950195,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-19",
                         "High": 4550.569824,
                         "Low": 4430.77002,
@@ -1026,7 +1026,7 @@
                     {
                         "Adj Close": 4488.419922,
                         "Close": 4488.419922,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-15",
                         "High": 4520.450195,
                         "Low": 4419.410156,
@@ -1038,7 +1038,7 @@
                     {
                         "Adj Close": 4615.0,
                         "Close": 4615.0,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-14",
                         "High": 4650.549805,
                         "Low": 4470.589844,
@@ -1050,7 +1050,7 @@
                     {
                         "Adj Close": 4526.060059,
                         "Close": 4526.060059,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-13",
                         "High": 4713.97998,
                         "Low": 4517.560059,
@@ -1062,7 +1062,7 @@
                     {
                         "Adj Close": 4685.919922,
                         "Close": 4685.919922,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-12",
                         "High": 4714.799805,
                         "Low": 4618.029785,
@@ -1074,7 +1074,7 @@
                     {
                         "Adj Close": 4637.990234,
                         "Close": 4637.990234,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-11",
                         "High": 4683.02002,
                         "Low": 4573.779785,
@@ -1086,7 +1086,7 @@
                     {
                         "Adj Close": 4643.629883,
                         "Close": 4643.629883,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-08",
                         "High": 4742.569824,
                         "Low": 4637.850098,
@@ -1098,7 +1098,7 @@
                     {
                         "Adj Close": 4689.430176,
                         "Close": 4689.430176,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-07",
                         "High": 4788.02002,
                         "Low": 4688.169922,
@@ -1110,7 +1110,7 @@
                     {
                         "Adj Close": 4835.759766,
                         "Close": 4835.759766,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-06",
                         "High": 4866.040039,
                         "Low": 4804.689941,
@@ -1122,7 +1122,7 @@
                     {
                         "Adj Close": 4891.430176,
                         "Close": 4891.430176,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-05",
                         "High": 4926.72998,
                         "Low": 4872.740234,
@@ -1134,7 +1134,7 @@
                     {
                         "Adj Close": 4903.089844,
                         "Close": 4903.089844,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-04",
                         "High": 4903.089844,
                         "Low": 4846.97998,
@@ -1154,14 +1154,14 @@
                 "year": 2016
             },
             "2": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4557.950195,
                 "close": 4557.950195,
                 "days": [
                     {
                         "Adj Close": 4557.950195,
                         "Close": 4557.950195,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-29",
                         "High": 4619.899902,
                         "Low": 4557.459961,
@@ -1173,7 +1173,7 @@
                     {
                         "Adj Close": 4590.470215,
                         "Close": 4590.470215,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-26",
                         "High": 4618.850098,
                         "Low": 4580.779785,
@@ -1185,7 +1185,7 @@
                     {
                         "Adj Close": 4582.200195,
                         "Close": 4582.200195,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-25",
                         "High": 4582.200195,
                         "Low": 4516.890137,
@@ -1197,7 +1197,7 @@
                     {
                         "Adj Close": 4542.609863,
                         "Close": 4542.609863,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-24",
                         "High": 4547.640137,
                         "Low": 4425.720215,
@@ -1209,7 +1209,7 @@
                     {
                         "Adj Close": 4503.580078,
                         "Close": 4503.580078,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-23",
                         "High": 4558.060059,
                         "Low": 4500.939941,
@@ -1221,7 +1221,7 @@
                     {
                         "Adj Close": 4570.609863,
                         "Close": 4570.609863,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-22",
                         "High": 4576.470215,
                         "Low": 4546.549805,
@@ -1233,7 +1233,7 @@
                     {
                         "Adj Close": 4504.430176,
                         "Close": 4504.430176,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-19",
                         "High": 4513.149902,
                         "Low": 4455.100098,
@@ -1245,7 +1245,7 @@
                     {
                         "Adj Close": 4487.540039,
                         "Close": 4487.540039,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-18",
                         "High": 4548.470215,
                         "Low": 4482.77002,
@@ -1257,7 +1257,7 @@
                     {
                         "Adj Close": 4534.060059,
                         "Close": 4534.060059,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-17",
                         "High": 4540.779785,
                         "Low": 4463.509766,
@@ -1269,7 +1269,7 @@
                     {
                         "Adj Close": 4435.959961,
                         "Close": 4435.959961,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-16",
                         "High": 4435.959961,
                         "Low": 4376.52002,
@@ -1281,7 +1281,7 @@
                     {
                         "Adj Close": 4337.509766,
                         "Close": 4337.509766,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-12",
                         "High": 4340.129883,
                         "Low": 4274.149902,
@@ -1293,7 +1293,7 @@
                     {
                         "Adj Close": 4266.839844,
                         "Close": 4266.839844,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-11",
                         "High": 4293.220215,
                         "Low": 4209.759766,
@@ -1305,7 +1305,7 @@
                     {
                         "Adj Close": 4283.589844,
                         "Close": 4283.589844,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-10",
                         "High": 4369.620117,
                         "Low": 4280.72998,
@@ -1317,7 +1317,7 @@
                     {
                         "Adj Close": 4268.759766,
                         "Close": 4268.759766,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-09",
                         "High": 4329.609863,
                         "Low": 4222.47998,
@@ -1329,7 +1329,7 @@
                     {
                         "Adj Close": 4283.75,
                         "Close": 4283.75,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-08",
                         "High": 4301.529785,
                         "Low": 4212.810059,
@@ -1341,7 +1341,7 @@
                     {
                         "Adj Close": 4363.140137,
                         "Close": 4363.140137,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-05",
                         "High": 4493.189941,
                         "Low": 4350.370117,
@@ -1353,7 +1353,7 @@
                     {
                         "Adj Close": 4509.560059,
                         "Close": 4509.560059,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-04",
                         "High": 4545.52002,
                         "Low": 4463.990234,
@@ -1365,7 +1365,7 @@
                     {
                         "Adj Close": 4504.240234,
                         "Close": 4504.240234,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-03",
                         "High": 4547.319824,
                         "Low": 4424.470215,
@@ -1377,7 +1377,7 @@
                     {
                         "Adj Close": 4516.950195,
                         "Close": 4516.950195,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-02",
                         "High": 4589.899902,
                         "Low": 4503.120117,
@@ -1389,7 +1389,7 @@
                     {
                         "Adj Close": 4620.370117,
                         "Close": 4620.370117,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-01",
                         "High": 4636.930176,
                         "Low": 4565.370117,
@@ -1409,14 +1409,14 @@
                 "year": 2016
             },
             "3": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4869.850098,
                 "close": 4869.850098,
                 "days": [
                     {
                         "Adj Close": 4869.850098,
                         "Close": 4869.850098,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-31",
                         "High": 4891.299805,
                         "Low": 4864.410156,
@@ -1428,7 +1428,7 @@
                     {
                         "Adj Close": 4869.290039,
                         "Close": 4869.290039,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-30",
                         "High": 4899.140137,
                         "Low": 4859.350098,
@@ -1440,7 +1440,7 @@
                     {
                         "Adj Close": 4846.620117,
                         "Close": 4846.620117,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-29",
                         "High": 4849.310059,
                         "Low": 4749.779785,
@@ -1452,7 +1452,7 @@
                     {
                         "Adj Close": 4766.790039,
                         "Close": 4766.790039,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-28",
                         "High": 4787.390137,
                         "Low": 4760.009766,
@@ -1464,7 +1464,7 @@
                     {
                         "Adj Close": 4773.5,
                         "Close": 4773.5,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-24",
                         "High": 4773.5,
                         "Low": 4734.77002,
@@ -1476,7 +1476,7 @@
                     {
                         "Adj Close": 4768.859863,
                         "Close": 4768.859863,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-23",
                         "High": 4816.669922,
                         "Low": 4765.370117,
@@ -1488,7 +1488,7 @@
                     {
                         "Adj Close": 4821.660156,
                         "Close": 4821.660156,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-22",
                         "High": 4835.600098,
                         "Low": 4781.709961,
@@ -1500,7 +1500,7 @@
                     {
                         "Adj Close": 4808.870117,
                         "Close": 4808.870117,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-21",
                         "High": 4814.850098,
                         "Low": 4785.379883,
@@ -1512,7 +1512,7 @@
                     {
                         "Adj Close": 4795.649902,
                         "Close": 4795.649902,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-18",
                         "High": 4804.580078,
                         "Low": 4772.410156,
@@ -1524,7 +1524,7 @@
                     {
                         "Adj Close": 4774.990234,
                         "Close": 4774.990234,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-17",
                         "High": 4788.089844,
                         "Low": 4737.970215,
@@ -1536,7 +1536,7 @@
                     {
                         "Adj Close": 4763.970215,
                         "Close": 4763.970215,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-16",
                         "High": 4774.779785,
                         "Low": 4716.450195,
@@ -1548,7 +1548,7 @@
                     {
                         "Adj Close": 4728.669922,
                         "Close": 4728.669922,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-15",
                         "High": 4735.27002,
                         "Low": 4712.069824,
@@ -1560,7 +1560,7 @@
                     {
                         "Adj Close": 4750.279785,
                         "Close": 4750.279785,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-14",
                         "High": 4762.27002,
                         "Low": 4731.509766,
@@ -1572,7 +1572,7 @@
                     {
                         "Adj Close": 4748.470215,
                         "Close": 4748.470215,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-11",
                         "High": 4748.790039,
                         "Low": 4700.910156,
@@ -1584,7 +1584,7 @@
                     {
                         "Adj Close": 4662.160156,
                         "Close": 4662.160156,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-10",
                         "High": 4716.140137,
                         "Low": 4607.990234,
@@ -1596,7 +1596,7 @@
                     {
                         "Adj Close": 4674.379883,
                         "Close": 4674.379883,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-09",
                         "High": 4676.470215,
                         "Low": 4642.419922,
@@ -1608,7 +1608,7 @@
                     {
                         "Adj Close": 4648.819824,
                         "Close": 4648.819824,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-08",
                         "High": 4695.040039,
                         "Low": 4642.859863,
@@ -1620,7 +1620,7 @@
                     {
                         "Adj Close": 4708.25,
                         "Close": 4708.25,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-07",
                         "High": 4731.189941,
                         "Low": 4674.819824,
@@ -1632,7 +1632,7 @@
                     {
                         "Adj Close": 4717.02002,
                         "Close": 4717.02002,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-04",
                         "High": 4746.649902,
                         "Low": 4687.939941,
@@ -1644,7 +1644,7 @@
                     {
                         "Adj Close": 4707.419922,
                         "Close": 4707.419922,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-03",
                         "High": 4707.720215,
                         "Low": 4674.459961,
@@ -1656,7 +1656,7 @@
                     {
                         "Adj Close": 4703.419922,
                         "Close": 4703.419922,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-02",
                         "High": 4703.580078,
                         "Low": 4665.930176,
@@ -1668,7 +1668,7 @@
                     {
                         "Adj Close": 4689.600098,
                         "Close": 4689.600098,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-01",
                         "High": 4689.600098,
                         "Low": 4581.75,
@@ -1688,14 +1688,14 @@
                 "year": 2016
             },
             "4": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4948.129883,
                 "close": 4948.129883,
                 "days": [
                     {
                         "Adj Close": 4948.129883,
                         "Close": 4948.129883,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-20",
                         "High": 4969.319824,
                         "Low": 4928.290039,
@@ -1707,7 +1707,7 @@
                     {
                         "Adj Close": 4940.330078,
                         "Close": 4940.330078,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-19",
                         "High": 4968.669922,
                         "Low": 4915.52002,
@@ -1719,7 +1719,7 @@
                     {
                         "Adj Close": 4960.02002,
                         "Close": 4960.02002,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-18",
                         "High": 4960.790039,
                         "Low": 4915.629883,
@@ -1731,7 +1731,7 @@
                     {
                         "Adj Close": 4938.220215,
                         "Close": 4938.220215,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-15",
                         "High": 4950.430176,
                         "Low": 4925.459961,
@@ -1743,7 +1743,7 @@
                     {
                         "Adj Close": 4945.890137,
                         "Close": 4945.890137,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-14",
                         "High": 4961.299805,
                         "Low": 4931.810059,
@@ -1755,7 +1755,7 @@
                     {
                         "Adj Close": 4947.419922,
                         "Close": 4947.419922,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-13",
                         "High": 4951.910156,
                         "Low": 4903.600098,
@@ -1767,7 +1767,7 @@
                     {
                         "Adj Close": 4872.089844,
                         "Close": 4872.089844,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-12",
                         "High": 4879.600098,
                         "Low": 4808.910156,
@@ -1779,7 +1779,7 @@
                     {
                         "Adj Close": 4833.399902,
                         "Close": 4833.399902,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-11",
                         "High": 4897.549805,
                         "Low": 4833.399902,
@@ -1791,7 +1791,7 @@
                     {
                         "Adj Close": 4850.689941,
                         "Close": 4850.689941,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-08",
                         "High": 4892.600098,
                         "Low": 4835.359863,
@@ -1803,7 +1803,7 @@
                     {
                         "Adj Close": 4848.370117,
                         "Close": 4848.370117,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-07",
                         "High": 4901.490234,
                         "Low": 4831.490234,
@@ -1815,7 +1815,7 @@
                     {
                         "Adj Close": 4920.720215,
                         "Close": 4920.720215,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-06",
                         "High": 4921.509766,
                         "Low": 4849.279785,
@@ -1827,7 +1827,7 @@
                     {
                         "Adj Close": 4843.930176,
                         "Close": 4843.930176,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-05",
                         "High": 4872.700195,
                         "Low": 4838.620117,
@@ -1839,7 +1839,7 @@
                     {
                         "Adj Close": 4891.799805,
                         "Close": 4891.799805,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-04",
                         "High": 4917.75,
                         "Low": 4885.169922,
@@ -1851,7 +1851,7 @@
                     {
                         "Adj Close": 4914.540039,
                         "Close": 4914.540039,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-01",
                         "High": 4917.089844,
                         "Low": 4832.060059,
@@ -1875,14 +1875,14 @@
         "volume": 153077910000,
         "weeks": {
             "1": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4643.629883,
                 "close": 4643.629883,
                 "days": [
                     {
                         "Adj Close": 4643.629883,
                         "Close": 4643.629883,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-08",
                         "High": 4742.569824,
                         "Low": 4637.850098,
@@ -1894,7 +1894,7 @@
                     {
                         "Adj Close": 4689.430176,
                         "Close": 4689.430176,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-07",
                         "High": 4788.02002,
                         "Low": 4688.169922,
@@ -1906,7 +1906,7 @@
                     {
                         "Adj Close": 4835.759766,
                         "Close": 4835.759766,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-06",
                         "High": 4866.040039,
                         "Low": 4804.689941,
@@ -1918,7 +1918,7 @@
                     {
                         "Adj Close": 4891.430176,
                         "Close": 4891.430176,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-05",
                         "High": 4926.72998,
                         "Low": 4872.740234,
@@ -1930,7 +1930,7 @@
                     {
                         "Adj Close": 4903.089844,
                         "Close": 4903.089844,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-04",
                         "High": 4903.089844,
                         "Low": 4846.97998,
@@ -1950,14 +1950,14 @@
                 "year": 2016
             },
             "2": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4488.419922,
                 "close": 4488.419922,
                 "days": [
                     {
                         "Adj Close": 4488.419922,
                         "Close": 4488.419922,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-15",
                         "High": 4520.450195,
                         "Low": 4419.410156,
@@ -1969,7 +1969,7 @@
                     {
                         "Adj Close": 4615.0,
                         "Close": 4615.0,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-14",
                         "High": 4650.549805,
                         "Low": 4470.589844,
@@ -1981,7 +1981,7 @@
                     {
                         "Adj Close": 4526.060059,
                         "Close": 4526.060059,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-13",
                         "High": 4713.97998,
                         "Low": 4517.560059,
@@ -1993,7 +1993,7 @@
                     {
                         "Adj Close": 4685.919922,
                         "Close": 4685.919922,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-12",
                         "High": 4714.799805,
                         "Low": 4618.029785,
@@ -2005,7 +2005,7 @@
                     {
                         "Adj Close": 4637.990234,
                         "Close": 4637.990234,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-11",
                         "High": 4683.02002,
                         "Low": 4573.779785,
@@ -2025,14 +2025,14 @@
                 "year": 2016
             },
             "3": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4591.180176,
                 "close": 4591.180176,
                 "days": [
                     {
                         "Adj Close": 4591.180176,
                         "Close": 4591.180176,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-22",
                         "High": 4591.180176,
                         "Low": 4540.27002,
@@ -2044,7 +2044,7 @@
                     {
                         "Adj Close": 4472.060059,
                         "Close": 4472.060059,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-21",
                         "High": 4537.149902,
                         "Low": 4432.02002,
@@ -2056,7 +2056,7 @@
                     {
                         "Adj Close": 4471.689941,
                         "Close": 4471.689941,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-20",
                         "High": 4514.919922,
                         "Low": 4313.390137,
@@ -2068,7 +2068,7 @@
                     {
                         "Adj Close": 4476.950195,
                         "Close": 4476.950195,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-19",
                         "High": 4550.569824,
                         "Low": 4430.77002,
@@ -2088,14 +2088,14 @@
                 "year": 2016
             },
             "4": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4613.950195,
                 "close": 4613.950195,
                 "days": [
                     {
                         "Adj Close": 4613.950195,
                         "Close": 4613.950195,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-29",
                         "High": 4613.950195,
                         "Low": 4511.299805,
@@ -2107,7 +2107,7 @@
                     {
                         "Adj Close": 4506.680176,
                         "Close": 4506.680176,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-28",
                         "High": 4533.810059,
                         "Low": 4447.5,
@@ -2119,7 +2119,7 @@
                     {
                         "Adj Close": 4468.169922,
                         "Close": 4468.169922,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-27",
                         "High": 4568.850098,
                         "Low": 4450.830078,
@@ -2131,7 +2131,7 @@
                     {
                         "Adj Close": 4567.669922,
                         "Close": 4567.669922,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-26",
                         "High": 4583.209961,
                         "Low": 4503.529785,
@@ -2143,7 +2143,7 @@
                     {
                         "Adj Close": 4518.490234,
                         "Close": 4518.490234,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-01-25",
                         "High": 4590.439941,
                         "Low": 4514.779785,
@@ -2163,14 +2163,14 @@
                 "year": 2016
             },
             "5": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4363.140137,
                 "close": 4363.140137,
                 "days": [
                     {
                         "Adj Close": 4363.140137,
                         "Close": 4363.140137,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-05",
                         "High": 4493.189941,
                         "Low": 4350.370117,
@@ -2182,7 +2182,7 @@
                     {
                         "Adj Close": 4509.560059,
                         "Close": 4509.560059,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-04",
                         "High": 4545.52002,
                         "Low": 4463.990234,
@@ -2194,7 +2194,7 @@
                     {
                         "Adj Close": 4504.240234,
                         "Close": 4504.240234,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-03",
                         "High": 4547.319824,
                         "Low": 4424.470215,
@@ -2206,7 +2206,7 @@
                     {
                         "Adj Close": 4516.950195,
                         "Close": 4516.950195,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-02",
                         "High": 4589.899902,
                         "Low": 4503.120117,
@@ -2218,7 +2218,7 @@
                     {
                         "Adj Close": 4620.370117,
                         "Close": 4620.370117,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-01",
                         "High": 4636.930176,
                         "Low": 4565.370117,
@@ -2238,14 +2238,14 @@
                 "year": 2016
             },
             "6": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4337.509766,
                 "close": 4337.509766,
                 "days": [
                     {
                         "Adj Close": 4337.509766,
                         "Close": 4337.509766,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-12",
                         "High": 4340.129883,
                         "Low": 4274.149902,
@@ -2257,7 +2257,7 @@
                     {
                         "Adj Close": 4266.839844,
                         "Close": 4266.839844,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-11",
                         "High": 4293.220215,
                         "Low": 4209.759766,
@@ -2269,7 +2269,7 @@
                     {
                         "Adj Close": 4283.589844,
                         "Close": 4283.589844,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-10",
                         "High": 4369.620117,
                         "Low": 4280.72998,
@@ -2281,7 +2281,7 @@
                     {
                         "Adj Close": 4268.759766,
                         "Close": 4268.759766,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-09",
                         "High": 4329.609863,
                         "Low": 4222.47998,
@@ -2293,7 +2293,7 @@
                     {
                         "Adj Close": 4283.75,
                         "Close": 4283.75,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-08",
                         "High": 4301.529785,
                         "Low": 4212.810059,
@@ -2313,14 +2313,14 @@
                 "year": 2016
             },
             "7": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4504.430176,
                 "close": 4504.430176,
                 "days": [
                     {
                         "Adj Close": 4504.430176,
                         "Close": 4504.430176,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-19",
                         "High": 4513.149902,
                         "Low": 4455.100098,
@@ -2332,7 +2332,7 @@
                     {
                         "Adj Close": 4487.540039,
                         "Close": 4487.540039,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-18",
                         "High": 4548.470215,
                         "Low": 4482.77002,
@@ -2344,7 +2344,7 @@
                     {
                         "Adj Close": 4534.060059,
                         "Close": 4534.060059,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-17",
                         "High": 4540.779785,
                         "Low": 4463.509766,
@@ -2356,7 +2356,7 @@
                     {
                         "Adj Close": 4435.959961,
                         "Close": 4435.959961,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-16",
                         "High": 4435.959961,
                         "Low": 4376.52002,
@@ -2376,14 +2376,14 @@
                 "year": 2016
             },
             "8": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4590.470215,
                 "close": 4590.470215,
                 "days": [
                     {
                         "Adj Close": 4590.470215,
                         "Close": 4590.470215,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-26",
                         "High": 4618.850098,
                         "Low": 4580.779785,
@@ -2395,7 +2395,7 @@
                     {
                         "Adj Close": 4582.200195,
                         "Close": 4582.200195,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-25",
                         "High": 4582.200195,
                         "Low": 4516.890137,
@@ -2407,7 +2407,7 @@
                     {
                         "Adj Close": 4542.609863,
                         "Close": 4542.609863,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-24",
                         "High": 4547.640137,
                         "Low": 4425.720215,
@@ -2419,7 +2419,7 @@
                     {
                         "Adj Close": 4503.580078,
                         "Close": 4503.580078,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-23",
                         "High": 4558.060059,
                         "Low": 4500.939941,
@@ -2431,7 +2431,7 @@
                     {
                         "Adj Close": 4570.609863,
                         "Close": 4570.609863,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-22",
                         "High": 4576.470215,
                         "Low": 4546.549805,
@@ -2451,14 +2451,14 @@
                 "year": 2016
             },
             "9": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4717.02002,
                 "close": 4717.02002,
                 "days": [
                     {
                         "Adj Close": 4717.02002,
                         "Close": 4717.02002,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-04",
                         "High": 4746.649902,
                         "Low": 4687.939941,
@@ -2470,7 +2470,7 @@
                     {
                         "Adj Close": 4707.419922,
                         "Close": 4707.419922,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-03",
                         "High": 4707.720215,
                         "Low": 4674.459961,
@@ -2482,7 +2482,7 @@
                     {
                         "Adj Close": 4703.419922,
                         "Close": 4703.419922,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-02",
                         "High": 4703.580078,
                         "Low": 4665.930176,
@@ -2494,7 +2494,7 @@
                     {
                         "Adj Close": 4689.600098,
                         "Close": 4689.600098,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-01",
                         "High": 4689.600098,
                         "Low": 4581.75,
@@ -2506,7 +2506,7 @@
                     {
                         "Adj Close": 4557.950195,
                         "Close": 4557.950195,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-02-29",
                         "High": 4619.899902,
                         "Low": 4557.459961,
@@ -2526,14 +2526,14 @@
                 "year": 2016
             },
             "10": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4748.470215,
                 "close": 4748.470215,
                 "days": [
                     {
                         "Adj Close": 4748.470215,
                         "Close": 4748.470215,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-11",
                         "High": 4748.790039,
                         "Low": 4700.910156,
@@ -2545,7 +2545,7 @@
                     {
                         "Adj Close": 4662.160156,
                         "Close": 4662.160156,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-10",
                         "High": 4716.140137,
                         "Low": 4607.990234,
@@ -2557,7 +2557,7 @@
                     {
                         "Adj Close": 4674.379883,
                         "Close": 4674.379883,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-09",
                         "High": 4676.470215,
                         "Low": 4642.419922,
@@ -2569,7 +2569,7 @@
                     {
                         "Adj Close": 4648.819824,
                         "Close": 4648.819824,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-08",
                         "High": 4695.040039,
                         "Low": 4642.859863,
@@ -2581,7 +2581,7 @@
                     {
                         "Adj Close": 4708.25,
                         "Close": 4708.25,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-07",
                         "High": 4731.189941,
                         "Low": 4674.819824,
@@ -2601,14 +2601,14 @@
                 "year": 2016
             },
             "11": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4795.649902,
                 "close": 4795.649902,
                 "days": [
                     {
                         "Adj Close": 4795.649902,
                         "Close": 4795.649902,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-18",
                         "High": 4804.580078,
                         "Low": 4772.410156,
@@ -2620,7 +2620,7 @@
                     {
                         "Adj Close": 4774.990234,
                         "Close": 4774.990234,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-17",
                         "High": 4788.089844,
                         "Low": 4737.970215,
@@ -2632,7 +2632,7 @@
                     {
                         "Adj Close": 4763.970215,
                         "Close": 4763.970215,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-16",
                         "High": 4774.779785,
                         "Low": 4716.450195,
@@ -2644,7 +2644,7 @@
                     {
                         "Adj Close": 4728.669922,
                         "Close": 4728.669922,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-15",
                         "High": 4735.27002,
                         "Low": 4712.069824,
@@ -2656,7 +2656,7 @@
                     {
                         "Adj Close": 4750.279785,
                         "Close": 4750.279785,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-14",
                         "High": 4762.27002,
                         "Low": 4731.509766,
@@ -2676,14 +2676,14 @@
                 "year": 2016
             },
             "12": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4773.5,
                 "close": 4773.5,
                 "days": [
                     {
                         "Adj Close": 4773.5,
                         "Close": 4773.5,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-24",
                         "High": 4773.5,
                         "Low": 4734.77002,
@@ -2695,7 +2695,7 @@
                     {
                         "Adj Close": 4768.859863,
                         "Close": 4768.859863,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-23",
                         "High": 4816.669922,
                         "Low": 4765.370117,
@@ -2707,7 +2707,7 @@
                     {
                         "Adj Close": 4821.660156,
                         "Close": 4821.660156,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-22",
                         "High": 4835.600098,
                         "Low": 4781.709961,
@@ -2719,7 +2719,7 @@
                     {
                         "Adj Close": 4808.870117,
                         "Close": 4808.870117,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-21",
                         "High": 4814.850098,
                         "Low": 4785.379883,
@@ -2739,14 +2739,14 @@
                 "year": 2016
             },
             "13": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4914.540039,
                 "close": 4914.540039,
                 "days": [
                     {
                         "Adj Close": 4914.540039,
                         "Close": 4914.540039,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-01",
                         "High": 4917.089844,
                         "Low": 4832.060059,
@@ -2758,7 +2758,7 @@
                     {
                         "Adj Close": 4869.850098,
                         "Close": 4869.850098,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-31",
                         "High": 4891.299805,
                         "Low": 4864.410156,
@@ -2770,7 +2770,7 @@
                     {
                         "Adj Close": 4869.290039,
                         "Close": 4869.290039,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-30",
                         "High": 4899.140137,
                         "Low": 4859.350098,
@@ -2782,7 +2782,7 @@
                     {
                         "Adj Close": 4846.620117,
                         "Close": 4846.620117,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-29",
                         "High": 4849.310059,
                         "Low": 4749.779785,
@@ -2794,7 +2794,7 @@
                     {
                         "Adj Close": 4766.790039,
                         "Close": 4766.790039,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-03-28",
                         "High": 4787.390137,
                         "Low": 4760.009766,
@@ -2814,14 +2814,14 @@
                 "year": 2016
             },
             "14": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4850.689941,
                 "close": 4850.689941,
                 "days": [
                     {
                         "Adj Close": 4850.689941,
                         "Close": 4850.689941,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-08",
                         "High": 4892.600098,
                         "Low": 4835.359863,
@@ -2833,7 +2833,7 @@
                     {
                         "Adj Close": 4848.370117,
                         "Close": 4848.370117,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-07",
                         "High": 4901.490234,
                         "Low": 4831.490234,
@@ -2845,7 +2845,7 @@
                     {
                         "Adj Close": 4920.720215,
                         "Close": 4920.720215,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-06",
                         "High": 4921.509766,
                         "Low": 4849.279785,
@@ -2857,7 +2857,7 @@
                     {
                         "Adj Close": 4843.930176,
                         "Close": 4843.930176,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-05",
                         "High": 4872.700195,
                         "Low": 4838.620117,
@@ -2869,7 +2869,7 @@
                     {
                         "Adj Close": 4891.799805,
                         "Close": 4891.799805,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-04",
                         "High": 4917.75,
                         "Low": 4885.169922,
@@ -2889,14 +2889,14 @@
                 "year": 2016
             },
             "15": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4938.220215,
                 "close": 4938.220215,
                 "days": [
                     {
                         "Adj Close": 4938.220215,
                         "Close": 4938.220215,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-15",
                         "High": 4950.430176,
                         "Low": 4925.459961,
@@ -2908,7 +2908,7 @@
                     {
                         "Adj Close": 4945.890137,
                         "Close": 4945.890137,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-14",
                         "High": 4961.299805,
                         "Low": 4931.810059,
@@ -2920,7 +2920,7 @@
                     {
                         "Adj Close": 4947.419922,
                         "Close": 4947.419922,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-13",
                         "High": 4951.910156,
                         "Low": 4903.600098,
@@ -2932,7 +2932,7 @@
                     {
                         "Adj Close": 4872.089844,
                         "Close": 4872.089844,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-12",
                         "High": 4879.600098,
                         "Low": 4808.910156,
@@ -2944,7 +2944,7 @@
                     {
                         "Adj Close": 4833.399902,
                         "Close": 4833.399902,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-11",
                         "High": 4897.549805,
                         "Low": 4833.399902,
@@ -2964,14 +2964,14 @@
                 "year": 2016
             },
             "16": {
-                "Company": "^IXIC",
+                "Company": "Nasdaq Composite",
                 "adj close": 4948.129883,
                 "close": 4948.129883,
                 "days": [
                     {
                         "Adj Close": 4948.129883,
                         "Close": 4948.129883,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-20",
                         "High": 4969.319824,
                         "Low": 4928.290039,
@@ -2983,7 +2983,7 @@
                     {
                         "Adj Close": 4940.330078,
                         "Close": 4940.330078,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-19",
                         "High": 4968.669922,
                         "Low": 4915.52002,
@@ -2995,7 +2995,7 @@
                     {
                         "Adj Close": 4960.02002,
                         "Close": 4960.02002,
-                        "Company": "^IXIC",
+                        "Company": "Nasdaq Composite",
                         "Date": "2016-04-18",
                         "High": 4960.790039,
                         "Low": 4915.629883,
