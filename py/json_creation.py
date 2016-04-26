@@ -4,7 +4,7 @@ import datetime
 import os
 
 # start with nasdaq
-exchanges = ["indexes", "nasdaq", "nyse"]
+exchanges = ["sample", "indexes", "nasdaq", "nyse"]
 with open("successes.json") as success_file:
     finished_data = json.load(success_file)["successes"]
 for exchange in exchanges:
@@ -19,7 +19,11 @@ for exchange in exchanges:
         print(t, ticker)
         years = {}
         max_volume = 0
-        with open("../data/prices/" + exchange + "/" + ticker + ".csv") as csvfile:
+        if exchange == "sample":
+            exchange2 = "nasdaq"
+        else:
+            exchange2 = exchange
+        with open("../data/prices/" + exchange2 + "/" + ticker + ".csv") as csvfile:
             stockreader = csv.reader(csvfile, quotechar='|')
             i = 0
             for row in stockreader:
@@ -130,4 +134,4 @@ for exchange in exchanges:
         finished_data.append(ticker)
         with open("successes.json", "w") as success_file:
             json.dump({"successes": finished_data}, success_file)
-    break
+    #break
