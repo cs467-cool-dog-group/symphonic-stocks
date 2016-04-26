@@ -32,8 +32,8 @@ portfolio_stocks = dict()
 for s in sector_stocks.keys():
 	sector_stocks[s] = sorted(sector_stocks[s], key=lambda k: k['market_cap'], reverse=True)
 	portfolio_stocks[s] = [c['symbol'] for c in sector_stocks[s][:7]]
-	print s
-	print portfolio_stocks[s]
+	print(s)
+	print(portfolio_stocks[s])
 
 with open('../data/sample_portfolios.json', 'w') as f:
 	json.dump(portfolio_stocks, f)
