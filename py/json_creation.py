@@ -4,7 +4,7 @@ import datetime
 import os
 
 # start with nasdaq
-exchanges = ["indexes", "nasdaq", "nyse"]
+exchanges = ["sample", "indexes", "nasdaq", "nyse"]
 with open("successes.json") as success_file:
     finished_data = json.load(success_file)["successes"]
 for exchange in exchanges:
@@ -18,7 +18,12 @@ for exchange in exchanges:
         company = ticker_list[ticker]
         print(t, ticker)
         years = {}
-        with open("../data/prices/" + exchange + "/" + ticker + ".csv") as csvfile:
+        max_volume = 0
+        if exchange == "sample":
+            exchange2 = "nasdaq"
+        else:
+            exchange2 = exchange
+        with open("../data/prices/" + exchange2 + "/" + ticker + ".csv") as csvfile:
             stockreader = csv.reader(csvfile, quotechar='|')
             i = 0
             for row in stockreader:
@@ -31,6 +36,8 @@ for exchange in exchanges:
                 low = float(row[3])
                 close = float(row[4])
                 volume = int(row[5])
+                if volume > max_volume:
+                    max_volume = volume
                 adjclose = float(row[6])
                 year = int(full_date.split('-')[0])
                 month = int(full_date.split('-')[1])
@@ -106,6 +113,15 @@ for exchange in exchanges:
                     weeks[week]["open"] = open_price
                 years[year]["weeks"] = weeks
 
+        for year in years:
+            for day in years[year]["days"]:
+                day["Normalized Volume"] = day["Volume"] / max_volume
+            for month in years[year]["months"]:
+                for day in years[year]["months"][month]["days"]:
+                    day["Normalized Volume"] = day["Volume"] / max_volume
+            for week in years[year]["weeks"]:
+                for day in years[year]["weeks"][week]["days"]:
+                    day["Normalized Volume"] = day["Volume"] / max_volume
         # print(json.dumps(json_v1_out))
         directory = '../data/jsons/' + exchange + '/' + ticker + '/'
         if not os.path.exists(directory):
@@ -118,4 +134,4 @@ for exchange in exchanges:
         finished_data.append(ticker)
         with open("successes.json", "w") as success_file:
             json.dump({"successes": finished_data}, success_file)
-    break
+    #break
