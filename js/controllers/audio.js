@@ -45,7 +45,7 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
     $scope.draw = function(xValue) {
         var cursorLine = document.getElementById("cursorLine");
         cursorLine.style.left = (xValue + 14) + "px"; // works when filtering TMUS from 01/01/2014 to 01/15/2014
-    }
+    };
 
     $scope.pause = function() {
         $scope.isPlaying = false;
@@ -115,6 +115,7 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
             });
         }
         $scope.currentIndex = 0;
+        console.log($scope.notes);
     };
 
     $scope.$watch('filteredData', $scope.determineSong, true);
