@@ -45,6 +45,8 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
     	var newMinYear = startDate.getFullYear();
     	var newMaxYear = endDate.getFullYear();
 
+        console.log(minYear, maxYear, newMinYear, newMaxYear);
+
     	var path = $scope.loc == "/index" ? "indexes" : "sample";
 
     	console.log($scope.stockList);
@@ -262,6 +264,13 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 	    // Add line markers to the line because it looks nice
 	    s.lineMarkers = true;
 
+      if($scope.loc == "/index"){
+        $scope.chart.assignColor("Dow Jones Industrial Average", "rgb(253, 180, 98)", "rgb(211, 150, 81)", 0.8);
+        $scope.chart.assignColor("S&P 500", "rgb(128, 177, 211)", "rgb(107, 148, 176)", 0.8);
+        $scope.chart.assignColor("Nasdaq Composite", "rgb(251, 128, 114)", "rgb(210, 107, 95)", 0.8);
+        console.log($scope.chart);
+      }
+
 	    // Show a legend
 	    var myLegend = $scope.chart.addLegend(10, 10, 700, 40, "right");
 
@@ -345,6 +354,7 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
         for (var i = 0; i < $scope.selectedCompanies.length; i++) {
         	for (var year=2016; year<=2016; year++){
 	            q.defer(d3.json, './data/jsons/sample/' + $scope.selectedCompanies[i] + '/' + year.toString() + '.json');
+                $scope.yearsPulled.push(year);
 	        }
             $scope.stockList.push({'ticker': $scope.selectedCompanies[i], 'co': $scope.fetchCompanyName($scope.selectedCompanies[i])});
         }

@@ -6,12 +6,33 @@
 	float:left;
 }
 
-#cursorLine {
+.cursorCircle {
 	position: absolute;
 	left: 84px;
     top: 188px;
-	background-color: black;
-	width: 1px;
-	height: 400px;
-	z-index: 4;
+	background-color: gray;
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+
+	z-index: 100;
+}
+
+.cursorCircleP {
+	position: absolute;
+	left: 84px;
+    top: 500px;
+	background-color: gray;
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+
+	z-index: 100;
+}
+
+#legendCircle {
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	background-color: gray;
 }
