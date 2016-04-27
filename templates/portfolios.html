@@ -31,9 +31,10 @@
                                 </ul>
                             </div>
                             <div ng-controller="NewsController" ng-init = "initialize()" id="controller2" >
-                                <table>
-                                    <tr ng-repeat="object in newsData"><td><a href="{{object.link}}">{{object.title}}</a></td></tr>
-                                </table>
+                                <p>News</p>
+                                <ul class="list-group">
+                                    <li class="list-group-item" ng-repeat="object in newsData"><td><a href="{{object.link}}" target="_blank">{{object.title}}</a></td></tr>
+                                </ul>
                             </div>
                         </div>
                     </div>
