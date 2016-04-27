@@ -20,14 +20,23 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
 
     $scope.play = function() {
         $scope.isPlaying = true;
-        var xValArray = [];
-        for(var i = 0; i < $scope.chart.series[0].shapes[0].length; i++){
-            var currObject = {};
-            currObject["x"] = $scope.chart.series[0].shapes[0][i].cx.animVal.value;
-            currObject["y"] = $scope.chart.series[0].shapes[0][i].cy.animVal.value;
-            xValArray.push(currObject);
+        var circles = {};
+        for (var l = 0; l < $scope.currCompanies.length; l++) {
+            circles[$scope.currCompanies[l]] = [];
         }
-        xValArray = $scope.sortByKey(xValArray, 'x');
+        for (var i = 0; i < $scope.chart.series[0].shapes[0].length; i++) {
+            var currObject = {}
+            currObject.x = $scope.chart.series[0].shapes[0][i].cx.animVal.value;
+            currObject.y = $scope.chart.series[0].shapes[0][i].cy.animVal.value;
+            var co = $scope.chart.series[0].shapes[0][i].__data__.aggField[0];
+            if (circles || circles[co])
+                circles[co].push(currObject);
+        }
+        if (circles) {
+            for (var c in circles) {
+                circles[c] = $scope.sortByKey(circles[c], 'x');
+            }
+        }
         if ($scope.currentIndex >= $scope.notes[0].length) {
             $scope.currentIndex = 0;
         }
@@ -38,8 +47,8 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
                 else
                     $scope.instrument.setInstrument($scope.midiNumbers[$scope.midiNumbers.length - 1]);
                 $scope.instrument.play($scope.notes[i][$scope.currentIndex]);
+                $scope.draw(circles[$scope.currCompanies[i]][$scope.currentIndex].x, circles[$scope.currCompanies[i]][$scope.currentIndex].y, $scope.currCompanies[i]);
             }
-            $scope.draw(xValArray[$scope.currentIndex]["x"], xValArray[$scope.currentIndex]["y"]);
             $scope.currentIndex++;
             if ($scope.currentIndex == $scope.notes[0].length) {
                 $scope.isPlaying = false;
@@ -49,11 +58,20 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
             }
         }, 700, $scope.notes[0].length - $scope.currentIndex);
     };
-    $scope.draw = function(xValue, yValue) {
-        var cursorLine = document.getElementById("cursorLine");
-        cursorLine.style.left = (xValue + 11) + "px";
-        cursorLine.style.top = (yValue + 128) + "px";
-    }
+    $scope.draw = function(xValue, yValue, company) {
+        var yExt = 127;
+        var xExt = 26;
+        if ($scope.loc == '/portfolios') {
+            yExt = 328;
+            xExt = -3;
+        } else if ($scope.loc == '/companies') {
+            xExt = 11;
+            yExt = 128;
+        }
+        var cursorLine = document.getElementById("cursorLine" + company);
+        cursorLine.style.left = (xValue + xExt) + "px";
+        cursorLine.style.top = (yValue + yExt) + "px";
+    };
 
     $scope.pause = function() {
         $scope.isPlaying = false;

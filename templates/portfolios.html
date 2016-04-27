@@ -17,9 +17,14 @@
                             <label>End Date: <input type="text" ng-model="endDate"></input></label>
                             <button ng-click="update()" class="btn btn-default">Update</button>
                         </div>
-                        <div class="col-md-12">
-                            <p>Click legend boxes to show/hide Companies:, Bubble size represents volume on a given day.</p>
+                        <div class="col-md-1">
+                            <div id="legendCircle"></div>
                         </div>
+                        <div class="col-md-11">
+                            <p>Click legend boxes to show/hide Companies.</p>
+                            <p>Area represents normalized volume over all historical data points for company X.</p>
+                        </div>
+                        <div class="cursorCircle" ng-repeat="t in stockList" id="cursorLine{{t.co}}"></div>
                         <div class="col-md-10" id="chartContainer"></div>
                         <div class="col-md-2">
                             <div ng-controller="AudioController" ng-init="initialize()">

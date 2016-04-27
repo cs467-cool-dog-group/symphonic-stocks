@@ -45,6 +45,8 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
     	var newMinYear = startDate.getFullYear();
     	var newMaxYear = endDate.getFullYear();
 
+        console.log(minYear, maxYear, newMinYear, newMaxYear);
+
     	var path = $scope.loc == "/index" ? "indexes" : "sample";
 
     	console.log($scope.stockList);
@@ -274,6 +276,7 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 
 	    // Draw everything
 	    $scope.chart.draw();
+        y.titleShape.text("Closing Price ($)");
 
 	    // orphan the legend
         $scope.chart.legends = [];
@@ -346,12 +349,14 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
         if (!$scope.selectedPortfolio) {
             return;
         }
+        $scope.stockList = [];
         var q = d3_queue.queue();
         for (var i = 0; i < $scope.selectedCompanies.length; i++) {
         	for (var year=2016; year<=2016; year++){
 	            q.defer(d3.json, './data/jsons/sample/' + $scope.selectedCompanies[i] + '/' + year.toString() + '.json');
+                $scope.yearsPulled.push(year);
 	        }
-            $scope.stockList.push($scope.selectedCompanies[i]);
+            $scope.stockList.push({'ticker': $scope.selectedCompanies[i], 'co': $scope.fetchCompanyName($scope.selectedCompanies[i])});
         }
         q.awaitAll(function(error, results) {
             $scope.allData = [];
