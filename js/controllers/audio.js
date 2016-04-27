@@ -59,14 +59,14 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
         }, 700, $scope.notes[0].length - $scope.currentIndex);
     };
     $scope.draw = function(xValue, yValue, company) {
-        var yExt = 127;
+        var yExt = 158;
         var xExt = 26;
         if ($scope.loc == '/portfolios') {
-            yExt = 328;
-            xExt = -3;
+            yExt = 358;
+            xExt = -4;
         } else if ($scope.loc == '/companies') {
-            xExt = 11;
-            yExt = 128;
+            xExt = 12;
+            yExt = 158;
         }
         var cursorLine = document.getElementById("cursorLine" + company);
         cursorLine.style.left = (xValue + xExt) + "px";
