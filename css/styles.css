@@ -10,8 +10,10 @@
 	position: absolute;
 	left: 84px;
     top: 188px;
-	background-color: black;
-	width: 1px;
-	height: 400px;
+	background-color: gray;
+	width: 8px;
+	height: 8px;
+	border-radius: 4px;
+
 	z-index: 4;
 }
