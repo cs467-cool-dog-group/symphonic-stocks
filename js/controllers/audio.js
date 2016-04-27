@@ -9,11 +9,19 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
 
     $scope.midiNumbers = [58, 57, 72, 74, 43, 1, 41];
     $scope.midiInstrumentNames = ['trombone', 'trumpet', 'clarinet', 'flute', 'cello', 'piano', 'violin'];
-
+    $scope.xValue;
     var play;
 
     $scope.play = function() {
         $scope.isPlaying = true;
+        var xValArray = [];
+        for(var i = 0; i < $scope.chart.series[0].shapes[0].length; i++){
+            xValArray.push($scope.chart.series[0].shapes[0][i].cx.animVal.value);
+        }
+        xValArray.sort();
+        $scope.xValue = xValArray[0];
+        var step = xValArray[1] - xValArray[0];
+        console.log(xValArray);
         if ($scope.currentIndex >= $scope.notes[0].length) {
             $scope.currentIndex = 0;
         }
@@ -25,12 +33,21 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
                     $scope.instrument.setInstrument($scope.midiNumbers[$scope.midiNumbers.length - 1]);
                 $scope.instrument.play($scope.notes[i][$scope.currentIndex]);
             }
+            //console.log($scope.chart.series[0].shapes[0][2].cx.animVal.value);
+            $scope.draw($scope.xValue);
             $scope.currentIndex++;
             if ($scope.currentIndex == $scope.notes[0].length) {
                 $scope.isPlaying = false;
             }
+            $scope.xValue += step;
+            //console.log($scope.chart.series[0].shapes[0]);
+            //console.log($scope.chart.series[0].shapes[0][1].cx.animVal.value);
         }, 700, $scope.notes[0].length - $scope.currentIndex);
     };
+    $scope.draw = function(xValue) {
+        var cursorLine = document.getElementById("cursorLine");
+        cursorLine.style.left = xValue+ "px";
+    }
 
     $scope.pause = function() {
         $scope.isPlaying = false;

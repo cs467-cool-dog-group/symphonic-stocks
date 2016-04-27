@@ -1,6 +1,7 @@
 <div class="col-md-10 col-sm-offset-1" ng-init="initialize()" id="top_div ">
     <h1 class="text-center">Company Statistics</h1>
     <div ng-controller="GraphController" ng-init="initialize()" id="controller1">
+        <div id="cursorLine"></div>
         <label>Start Date: <input type="text" ng-model="startDate"></input></label>
         <label>End Date: <input type="text" ng-model="endDate"></input></label>
         <button ng-click="update()" class="btn btn-default">Update</button>
@@ -23,6 +24,5 @@
                 <tr ng-repeat="object in newsData"><td><a href="{{object.link}}">{{object.title}}</a></td></tr>
             </table>
         </div>
-        <div id="cursorLine"></div>
     </div>
 </div>
