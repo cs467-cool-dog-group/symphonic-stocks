@@ -32,6 +32,9 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
             $scope.currentIndex++;
             if ($scope.currentIndex == $scope.notes[0].length) {
                 $scope.isPlaying = false;
+                if (!$scope.exploreOwn && $scope.yearStart < 2017) {
+                    $scope.updateYearFromAudio();
+                }
             }
         }, 700, $scope.notes[0].length - $scope.currentIndex);
     };
@@ -88,15 +91,17 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
                 return a.Close;
             });
             var firstDayPrice = priceData[0];
-            var interval = 2*firstDayPrice / 20;
             $scope.notes[j] = priceData.map(function(price) {
                 var note = 0;
+                var percentageOfFirstDay = 0;
                 if (price === firstDayPrice) {
                     note = $scope.pentatonicScaleNotes[10];
                 } else if (price < firstDayPrice) {
-                    note = $scope.pentatonicScaleNotes[Math.floor((firstDayPrice - price) / interval)];
+                    percentageOfFirstDay = Math.floor((price / firstDayPrice)*10);
+                    note = $scope.pentatonicScaleNotes[percentageOfFirstDay];
                 } else if (price > firstDayPrice) {
-                    note = $scope.pentatonicScaleNotes[10 + Math.floor((price - firstDayPrice) / interval)];
+                    percentageOfFirstDay = Math.floor((price - firstDayPrice) / firstDayPrice * 10);
+                    note = $scope.pentatonicScaleNotes[10 + percentageOfFirstDay];
                 }
                 return note;
             });
