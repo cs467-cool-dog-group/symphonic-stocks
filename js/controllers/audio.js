@@ -9,11 +9,15 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
 
     $scope.midiNumbers = [58, 57, 72, 74, 43, 1, 41];
     $scope.midiInstrumentNames = ['trombone', 'trumpet', 'clarinet', 'flute', 'cello', 'piano', 'violin'];
-
     var play;
 
     $scope.play = function() {
         $scope.isPlaying = true;
+        var xValArray = [];
+        for(var i = 0; i < $scope.chart.series[0].shapes[0].length; i++){
+            xValArray.push($scope.chart.series[0].shapes[0][i].cx.animVal.value);
+        }
+        xValArray.sort(function(a,b) { return a - b;});
         if ($scope.currentIndex >= $scope.notes[0].length) {
             $scope.currentIndex = 0;
         }
@@ -25,12 +29,17 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
                     $scope.instrument.setInstrument($scope.midiNumbers[$scope.midiNumbers.length - 1]);
                 $scope.instrument.play($scope.notes[i][$scope.currentIndex]);
             }
+            $scope.draw(xValArray[$scope.currentIndex]);
             $scope.currentIndex++;
             if ($scope.currentIndex == $scope.notes[0].length) {
                 $scope.isPlaying = false;
             }
         }, 700, $scope.notes[0].length - $scope.currentIndex);
     };
+    $scope.draw = function(xValue) {
+        var cursorLine = document.getElementById("cursorLine");
+        cursorLine.style.left = (xValue + 14) + "px"; // works when filtering TMUS from 01/01/2014 to 01/15/2014
+    }
 
     $scope.pause = function() {
         $scope.isPlaying = false;

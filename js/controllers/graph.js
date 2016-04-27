@@ -1,7 +1,7 @@
 var graphControllers = angular.module('graph', []);
 
 graphControllers.controller('GraphController', ['$scope', '$location', '$compile',function($scope, $location, $compile) {
-    var svg = dimple.newSvg("#chartContainer", 1000, 600);
+    var svg = dimple.newSvg("#chartContainer", 590, 400);
     $scope.allDates = {};
     $scope.allData = {};
     $scope.startDate = "";
@@ -9,9 +9,11 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
     $scope.newStock = "";
     $scope.filteredData = [];
     $scope.stockList = [];
+
 	$scope.loc = $location.path();
 	$scope.buttons = {};
 	$scope.yearsPulled = [];
+
 
     $scope.filter = function(start, end, dates) {
     	if (!(start instanceof Date)){
@@ -201,7 +203,7 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 
 	    // Create the chart as usual
 	    $scope.chart = new dimple.chart(svg, data);
-	    $scope.chart.setBounds(70, 50, 900, 450);
+	    $scope.chart.setBounds(70, 50, 490, 320);
 
 	    // Add the x axis reading dates in the format 01 Jan 2012
 	    // and displaying them 01 Jan
@@ -241,7 +243,7 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 	    s.lineMarkers = true;
 
 	    // Show a legend
-	    var myLegend = $scope.chart.addLegend(600, 10, 360, 20, "right");
+	    var myLegend = $scope.chart.addLegend(180, 10, 360, 20, "right");
 
 	    // Draw everything
 	    $scope.chart.draw();
@@ -258,7 +260,7 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
         .style("font-family", "sans-serif")
         .style("font-size", "10px")
         .style("color", "Black")
-        .text(function (d) { return d; });
+        .text(function (d) { return d; });	
 
         // get unique list of sentiment values
         var filterValues = dimple.getUniqueValues(data, "Company");
@@ -288,13 +290,13 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
               	filterValues = newFilters;
               	// filter data
               	$scope.chart.data = dimple.filterData(data, "Company", filterValues);
-                $scope.filteredData = $scope.chart.data;
               	// redraw and animate the chart
               	$scope.chart.draw();
             });
 
 	    // Event to handle mouse click
     	function onClick(e) {
+        console.log(e);
       		var d = new Date(e.xValue);
       		var month = d.getMonth() + 1;
       		var day = d.getDate();
