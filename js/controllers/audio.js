@@ -6,18 +6,21 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
     $scope.currCompanies = [];
     $scope.currentIndex = 0;
     $scope.isPlaying = false;
-
     $scope.midiNumbers = [57, 58, 72, 74, 43, 1, 41];
     $scope.midiInstrumentNames = ['trumpet', 'trombone', 'clarinet', 'flute', 'cello', 'piano', 'violin'];
 
     // 4 octaves of pentatonic scale
     $scope.pentatonicScaleNotes = [36, 38, 40, 43, 45, 48, 50, 52, 55, 57, 60, 62, 64, 67, 69, 72, 74, 76, 79, 81, 84];
     $scope.pentatonicScaleNoteNames = ['C3', 'D3', 'E3', 'G3', 'A3', 'C4', 'D4', 'E4', 'G4', 'A4', 'C5', 'D5', 'E5', 'G5', 'A5', 'C6', 'D6', 'E6', 'G6', 'A6'];
-
     var play;
 
     $scope.play = function() {
         $scope.isPlaying = true;
+        var xValArray = [];
+        for(var i = 0; i < $scope.chart.series[0].shapes[0].length; i++){
+            xValArray.push($scope.chart.series[0].shapes[0][i].cx.animVal.value);
+        }
+        xValArray.sort(function(a,b) { return a - b;});
         if ($scope.currentIndex >= $scope.notes[0].length) {
             $scope.currentIndex = 0;
         }
@@ -29,6 +32,7 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
                     $scope.instrument.setInstrument($scope.midiNumbers[$scope.midiNumbers.length - 1]);
                 $scope.instrument.play($scope.notes[i][$scope.currentIndex]);
             }
+            $scope.draw(xValArray[$scope.currentIndex]);
             $scope.currentIndex++;
             if ($scope.currentIndex == $scope.notes[0].length) {
                 $scope.isPlaying = false;
@@ -38,6 +42,10 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
             }
         }, 700, $scope.notes[0].length - $scope.currentIndex);
     };
+    $scope.draw = function(xValue) {
+        var cursorLine = document.getElementById("cursorLine");
+        cursorLine.style.left = (xValue + 14) + "px"; // works when filtering TMUS from 01/01/2014 to 01/15/2014
+    }
 
     $scope.pause = function() {
         $scope.isPlaying = false;

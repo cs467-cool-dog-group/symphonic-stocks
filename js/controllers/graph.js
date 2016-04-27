@@ -9,11 +9,13 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
     $scope.newStock = "";
     $scope.filteredData = [];
     $scope.stockList = [];
+
 	$scope.loc = $location.path();
 	$scope.buttons = {};
 	$scope.yearsPulled = [];
     $scope.yearStart = 2000;
     $scope.exploreOwn = true;
+
 
     $scope.filter = function(start, end, dates) {
     	if (!(start instanceof Date)){
@@ -308,13 +310,13 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
               	filterValues = newFilters;
               	// filter data
               	$scope.chart.data = dimple.filterData(data, "Company", filterValues);
-                $scope.filteredData = $scope.chart.data;
               	// redraw and animate the chart
               	$scope.chart.draw();
             });
 
 	    // Event to handle mouse click
     	function onClick(e) {
+        console.log(e);
       		var d = new Date(e.xValue);
       		var month = d.getMonth() + 1;
       		var day = d.getDate();
