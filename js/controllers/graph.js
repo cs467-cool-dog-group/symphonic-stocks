@@ -1,7 +1,7 @@
 var graphControllers = angular.module('graph', []);
 
-graphControllers.controller('GraphController', ['$scope', '$location', '$compile',function($scope, $location, $compile) {
-    var svg = dimple.newSvg("#chartContainer", 590, 400);
+graphControllers.controller('GraphController', ['$scope', '$location', '$compile', 'Company', 'News', function($scope, $location, $compile, Company, News) {
+    var svg = dimple.newSvg("#chartContainer", 800, 550);
     $scope.allDates = {};
     $scope.allData = {};
     $scope.startDate = "";
@@ -13,6 +13,8 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 	$scope.loc = $location.path();
 	$scope.buttons = {};
 	$scope.yearsPulled = [];
+    $scope.yearStart = 2000;
+    $scope.exploreOwn = true;
 
 
     $scope.filter = function(start, end, dates) {
@@ -45,13 +47,14 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 
     	var path = $scope.loc == "/index" ? "indexes" : "sample";
 
-    	console.log($scope.stockList)
+    	console.log($scope.stockList);
 
     	if (newMinYear < minYear){
     		var q = d3_queue.queue();
     		for (var i=0; i<$scope.stockList.length; i++){
 				for (var year=newMinYear; year<minYear; year++){
-					q.defer(d3.json, './data/jsons/' + path + '/' + $scope.stockList[i] + '/' + year.toString() + '.json');
+                    if (year >= $scope.firstYears[$scope.stockList[i].ticker])
+					    q.defer(d3.json, './data/jsons/' + path + '/' + $scope.stockList[i].ticker + '/' + year.toString() + '.json');
 					$scope.yearsPulled.push(year);
 				}
 			}
@@ -76,7 +79,7 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
     		var q = d3_queue.queue();
     		for (var i=0; i<$scope.stockList.length; i++){
 				for (var year=maxYear+1; year<=newMaxYear; year++){
-					q.defer(d3.json, './data/jsons/' + path + '/' + $scope.stockList[i] + '/' + year.toString() + '.json');
+					q.defer(d3.json, './data/jsons/' + path + '/' + $scope.stockList[i].ticker + '/' + year.toString() + '.json');
 					$scope.yearsPulled.push(year);
 				}
 			}
@@ -105,6 +108,21 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 		}
 	};
 
+    $scope.updateYear = function() {
+        console.log($scope.yearStart);
+        $scope.exploreOwn = false;
+        $scope.yearStart = +$scope.yearStart;
+        $scope.startDate = new Date($scope.yearStart, 0, 1);
+        $scope.endDate = new Date($scope.yearStart + 1, 0, 1);
+        $scope.update();
+    };
+
+    $scope.updateYearFromAudio = function() {
+        $scope.yearStart = +$scope.yearStart;
+        $scope.yearStart += 1;
+        $scope.updateYear();
+    };
+
 	$scope.showAllTime = function(){
 		$scope.filteredData = $scope.allData;
 		$scope.startDate = "";
@@ -124,6 +142,7 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 		 	for (var i = 0; i < results.length; i++) {
                 newData = newData.concat(results[i].year.days);
             }
+            var companyName = newData[0].Company;
 
             $scope.allData = $scope.allData.concat(newData);
 
@@ -164,20 +183,21 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 			$('#addedStocks').append(compiled);
 
 			$scope.buttons[newStock] = button;
-			$scope.stockList.push(newStock);
+			$scope.stockList.push({ticker: newStock, co: companyName});
 		});
 	};
 
 	$scope.removeStock = function(stockName){
 		console.log('removing ' + stockName);
 
-		var idx = $scope.stockList.indexOf(stockName);
-		$scope.stockList.splice(idx, 1);
-
+		$scope.stockList = $scope.stockList.filter(function(o) {
+            return o.ticker != stockName;
+        });
 
 		$($scope.buttons[stockName]).remove();
 
-		$scope.allData = dimple.filterData($scope.allData, "Company", $scope.stockList);
+		$scope.allData = dimple.filterData($scope.allData, "Company", $scope.stockList.map(function(l) { return l.co; }));
+        console.log($scope.allData);
 		$scope.allDates = dimple.getUniqueValues($scope.allData, "Date");
 
 		$('#' + stockName).remove();
@@ -203,7 +223,7 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 
 	    // Create the chart as usual
 	    $scope.chart = new dimple.chart(svg, data);
-	    $scope.chart.setBounds(70, 50, 490, 320);
+	    $scope.chart.setBounds(70, 50, 700, 400);
 
 	    // Add the x axis reading dates in the format 01 Jan 2012
 	    // and displaying them 01 Jan
@@ -227,7 +247,7 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 	    var y = $scope.chart.addMeasureAxis("y", "Close");
 
 	    // Size the bubbles by volume
-	    var z = $scope.chart.addMeasureAxis("z", "Volume");
+	    var z = $scope.chart.addMeasureAxis("z", "Normalized Volume");
 
 	    // Add the bubble series for shift values first so that it is
 	    // drawn behind the lines
@@ -243,7 +263,7 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 	    s.lineMarkers = true;
 
 	    // Show a legend
-	    var myLegend = $scope.chart.addLegend(180, 10, 360, 20, "right");
+	    var myLegend = $scope.chart.addLegend(10, 10, 700, 40, "right");
 
 	    // Draw everything
 	    $scope.chart.draw();
@@ -251,7 +271,7 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 	    // orphan the legend
         $scope.chart.legends = [];
         // add the legend title and note
-        $scope.chart.svg.selectAll("title_text")
+        /*$scope.chart.svg.selectAll("title_text")
         .data(["Click legend boxes to show/hide Companies:", "Bubble size represents volume on a given day."])
         .enter()
         .append("text")
@@ -260,7 +280,7 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
         .style("font-family", "sans-serif")
         .style("font-size", "10px")
         .style("color", "Black")
-        .text(function (d) { return d; });	
+        .text(function (d) { return d; });*/
 
         // get unique list of sentiment values
         var filterValues = dimple.getUniqueValues(data, "Company");
@@ -307,7 +327,7 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
       			day = '0' + day;
       		}
       		$scope.currDate = month + "-" + day + "-" + d.getFullYear();
-      		$scope.companyTicker = e.seriesValue[0];
+      		$scope.company = e.seriesValue[0];
             $scope.$digest();
       	};
 
@@ -321,9 +341,10 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
         }
         var q = d3_queue.queue();
         for (var i = 0; i < $scope.selectedCompanies.length; i++) {
-        	for (var year=2014; year<=2016; year++){
+        	for (var year=2016; year<=2016; year++){
 	            q.defer(d3.json, './data/jsons/sample/' + $scope.selectedCompanies[i] + '/' + year.toString() + '.json');
 	        }
+            $scope.stockList.push($scope.selectedCompanies[i]);
         }
         q.awaitAll(function(error, results) {
             $scope.allData = [];
@@ -340,6 +361,10 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 
     $scope.initialize = function() {
 		console.log($scope.loc);
+
+        Company.getFirstYears().then(function(results) {
+            $scope.firstYears = results.data;
+        });
 
 		if($scope.loc == "/index"){
 			var indexQ = d3_queue.queue();
@@ -358,9 +383,9 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 				$scope.allDates = dimple.getUniqueValues($scope.allData, "Date");
 				$scope.filteredData = $scope.allData;
 
-				$scope.stockList.push("^DJI");
-				$scope.stockList.push("^GSPC");
-				$scope.stockList.push("^IXIC");
+				$scope.stockList.push({ticker:"^DJI", co: "Dow Jones Industrial Average"});
+				$scope.stockList.push({ticker:"^GSPC", co: "S&P 500"});
+				$scope.stockList.push({ticker:"^IXIC", co: "Nasdaq Composite"});
 
 				$scope.drawChart($scope.allData, "", "");
 			});
@@ -381,7 +406,14 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
 				$scope.allDates = dimple.getUniqueValues($scope.allData, "Date");
 				$scope.filteredData = $scope.allData;
 
-				$scope.stockList.push("TMUS");
+				$scope.stockList.push({ticker: "TMUS", co: "T-Mobile US"});
+                var button = '<button ng-click="removeStock(\''
+    							+ $scope.stockList[0].ticker + '\')" class="btn btn-default" id=\''
+    							+ $scope.stockList[0].ticker + '\'>'
+    							+ $scope.stockList[0].ticker + ' | X</button>';
+    			var compiled = $compile(button)($scope);
+                $scope.buttons["TMUS"] = button;
+    			$('#addedStocks').append(compiled);
 				$scope.drawChart($scope.allData, "", "");
 			});
 		}

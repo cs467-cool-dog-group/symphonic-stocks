@@ -31,6 +31,4 @@ portfolioControllers.controller('PortfolioController', ['$scope', 'Portfolio', '
             $scope.nasdaqData = results.data;
         });
     };
-
-    // TODO: Need to send specific companies to Graph Controller to display
 }]);

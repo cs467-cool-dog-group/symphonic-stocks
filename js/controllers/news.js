@@ -20,7 +20,7 @@ newsControllers.controller('NewsController', ['$scope', 'News', function($scope,
         ).then(
             function(results2) {
                 $scope.nasdaqdata = results2.data;
-                $scope.company = News.getCompany($scope.companyTicker, $scope.nysedata, $scope.nasdaqdata);
+                //$scope.company = News.getCompany($scope.companyTicker, $scope.nysedata, $scope.nasdaqdata);
                 $scope.date = News.getDate($scope.currDate);
                 return News.getNews($scope.company, $scope.date);
             }

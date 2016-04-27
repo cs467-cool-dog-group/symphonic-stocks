@@ -6,9 +6,12 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
     $scope.currCompanies = [];
     $scope.currentIndex = 0;
     $scope.isPlaying = false;
+    $scope.midiNumbers = [57, 58, 72, 74, 43, 1, 41];
+    $scope.midiInstrumentNames = ['trumpet', 'trombone', 'clarinet', 'flute', 'cello', 'piano', 'violin'];
 
-    $scope.midiNumbers = [58, 57, 72, 74, 43, 1, 41];
-    $scope.midiInstrumentNames = ['trombone', 'trumpet', 'clarinet', 'flute', 'cello', 'piano', 'violin'];
+    // 4 octaves of pentatonic scale
+    $scope.pentatonicScaleNotes = [36, 38, 40, 43, 45, 48, 50, 52, 55, 57, 60, 62, 64, 67, 69, 72, 74, 76, 79, 81, 84];
+    $scope.pentatonicScaleNoteNames = ['C3', 'D3', 'E3', 'G3', 'A3', 'C4', 'D4', 'E4', 'G4', 'A4', 'C5', 'D5', 'E5', 'G5', 'A5', 'C6', 'D6', 'E6', 'G6', 'A6'];
     var play;
 
     $scope.play = function() {
@@ -33,6 +36,9 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
             $scope.currentIndex++;
             if ($scope.currentIndex == $scope.notes[0].length) {
                 $scope.isPlaying = false;
+                if (!$scope.exploreOwn && $scope.yearStart < 2017) {
+                    $scope.updateYearFromAudio();
+                }
             }
         }, 700, $scope.notes[0].length - $scope.currentIndex);
     };
@@ -47,6 +53,15 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
             $interval.cancel(play);
             play = undefined;
         }
+    };
+
+    $scope.fetchNoteName = function(note) {
+        for (var i = 0; i < $scope.pentatonicScaleNotes.length; i++) {
+            if ($scope.pentatonicScaleNotes[i] == note) {
+                return $scope.pentatonicScaleNoteNames[i];
+            }
+        }
+        return 'no note';
     };
 
     $scope.determineSong = function() {
@@ -84,19 +99,17 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
                 return a.Close;
             });
             var firstDayPrice = priceData[0];
-            var interval = 2*firstDayPrice / 48;
             $scope.notes[j] = priceData.map(function(price) {
                 var note = 0;
-                if (price === 2 * firstDayPrice) {
-                    note = 83;
-                } else if (price === 0) {
-                    note = 36;
-                } else if (price === firstDayPrice) {
-                    note = 60;
+                var percentageOfFirstDay = 0;
+                if (price === firstDayPrice) {
+                    note = $scope.pentatonicScaleNotes[10];
                 } else if (price < firstDayPrice) {
-                    note = 36 + 24 - Math.floor((firstDayPrice - price) / interval);
-                } else {
-                    note = 60 + Math.floor((price - firstDayPrice) / interval);
+                    percentageOfFirstDay = Math.floor((price / firstDayPrice)*10);
+                    note = $scope.pentatonicScaleNotes[percentageOfFirstDay];
+                } else if (price > firstDayPrice) {
+                    percentageOfFirstDay = Math.floor((price - firstDayPrice) / firstDayPrice * 10);
+                    note = $scope.pentatonicScaleNotes[10 + percentageOfFirstDay];
                 }
                 return note;
             });

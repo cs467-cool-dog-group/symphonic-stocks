@@ -5,5 +5,5 @@ portfolioServices.factory('Portfolio', function($http) {
         getAllPortfolios: function() {
             return $http.get('./data/sample_portfolios.json');
         }
-    }
+    };
 });

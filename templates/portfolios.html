@@ -1,5 +1,4 @@
-<h1 class="text-center">Curated Portfolios</h1>
-
+<h4 class="text-center">Curated Portfolios</h4>
 <div ng-init="initialize()">
     <div class="col-md-10 col-sm-offset-1">
         <div class="row">
@@ -8,30 +7,34 @@
             </ul>
             <div class="tab-content">
                 <div role="tabpanel" class="tab-pane" ng-class="isDisplaying ? 'active' : 'none'">
-                    <h4>{{selectedPortfolio}}</h4>
+                    <h5>{{selectedPortfolio}}</h5>
                     <ul>
                         <li ng-repeat="company in selectedCompanies"><b>{{company}}</b> - {{fetchCompanyName(company)}}</li>
                     </ul>
-                    <div ng-controller="GraphController" ng-init="initialize()">
-                        <label>Start Date: <input type="text" ng-model="startDate"></input></label>
-                        <label>End Date: <input type="text" ng-model="endDate"></input></label>
-                        <button ng-click="update()" class="btn btn-default">Update</button>
-                        <div id="chartContainer"></div>
-                        <div ng-controller="AudioController" ng-init="initialize()">
-                            <button class="btn btn-default" ng-click="play()" ng-hide="isPlaying">Play</button>
-                            <button class="btn btn-default" ng-click="pause()" ng-hide="!isPlaying">Pause</button>
-                            <span>Current Date Playing: {{daysPlaying[currentIndex] | date: 'MM/dd/yyyy'}}</span>
-                            <ul class="list-group">
-                                <li class="list-group-item" ng-repeat="company in currCompanies">{{company}} <span ng-if="$index >= 7">{{midiInstrumentNames[6]}}</span><span ng-if="$index < 7">{{midiInstrumentNames[$index]}}</span></li>
-                            </ul>
+                    <div class="row" ng-controller="GraphController" ng-init="initialize()">
+                        <div class="col-md-12">
+                            <label>Start Date: <input type="text" ng-model="startDate"></input></label>
+                            <label>End Date: <input type="text" ng-model="endDate"></input></label>
+                            <button ng-click="update()" class="btn btn-default">Update</button>
                         </div>
-                        <!--<div ng-controller="NewsController">
-                            <form></form>
-                        </div>-->
-                        <div ng-controller="NewsController" ng-init = "initialize()" id="controller2" >
-                            <table>
-                                <tr ng-repeat="object in newsData"><td><a href="{{object.link}}">{{object.title}}</a></td></tr>
-                            </table>
+                        <div class="col-md-12">
+                            <p>Click legend boxes to show/hide Companies:, Bubble size represents volume on a given day.</p>
+                        </div>
+                        <div class="col-md-10" id="chartContainer"></div>
+                        <div class="col-md-2">
+                            <div ng-controller="AudioController" ng-init="initialize()">
+                                <button class="btn btn-default" ng-click="play()" ng-hide="isPlaying">Play</button>
+                                <button class="btn btn-default" ng-click="pause()" ng-hide="!isPlaying">Pause</button>
+                                <span>Current Date Playing: {{daysPlaying[currentIndex] | date: 'MM/dd/yyyy'}}</span>
+                                <ul class="list-group">
+                                    <li class="list-group-item" ng-repeat="company in currCompanies">{{company}} <span ng-if="$index >= 7">{{midiInstrumentNames[6]}}</span><span ng-if="$index < 7">{{midiInstrumentNames[$index]}}</span></li>
+                                </ul>
+                            </div>
+                            <div ng-controller="NewsController" ng-init = "initialize()" id="controller2" >
+                                <table>
+                                    <tr ng-repeat="object in newsData"><td><a href="{{object.link}}">{{object.title}}</a></td></tr>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
