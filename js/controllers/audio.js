@@ -14,13 +14,20 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
     $scope.pentatonicScaleNoteNames = ['C3', 'D3', 'E3', 'G3', 'A3', 'C4', 'D4', 'E4', 'G4', 'A4', 'C5', 'D5', 'E5', 'G5', 'A5', 'C6', 'D6', 'E6', 'G6', 'A6'];
     var play;
 
+    $scope.sortByKey = function(array, key) {
+        return array.sort(function(a,b) { return a[key] - b[key];});
+    }
+
     $scope.play = function() {
         $scope.isPlaying = true;
         var xValArray = [];
         for(var i = 0; i < $scope.chart.series[0].shapes[0].length; i++){
-            xValArray.push($scope.chart.series[0].shapes[0][i].cx.animVal.value);
+            var currObject = {};
+            currObject["x"] = $scope.chart.series[0].shapes[0][i].cx.animVal.value;
+            currObject["y"] = $scope.chart.series[0].shapes[0][i].cy.animVal.value;
+            xValArray.push(currObject);
         }
-        xValArray.sort(function(a,b) { return a - b;});
+        xValArray = $scope.sortByKey(xValArray, 'x');
         if ($scope.currentIndex >= $scope.notes[0].length) {
             $scope.currentIndex = 0;
         }
@@ -32,7 +39,7 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
                     $scope.instrument.setInstrument($scope.midiNumbers[$scope.midiNumbers.length - 1]);
                 $scope.instrument.play($scope.notes[i][$scope.currentIndex]);
             }
-            $scope.draw(xValArray[$scope.currentIndex]);
+            $scope.draw(xValArray[$scope.currentIndex]["x"], xValArray[$scope.currentIndex]["y"]);
             $scope.currentIndex++;
             if ($scope.currentIndex == $scope.notes[0].length) {
                 $scope.isPlaying = false;
@@ -42,9 +49,10 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
             }
         }, 700, $scope.notes[0].length - $scope.currentIndex);
     };
-    $scope.draw = function(xValue) {
+    $scope.draw = function(xValue, yValue) {
         var cursorLine = document.getElementById("cursorLine");
-        cursorLine.style.left = (xValue + 14) + "px"; // works when filtering TMUS from 01/01/2014 to 01/15/2014
+        cursorLine.style.left = (xValue + 11) + "px";
+        cursorLine.style.top = (yValue + 128) + "px";
     }
 
     $scope.pause = function() {
