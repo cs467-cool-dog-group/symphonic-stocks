@@ -17,7 +17,7 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
         for(var i = 0; i < $scope.chart.series[0].shapes[0].length; i++){
             xValArray.push($scope.chart.series[0].shapes[0][i].cx.animVal.value);
         }
-        xValArray.sort();
+        xValArray.sort(function(a,b) { return a - b;});
         if ($scope.currentIndex >= $scope.notes[0].length) {
             $scope.currentIndex = 0;
         }
