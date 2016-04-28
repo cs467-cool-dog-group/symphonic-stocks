@@ -141,6 +141,7 @@ audioControllers.controller('AudioController', ['$scope', '$interval', function(
             });
         }
         $scope.currentIndex = 0;
+        console.log($scope.currCompanies);
     };
 
     $scope.$watch('filteredData', $scope.determineSong, true);
