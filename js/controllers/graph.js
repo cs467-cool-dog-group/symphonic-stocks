@@ -320,6 +320,7 @@ graphControllers.controller('GraphController', ['$scope', '$location', '$compile
               	filterValues = newFilters;
               	// filter data
               	$scope.chart.data = dimple.filterData(data, "Company", filterValues);
+                $scope.filteredData = $scope.chart.data;
               	// redraw and animate the chart
               	$scope.chart.draw();
             });
